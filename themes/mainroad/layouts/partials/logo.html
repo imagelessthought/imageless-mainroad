@@ -1,5 +1,5 @@
 <!-- {{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}} -->
-{{- $logoTitle := "University of North Texas" -}} 
+{{- $logoTitle := "Imageless Thought" -}} 
 {{- $logoSubtitle := .Site.Params.logo.subtitle | default .Site.Params.subtitle -}}
 {{- $logoImage := .Site.Params.logo.image -}}
 {{- $logoTagline := .Site.Params.logo.tagline -}}
@@ -18,7 +18,7 @@
 			{{ with $logoTitle -}}
 				<div class="logo__item logo__text">
 					<div class="logo__title">{{ . }}</div>
-					{{ with $logoSubtitle }}<div class="logo__subtitle">{{ . }}</div>{{ end }}
+<!--     			{{ with $logoSubtitle }}<div class="logo__subtitle">{{ . }}</div>{{ end }} -->
 					{{ with $logoTagline }}<div class="logo__tagline">{{ . }}</div>{{ end }}
 				</div>
 			{{- end }}

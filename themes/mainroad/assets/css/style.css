@@ -6,7 +6,7 @@
 
 
 html {
-    --green: #00853e;
+    --green: #44611F; /* #00853e; */
     --green2: #00A950;
     --green3: #509E2F;
     --green4: #006747;
@@ -557,6 +557,7 @@ select {
 	box-shadow: #162129 0 0 4px 4px;
 	border: 2px solid var(--cyan);
 	border-radius: 4px;
+	background-color: var(--cyan);
 }
 
 .logo--mixed .logo__text {
@@ -2137,7 +2138,7 @@ a.widget__link:active {
     display: flex;
     justify-content: left;
     height: auto;
-    margin: 2.5rem 0 3rem 1rem;
+    margin: 2.5rem auto 3rem auto;
     padding: 0;
 }
 
@@ -2152,8 +2153,8 @@ a.widget__link:active {
 
   .rsidebar-links {
 	color: var(--prime_white);
-	width: 42%;
-	margin: 0 2rem 0 0;
+	width: 49%;
+	margin: 0 auto;
 	background-color: var(--green);
     border: 1px solid var(--green3);
 	border-radius: 4px;

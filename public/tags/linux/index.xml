@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Imageless Thought</title>
+    <link>//imagelessthought.github.io/mainroad/tags/linux/</link>
+    <description>Recent content in Linux on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//imagelessthought.github.io/mainroad/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Subsystem For Linux</title>
+      <link>//imagelessthought.github.io/mainroad/posts/windows-linux/</link>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//imagelessthought.github.io/mainroad/posts/windows-linux/</guid>
+      <description>title: author: mbaggett date: 2023-10-01 20:55:00 +0800 categories: [Introduction] tags: [Linux, WSL, WSL2, Windows] pin: true search: include Over the past two years years Microsoft has made some significant improvements to the Windows Subsystem for Linux. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps.</description>
+    </item>
+  </channel>
+</rss>

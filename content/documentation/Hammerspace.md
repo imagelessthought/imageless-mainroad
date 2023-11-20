@@ -1,12 +1,6 @@
 ---
 title: Migrating from Isilon to Pure Storage
 date: 2023-08-12
-categories:
-  - "File Storage"
-  - "Isilion"
-  - "Pure Data"
-tags: 
-  - "File Storage"
 nosearch: "True"
 postauthor: Michael Baggett
 postauthorinfo: Director and Assistant Dean of Information Technology
@@ -15,6 +9,7 @@ postemail: michael.baggett@unt.edu
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/server-icon.svg"
 layout: single-posts
+exclude_from_recent: true
 ---
 [Pure Storage](https://www.purestorage.com/ 'Pure Storage Website') is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.
 <!--more-->

@@ -1,7 +1,7 @@
 baseurl = "//imagelessthought.github.io/mainroad/"
 RelativeURLs=true
 CanonifyURLs=true
-title = "University of North Texas: College of Visual Arts and Design"
+title = "Imageless Thought"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
@@ -73,12 +73,12 @@ sectionPagesMenu = 'main posts departments'
     identifier = 'Repositories'
     parent = 'More'
 [Author] # Used in authorbox
-  name = "College of Visual Arts and Design"
-  bio = 'Read more about our <a href="//cvad.unt.edu/history">history,</a> our new <a href="//cvad.unt.edu/new-building" new-building="">building</a> designed by <a href="http://www.machado-silvetti.com/">Machado Silvetti</a>, explore our <a href="//cvad.unt.edu/programs">degrees/programs of study</a> and how to pursue <a href="//cvad.unt.edu/welcome-cvad">your future in art and design at CVAD.</a>'
-  avatar = "img/unt_logo_fixed.png"
+  name = "Michael Baggett"
+  bio = 'For more information, please visit the main website: <a href="https://imagelessthought.github.io">imagelessthought.github.io</a>'
+  avatar = "img/bulb-innovate-green-whitebg.svg"
 [Params]
-  description = "College of Visual Arts and Design" # Site description. Used in meta description
-  copyright = "College of Visual Arts and Design" # Footer copyright holder, otherwise will use site title
+  description = "Imageless Thought" # Site description. Used in meta description
+  copyright = "Imageless Thought" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -106,10 +106,10 @@ sectionPagesMenu = 'main posts departments'
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/logo.png" # Logo image. Path relative to "static"
+  image = "img/business-management-icon.png" # Logo image. Path relative to "static"
 # title = "Mainroad" # Logo title, otherwise will use site title 
-  subtitle = "College of Visual Arts and Design" # Logo subtitle
-  tagline = "Information Technology Services"
+  subtitle = "Imageless Thought" # Logo subtitle
+  tagline = "innovate ⚬ build ⚬ repeat"
 
 [Params.thumbnail]
   visibility = ["list", "posts"] # Control thumbnail visibility

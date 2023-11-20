@@ -1,30 +1,32 @@
 <article class="list__item-portal post" style="padding-top: .75rem">
   <header>
-  <div class="post__grid-short"> 
-  <div><span style="display: flex; align-items: center;">
-     <span class="portal-head">
-     {{- with .Params.portalurl }}
-     {{- end }}
-     <img class="portalimg" src="{{ .Params.image }}" alt="{{ .Title }}">
-     {{- with .Params.portalurl }}
-     {{- end }}
+    <div class="post__grid-short"> 
+    <div><span style="display: flex; align-items: center;">
+       <span class="portal-head">
+       {{- with .Params.portalurl }}
+       <a href="{{ . }}" rel="bookmark">
+       {{- end }}
+       <img class="portalimg" src="{{ .Params.image }}" alt="{{ .Title }}">
+       {{- with .Params.portalurl }}
+      </a>
+       {{- end }}
+       </span>
+       </span>
+    </div>
+    <div><span style="display: flex; align-items: center;">
+       <span class="list__title post__title">
+           {{- with .Params.portalurl }}
+           <a href="{{ . }}" rel="bookmark">
+           {{- end }}
+           {{ .Title }}
+           {{- with .Params.portalurl }}
+         </a>
+           {{- end }}
      </span>
-     </span>
-  </div>
-  <div><span style="display: flex; align-items: center;">
-     <span class="list__title post__title-wg">
-         {{- with .Params.portalurl }}
-  
-         {{- end }}
-         {{ .Title }}
-         {{- with .Params.portalurl }}
-  
-         {{- end }}
-   </span>
-  </span>
-  </div>
-  </div>
-  </header>
+    </span>
+    </div>
+    </div>
+</header>
   <div class="content list__excerpt post__content clearfix-links">
     {{ .Content }}
   </div>

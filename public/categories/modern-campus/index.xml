@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Modern Campus on University of North Texas: College of Visual Arts and Design</title>
-    <link>/mainroad/categories/modern-campus/</link>
-    <description>Recent content in Modern Campus on University of North Texas: College of Visual Arts and Design</description>
+    <title>Modern Campus on Imageless Thought</title>
+    <link>//imagelessthought.github.io/mainroad/categories/modern-campus/</link>
+    <description>Recent content in Modern Campus on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/mainroad/categories/modern-campus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//imagelessthought.github.io/mainroad/categories/modern-campus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modern Campus and Omni CMS</title>
-      <link>/mainroad/documentation/omni-campus/</link>
+      <link>//imagelessthought.github.io/mainroad/documentation/omni-campus/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/mainroad/documentation/omni-campus/</guid>
+      <guid>//imagelessthought.github.io/mainroad/documentation/omni-campus/</guid>
       <description>&lt;p&gt;The UNT campus is migrating from Drupal 7 to &lt;a href=&#34;https://moderncampus.com/resources/index.html&#34; title=&#34;Modern Campus and Omni CMS website&#34;&gt;Modern Campus, Omni CMS&lt;/a&gt;. This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.&lt;/p&gt;</description>
     </item>
   </channel>
