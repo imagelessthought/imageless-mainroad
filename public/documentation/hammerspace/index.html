@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Migrating from Isilon to Pure Storage - University of North Texas: College of Visual Arts and Design</title>
+	<script src='https://kit.fontawesome.com/a085645410.js' crossorigin='anonymous'></script>
+	<script data-search-pseudo-elements src='https://kit.fontawesome.com/a085645410.js' crossorigin='anonymous'></script>	
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Migrating from Isilon to Pure Storage" />
+<meta property="og:description" content="Pure Storage is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/mainroad/documentation/hammerspace/" /><meta property="article:section" content="documentation" />
+<meta property="article:published_time" content="2023-08-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-08-12T00:00:00+00:00" />
+
+
+		<meta itemprop="name" content="Migrating from Isilon to Pure Storage">
+<meta itemprop="description" content="Pure Storage is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server."><meta itemprop="datePublished" content="2023-08-12T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-08-12T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1438">
+<meta itemprop="keywords" content="File Storage," />
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Migrating from Isilon to Pure Storage"/>
+<meta name="twitter:description" content="Pure Storage is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../../css/custom.css">
+
+	<link rel="shortcut icon" href="../../img/unt_logo_fixed.png">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="../../img/logo.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">University of North Texas</div>
+					<div class="logo__subtitle">College of Visual Arts and Design</div>
+					<div class="logo__tagline">Information Technology Services</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+
+  <div class="menu__btn-container">
+    <button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+      <span class="menu__btn-title" tabindex="-1">≡</span>
+    </button>
+    <span class="menu__btn-text">College of Visual Arts and Design</span>
+  </div>
+
+
+
+  <ul class="menu__list">
+    <li class="menu__item">
+      <a class="menu__link" href="../../">
+        
+          <span class="menu__text">Home</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="../../posts/">
+        
+          <span class="menu__text">Posts</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="../../departments/">
+        
+          <span class="menu__text">Departments</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="../../services/">
+        
+          <span class="menu__text">Services</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="../../portals/">
+        
+          <span class="menu__text">Portals</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="../../faq/">
+        
+          <span class="menu__text">FAQ</span>
+        
+      </a>
+    </li>
+    <li class="menu__item menu__item--active">
+      <a class="menu__link" href="../../documentation/">
+        
+          <span class="menu__text">Documentation</span>
+        
+      </a>
+    </li>
+    <li class="menu__item menu__dropdown">
+      <a class="menu__link" href="">
+        
+        <span class="menu__text fw">
+        <label class="drop-icon" for="More">More ▾</label>
+        </span>
+        
+      </a>
+      <input type="checkbox" id="More">
+
+      <ul class="submenu__list">
+        
+          <li class="menu__item">
+          <a class="menu__link" href="../../campus-links/">
+            
+            <span class="menu__text">Campus-Links</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="../../tech-links/">
+            
+            <span class="menu__text">Tech-Links</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="../../student-web/">
+            
+            <span class="menu__text">Student Websites</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="../../status/">
+            
+            <span class="menu__text">Status Check</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="../../repositories/">
+            
+            <span class="menu__text">Repositories</span>
+            
+          </a>
+          </li>
+        
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+            <div class="post__header_border">
+			<h1 class="post__title">Migrating from Isilon to Pure Storage</h1>
+			
+            </div>
+			<div class="post__bordered">
+				
+					<div><span class="post__author-date">Date: </span><span class="post__author-date">Aug 12, 2023</span></div>
+				
+                
+					<span class="post__author"><a href="mailto:michael.baggett@unt.edu">Michael Baggett</a></span><span>: </span>
+				
+				
+				<span class="post__author-info">Director and Assistant Dean of Information Technology</span>
+			
+		
+				
+					<p class="post__author-area"><a href="https://itservices.cvad.unt.edu">College of Visual Arts and Design</a></p>
+				
+			</div>
+		</header>
+		
+		<div class="content post__content clearfix">
+			<p><a href="https://www.purestorage.com/" title="Pure Storage Website">Pure Storage</a> is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.</p>
+<ul>
+<li>Before beginning you should join the <a href="https://teams.microsoft.com/l/team/19%3aPmbpLzaMB6VaFUEPmtsxrNp72l38lslCfAd7fyt3exs1%40thread.tacv2/conversations?groupId=b9bb37ff-1804-40cf-b6e5-edd54f28d273&amp;tenantId=70de1992-07c6-480f-a318-a1afcba03983" title="Enterprise File Storage Miscrosoft Team Channel">Enterprise File Storage Miscrosoft Team Channel</a> for the latest updates.</li>
+</ul>
+<h2 id="share-permissions">Share Permissions</h2>
+<p>The Share permissions must be set to allow your logged on users to connect to your file share. Share permissions do not grant logged on users access to the folders and\or files on your file share: that is done through NTFS permssions.</p>
+<p>You can set the Share Permission as: <strong>Full Control</strong>, <strong>Change</strong>, or <strong>Read</strong>.</p>
+<ul>
+<li>
+<p><strong>Full Control</strong> — Users can do everything allowed by the “Read” and “Change” permissions, and they can also change permissions for NTFS files and folders only. By default, the “Administrators” group is granted “Full Control” permission.</p>
+</li>
+<li>
+<p><strong>Change</strong> — Users can do everything allowed by the “Read” permission, as well as add files and subfolders, change data in files, and delete subfolders and files. This permission is not assigned by default.</p>
+</li>
+<li>
+<p><strong>Read</strong> — Users can view file and subfolder names, read data in files, and run programs. By default, the “Everyone” group is assigned “Read” permissions.
+You will want to grant Full Control permissions to your administrator security group and the group should contain anyone who will be managing the file share.</p>
+</li>
+</ul>
+<blockquote>
+<p>For standard users, a common practice is to grant Change permissions to a security group that contains all of your users (example: Everyone or Domain Users).
+{: .prompt-tip}</p>
+</blockquote>
+<p>If a user has been granted permssions on the share but not granted permssions to files and folders through NTFS permssions, they will see an empty folder when they connect to the share.</p>
+<h2 id="file-permissions">File Permissions</h2>
+<p>Below are some common scenarios, with the information on how to set the permissions using the Windows command-line tool: icacls.</p>
+<h2 id="home-and-shared-folders">HOME and SHARED Folders</h2>
+<p><strong>HOME</strong> and <strong>SHARED</strong> folders should only contain other folders at their root and not files themselves. Each of the child folders may have different permssions and would only be visible to users who have been granted at least read NTFS permssions. You will want users to be able to see and access the HOME or SHARED folder but not make any changes at the root of the folder: you don&rsquo;t want a user to be able to delete the folder or write or delete any of the contents in the root.</p>
+<p>You can grant the Everyone security group (or any security group that contains all of the users who will need access to the folder) read-only permssions to the HOME and SHARED folders (&ldquo;This folder only&rdquo;). This will allow them to see and access the folder but not even see the child folders unless they have been granted permissions to a child folder. They will not see any child folders they have not been granted permssion to.</p>
+<p>If you want to replace the current persmssions on the folder, ad the :r option. If you are scripting the permissions assignments, I suggest using :r on the first command as shown below just to ensure any permssions you may have set duing testing are removed.</p>
+<pre tabindex="0"><code>icacls foldername /grant :r UNT\Everyone:(RX)
+</code></pre><p>If you are adding additional permissions to a folder, and do not want to remove existing permissions, you would use the same command but not include the :r option.</p>
+<pre tabindex="0"><code>icacls foldername /grant UNT\AnotherGroup:(RX)
+</code></pre><h3 id="home-and-shared-child-folders">HOME and SHARED Child Folders</h3>
+<p>For the child folders, you will want to protect those from modification and accidental deletion or moves at their root.</p>
+<p>Each user gets their own folder under the HOME folder. You don&rsquo;t want them to be able to delete or modify their personal home folder but they do need to be able to write and modify the contents in the root of their HOME folder and in all subfolders. Common practice at UNT is to use the user&rsquo;s EUID for their HOME folder name.</p>
+<p>The child folders under the SHARED folder are very similar: You don&rsquo;t want users to be able to delete or modify the child folder itself but they do need to be able to write and modify the contents in the root of the folder and in all subfolders.</p>
+<h3 id="home-child-folders">HOME Child Folders</h3>
+<p>This command grants modify writes to the user for the contents of the user&rsquo;s HOME folder at the root level but not the write to delete or modify the folder itself (&ldquo;This folder only&rdquo;):</p>
+<pre tabindex="0"><code>icacls &#34;EUID&#34; /grant &#34;UNT\EUID&#34;:(RX,W)
+</code></pre><p>This command grants the user modify permssions to the rest of the folder, everything under the root fo their HOME folder (&ldquo;This subfolder and files only&rdquo;)&quot;</p>
+<pre tabindex="0"><code>icacls &#34;EUID&#34; /grant &#34;UNT\EUID&#34;:(OI)(CI)(IO)(M)
+</code></pre><h3 id="shared-child-folders">Shared Child Folders</h3>
+<p>For the purposes of this documentation we will assume the child SHARED folders are departments.</p>
+<p>This command grants modify writes to a security group for the contents of the department&rsquo;s SHARED folder at the root level but not the write to delete or modify the folder itself (&ldquo;This folder only&rdquo;):</p>
+<pre tabindex="0"><code>icacls &#34;department folder name&#34; /grant &#34;UNT\department security group&#34;:(RX,W)
+</code></pre><p>This command grants the user modify permssions to the rest of the folder, everything under the root fo their HOME folder (&ldquo;This subfolder and files only&rdquo;)&quot;</p>
+<pre tabindex="0"><code>icacls &#34;department folder name&#34; /grant &#34;UNT\department security group&#34;:(OI)(CI)(IO)(M)
+</code></pre><p>When testing, be aware that it can take a while for the permissions to fully propagate for the users. I have learned to wait about an hour before testing. Then completely restart your testing computer (don&rsquo;t just logout) before logging in with your test account. You may set permssions on a group of folders at the same time, but that does not mean the permissions will become active at the same time. Give it an hour.</p>
+<h2 id="file-migration">File Migration</h2>
+<p>We will be using the Microsoft tool Robocopy to migrate the file. There are other tools available, use what you are comfortable with, but this works.</p>
+<p>This is the robocopy command that AITS used in their testing, it is also what I used for testing and it worked well and provides a log file.</p>
+<pre tabindex="0"><code>robocopy {source} {destination} /ZB /MT:32 /R:0 /W:0 /MIR /COPY:DATO /DCOPY:T /NDL /NFL /NP /TEE /LOG:{log file name and path}
+</code></pre><p>This is the robocopy command that Michael Heredia included in his Utilizing Robocopy to Migrate Shares from Hammerspace to PureStorage document that was shared with the migration team.</p>
+<pre tabindex="0"><code>robocopy {source} {destination} /E /dCOPY:DAT /COPY:DATSO /SECFIX /TEE /r:3 /w:5 /MT:64
+</code></pre><p>You may want to append the option to create a log file to the one above:</p>
+<pre tabindex="0"><code>robocopy {source} {destination} /E /dCOPY:DAT /COPY:DATSO /SECFIX /TEE /r:3 /w:5 /MT:64 /LOG:{log file name and path}
+</code></pre><p>If the command has no errors, the output should be something along the lines of what is shown below:</p>
+<blockquote>
+<hr>
+<h2 id="robocopy--robust-file-copy-for-windows">ROBOCOPY :: Robust File Copy for Windows</h2>
+<p>Started : Friday, August 4, 2023 11:30:04 AM
+Source : {source}
+Dest : {destination}</p>
+<p>Files : <em>.</em></p>
+<p>Options : <em>.</em> /NDL /NFL /TEE /S /E /DCOPY:T /COPY:DATO /PURGE /MIR /ZB /NP /MT:32 /R:0 /W:0</p>
+<hr>
+</blockquote>
+<p>Below this you will see a list of any errors that occur during the copy, if using the AITS command. If you are using the Heredia version you will see everything: successes and failures.</p>
+<p>When the copy completes you will get a summary regardless of which command you used. Example below:</p>
+<p>|         |Total     |Copied     |Skipped |Mismatch |FAILED   |Extras   |
+| Dirs  : |101037    |101037     | 1      | 0       | 0       | 0       |
+| Files : |206264    |206249     | 0      | 0       | 15      | 0       |
+| Bytes : |450.136g  |405.619g   | 0      | 0       | 44.517g | 0       |
+| Times : |84:32:19  |3:05:16    |        |         | 0:00:00 | 0:07:18 |</p>
+<p>In the summary, you will notice some files have failed to copy. That sometimes happens when you are copying a large number of files. You will need to copy those separately. You can use the outputed log files to make sure you get everything. In the example above, only .01% of the files failed to copy.</p>
+<h2 id="common-error-messages">Common Error Messages</h2>
+<p>Below are the errors you may get for files that fail to copy:</p>
+<ul>
+<li>The request could not be performed because of an I/O device error. ERROR: RETRY LIMIT EXCEEDED.</li>
+<li>An unexpected network error occurred. ERROR: RETRY LIMIT EXCEEDED.</li>
+</ul>
+<h2 id="other-error-messages">Other Error Messages</h2>
+<ul>
+<li>2023/08/04 09:22:54 ERROR 1307 (0x0000051B) Copying Directory ?:\ This security ID may not be assigned as the owner of this object. ERROR: RETRY LIMIT EXCEEDED.</li>
+</ul>
+<p>If you get the error shown above you need to contact the UNT Server Team to add permissions to your account: <a href="mailto:servers@untsystem.edu?subject=File Storage Migration"><a href="mailto:servers@untsystem.edu">servers@untsystem.edu</a></a>.</p>
+<ul>
+<li>The specified network name is no longer available</li>
+</ul>
+<p>If you get the error error shown above, Chris Stoermer found this article, which provides possible fixes: <a href="https://backupchain.com/i/how-to-fix-error-64-the-specified-network-name-is-no-longer-available" alt="BackupChain Error">BackupChain</a>.</p>
+		</div>
+		<div style="margin: 2rem 0 0 0"></div>
+			<footer class="post__footer">
+				
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="../../tags/file-storage/" rel="tag">File Storage</a>
+		</li>
+	</ul>
+</div>
+			</footer>
+	</article>
+	<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">College of Visual Arts and Design</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-08-12T00:00:00Z">2023-08-12</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="../../categories/file-storage/" rel="category">File Storage</a>, <a class="meta__link" href="../../categories/isilion/" rel="category">Isilion</a>, <a class="meta__link" href="../../categories/pure-data/" rel="category">Pure Data</a>
+	</span>
+</div></div>    
+</main>
+
+
+			
+			
+		</div>
+			
+			<aside class="sidebar">
+<div class="post__toc toc">
+	<div class="toc__title">Contents</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#share-permissions">Share Permissions</a></li>
+    <li><a href="#file-permissions">File Permissions</a></li>
+    <li><a href="#home-and-shared-folders">HOME and SHARED Folders</a>
+      <ul>
+        <li><a href="#home-and-shared-child-folders">HOME and SHARED Child Folders</a></li>
+        <li><a href="#home-child-folders">HOME Child Folders</a></li>
+        <li><a href="#shared-child-folders">Shared Child Folders</a></li>
+      </ul>
+    </li>
+    <li><a href="#file-migration">File Migration</a></li>
+    <li><a href="#robocopy--robust-file-copy-for-windows">ROBOCOPY :: Robust File Copy for Windows</a></li>
+    <li><a href="#common-error-messages">Common Error Messages</a></li>
+    <li><a href="#other-error-messages">Other Error Messages</a></li>
+  </ul>
+</nav>
+	</div>
+</div>
+</aside>
+		  
+		</div>
+			<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2023 College of Visual Arts and Design.  Some rights reserved.
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="../../js/menu.js"></script>
+<script src="../../js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

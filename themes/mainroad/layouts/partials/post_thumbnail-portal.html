@@ -1,0 +1,17 @@
+{{- with .page.Params.portalurl }}
+  {{ $url := .page.Params.portalurl }}
+  {{- $class := .class }}
+  {{- $visibility := .page.Site.Params.thumbnail.visibility | default (slice "list" "post") }}
+
+  {{- $valueType := printf "%T" $url -}}
+  {{- $isMap := in $valueType "map" -}}
+  {{- if $isMap }}
+    {{ $visibility = default (slice "list" "post") (default .page.Site.Params.thumbnail.visibility $url.visibility) }}
+    {{ $url = $url.src }}
+  {{- end }}
+
+   <a class="thumbnail__link" href="{{ $url }}">
+  <img class="thumbnail__image" src="{{ $url }}" alt="{{ .page.Title }}">
+  </a>
+
+{{- end }}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Departments on University of North Texas: College of Visual Arts and Design</title>
+    <link>/mainroad/departments/</link>
+    <description>Recent content in Departments on University of North Texas: College of Visual Arts and Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/mainroad/departments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Online Service Desk</title>
+      <link>/mainroad/departments/service-desk/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/mainroad/departments/service-desk/</guid>
+      <description>&lt;p&gt;Our online service desk is available in Microsoft Teams for you to receive direct, immediate support or you may submit a ticket and we will follow up with you.  No need to make a physical visit to our office: we can remotely perform most tasks regardless of whether your are on-campus or off.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Classroom | ClassLab Support</title>
+      <link>/mainroad/departments/instructional/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/mainroad/departments/instructional/</guid>
+      <description>&lt;p&gt;Issues that hinder an instructor&amp;rsquo;s ability to teach are given the highest priority at the College of Visual Arts and Design. If you are experiencing issues with the equipment in one of our classrooms during a scheduled class period, please &lt;strong&gt;Submit a Ticket&lt;/strong&gt; by using the link on the instructor lectern computer and a technician will be dispatched to your location.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Computer Lab</title>
+      <link>/mainroad/departments/computer-lab/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/mainroad/departments/computer-lab/</guid>
+      <description>&lt;p&gt;Our computer lab is available to all currently enrolled UNT students, in support of their academic programs. The mostly widely used software applications used by students are available, as well as software titles required by our students to complete arts and design related course work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital Fabrication Lab</title>
+      <link>/mainroad/departments/digital-fabrication-lab/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/mainroad/departments/digital-fabrication-lab/</guid>
+      <description>&lt;p&gt;The CVAD Digital Fabrication Lab is available without an additional charge or fee to all students enrolled in at least one CVAD course in each semester. We provide student access to high-end fabrication and maker equipment needed by our student population to meet course and professional requirements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Photo Documentation</title>
+      <link>/mainroad/departments/photo-documentation/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/mainroad/departments/photo-documentation/</guid>
+      <description>&lt;p&gt;The Photo Documentation Service is open to CVAD students, faculty, and staff. Part of the function of the service is to create a database of student work that the university can pull from when creating promotional materials. Because of this, you will be required to sign a release to have your work photographed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

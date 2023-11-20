@@ -1,0 +1,7 @@
+{{- $root := . -}}
+{{- with .Param "post_meta" -}}
+	{{- range $field := . -}}
+		{{- $p := printf "post_meta2/%s.html" $field -}}
+		{{- partial $p $root -}}
+	{{- end -}}
+{{- end -}}
