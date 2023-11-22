@@ -1627,6 +1627,15 @@ a.widget__link:active {
 
 	}
 
+	.footer {
+		padding: 1rem 0;
+		font-size: 12px;
+		font-size: .75rem;
+		color: var(--cyan);
+		background: var(--green);
+	}
+	
+
 	.menu__list .menu__item:first-child {
 		border: 0;
 		margin-left: 0rem!important;
