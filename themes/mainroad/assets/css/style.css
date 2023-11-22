@@ -1469,15 +1469,10 @@ a.widget__link {
 
 a.widget__link:hover {
 	color: var(--light_blue);
-	text-decoration: underline;
-	text-decoration-color: var(--gray);
 }
    
 a.widget__link:active {
-	color: var(--theme-red);
-	text-decoration: underline;
-	text-decoration-color: var(--theme-orange);
-
+	color: var(--theme-orange);
 }
    
 

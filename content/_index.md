@@ -31,3 +31,8 @@ layout: list-home
 </div>
 </div>
 </div> 
+<style>
+.list__item {
+    display: none;
+} 
+</style>
