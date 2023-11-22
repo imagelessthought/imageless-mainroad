@@ -11,7 +11,7 @@
 
 {{- if in $visibility $class }}
 <figure class="{{ with $class }}{{ . }}__thumbnail-faq {{ end }}thumbnail">
-	<img class="thumbnail__image-faq" src="{{ $thumbnail | relURL }}" alt="{{ .page.Title }}">
+	<img class="thumbnail__image-faq" src="{{ absLangURL $thumbnail | relURL }}" alt="{{ .page.Title }}">
 </figure>
 {{- end }}
 {{- end }}
