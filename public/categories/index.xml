@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on University of North Texas: College of Visual Arts and Design</title>
-    <link>/categories/</link>
+    <link>https://imagelessthought.github.io/mainroad/categories/</link>
     <description>Recent content in Categories on University of North Texas: College of Visual Arts and Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imagelessthought.github.io/mainroad/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
-      <link>/categories/git/</link>
+      <link>https://imagelessthought.github.io/mainroad/categories/git/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/git/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Frameworks</title>
-      <link>/categories/web-frameworks/</link>
+      <link>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/web-frameworks/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</guid>
       <description></description>
     </item>
     <item>
       <title>File Storage</title>
-      <link>/categories/file-storage/</link>
+      <link>https://imagelessthought.github.io/mainroad/categories/file-storage/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/file-storage/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/file-storage/</guid>
       <description></description>
     </item>
     <item>
       <title>Isilion</title>
-      <link>/categories/isilion/</link>
+      <link>https://imagelessthought.github.io/mainroad/categories/isilion/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/isilion/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/isilion/</guid>
       <description></description>
     </item>
     <item>
       <title>Modern Campus</title>
-      <link>/categories/modern-campus/</link>
+      <link>https://imagelessthought.github.io/mainroad/categories/modern-campus/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/modern-campus/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/modern-campus/</guid>
       <description></description>
     </item>
     <item>
       <title>Omni CMS</title>
-      <link>/categories/omni-cms/</link>
+      <link>https://imagelessthought.github.io/mainroad/categories/omni-cms/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/omni-cms/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/omni-cms/</guid>
       <description></description>
     </item>
     <item>
       <title>Pure Data</title>
-      <link>/categories/pure-data/</link>
+      <link>https://imagelessthought.github.io/mainroad/categories/pure-data/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/pure-data/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/pure-data/</guid>
       <description></description>
     </item>
   </channel>

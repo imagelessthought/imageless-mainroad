@@ -2,6 +2,7 @@
 title: Photo Documentation
 subtitle: Providing professional-grade photography for artists and designers in the college, students and faculty.
 date: 2023-10-01
+layout: single-owner
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu

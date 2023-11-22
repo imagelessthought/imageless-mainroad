@@ -928,7 +928,9 @@ text-decoration-color: var(--green3);
 }
 
 .post__subtitle {
-	margin: 0 0 .5rem .25rem;
+	color: var(--green);
+	font-size: 1rem;
+	font-style: italic;
 }
 
 .post__author-date {

@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://imagelessthought.github.io/mainroad/"
 title = "University of North Texas: College of Visual Arts and Design"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page

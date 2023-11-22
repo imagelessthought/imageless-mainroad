@@ -1,6 +1,7 @@
 ---
 title: Computer Lab
 subtitle: A shared resource providing technology and software supporting arts and design curriculum.
+layout: single-owner
 date: 2023-10-03
 owner:
   - name: College of Visual Arts and Design

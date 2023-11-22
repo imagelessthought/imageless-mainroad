@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on University of North Texas: College of Visual Arts and Design</title>
-    <link>/tags/</link>
+    <link>https://imagelessthought.github.io/mainroad/tags/</link>
     <description>Recent content in Tags on University of North Texas: College of Visual Arts and Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imagelessthought.github.io/mainroad/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
-      <link>/tags/git/</link>
+      <link>https://imagelessthought.github.io/mainroad/tags/git/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/git/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>/tags/github/</link>
+      <link>https://imagelessthought.github.io/mainroad/tags/github/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/github/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>File Storage</title>
-      <link>/tags/file-storage/</link>
+      <link>https://imagelessthought.github.io/mainroad/tags/file-storage/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/file-storage/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/tags/file-storage/</guid>
       <description></description>
     </item>
     <item>
       <title>UNT Websites</title>
-      <link>/tags/unt-websites/</link>
+      <link>https://imagelessthought.github.io/mainroad/tags/unt-websites/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/unt-websites/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/tags/unt-websites/</guid>
       <description></description>
     </item>
   </channel>

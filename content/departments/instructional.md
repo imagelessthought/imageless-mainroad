@@ -1,6 +1,7 @@
 ---
 title: Classroom | Instructional Support
 subtitle: Providing on-site support for all specialized instructional spaces within the Art buildings.
+layout: single-owner
 date: 2023-10-04
 owner:
   - name: College of Visual Arts and Design

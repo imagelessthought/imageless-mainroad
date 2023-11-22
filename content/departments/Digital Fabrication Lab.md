@@ -1,6 +1,7 @@
 ---
 title: Digital Fabrication Lab
 subtitle: A shared resource providing technology supporting digital fabrication.
+layout: single-owner
 date: 2023-10-02
 owner:
   - name: College of Visual Arts and Design
