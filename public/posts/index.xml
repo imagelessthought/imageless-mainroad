@@ -1,52 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Announcements and Notifications on Imageless Thought</title>
-    <link>//imagelessthought.github.io/mainroad/posts/</link>
-    <description>Recent content in Announcements and Notifications on Imageless Thought</description>
+    <title>Announcements and Notifications on University of North Texas: College of Visual Arts and Design</title>
+    <link>/posts/</link>
+    <description>Recent content in Announcements and Notifications on University of North Texas: College of Visual Arts and Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//imagelessthought.github.io/mainroad/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github for Web Development: Campus Enterprise Agreement</title>
-      <link>//imagelessthought.github.io/mainroad/posts/github-announcement/</link>
+      <link>/posts/github-announcement/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/github-announcement/</guid>
+      <guid>/posts/github-announcement/</guid>
       <description>&lt;p&gt;UNT has entered into an &lt;a href=&#34;https://education.github.com/&#34; title=&#34;Github Global Campus&#34;&gt;&lt;strong&gt;University Unlimited&lt;/strong&gt;&lt;/a&gt; enterprise agreement with Github.  More details will be announced, but all faculty, staff and students will be elligible for Github Pro accounts, with many addtional features available for academics at no additional cost to the students. This article will help you get started using this service.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Windows Subsystem For Linux</title>
-      <link>//imagelessthought.github.io/mainroad/posts/windows-linux/</link>
-      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/windows-linux/</guid>
-      <description>title: author: mbaggett date: 2023-10-01 20:55:00 +0800 categories: [Introduction] tags: [Linux, WSL, WSL2, Windows] pin: true search: include Over the past two years years Microsoft has made some significant improvements to the Windows Subsystem for Linux. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps.</description>
-    </item>
-    <item>
-      <title>AI: A Primer</title>
-      <link>//imagelessthought.github.io/mainroad/posts/ai/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/ai/</guid>
-      <description>The AI field is heavy with jargon and terminology. To help you navigate and understand the the technologies and solutions that are out there, you will need a some help. I suggest starting by reading this article: Artificial Intelligence Glossary: Neural Networks and Other Terms Explained - New York Times; March 23, 2023.
-Below are links to some glossaries and articles to further assist you with the terminology.
-Glossaries of AI Terminology: AI Blog provides a searchable database of terms.</description>
-    </item>
-    <item>
-      <title>Jekyll: Static Webpages</title>
-      <link>//imagelessthought.github.io/mainroad/posts/jekyll/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/jekyll/</guid>
-      <description>Jekyll is a free and open source static site generator that was developed by Github and is written in the Ruby Programming Lanaguage. It takes text written in Markdown, Liquid, HTML &amp;amp; CSS and uses standardized layouts to create static webpages. SASS: Syntactically Awesome Style Sheets integration is bulit-in. You can easily customize the look and feel, URLs, and the data displayed on your pages.
-Jekyll is the supported solution for webpages using Github Pages.</description>
-    </item>
-    <item>
-      <title>Universal Signage</title>
-      <link>//imagelessthought.github.io/mainroad/posts/universal-signage/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/universal-signage/</guid>
-      <description>The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well.
-We will be developing the new solution as open source and will use already available code whenever possible: don&amp;rsquo;t reinvent the wheel. Unless you have to, that is.
-New Features This time around we will be adding some new features:</description>
     </item>
   </channel>
 </rss>

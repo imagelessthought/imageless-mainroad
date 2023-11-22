@@ -1,5 +1,5 @@
 ---
 title: Campus Links
-layout: list-links
+layout: list-portal
 authorbox: "True"
 ---

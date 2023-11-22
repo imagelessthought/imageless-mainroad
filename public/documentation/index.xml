@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Documentation on Imageless Thought</title>
-    <link>//imagelessthought.github.io/mainroad/documentation/</link>
-    <description>Recent content in Documentation on Imageless Thought</description>
+    <title>Documentation on University of North Texas: College of Visual Arts and Design</title>
+    <link>/documentation/</link>
+    <description>Recent content in Documentation on University of North Texas: College of Visual Arts and Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//imagelessthought.github.io/mainroad/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrating from Isilon to Pure Storage</title>
-      <link>//imagelessthought.github.io/mainroad/documentation/hammerspace/</link>
+      <link>/documentation/hammerspace/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/documentation/hammerspace/</guid>
+      <guid>/documentation/hammerspace/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.purestorage.com/&#34; title=&#34;Pure Storage Website&#34;&gt;Pure Storage&lt;/a&gt; is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Modern Campus and Omni CMS</title>
-      <link>//imagelessthought.github.io/mainroad/documentation/omni-campus/</link>
+      <link>/documentation/omni-campus/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/documentation/omni-campus/</guid>
+      <guid>/documentation/omni-campus/</guid>
       <description>&lt;p&gt;The UNT campus is migrating from Drupal 7 to &lt;a href=&#34;https://moderncampus.com/resources/index.html&#34; title=&#34;Modern Campus and Omni CMS website&#34;&gt;Modern Campus, Omni CMS&lt;/a&gt;. This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,17 @@
+{{- if $thumbnail := .page.Params.thumbnail }}
+{{- $class := .class }}
+{{- $visibility := .page.Site.Params.thumbnail.visibility | default (slice "list" "post") }}
+
+{{- $valueType := printf "%T" $thumbnail -}}
+{{- $isMap := in $valueType "map" -}}
+{{- if $isMap }}
+	{{ $visibility = default (slice "list" "post") (default .page.Site.Params.thumbnail.visibility $thumbnail.visibility) }}
+	{{ $thumbnail = $thumbnail.src }}
+{{- end }}
+
+{{- if in $visibility $class }}
+<figure class="{{ with $class }}{{ . }}__thumbnail-faq {{ end }}thumbnail">
+	<img class="thumbnail__image-faq" src="{{ $thumbnail | relURL }}" alt="{{ .page.Title }}">
+</figure>
+{{- end }}
+{{- end }}

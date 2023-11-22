@@ -4,9 +4,9 @@ date: 2023-10-05
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-layout: single-portal
-image: "/img/microsoft-teams.png"
+thumbnail: "/img/microsoft-teams.png"
 portalurl: "https://itservices.cvad.unt.edu/online-servicedesk/"
+layout: single-portal
 ---
 Our college uses [Microsoft Teams](https://itservices.cvad.unt.edu/online-servicedesk/ 'OSD') to provide an **online service desk** to our students, instructors, and staff.  Physical visits to our service desk are rarely required as we can begin a remote session to help with any hardware or software issues - including new software installation.  We can begin a remote session with you regardless of whether you are on campus, working at home, or travelling in a foreign country as long as your device is connected to the internet.
 

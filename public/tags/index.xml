@@ -1,95 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Imageless Thought</title>
-    <link>//imagelessthought.github.io/mainroad/tags/</link>
-    <description>Recent content in Tags on Imageless Thought</description>
+    <title>Tags on University of North Texas: College of Visual Arts and Design</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on University of North Texas: College of Visual Arts and Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//imagelessthought.github.io/mainroad/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
-      <link>//imagelessthought.github.io/mainroad/tags/git/</link>
+      <link>/tags/git/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/git/</guid>
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>//imagelessthought.github.io/mainroad/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>//imagelessthought.github.io/mainroad/tags/linux/</link>
-      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows Subsystem for Linux</title>
-      <link>//imagelessthought.github.io/mainroad/tags/windows-subsystem-for-linux/</link>
-      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/windows-subsystem-for-linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>//imagelessthought.github.io/mainroad/tags/ai/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Artificial Intelligence</title>
-      <link>//imagelessthought.github.io/mainroad/tags/artificial-intelligence/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Full PageOS</title>
-      <link>//imagelessthought.github.io/mainroad/tags/full-pageos/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/full-pageos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Raspberry Pi</title>
-      <link>//imagelessthought.github.io/mainroad/tags/raspberry-pi/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/raspberry-pi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Static Pages</title>
-      <link>//imagelessthought.github.io/mainroad/tags/static-pages/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/static-pages/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Design</title>
-      <link>//imagelessthought.github.io/mainroad/tags/web-design/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/web-design/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>File Storage</title>
-      <link>//imagelessthought.github.io/mainroad/tags/file-storage/</link>
+      <link>/tags/file-storage/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/file-storage/</guid>
+      <guid>/tags/file-storage/</guid>
       <description></description>
     </item>
     <item>
       <title>UNT Websites</title>
-      <link>//imagelessthought.github.io/mainroad/tags/unt-websites/</link>
+      <link>/tags/unt-websites/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tags/unt-websites/</guid>
+      <guid>/tags/unt-websites/</guid>
       <description></description>
     </item>
   </channel>

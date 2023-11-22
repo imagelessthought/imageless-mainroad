@@ -1,5 +1,0 @@
----
-title: Student Websites Gallery
-layout: list-alt3
-authorbox: "True"
----

@@ -1,15 +1,13 @@
-<!-- {{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}} -->
-{{- $logoTitle := "Imageless Thought" -}} 
+{{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}}
 {{- $logoSubtitle := .Site.Params.logo.subtitle | default .Site.Params.subtitle -}}
 {{- $logoImage := .Site.Params.logo.image -}}
-{{- $logoTagline := .Site.Params.logo.tagline -}}
 
 {{- if or $logoTitle $logoImage }}
 	{{/* Defined when logo is mixed (image + text) */}}
 	{{- $logoMix := and $logoImage $logoTitle -}}
 
 	<div class="logo{{ with $logoMix }} logo--mixed{{ end }}">
-		
+		<a class="logo__link" href="{{ "" | relLangURL }}"{{ with $logoTitle }} title="{{ . }}"{{ end }} rel="home">
 			{{ with $logoImage -}}
 				<div class="logo__item logo__imagebox">
 					<img class="logo__img" src="{{ . | relURL }}">
@@ -18,8 +16,7 @@
 			{{ with $logoTitle -}}
 				<div class="logo__item logo__text">
 					<div class="logo__title">{{ . }}</div>
-<!--     			{{ with $logoSubtitle }}<div class="logo__subtitle">{{ . }}</div>{{ end }} -->
-					{{ with $logoTagline }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+					{{ with $logoSubtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
 				</div>
 			{{- end }}
 		</a>

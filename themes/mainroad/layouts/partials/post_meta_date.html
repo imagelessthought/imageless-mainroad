@@ -1,0 +1,5 @@
+{{- $root := . -}}
+{{- with .Param "post_meta" -}}
+		{{- $p := printf "post_meta/date.html"}}
+		{{- partial $p $root -}}
+{{- end -}}

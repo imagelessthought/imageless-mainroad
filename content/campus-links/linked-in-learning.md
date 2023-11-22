@@ -2,10 +2,10 @@
 title: Linked-In-Learning
 date: 2023-01-01
 owner:
-  - name: College of Visual Arts and Design
-    url: https://itservices.cvad.unt.edu
-layout: single-links
-image: "/img/lil2.png"
+  - name: UNT System
+    url: https://technology.untsystem.edu/
+layout: single-portal
+thumbnail: "/img/lil2.png"
 portalurl: "https://itss.untsystem.edu/divisions/mrs/it-training/linkedin-learning.php"
 exclude_from_recent: true
 ---

@@ -4,9 +4,9 @@ date: 2023-10-05
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-layout: single-portal
-image: "/img/adobe-creative-cloud-icon.svg"
+thumbnail: "/img/adobe-creative-cloud-icon.svg"
 portalurl: "https://itservices.cvad.unt.edu/adobe"
+layout: single-portal
 ---
 **This offer is only available to students. Full-time employees and instructors of record receive an educational enterprise subscription as part of their employment. Part-time employees who require the Adobe Creative Cloud for their job duties should contact their department regarding access. Subscriptions are not available for purchase by employees**.
 

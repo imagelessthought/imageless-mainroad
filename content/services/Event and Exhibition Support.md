@@ -4,10 +4,9 @@ date: 2023-10-01
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-layout: single-depts
 thumbnail: "img/exhibit.svg"
 exclude_from_recent: true
-authorbox: False
+authorbox: True
 ---
 If you have an on-campus event planned, in one of our buildings or elsewhere on campus, we can provide event planning and support for the event. We need sufficient lead time to prepare. Contact us early so we can make sure the space(s) you require will be available. If you are hosting an event off-campus, please contact the CVAD Service Desk to inquire about available services.
 <!--more-->

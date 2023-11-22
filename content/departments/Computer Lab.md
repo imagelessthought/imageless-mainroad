@@ -1,13 +1,14 @@
 ---
 title: Computer Lab
+subtitle: A shared resource providing technology and software supporting arts and design curriculum.
 date: 2023-10-03
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-layout: single-depts
 thumbnail: "img/computer-icon.svg"
 exclude_from_recent: true
-authorbox: False
+authorbox: True
+area: dept
 ---
 Our computer lab is available to all currently enrolled UNT students, in support of their academic programs. The mostly widely used software applications used by students are available, as well as software titles required by our students to complete arts and design related course work.
 <!--more-->

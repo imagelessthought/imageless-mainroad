@@ -1,6 +1,15 @@
 {{- if .Site.Author.name -}}
 <div class="meta__item-author meta__item">
 	{{ partial "svg/author.svg" (dict "class" "meta__icon") -}}
-	<span class="meta__text">{{ .Site.Author.name }}</span>
+
+	{{ $owners := .Params.owner }}
+	{{ if $owners }}
+	{{ range $index, $owner := $owners }}
+		<a href="{{ $owner.url }}">{{ $owner.name }}</a>{{ if ne (add $index 1) (len $owners) }},{{ end }}
+	{{ end }}
+	{{ if gt (len $owners) 1 }}{{ else }}{{ end }}
+	{{ end }}
+
+<!--	<span class="meta__text">{{ .Site.Author.name }}</span>  -->
 </div>
 {{- end -}}

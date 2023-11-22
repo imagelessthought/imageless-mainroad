@@ -1,218 +1,185 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Having Trouble? on Imageless Thought</title>
-    <link>//imagelessthought.github.io/mainroad/</link>
-    <description>Recent content in Having Trouble? on Imageless Thought</description>
+    <title>Having Trouble? on University of North Texas: College of Visual Arts and Design</title>
+    <link>/</link>
+    <description>Recent content in Having Trouble? on University of North Texas: College of Visual Arts and Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//imagelessthought.github.io/mainroad/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academic Technologies</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/academic-technologies/</link>
+      <link>/campus-links/academic-technologies/</link>
       <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/academic-technologies/</guid>
+      <guid>/campus-links/academic-technologies/</guid>
       <description>Academic Technologies provides IT governance and shared IT services for the colleges, libraries, and academic departments within the Division of Academic Affairs.</description>
     </item>
     <item>
       <title>Adobe Subscriptions Discounted for Students</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/adobe-buy/</link>
+      <link>/campus-links/adobe-buy/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/adobe-buy/</guid>
+      <guid>/campus-links/adobe-buy/</guid>
       <description>UNT offers discounted personal education subscriptions to the Adobe Creative Cloud: they are available for a one time purchase price of $50 (+$3 processing fee) and are valid until the end of the academic year. Students without a subscription may access some of the Adobe Creative Cloud applications while using a computer in one of the on-premise classrooms or labs at no cost: cloud features and many applications are not available.</description>
     </item>
     <item>
       <title>Emergency Procedures</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/emergency-procedures/</link>
+      <link>/campus-links/emergency-procedures/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/emergency-procedures/</guid>
+      <guid>/campus-links/emergency-procedures/</guid>
       <description>In the event of an emergency situation (medical, fire or police), the appropriate action is to immediately call 911. For NON-EMERGENCIES, you may contact the UNT Police Department on their 24-Hour Non-Emergency Line: (940) 565-3000. To report a facilities-related issue, you may contact UNT Work Control: (940) 565-2700. More information on emergency responses and campus safety resources can be found at the Emergency Management and Safety Services website.</description>
     </item>
     <item>
       <title>Guacamole: Universal Remote-Access</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/guacamole/</link>
+      <link>/campus-links/guacamole/</link>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/guacamole/</guid>
+      <guid>/campus-links/guacamole/</guid>
       <description>Remote connections to Mac computers on the UNT campus are provided by Guacamole. Guacamole is an HTML 5 web application that allows users to make remote connections to MacOS computers using any modern web browser that supports HTML5. The computer endpoints are located on the UNT campus and are managed by UNT staff. You can connect and use a Mac from any device, regardless of the operating system. The interface is quite simple and intended to be as seamless and unobtrusive as possible.</description>
     </item>
     <item>
       <title>Zoom: Video-Conferencing</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/zoom/</link>
+      <link>/campus-links/zoom/</link>
       <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/zoom/</guid>
+      <guid>/campus-links/zoom/</guid>
       <description>All active UNT employees and students have access to a Zoom One Business subscription, but you must activate your account before you will be able to use it. Activation is a quick and straight-forward process. This website provides you with the information on activating and using your Zoom. If you are hosting a webinar we can provide a staff member or student employee to assist during the webinar (College of Visual Arts and Design).</description>
     </item>
     <item>
       <title>Audio-Visual Tutorial</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/audio-visual/</link>
+      <link>/campus-links/audio-visual/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/audio-visual/</guid>
+      <guid>/campus-links/audio-visual/</guid>
       <description>This is a tutorial for using the audio-visual systems in the specialized classrooms (type 210) and other spaces managed by the College of Visual Arts and Design.</description>
     </item>
     <item>
       <title>Github for Web Development: Campus Enterprise Agreement</title>
-      <link>//imagelessthought.github.io/mainroad/posts/github-announcement/</link>
+      <link>/posts/github-announcement/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/github-announcement/</guid>
+      <guid>/posts/github-announcement/</guid>
       <description>&lt;p&gt;UNT has entered into an &lt;a href=&#34;https://education.github.com/&#34; title=&#34;Github Global Campus&#34;&gt;&lt;strong&gt;University Unlimited&lt;/strong&gt;&lt;/a&gt; enterprise agreement with Github.  More details will be announced, but all faculty, staff and students will be elligible for Github Pro accounts, with many addtional features available for academics at no additional cost to the students. This article will help you get started using this service.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Windows Subsystem For Linux</title>
-      <link>//imagelessthought.github.io/mainroad/posts/windows-linux/</link>
-      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/windows-linux/</guid>
-      <description>title: author: mbaggett date: 2023-10-01 20:55:00 +0800 categories: [Introduction] tags: [Linux, WSL, WSL2, Windows] pin: true search: include Over the past two years years Microsoft has made some significant improvements to the Windows Subsystem for Linux. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps.</description>
-    </item>
-    <item>
-      <title>AI: A Primer</title>
-      <link>//imagelessthought.github.io/mainroad/posts/ai/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/ai/</guid>
-      <description>The AI field is heavy with jargon and terminology. To help you navigate and understand the the technologies and solutions that are out there, you will need a some help. I suggest starting by reading this article: Artificial Intelligence Glossary: Neural Networks and Other Terms Explained - New York Times; March 23, 2023.
-Below are links to some glossaries and articles to further assist you with the terminology.
-Glossaries of AI Terminology: AI Blog provides a searchable database of terms.</description>
-    </item>
-    <item>
-      <title>Jekyll: Static Webpages</title>
-      <link>//imagelessthought.github.io/mainroad/posts/jekyll/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/jekyll/</guid>
-      <description>Jekyll is a free and open source static site generator that was developed by Github and is written in the Ruby Programming Lanaguage. It takes text written in Markdown, Liquid, HTML &amp;amp; CSS and uses standardized layouts to create static webpages. SASS: Syntactically Awesome Style Sheets integration is bulit-in. You can easily customize the look and feel, URLs, and the data displayed on your pages.
-Jekyll is the supported solution for webpages using Github Pages.</description>
-    </item>
-    <item>
-      <title>Universal Signage</title>
-      <link>//imagelessthought.github.io/mainroad/posts/universal-signage/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/posts/universal-signage/</guid>
-      <description>The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well.
-We will be developing the new solution as open source and will use already available code whenever possible: don&amp;rsquo;t reinvent the wheel. Unless you have to, that is.
-New Features This time around we will be adding some new features:</description>
-    </item>
-    <item>
       <title>Adobe Creative Cloud Webstore</title>
-      <link>//imagelessthought.github.io/mainroad/portals/adobe/</link>
+      <link>/portals/adobe/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/adobe/</guid>
+      <guid>/portals/adobe/</guid>
       <description>This offer is only available to students. Full-time employees and instructors of record receive an educational enterprise subscription as part of their employment. Part-time employees who require the Adobe Creative Cloud for their job duties should contact their department regarding access. Subscriptions are not available for purchase by employees.
 Employees may contact their local support team if they are having difficulty accessing their Adobe subscription.
 If you are an adjunct or graduate student who is working as an instructor of record during the current semester, contact the local IT department of the college that employed you if you are having trouble accessing the Adobe Creative Cloud.</description>
     </item>
     <item>
       <title>ASTU 3703.501: Creative Coding | Studio Art: New Media</title>
-      <link>//imagelessthought.github.io/mainroad/student-web/astu3703/</link>
+      <link>/student-web/astu3703/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/student-web/astu3703/</guid>
+      <guid>/student-web/astu3703/</guid>
       <description>An introduction to the fundamentals of coding and computer science as a creative medium.
 Instructor: Ranran Fan</description>
     </item>
     <item>
       <title>Booked Scheduler: Reservations</title>
-      <link>//imagelessthought.github.io/mainroad/portals/booked/</link>
+      <link>/portals/booked/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/booked/</guid>
+      <guid>/portals/booked/</guid>
       <description>Booked is an online appointment scheduling solution that is available to students, instructors, and staff at the College of Visual Arts and Design at the University of North Texas to make appointments for various services we provide to our users.
 If you are an instructor, student or staff member of the College of Visual Arts and Design use the link above to login to your Booked Scheduler account.</description>
     </item>
     <item>
       <title>Canvas: Learning Management System</title>
-      <link>//imagelessthought.github.io/mainroad/portals/canvas/</link>
+      <link>/portals/canvas/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/canvas/</guid>
+      <guid>/portals/canvas/</guid>
       <description>Canvas LMS, is the online learning management solution for the University of North Texas that is available to all students and instructors. Canvas LMS is an open-source Learning Management System that serves as a central hub for online, hybrid, and in-person classrooms. As a modern education tool, Canvas LMS connects teachers and educators to their students.
 Use the link above to login to Canvas.
 Here are some links to get you started:</description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>//imagelessthought.github.io/mainroad/repositories/github/</link>
+      <link>/repositories/github/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/repositories/github/</guid>
+      <guid>/repositories/github/</guid>
       <description> </description>
     </item>
     <item>
       <title>GitHub: UNT Enterprise and Organizations</title>
-      <link>//imagelessthought.github.io/mainroad/tech-links/github/</link>
+      <link>/tech-links/github/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/tech-links/github/</guid>
+      <guid>/tech-links/github/</guid>
       <description>To access the UNT Enterprise GitHub instance: GitHub Enterprise: UNT-SYS. To access the UNT College of Visual Arts and Design Github Organization: GitHub Organization: UNT-CVAD. A tutorial is available to help you get started with GitHub, GitHub Pages, and static website builders such as Jekyll and Hugo.</description>
     </item>
     <item>
       <title>Guacamole: Remote Access Service</title>
-      <link>//imagelessthought.github.io/mainroad/status/status-guacamole/</link>
+      <link>/status/status-guacamole/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/status/status-guacamole/</guid>
+      <guid>/status/status-guacamole/</guid>
       <description>guacamole.unt.edu
 main.guacamole.unt.edu
 cloud.guacamole.unt.edu</description>
     </item>
     <item>
       <title>Microsoft 365: Online Access to Applications and Collaboration Tools</title>
-      <link>//imagelessthought.github.io/mainroad/portals/o365/</link>
+      <link>/portals/o365/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/o365/</guid>
+      <guid>/portals/o365/</guid>
       <description>Microsoft 365 is available to all students, instructors and staff at the University of North Texas. Microsoft 365 is a product family of productivity software, collaboration and cloud-based services developed by by Microsoft. It encompasses online services and applications formerly part of the Microsoft Office Suite: Word, Excel, PowerPoint, Outlook, among others.
 Use the link above to login to your Microsoft 365 account, this will launch the online version of Microsoft Outlook: The other available applications can be accessed by using the icon at the top left:</description>
     </item>
     <item>
       <title>MyLab: Online Computer Lab</title>
-      <link>//imagelessthought.github.io/mainroad/portals/mylab/</link>
+      <link>/portals/mylab/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/mylab/</guid>
+      <guid>/portals/mylab/</guid>
       <description>MyLab, the online computer lab for the University of North Texas is available for students and instructors to access a Windows (Citrix) or Mac (Guacamole) computer from anywhere, using any device that is capable of running a modern, HTML5 web browser.
 Use the link above to access the MyLab Online Computer Labs.</description>
     </item>
     <item>
       <title>Online Service Desk</title>
-      <link>//imagelessthought.github.io/mainroad/departments/service-desk/</link>
+      <link>/departments/service-desk/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/departments/service-desk/</guid>
+      <guid>/departments/service-desk/</guid>
       <description>&lt;p&gt;Our online service desk is available in Microsoft Teams for you to receive direct, immediate support or you may submit a ticket and we will follow up with you.  No need to make a physical visit to our office: we can remotely perform most tasks regardless of whether your are on-campus or off.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Online Service Desk</title>
-      <link>//imagelessthought.github.io/mainroad/portals/osd/</link>
+      <link>/portals/osd/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/osd/</guid>
+      <guid>/portals/osd/</guid>
       <description>Our college uses Microsoft Teams to provide an online service desk to our students, instructors, and staff. Physical visits to our service desk are rarely required as we can begin a remote session to help with any hardware or software issues - including new software installation. We can begin a remote session with you regardless of whether you are on campus, working at home, or travelling in a foreign country as long as your device is connected to the internet.</description>
     </item>
     <item>
       <title>Papercut: Webprint from Any Device</title>
-      <link>//imagelessthought.github.io/mainroad/portals/webprint/</link>
+      <link>/portals/webprint/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/webprint/</guid>
+      <guid>/portals/webprint/</guid>
       <description>Papercut, is an online webprinting solution for the University of North Texas that is available for our students, instructors, and staff to submit their print jobs online. Print outs can be picked up at the printer or service location you slect to print to from within the app.
 Use the link above to login to your Papercut account.</description>
     </item>
     <item>
       <title>Research Consultation and Support</title>
-      <link>//imagelessthought.github.io/mainroad/services/research-support/</link>
+      <link>/services/research-support/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/services/research-support/</guid>
+      <guid>/services/research-support/</guid>
       <description>&lt;p&gt;Faculty research and student exhbition support is available beginning on the Monday following the 12th class day each term. If you are faculty researcher and would like to request assistance with a research project, please submit a ticket and we can schedule a time to work with you. Please provide a detailed description of your project so we can prepare for the meeting in advance: include a project description, an expected timeline and information on the technology that will be part of the project. Contact us as early in the planning stages as possible so we can allocate sufficient time in our schedule to assist you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Statistics Software: License Portal</title>
-      <link>//imagelessthought.github.io/mainroad/portals/stats/</link>
+      <link>/portals/stats/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/stats/</guid>
+      <guid>/portals/stats/</guid>
       <description>The Statistics License Portal, is available to all students, instructors and staff at the University of North Texas. You may use this service to acquire licenses for the latest versions of statistics software licensed by the university
 Use the link above to login to the Statistics Software License portal for UNT.</description>
     </item>
     <item>
       <title>WebCheckout: Equipment Checkout</title>
-      <link>//imagelessthought.github.io/mainroad/portals/webcheckout/</link>
+      <link>/portals/webcheckout/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/webcheckout/</guid>
+      <guid>/portals/webcheckout/</guid>
       <description>Webcheckout, is an online equipment reservation solution for the University of North Texas that is available for our students, instructors, and staff to reserve equipment. Equipment can be picked up and returned to the service location shown in the portal.
 Use the link above to login to your WebCheckout account.</description>
     </item>
     <item>
       <title>Websites</title>
-      <link>//imagelessthought.github.io/mainroad/status/status-websites/</link>
+      <link>/status/status-websites/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/status/status-websites/</guid>
+      <guid>/status/status-websites/</guid>
       <description>public.cvad.unt.edu
 Online Service Desk
 Booked Scheduler
@@ -224,119 +191,119 @@ Microsoft Sharepoint</description>
     </item>
     <item>
       <title>Where can I find the list of computer labs on campus?</title>
-      <link>//imagelessthought.github.io/mainroad/faq/example-faq/</link>
+      <link>/faq/example-faq/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/faq/example-faq/</guid>
+      <guid>/faq/example-faq/</guid>
       <description>A list of all of the available computer labs on the UNT campus can be found at the Academic Technologies website.</description>
     </item>
     <item>
       <title>Zoom: Video Conferencing</title>
-      <link>//imagelessthought.github.io/mainroad/portals/zoom/</link>
+      <link>/portals/zoom/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/portals/zoom/</guid>
+      <guid>/portals/zoom/</guid>
       <description>Zoom, is a video-conferencing solution that is available to all students, instructors and staff at the University of North Texas. Online classes use Zoom for their class sessions but it is used widely across campus as a general video-conferencing solution.
 Use the link above to login to your Zoom account for UNT.</description>
     </item>
     <item>
-      <title>Classroom | ClassLab Support</title>
-      <link>//imagelessthought.github.io/mainroad/departments/instructional/</link>
+      <title>Classroom | Instructional Support</title>
+      <link>/departments/instructional/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/departments/instructional/</guid>
+      <guid>/departments/instructional/</guid>
       <description>&lt;p&gt;Issues that hinder an instructor&amp;rsquo;s ability to teach are given the highest priority at the College of Visual Arts and Design. If you are experiencing issues with the equipment in one of our classrooms during a scheduled class period, please &lt;strong&gt;Submit a Ticket&lt;/strong&gt; by using the link on the instructor lectern computer and a technician will be dispatched to your location.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Computer Lab</title>
-      <link>//imagelessthought.github.io/mainroad/departments/computer-lab/</link>
+      <link>/departments/computer-lab/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/departments/computer-lab/</guid>
+      <guid>/departments/computer-lab/</guid>
       <description>&lt;p&gt;Our computer lab is available to all currently enrolled UNT students, in support of their academic programs. The mostly widely used software applications used by students are available, as well as software titles required by our students to complete arts and design related course work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Digital Fabrication Lab</title>
-      <link>//imagelessthought.github.io/mainroad/departments/digital-fabrication-lab/</link>
+      <link>/departments/digital-fabrication-lab/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/departments/digital-fabrication-lab/</guid>
+      <guid>/departments/digital-fabrication-lab/</guid>
       <description>&lt;p&gt;The CVAD Digital Fabrication Lab is available without an additional charge or fee to all students enrolled in at least one CVAD course in each semester. We provide student access to high-end fabrication and maker equipment needed by our student population to meet course and professional requirements.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event and Exhibition Support</title>
-      <link>//imagelessthought.github.io/mainroad/services/event-and-exhibition-support/</link>
+      <link>/services/event-and-exhibition-support/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/services/event-and-exhibition-support/</guid>
+      <guid>/services/event-and-exhibition-support/</guid>
       <description>&lt;p&gt;If you have an on-campus event planned, in one of our buildings or elsewhere on campus, we can provide event planning and support for the event. We need sufficient lead time to prepare. Contact us early so we can make sure the space(s) you require will be available. If you are hosting an event off-campus, please contact the CVAD Service Desk to inquire about available services.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Photo Documentation</title>
-      <link>//imagelessthought.github.io/mainroad/departments/photo-documentation/</link>
+      <link>/departments/photo-documentation/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/departments/photo-documentation/</guid>
+      <guid>/departments/photo-documentation/</guid>
       <description>&lt;p&gt;The Photo Documentation Service is open to CVAD students, faculty, and staff. Part of the function of the service is to create a database of student work that the university can pull from when creating promotional materials. Because of this, you will be required to sign a release to have your work photographed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating from Isilon to Pure Storage</title>
-      <link>//imagelessthought.github.io/mainroad/documentation/hammerspace/</link>
+      <link>/documentation/hammerspace/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/documentation/hammerspace/</guid>
+      <guid>/documentation/hammerspace/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.purestorage.com/&#34; title=&#34;Pure Storage Website&#34;&gt;Pure Storage&lt;/a&gt; is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Modern Campus and Omni CMS</title>
-      <link>//imagelessthought.github.io/mainroad/documentation/omni-campus/</link>
+      <link>/documentation/omni-campus/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/documentation/omni-campus/</guid>
+      <guid>/documentation/omni-campus/</guid>
       <description>&lt;p&gt;The UNT campus is migrating from Drupal 7 to &lt;a href=&#34;https://moderncampus.com/resources/index.html&#34; title=&#34;Modern Campus and Omni CMS website&#34;&gt;Modern Campus, Omni CMS&lt;/a&gt;. This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bridge Training</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/bridge/</link>
+      <link>/campus-links/bridge/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/bridge/</guid>
+      <guid>/campus-links/bridge/</guid>
       <description>UNT Bridge is the primary online training option for university employees. The content is primarily focused on business processes and compliance training. This is where the Annual Cybersecurity Awareness Training is hosted. Some other examples: UNT Ethics and Standards of Conduct, ePRO Coordinator Training, Anti-Bias &amp;amp; Cultural Awareness Training, and the UNT Policies &amp;amp; Title IX: Preventing Discrimination, Harassment, Sexual Misconduct &amp;amp; Retaliation Training.</description>
     </item>
     <item>
       <title>Computing Policies: Acceptable Use and Privacy</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/computing-policies/</link>
+      <link>/campus-links/computing-policies/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/computing-policies/</guid>
+      <guid>/campus-links/computing-policies/</guid>
       <description>The computing policies specifically for the resources provided by the College of Visual Arts and Design can be found online, here.
 The University of North Texas provides Information Resources for employees, students and authorized individuals to use in conducting official University business and for other purposes as authorized in the Policy: 14.003: Acceptable Use.
 The University of North Texas will inform individuals about information it collects about them, unless the information may be withheld pursuant to state or federal law.</description>
     </item>
     <item>
       <title>Coursera</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/coursera/</link>
+      <link>/campus-links/coursera/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/coursera/</guid>
+      <guid>/campus-links/coursera/</guid>
       <description>Coursera is a leading online learning platform for higher education, where more than 49 million learners from around the world come to learn skills of the future. UNT is among the world’s top universities and industry educators to partner with Coursera to offer courses, Specializations, certificates, and degree programs.</description>
     </item>
     <item>
       <title>Linked-In-Learning</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/linked-in-learning/</link>
+      <link>/campus-links/linked-in-learning/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/linked-in-learning/</guid>
+      <guid>/campus-links/linked-in-learning/</guid>
       <description>LinkedIn Learning is provided free of charge to UNT System students, faculty and staff. You can browse through more than 10,000 courses. With the upgrade, in addition to the English library, you have our multi-language access for courses in - German, French, Spanish, Japanese, Mandarin, and Portuguese</description>
     </item>
     <item>
       <title>Registrar Training: AD Astra and Courseleaf</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/registrar/</link>
+      <link>/campus-links/registrar/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/registrar/</guid>
+      <guid>/campus-links/registrar/</guid>
       <description>The UNT Registrar provides online training or AD Astra, Courseleaf, and other services. This website provides a link to the materaisl for each of the applications provided by their department. The training materials vary by application: some are available as pdfs, while others have full video tutorials.
 Courseleaf is a curriculum management solution that is used by the University of North Texas. CourseLeaf offers five software modules that integrate with each other and your system of record to cover everything from course inception through course registration.</description>
     </item>
     <item>
       <title>Safety Training</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/safety-training/</link>
+      <link>/campus-links/safety-training/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/safety-training/</guid>
+      <guid>/campus-links/safety-training/</guid>
       <description>
 Prior to using the Digital Fabrication Lab equipment all users must complete a mandatory Safety Training. Use the link above to begibn the safety training. </description>
     </item>
     <item>
       <title>Software: What is available to students?</title>
-      <link>//imagelessthought.github.io/mainroad/campus-links/software/</link>
+      <link>/campus-links/software/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/campus-links/software/</guid>
+      <guid>/campus-links/software/</guid>
       <description>Follow the link above for a list of the software titles available in the College of Visual Arts and Design spaces. Unless noted, all software is available in each of our learning spaces, the Computer Lab, the Digital Fabrication Lab, and on the UNT Online Computer Lab.</description>
     </item>
   </channel>

@@ -1,5 +1,5 @@
 ---
 title: Departments
-layout: list-depts
-authorbox: False
+layout: list-owner
+authorbox: "True"
 ---

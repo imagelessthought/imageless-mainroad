@@ -6,7 +6,7 @@
 	</header>
 	{{- end }}
 	{{- with .Content }}
-	<div class="content main__content clearfixhalf">
+	<div class="content main__content clearfix">
 		{{ . }}
 	</div>
 	{{- end }}
@@ -14,5 +14,6 @@
 		{{- .Render "summary" }}
 	{{- end }}
 </main>
+{{ partial "authorbox.html" . }}
 {{ partial "pagination.html" . }}
 {{ end }}

@@ -1,13 +1,13 @@
 ---
-title: Classroom | ClassLab Support
+title: Classroom | Instructional Support
+subtitle: Providing on-site support for all specialized instructional spaces within the Art buildings.
 date: 2023-10-04
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-layout: single-depts
 thumbnail: "img/conference-education-icon.svg"
 exclude_from_recent: true
-authorbox: False
+authorbox: True
 ---
 Issues that hinder an instructor's ability to teach are given the highest priority at the College of Visual Arts and Design. If you are experiencing issues with the equipment in one of our classrooms during a scheduled class period, please **Submit a Ticket** by using the link on the instructor lectern computer and a technician will be dispatched to your location.
 <!--more-->

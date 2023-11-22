@@ -1,7 +1,7 @@
 ---
 title: "Github for Web Development: Campus Enterprise Agreement"
 subtitle: "Learn about the University Unlimited agreement that the university recently signed with GitHub."
-author: mbaggett
+layout: single-post
 date: 2023-10-12
 categories:
   - "Web Frameworks"
@@ -9,14 +9,12 @@ categories:
 tags: 
   - "Git"
   - "GitHub"
-nosearch: "True"
 postauthor: Michael Baggett
 postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: michael.baggett@unt.edu
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/branching-icon.svg"
-layout: single-posts
 ---
 UNT has entered into an [**University Unlimited**](https://education.github.com/ 'Github Global Campus') enterprise agreement with Github.  More details will be announced, but all faculty, staff and students will be elligible for Github Pro accounts, with many addtional features available for academics at no additional cost to the students. This article will help you get started using this service.
 <!--more-->

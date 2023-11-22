@@ -3,9 +3,9 @@ title: Having Trouble?
 description: Page with links to contact service desk, start a chat or submit a ticket.
 date: 2023-11-01:08:00
 authorbox: "True"
-layout: list
+layout: list-home
 ---
-<p class="welcome-box">We are the primary technology support hub for students, faculty, and staff. We directly support all technology resources and services provided by the college. If you need help with any resource in or outside of the college, we can help. Please contact us with any questions you have or for assistance with any issues you may be experiencing. You can contact us via our online service desk in Microsoft Teams and receive direct, immediate support. You may also submit a ticket and one of our technicians will follow up with you.</p>
+<p class="welcome-box">We are the primary technology support hub for the <b>College of Visual Arts and Design</b> students, faculty, and staff. We directly support all technology resources and services provided by the college. If you need help with any resource in or outside of the college, we can help. Please contact us with any questions you have or for assistance with any issues you may be experiencing. You can contact us via our online service desk in Microsoft Teams and receive direct, immediate support. You may also submit a ticket and one of our technicians will follow up with you.</p>
 
 <div class="service-desk-container">
 <div class="service-desk">

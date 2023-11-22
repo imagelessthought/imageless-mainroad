@@ -1,13 +1,13 @@
 ---
 title: Photo Documentation
+subtitle: Providing professional-grade photography for artists and designers in the college, students and faculty.
 date: 2023-10-01
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-layout: single-depts
 thumbnail: "img/camera-icon.svg"
 exclude_from_recent: true
-authorbox: False
+authorbox: True
 ---
 The Photo Documentation Service is open to CVAD students, faculty, and staff. Part of the function of the service is to create a database of student work that the university can pull from when creating promotional materials. Because of this, you will be required to sign a release to have your work photographed.
 <!--more-->

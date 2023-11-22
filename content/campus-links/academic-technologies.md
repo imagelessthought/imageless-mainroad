@@ -2,10 +2,10 @@
 title: Academic Technologies
 date: 2023-11-15
 owner:
-  - name: College of Visual Arts and Design
-    url: https://itservices.cvad.unt.edu
-layout: single-links
-image: "/img/university-building-icon.svg"
+  - name: Academic Technologies
+    url: https://at.unt.edu
+layout: single-portal
+thumbnail: "/img/university-building-icon.svg"
 portalurl: "https://at.unt.edu"
 exclude_from_recent: true
 ---

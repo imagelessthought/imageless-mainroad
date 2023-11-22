@@ -1,6 +1,12 @@
 ---
 title: "Modern Campus and Omni CMS"
 date: 2023-08-12
+layout: single-post
+categories:
+  - "Omni CMS"
+  - "Modern Campus"
+tags: 
+  - "UNT Websites"
 nosearch: "True"
 postauthor: Michael Baggett
 postauthorinfo: Director and Assistant Dean of Information Technology
@@ -8,8 +14,6 @@ postauthorarea: College of Visual Arts and Design
 postemail: michael.baggett@unt.edu
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/modern-campus.png"
-layout: single-posts
-exclude_from_recent: true
 ---
 The UNT campus is migrating from Drupal 7 to [Modern Campus, Omni CMS](https://moderncampus.com/resources/index.html 'Modern Campus and Omni CMS website'). This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.
 <!--more-->

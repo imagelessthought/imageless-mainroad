@@ -1,13 +1,13 @@
 ---
 title: Digital Fabrication Lab
+subtitle: A shared resource providing technology supporting digital fabrication.
 date: 2023-10-02
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-layout: single-depts
 thumbnail: "img/laser-icon.svg"
 exclude_from_recent: true
-authorbox: False
+authorbox: True
 ---
 The CVAD Digital Fabrication Lab is available without an additional charge or fee to all students enrolled in at least one CVAD course in each semester. We provide student access to high-end fabrication and maker equipment needed by our student population to meet course and professional requirements.
 <!--more-->

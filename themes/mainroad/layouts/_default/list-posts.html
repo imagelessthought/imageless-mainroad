@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <main class="main list" role="main">
 	{{- with .Title }}
 	<header class="main__header">
@@ -15,5 +14,6 @@
 		{{- .Render "summary-posts" }}
 	{{- end }}
 </main>
+{{ partial "authorbox.html" . }}
 {{ partial "pagination.html" . }}
 {{ end }}

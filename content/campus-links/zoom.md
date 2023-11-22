@@ -2,10 +2,10 @@
 title: "Zoom: Video-Conferencing"
 date: 2023-11-11
 owner:
-  - name: College of Visual Arts and Design
-    url: https://itservices.cvad.unt.edu
-layout: single-links
-image: "/img/zoom-icon.svg"
+  - name: Digital Strategy and Innovation
+    url: https://digitalstrategy.unt.edu/
+layout: single-portal
+thumbnail: "/img/zoom-icon.svg"
 portalurl: "https://itservices.cvad.unt.edu/zoom-help"
 exclude_from_recent: true
 ---

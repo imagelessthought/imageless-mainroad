@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="main list" role="main">
 	{{- with .Title }}
-	<header style="margin-bottom: 1.5rem" class="main__header">
+	<header class="main__header">
 		<h1 class="main__title">{{ . }}</h1>
 	</header>
 	{{- end }}
@@ -14,5 +14,6 @@
 		{{- .Render "summary-faq" }}
 	{{- end }}
 </main>
+{{ partial "authorbox.html" . }}
 {{ partial "pagination.html" . }}
 {{ end }}

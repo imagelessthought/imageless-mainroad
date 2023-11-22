@@ -2,10 +2,10 @@
 title: "Registrar Training: AD Astra and Courseleaf" 
 date: 2023-01-01
 owner:
-  - name: College of Visual Arts and Design
-    url: https://itservices.cvad.unt.edu
-layout: single-links
-image: "/img/unt_logo_fixed.png"
+  - name: UNT Registrar
+    url: https://registrar.unt.edu/
+layout: single-portal
+thumbnail: "/img/unt_logo_fixed.png"
 portalurl: "https://myunt.sharepoint.com/sites/Registrar/SOC/SitePages/Home.aspx"
 exclude_from_recent: true
 ---

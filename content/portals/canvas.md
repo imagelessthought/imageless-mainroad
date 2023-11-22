@@ -4,9 +4,9 @@ date: 2023-10-05
 owner:
   - name: Digital Strategy and Innovation
     url: https://digitalstrategy.unt.edu/
-layout: single-portal
-image: "/img/canvas.png"
+thumbnail: "/img/canvas.png"
 portalurl: "https://itservices.cvad.unt.edu/lms"
+layout: single-portal
 ---
 [Canvas LMS](https://itservices.cvad.unt.edu/lms/ 'Canvas LMS'), is the online learning management solution for the University of North Texas that is available to all students and instructors. Canvas LMS is an open-source Learning Management System that serves as a central hub for online, hybrid, and in-person classrooms. As a modern education tool, Canvas LMS connects teachers and educators to their students.
 

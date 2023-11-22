@@ -2,247 +2,196 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/academic-technologies/</loc>
+    <loc>/campus-links/academic-technologies/</loc>
     <lastmod>2023-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/</loc>
+    <loc>/campus-links/</loc>
     <lastmod>2023-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/</loc>
+    <loc>/</loc>
     <lastmod>2023-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/adobe-buy/</loc>
+    <loc>/campus-links/adobe-buy/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/emergency-procedures/</loc>
+    <loc>/campus-links/emergency-procedures/</loc>
     <lastmod>2023-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/guacamole/</loc>
+    <loc>/campus-links/guacamole/</loc>
     <lastmod>2023-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/zoom/</loc>
+    <loc>/campus-links/zoom/</loc>
     <lastmod>2023-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/audio-visual/</loc>
+    <loc>/campus-links/audio-visual/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/git/</loc>
+    <loc>/categories/git/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/github/</loc>
+    <loc>/tags/github/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/posts/github-announcement/</loc>
+    <loc>/posts/github-announcement/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/linux/</loc>
+    <loc>/tags/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/os/</loc>
+    <loc>/categories/web-frameworks/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/</loc>
-    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/web-frameworks/</loc>
-    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/windows-subsystem-for-linux/</loc>
-    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/posts/windows-linux/</loc>
-    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/ai/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/posts/ai/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/artificial-intelligence/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/digital-signage/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/full-pageos/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/get-started/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/github-pages/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/posts/jekyll/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/raspberry-pi/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/static-pages/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/posts/universal-signage/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/web-applications/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/web-design/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/adobe/</loc>
+    <loc>/portals/adobe/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/student-web/astu3703/</loc>
+    <loc>/student-web/astu3703/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/booked/</loc>
+    <loc>/portals/booked/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/canvas/</loc>
+    <loc>/portals/canvas/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/departments/</loc>
+    <loc>/departments/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/faq/</loc>
+    <loc>/faq/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/repositories/</loc>
+    <loc>/repositories/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/repositories/github/</loc>
+    <loc>/repositories/github/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tech-links/github/</loc>
+    <loc>/tech-links/github/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/status/status-guacamole/</loc>
+    <loc>/status/status-guacamole/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/o365/</loc>
+    <loc>/portals/o365/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/mylab/</loc>
+    <loc>/portals/mylab/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/departments/service-desk/</loc>
+    <loc>/departments/service-desk/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/osd/</loc>
+    <loc>/portals/osd/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/</loc>
+    <loc>/portals/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/webprint/</loc>
+    <loc>/portals/webprint/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/services/research-support/</loc>
+    <loc>/services/research-support/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/status/</loc>
+    <loc>/status/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/services/</loc>
+    <loc>/services/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/stats/</loc>
+    <loc>/portals/stats/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/student-web/</loc>
+    <loc>/student-web/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tech-links/</loc>
+    <loc>/tech-links/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/webcheckout/</loc>
+    <loc>/portals/webcheckout/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/status/status-websites/</loc>
+    <loc>/status/status-websites/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/faq/example-faq/</loc>
+    <loc>/faq/example-faq/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/portals/zoom/</loc>
+    <loc>/portals/zoom/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/departments/instructional/</loc>
+    <loc>/departments/instructional/</loc>
     <lastmod>2023-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/departments/computer-lab/</loc>
+    <loc>/departments/computer-lab/</loc>
     <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/departments/digital-fabrication-lab/</loc>
+    <loc>/departments/digital-fabrication-lab/</loc>
     <lastmod>2023-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/services/event-and-exhibition-support/</loc>
+    <loc>/services/event-and-exhibition-support/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/departments/photo-documentation/</loc>
+    <loc>/departments/photo-documentation/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/documentation/</loc>
+    <loc>/documentation/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/file-storage/</loc>
+    <loc>/tags/file-storage/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/file-storage/</loc>
+    <loc>/categories/file-storage/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/isilion/</loc>
+    <loc>/categories/isilion/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/documentation/hammerspace/</loc>
+    <loc>/documentation/hammerspace/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/modern-campus/</loc>
+    <loc>/categories/modern-campus/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/documentation/omni-campus/</loc>
+    <loc>/documentation/omni-campus/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/omni-cms/</loc>
+    <loc>/categories/omni-cms/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/categories/pure-data/</loc>
+    <loc>/categories/pure-data/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/tags/unt-websites/</loc>
+    <loc>/tags/unt-websites/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/bridge/</loc>
+    <loc>/campus-links/bridge/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/computing-policies/</loc>
+    <loc>/campus-links/computing-policies/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/coursera/</loc>
+    <loc>/campus-links/coursera/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/linked-in-learning/</loc>
+    <loc>/campus-links/linked-in-learning/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/registrar/</loc>
+    <loc>/campus-links/registrar/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/safety-training/</loc>
+    <loc>/campus-links/safety-training/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//imagelessthought.github.io/mainroad/campus-links/software/</loc>
+    <loc>/campus-links/software/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url>
 </urlset>

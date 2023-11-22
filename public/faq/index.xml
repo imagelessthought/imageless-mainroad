@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Frequently Asked Questions on Imageless Thought</title>
-    <link>//imagelessthought.github.io/mainroad/faq/</link>
-    <description>Recent content in Frequently Asked Questions on Imageless Thought</description>
+    <title>Frequently Asked Questions on University of North Texas: College of Visual Arts and Design</title>
+    <link>/faq/</link>
+    <description>Recent content in Frequently Asked Questions on University of North Texas: College of Visual Arts and Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//imagelessthought.github.io/mainroad/faq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where can I find the list of computer labs on campus?</title>
-      <link>//imagelessthought.github.io/mainroad/faq/example-faq/</link>
+      <link>/faq/example-faq/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//imagelessthought.github.io/mainroad/faq/example-faq/</guid>
+      <guid>/faq/example-faq/</guid>
       <description>A list of all of the available computer labs on the UNT campus can be found at the Academic Technologies website.</description>
     </item>
   </channel>

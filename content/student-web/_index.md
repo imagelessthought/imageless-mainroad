@@ -1,5 +1,5 @@
 ---
 title: Student Web Galleries
-layout: list-webg
+layout: show-list-dept
 authorbox: "True"
 ---

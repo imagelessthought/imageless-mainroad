@@ -1,33 +1,28 @@
-<article class="list__item-portal post" style="padding-top: .75rem">
-  <header>
-    <div class="post__grid-short"> 
-    <div><span style="display: flex; align-items: center;">
-       <span class="portal-head">
-       {{- with .Params.portalurl }}
-       <a href="{{ . }}" rel="bookmark">
-       {{- end }}
-       <img class="portalimg" src="{{ .Params.image }}" alt="{{ .Title }}">
-       {{- with .Params.portalurl }}
-      </a>
-       {{- end }}
-       </span>
-       </span>
-    </div>
-    <div><span style="display: flex; align-items: center;">
-       <span class="list__title post__title">
-           {{- with .Params.portalurl }}
-           <a href="{{ . }}" rel="bookmark">
-           {{- end }}
-           {{ .Title }}
-           {{- with .Params.portalurl }}
-         </a>
-           {{- end }}
-     </span>
-    </span>
-    </div>
-    </div>
-</header>
-  <div class="content list__excerpt post__content clearfix-links">
-    {{ .Content }}
-  </div>
+<article class="list__item post">
+	{{ partial "post_thumbnail-portal.html" (dict "class" "list" "page" .) }}
+	<header class="list__header">
+		<h2 class="list__title post__title">
+            {{- with .Params.portalurl }}
+			<a href="{{ . }}" rel="bookmark">
+                {{ end }}
+			{{ .Title }}
+			</a>
+		</h2>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		{{ .Summary }}
+	</div>
+	{{- if .Site.Params.readmore }}
+	{{- if .Truncated }}
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
+	</div>
+	{{- end }}
+	{{- end }}
+	{{- with .Params.lead }}
+	<p class="list__lead post__lead">{{ . }}</p>
+	{{- end }}
+	{{ with partial "post_meta_unit.html" . -}}
+	<div class="list__meta meta">{{ . }}</div>
+	{{- end }}
 </article>

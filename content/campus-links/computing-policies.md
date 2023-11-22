@@ -2,10 +2,10 @@
 title: "Computing Policies: Acceptable Use and Privacy"
 date: 2023-01-01
 owner:
-  - name: College of Visual Arts and Design
-    url: https://itservices.cvad.unt.edu
-layout: single-links
-image: "/img/study-icon.svg"
+  - name: UNT System  
+    url: https://technology.untsystem.edu/
+layout: single-portal
+thumbnail: "/img/study-icon.svg"
 portalurl: "https://policy.unt.edu/policy/14-003"
 exclude_from_recent: true
 ---

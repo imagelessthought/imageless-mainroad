@@ -4,8 +4,8 @@ date: 2023-11-13
 owner:
   - name: Emergency Management and Safety Services
     url: https://emergency.unt.edu/
-layout: single-links
-image: "/img/emergency-icon.svg"
+layout: single-portal
+thumbnail: "/img/emergency-icon.svg"
 portalurl: "https://emergency.unt.edu"
 exclude_from_recent: true
 ---

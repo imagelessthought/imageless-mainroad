@@ -2,10 +2,10 @@
 title: Bridge Training
 date: 2023-01-01
 owner:
-  - name: College of Visual Arts and Design
-    url: https://itservices.cvad.unt.edu
-layout: single-links
-image: "/img/unt_logo_fixed.png"
+  - name: UNT System
+    url: https://technology.untsystem.edu/
+layout: single-portal
+thumbnail: "/img/unt_logo_fixed.png"
 portalurl: "https://training.unt.edu/unt-bridge-resources"
 exclude_from_recent: true
 ---

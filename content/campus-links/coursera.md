@@ -2,10 +2,10 @@
 title: Coursera
 date: 2023-01-01
 owner:
-  - name: College of Visual Arts and Design
-    url: https://itservices.cvad.unt.edu
-layout: single-links
-image: "/img/coursera-icon.svg"
+  - name: UNT System  
+    url: https://technology.untsystem.edu/
+layout: single-portal
+thumbnail: "/img/coursera-icon.svg"
 portalurl: "https://online.unt.edu/CourseraForUNT"
 exclude_from_recent: true
 ---
