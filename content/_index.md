@@ -11,7 +11,7 @@ layout: list-home
 <div class="service-desk">
 <div class="img-container">
 <a href="/redirects/rdir-service-desk.html" alt="Chat with Service Desk Technician" title="Chat with Service Desk Technician">
-<img src="/img/help_all-green.svg" alt="Chat with Service Desk Technician">
+<img src="/mainroad/img/help_all-green.svg" alt="Chat with Service Desk Technician">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -22,7 +22,7 @@ layout: list-home
 <div class="service-desk">
 <div class="img-container">
 <a href="https://unts.service-now.com/saml_redirector.do?sysparm_uri=/unt?id=search%26q%3Dcvad-direct" alt="Submit a ServiceNow Ticket to the Service Desk" title="Submit a Support Ticket">
-<img src="/img/ticket3.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
+<img src="/mainroad/img/ticket3.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
 </a>
 </div>
 <div style="margin: 0 3rem;">
