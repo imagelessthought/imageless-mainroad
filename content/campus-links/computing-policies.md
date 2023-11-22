@@ -5,7 +5,7 @@ owner:
   - name: UNT System  
     url: https://technology.untsystem.edu/
 layout: single-portal
-thumbnail: "/img/study-icon.svg"
+thumbnail: "/mainroad/img/study-icon.svg"
 portalurl: "https://policy.unt.edu/policy/14-003"
 exclude_from_recent: true
 ---

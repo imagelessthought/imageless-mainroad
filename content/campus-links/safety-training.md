@@ -5,7 +5,7 @@ owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
 layout: single-portal
-thumbnail: "/img/safety-icon.svg"
+thumbnail: "/mainroad/img/safety-icon.svg"
 portalurl: "https://itservices.cvad.unt.edu/safety-training/"
 exclude_from_recent: true
 ---

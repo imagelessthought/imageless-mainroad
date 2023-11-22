@@ -4,7 +4,7 @@ date: 2023-10-05
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-thumbnail: "/img/adobe-creative-cloud-icon.svg"
+thumbnail: "/mainroad/img/adobe-creative-cloud-icon.svg"
 portalurl: "https://itservices.cvad.unt.edu/adobe"
 layout: single-portal
 ---

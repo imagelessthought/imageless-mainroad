@@ -4,7 +4,7 @@ date: 2023-10-05
 owner:
   - name: Administrative Information Technology Services
     url: https://aits.unt.edu/software/downloads
-thumbnail: "/img/generate-report-icon.svg"
+thumbnail: "/mainroad/img/generate-report-icon.svg"
 portalurl: "https://itservices.cvad.unt.edu/stats"
 layout: single-portal
 ---

@@ -5,7 +5,7 @@ owner:
   - name: UNT System  
     url: https://technology.untsystem.edu/
 layout: single-portal
-thumbnail: "/img/coursera-icon.svg"
+thumbnail: "/mainroad/img/coursera-icon.svg"
 portalurl: "https://online.unt.edu/CourseraForUNT"
 exclude_from_recent: true
 ---

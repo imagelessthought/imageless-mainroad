@@ -4,7 +4,7 @@ date: 2023-10-05
 owner:
   - name: Administrative Information Technology Services
     url: https://aits.unt.edu/software/downloads
-thumbnail: "/img/logo-papercut.png"
+thumbnail: "/mainroad/img/logo-papercut.png"
 portalurl: "https://itservices.cvad.unt.edu/webprint"
 layout: single-portal
 ---

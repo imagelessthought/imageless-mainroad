@@ -5,7 +5,7 @@ owner:
   - name: Academic Technologies
     url: https://at.unt.edu
 layout: single-portal
-thumbnail: "/img/university-building-icon.svg"
+thumbnail: "/mainroad/img/university-building-icon.svg"
 portalurl: "https://at.unt.edu"
 exclude_from_recent: true
 ---
