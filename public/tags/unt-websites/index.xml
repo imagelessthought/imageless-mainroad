@@ -6,15 +6,14 @@
     <description>Recent content in UNT Websites on University of North Texas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/unt-websites/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://imagelessthought.github.io/mainroad/tags/unt-websites/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modern Campus and Omni CMS</title>
       <link>https://imagelessthought.github.io/mainroad/documentation/omni-campus/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/documentation/omni-campus/</guid>
       <description>&lt;p&gt;The UNT campus is migrating from Drupal 7 to &lt;a href=&#34;https://moderncampus.com/resources/index.html&#34; title=&#34;Modern Campus and Omni CMS website&#34;&gt;Modern Campus, Omni CMS&lt;/a&gt;. This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

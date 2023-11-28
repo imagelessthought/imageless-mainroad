@@ -363,6 +363,7 @@ h6 {
 a {
 	color: var(--green);
 	text-decoration: none;
+	font-weight: 600;
 }
 
 a:hover {
@@ -1709,12 +1710,16 @@ a.widget__link:active {
 	.menu__btn-text {
 	  display: inline-block;
 	  text-align: center;
-	  margin: auto;
+	  margin: 0 1rem;
 	  padding: 0 1rem;
 	  color: var(--prime_white);
-	  font-size: 150%;
-	  font-weight: 800;
+	  font-size: 115%;
+	  font-weight: 400;
 	  width: 100%;
+	  border: 1px solid var(--cyan);
+	  border-radius: 4px;
+	  box-shadow: var(--cyan) 0 0 3px 2px;
+	  
 	}
 	
 	.menu__btn-logo {
@@ -1726,9 +1731,8 @@ a.widget__link:active {
 	.menu__btn-logo-img {
 			max-height: 2.95rem;
 			max-width: 2.95rem;
-			outline: 1px solid var(--prime_white);
 			border-radius: 4px;
-			box-shadow: var(--cyan) 0 0 3px 3px; 
+			box-shadow: var(--cyan) 0 0 3px 1px; 
 		}
 	
 	  .menu__item:first-child {
@@ -2352,14 +2356,14 @@ a.widget__link:active {
   }
 
   .marg1 {
-   padding: 0 0 0 2rem;
+   padding: 0 0 0 .35rem;
   }
 
   .marg1 a {
 	font-weight: 600;
 	background-color:var(--green3);
 	color: var(--prime_white);
-	padding: 0 1rem .15rem 1rem;
+	padding: 0 .5rem .15rem .5rem;
 	border-radius: 4px;
 	text-decoration: none!important;
   }
@@ -2368,7 +2372,7 @@ a.widget__link:active {
 	font-weight: 600;
 	background-color:var(--cyan);
 	color: var(--prime_black);
-	padding: 0 1rem .15rem 1rem;
+	padding: 0 .5rem .15rem .5rem;
 	text-decoration: none;
   }
 
@@ -2376,7 +2380,7 @@ a.widget__link:active {
 	font-weight: 600;
 	background-color:var(--theme-red);
 	color: var(--theme-orange);
-	padding: 0 1rem .15rem 1rem;
+	padding: 0 .5rem .15rem .5rem;
 	text-decoration: none;
   }
 
