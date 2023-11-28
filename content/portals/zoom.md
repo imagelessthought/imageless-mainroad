@@ -4,7 +4,7 @@ date: 2023-10-05
 owner:
   - name: Digital Strategy and Innovation
     url: https://digitalstrategy.unt.edu/
-thumbnail: "/mainroad/img/zoom-icon.svg"
+thumbnail: "img/zoom-icon.svg"
 portalurl: "https://itservices.cvad.unt.edu/zoom"
 layout: single-portal
 ---

@@ -5,7 +5,7 @@ owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
 layout: single-portal
-thumbnail: "/mainroad/img/guacamole-color-round.png"
+thumbnail: "img/guacamole-color-round.png"
 portalurl: "https://itservices.cvad.unt.edu/guacamole"
 exclude_from_recent: true
 ---

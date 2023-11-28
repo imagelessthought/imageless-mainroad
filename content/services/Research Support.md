@@ -1,6 +1,7 @@
 ---
 title: Research Consultation and Support
 date: 2023-10-05
+layout: single-owner
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu

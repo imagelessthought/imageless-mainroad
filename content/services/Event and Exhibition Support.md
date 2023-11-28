@@ -1,6 +1,7 @@
 ---
 title: Event and Exhibition Support
 subtitle: A shared resource providing technology supporting digital fabrication.
+layout: single-owner
 date: 2023-10-01
 owner:
   - name: College of Visual Arts and Design

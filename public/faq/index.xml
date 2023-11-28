@@ -6,14 +6,15 @@
     <description>Recent content in Frequently Asked Questions on University of North Texas: College of Visual Arts and Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://imagelessthought.github.io/mainroad/faq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where can I find the list of computer labs on campus?</title>
       <link>https://imagelessthought.github.io/mainroad/faq/example-faq/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://imagelessthought.github.io/mainroad/faq/example-faq/</guid>
       <description>A list of all of the available computer labs on the UNT campus can be found at the Academic Technologies website.</description>
     </item>
+    
   </channel>
 </rss>

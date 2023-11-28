@@ -5,7 +5,7 @@ owner:
   - name: UNT System
     url: https://technology.untsystem.edu/
 layout: single-portal
-thumbnail: "/mainroad/img/lil2.png"
+thumbnail: "img/lil2.png"
 portalurl: "https://itss.untsystem.edu/divisions/mrs/it-training/linkedin-learning.php"
 exclude_from_recent: true
 ---

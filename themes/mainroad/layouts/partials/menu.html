@@ -1,3 +1,4 @@
+{{- $logoImage := .Site.Params.logo.image -}}
 {{- if .Site.Menus.main }}
 <nav class="menu">
 
@@ -5,9 +6,15 @@
     <button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
       <span class="menu__btn-title" tabindex="-1">{{ T "menu_label" }}</span>
     </button>
+  <span style="width: 100%; display: flex; align-items: center;">
     <span class="menu__btn-text">{{ .Site.Author.name }}</span>
+    {{ with $logoImage -}}
+    <span class="menu__btn-logo">
+      <a href="https://www.unt.edu" alt="UNT"><img class="menu__btn-logo-img" src="{{ . | relURL }}"></a>
+    </span>
+  </span>
+  {{- end -}}
   </div>
-
 
 <!--  <button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
     <span class="menu__btn-title" tabindex="-1">{{ T "menu_label" }}</span>

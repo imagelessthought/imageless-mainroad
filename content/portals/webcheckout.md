@@ -4,7 +4,7 @@ date: 2023-10-05
 owner:
   - name: Academic Technologies
     url: https://at.unt.edu/ 
-thumbnail: "/mainroad/img/webcheckout.png"
+thumbnail: "img/webcheckout.png"
 portalurl: "https://itservices.cvad.unt.edu/equipment-checkout"
 layout: single-portal
 ---

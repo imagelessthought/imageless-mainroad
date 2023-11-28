@@ -1,5 +1,5 @@
 ---
-title: Student Web Galleries
-layout: show-list-dept
+title: Student Websites
+layout: list-owner
 authorbox: "True"
 ---

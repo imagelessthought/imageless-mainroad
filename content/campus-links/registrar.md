@@ -5,7 +5,7 @@ owner:
   - name: UNT Registrar
     url: https://registrar.unt.edu/
 layout: single-portal
-thumbnail: "/mainroad/img/unt_logo_fixed.png"
+thumbnail: "img/unt_logo_fixed.png"
 portalurl: "https://myunt.sharepoint.com/sites/Registrar/SOC/SitePages/Home.aspx"
 exclude_from_recent: true
 ---

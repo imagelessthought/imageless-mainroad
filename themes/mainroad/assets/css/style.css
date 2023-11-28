@@ -54,8 +54,7 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
-main,
+hgroup, 
 nav,
 section {
 	display: block;
@@ -263,7 +262,7 @@ body {
 	padding: .25rem;
 }
 
-.menu__btn-text {
+.menu__btn-text, .menu__btn-logo {
    display: none;
 }
 
@@ -1699,20 +1698,36 @@ a.widget__link:active {
 	.wrapper {
 		display: block;
 	}
+
+	.menu__btn-container {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: .25rem 0;
+	}
+	
 	.menu__btn-text {
-      display: inline-block;
+	  display: inline-block;
 	  text-align: left;
-	  margin-left: 1rem;
+	  margin-left: 2rem;
 	  color: var(--prime_white);
 	  font-size: 120%;
 	  font-weight: 600;
-	  	}
-	.menu__btn-container {
-		display: flex;
-		align-items: center;
-		width: fit-content;
-		padding: .25rem 0;
-	  }
+	}
+	
+	.menu__btn-logo {
+	  display: inline-block;
+	  margin-left: auto; /* Adjusted to margin-left: auto */
+	  margin-right: 1rem;
+	}
+
+	.menu__btn-logo-img {
+			max-height: 3rem;
+			max-width: 3rem;
+			outline: 1px solid var(--prime_white);
+			border-radius: 4px;
+			box-shadow: var(--cyan) 0 0 3px 3px; 
+		}
 	
 	  .menu__item:first-child {
 		padding: 0;

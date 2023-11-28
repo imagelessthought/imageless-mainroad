@@ -6,7 +6,7 @@ owner:
     url: https://cob.unt.edu/bits
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-thumbnail: "/mainroad/img/computer-remote-access-icon.svg"
+thumbnail: "img/computer-remote-access-icon.svg"
 portalurl: "https://itservices.cvad.unt.edu/mylab"
 layout: single-portal
 ---

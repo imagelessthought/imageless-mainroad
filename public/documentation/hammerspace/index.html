@@ -244,15 +244,15 @@ You will want to grant Full Control permissions to your administrator security g
 <p>The child folders under the SHARED folder are very similar: You don&rsquo;t want users to be able to delete or modify the child folder itself but they do need to be able to write and modify the contents in the root of the folder and in all subfolders.</p>
 <h3 id="home-child-folders">HOME Child Folders</h3>
 <p>This command grants modify writes to the user for the contents of the user&rsquo;s HOME folder at the root level but not the write to delete or modify the folder itself (&ldquo;This folder only&rdquo;):</p>
-<pre tabindex="0"><code>icacls &#34;EUID&#34; /grant &#34;UNT\EUID&#34;:(RX,W)
+<pre tabindex="0"><code>icacls &quot;EUID&quot; /grant &quot;UNT\EUID&quot;:(RX,W)
 </code></pre><p>This command grants the user modify permssions to the rest of the folder, everything under the root fo their HOME folder (&ldquo;This subfolder and files only&rdquo;)&quot;</p>
-<pre tabindex="0"><code>icacls &#34;EUID&#34; /grant &#34;UNT\EUID&#34;:(OI)(CI)(IO)(M)
+<pre tabindex="0"><code>icacls &quot;EUID&quot; /grant &quot;UNT\EUID&quot;:(OI)(CI)(IO)(M)
 </code></pre><h3 id="shared-child-folders">Shared Child Folders</h3>
 <p>For the purposes of this documentation we will assume the child SHARED folders are departments.</p>
 <p>This command grants modify writes to a security group for the contents of the department&rsquo;s SHARED folder at the root level but not the write to delete or modify the folder itself (&ldquo;This folder only&rdquo;):</p>
-<pre tabindex="0"><code>icacls &#34;department folder name&#34; /grant &#34;UNT\department security group&#34;:(RX,W)
+<pre tabindex="0"><code>icacls &quot;department folder name&quot; /grant &quot;UNT\department security group&quot;:(RX,W)
 </code></pre><p>This command grants the user modify permssions to the rest of the folder, everything under the root fo their HOME folder (&ldquo;This subfolder and files only&rdquo;)&quot;</p>
-<pre tabindex="0"><code>icacls &#34;department folder name&#34; /grant &#34;UNT\department security group&#34;:(OI)(CI)(IO)(M)
+<pre tabindex="0"><code>icacls &quot;department folder name&quot; /grant &quot;UNT\department security group&quot;:(OI)(CI)(IO)(M)
 </code></pre><p>When testing, be aware that it can take a while for the permissions to fully propagate for the users. I have learned to wait about an hour before testing. Then completely restart your testing computer (don&rsquo;t just logout) before logging in with your test account. You may set permssions on a group of folders at the same time, but that does not mean the permissions will become active at the same time. Give it an hour.</p>
 <h2 id="file-migration">File Migration</h2>
 <p>We will be using the Microsoft tool Robocopy to migrate the file. There are other tools available, use what you are comfortable with, but this works.</p>
@@ -393,7 +393,7 @@ Dest : {destination}</p>
 		
 		<div class="footer__copyright">
 			&copy; 2023 College of Visual Arts and Design.
-			<span class="footer__copyright-credits"> Some rights reserved</span>
+			<span class="footer__copyright-credits"> Some rights reserved.</span>
 		</div>
 	</div>
 </footer>

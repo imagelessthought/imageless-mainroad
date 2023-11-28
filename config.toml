@@ -1,5 +1,5 @@
 baseurl = "https://imagelessthought.github.io/mainroad/"
-title = "University of North Texas: College of Visual Arts and Design"
+title = "University of North Texas"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"

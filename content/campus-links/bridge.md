@@ -5,7 +5,7 @@ owner:
   - name: UNT System
     url: https://technology.untsystem.edu/
 layout: single-portal
-thumbnail: "/mainroad/img/unt_logo_fixed.png"
+thumbnail: "img/unt_logo_fixed.png"
 portalurl: "https://training.unt.edu/unt-bridge-resources"
 exclude_from_recent: true
 ---
