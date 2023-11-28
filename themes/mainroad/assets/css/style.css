@@ -1708,11 +1708,12 @@ a.widget__link:active {
 	
 	.menu__btn-text {
 	  display: inline-block;
-	  text-align: left;
-	  margin-left: 1.25rem;
+	  text-align: center;
+	  margin: auto;
 	  color: var(--prime_white);
-	  font-size: 115%;
+	  font-size: 150%;
 	  font-weight: 800;
+	  width: 100%;
 	}
 	
 	.menu__btn-logo {
