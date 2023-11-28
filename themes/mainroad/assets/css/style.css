@@ -2383,14 +2383,19 @@ a.widget__link:active {
   .welcome-box {
 	background-color: #162129;
 	opacity: .85;
-	font-size: .75rem;
+	font-size: .85rem;
 	color: var(--prime_white);
 	border-radius: 4px;
 	border: 2px solid var(--cyan);
 	box-shadow: var(--green3) 0 0 4px 4px;
-	padding: 1.5rem!important;
+	padding: .75rem!important;
 	text-align: justify;
 	margin: 1.5rem auto 3.5rem auto;
+  }
+
+  .welcome-box b {
+	color: var(--cyan);
+	font-weight: 800;
   }
 
   .reverseit {

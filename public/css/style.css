@@ -1701,11 +1701,13 @@ a.widget__link:active {
 	
 	.menu__btn-text {
 	  display: inline-block;
-	  text-align: left;
-	  margin-left: 1.25rem;
+	  text-align: center;
+	  margin: auto;
+	  padding: 0 1rem;
 	  color: var(--prime_white);
-	  font-size: 115%;
+	  font-size: 150%;
 	  font-weight: 800;
+	  width: 100%;
 	}
 	
 	.menu__btn-logo {
@@ -2374,14 +2376,19 @@ a.widget__link:active {
   .welcome-box {
 	background-color: #162129;
 	opacity: .85;
-	font-size: 1.05rem;
+	font-size: .85rem;
 	color: var(--prime_white);
 	border-radius: 4px;
 	border: 2px solid var(--cyan);
 	box-shadow: var(--green3) 0 0 4px 4px;
-	padding: 1.5rem!important;
+	padding: .75rem!important;
 	text-align: justify;
 	margin: 1.5rem auto 3.5rem auto;
+  }
+
+  .welcome-box b {
+	color: var(--cyan);
+	font-weight: 800;
   }
 
   .reverseit {
