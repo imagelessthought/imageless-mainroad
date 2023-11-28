@@ -1711,7 +1711,7 @@ a.widget__link:active {
 	  text-align: left;
 	  margin-left: 2rem;
 	  color: var(--prime_white);
-	  font-size: 120%;
+	  font-size: 110%;
 	  font-weight: 600;
 	}
 	
@@ -1722,8 +1722,8 @@ a.widget__link:active {
 	}
 
 	.menu__btn-logo-img {
-			max-height: 3rem;
-			max-width: 3rem;
+			max-height: 2.5rem;
+			max-width: 2.5rem;
 			outline: 1px solid var(--prime_white);
 			border-radius: 4px;
 			box-shadow: var(--cyan) 0 0 3px 3px; 
