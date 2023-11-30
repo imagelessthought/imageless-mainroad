@@ -2,12 +2,12 @@
 <div class="meta__item-author meta__item">
 <!--	{{ partial "svg/author.svg" (dict "class" "meta__icon") -}}  -->
 
-    <div style="background-color: white;">
+    <div class="post__author-wrap">
         {{ with .Params.date | time.Format ":date_medium" }}
-            <div><span class="post__author-date">Date: </span><span class="post__author-date">{{ . }}</span></div>
+            <span class="post__author-date-wrap post__author-date"></span><span class="post__author-date">{{ . }} :</span>
         {{ end }}
         {{ if and .Params.postauthor .Params.postemail }}
-            <span class="post__author"><a href="mailto:{{ .Params.postemail }}">{{ .Params.postauthor }}</a></span><span>: </span>
+            <span class="post__author"><a href="mailto:{{ .Params.postemail }}">{{ .Params.postauthor }}</a></span><span style="color: var(--light_gray);"> - </span>
         {{ else }}
             {{ with .Params.postauthor }}
                 <span class="post__author">{{ . }}</span><span>: </span>
@@ -17,15 +17,18 @@
         <span class="post__author-info">{{ . }}</span>
     {{ end }}
 
+    <!--
         {{ if and .Params.postauthorarea .Params.posturl }}
-            <p class="post__author-area"><a href="{{ .Params.posturl }}">{{ .Params.postauthorarea }}</a></p>
+            <p class="post__author-area"><a href="{{ .Params.posturl }}">{{ .Params.postauthorarea }}</a></p>   
         {{ else }}
             {{ with .Params.postauthorarea }}
                 <p class="post__author-area">{{ . }}</p>
             {{ end }}
         {{ end }}
-    </div>
 
+    -->
+    </div>
 <!--	<span class="meta__text">{{ .Site.Author.name }}</span>  -->
 </div>
 {{- end -}}
+<hr style="border-color: var(--theme-blue);">

@@ -28,7 +28,7 @@
 
 # Authorbox
 - id: authorbox_name
-  translation: "About {{ .Name }}"
+  translation: "{{ .Name }}"
 
 # Sidebar
 - id: sidebar_warning
@@ -64,7 +64,7 @@
 # Footer
 - id: footer_credits
   translation:
-    " Some rights reserved."
+    "Some rights reserved."
 
 # 404
 - id: 404_title
