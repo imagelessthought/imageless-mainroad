@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub on University of North Texas</title>
+    <title>GitHub on Imageless Thought</title>
     <link>https://imagelessthought.github.io/mainroad/tags/github/</link>
-    <description>Recent content in GitHub on University of North Texas</description>
+    <description>Recent content in GitHub on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://imagelessthought.github.io/mainroad/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github for Web Development: Campus Enterprise Agreement</title>
       <link>https://imagelessthought.github.io/mainroad/posts/github-announcement/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://imagelessthought.github.io/mainroad/posts/github-announcement/</guid>
       <description>&lt;p&gt;UNT has entered into an &lt;a href=&#34;https://education.github.com/&#34; title=&#34;Github Global Campus&#34;&gt;&lt;strong&gt;University Unlimited&lt;/strong&gt;&lt;/a&gt; enterprise agreement with Github.  More details will be announced, but all faculty, staff and students will be elligible for Github Pro accounts, with many addtional features available for academics at no additional cost to the students. This article will help you get started using this service.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

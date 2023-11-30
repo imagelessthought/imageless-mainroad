@@ -30,6 +30,52 @@ layout: list-home
 <p class="nomobile" style="text-align: justify">If you prefer, you may click the button to <b>the left</b> to submit a support ticket and one of our technicians will follow up with you by email.</p>
 </div>
 </div>
+<div class="service-desk">
+<div class="img-container">
+<a href="/redirects/rdir-service-desk.html" alt="Chat with Service Desk Technician" title="Chat with Service Desk Technician">
+<img src="/mainroad/img/help_all-green.svg" alt="Chat with Service Desk Technician">
+</a>
+</div>
+<div style="margin: 0 3rem;">
+<h3 class="nomobile">Online Service Desk</h3>
+<p class="nomobile" style="text-align: justify">Our Online Service Desk is available in Microsoft Teams for you to receive direct and immediate support. Click the button to <b>the left</b> to begin a remote support session with one of our technicians.</p>
+</div>
+</div>
+<div class="service-desk">
+<div class="img-container">
+<a href="https://unts.service-now.com/saml_redirector.do?sysparm_uri=/unt?id=search%26q%3Dcvad-direct" alt="Submit a ServiceNow Ticket to the Service Desk" title="Submit a Support Ticket">
+<img src="/mainroad/img/ticket3.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
+</a>
+</div>
+<div style="margin: 0 3rem;">
+<h3 class="nomobile">Submit a Support Ticket</h3>
+<p class="nomobile" style="text-align: justify">If you prefer, you may click the button to <b>the left</b> to submit a support ticket and one of our technicians will follow up with you by email.</p>
+</div>
+</div>
+
+<div class="service-desk">
+<div class="img-container">
+<a href="/redirects/rdir-service-desk.html" alt="Chat with Service Desk Technician" title="Chat with Service Desk Technician">
+<img src="/mainroad/img/help_all-green.svg" alt="Chat with Service Desk Technician">
+</a>
+</div>
+<div style="margin: 0 3rem;">
+<h3 class="nomobile">Online Service Desk</h3>
+<p class="nomobile" style="text-align: justify">Our Online Service Desk is available in Microsoft Teams for you to receive direct and immediate support. Click the button to <b>the left</b> to begin a remote support session with one of our technicians.</p>
+</div>
+</div>
+<div class="service-desk">
+<div class="img-container">
+<a href="https://unts.service-now.com/saml_redirector.do?sysparm_uri=/unt?id=search%26q%3Dcvad-direct" alt="Submit a ServiceNow Ticket to the Service Desk" title="Submit a Support Ticket">
+<img src="/mainroad/img/ticket3.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
+</a>
+</div>
+<div style="margin: 0 3rem;">
+<h3 class="nomobile">Submit a Support Ticket</h3>
+<p class="nomobile" style="text-align: justify">If you prefer, you may click the button to <b>the left</b> to submit a support ticket and one of our technicians will follow up with you by email.</p>
+</div>
+</div>
+
 </div> 
 <style>
 .list__item {
