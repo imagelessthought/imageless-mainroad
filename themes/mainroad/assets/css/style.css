@@ -4,7 +4,6 @@
 {{- $fontFamilyPrimary := .Site.Params.style.vars.fontFamilyPrimary | default $fontSans -}}
 {{- $fontFamilySecondary := .Site.Params.style.vars.fontFamilySecondary | default $fontMono -}}
 
-
 html {
     --green: #00853e;
     --green2: #00A950;
@@ -1732,14 +1731,16 @@ a.widget__link:active {
 	  display: inline-block;
 	  text-align: center;
 	  margin: 0 1rem;
-	  padding: 0 1rem;
-	  color: var(--prime_white);
-	  font-size: 115%;
+	  padding: 0 1rem .2rem 1rem;
+	  color: var(--theme-blue);
+	  font-size: 180%;
 	  font-weight: 400;
 	  width: 100%;
 	  border: 1px solid var(--cyan);
 	  border-radius: 4px;
 	  box-shadow: var(--cyan) 0 0 3px 2px;
+	  font-family: 'Changa One', sans-serif;
+	  background-color: var(--prime_white);
 	  
 	}
 	
@@ -1754,6 +1755,7 @@ a.widget__link:active {
 			max-width: 2.95rem;
 			border-radius: 4px;
 			box-shadow: var(--cyan) 0 0 3px 1px; 
+			padding: .1rem .25rem .1rem .1rem;
 		}
 	
 	  .menu__item:first-child {
