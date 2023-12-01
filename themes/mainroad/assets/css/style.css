@@ -1747,7 +1747,7 @@ a.widget__link:active {
 	.menu__btn-logo {
 	  display: inline-block;
 	  margin-left: auto; /* Adjusted to margin-left: auto */
-	  margin-right: 1rem;
+	  margin-right: .4rem;
 	}
 
 	.menu__btn-logo-img {
