@@ -6,7 +6,7 @@ layout: single-owner
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-thumbnail: "img/helpdesk_00853E.svg"
+thumbnail: "img/helpdesk_336699.svg"
 exclude_from_recent: true
 authorbox: True
 ---

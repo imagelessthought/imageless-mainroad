@@ -24,15 +24,15 @@ In the past we have maintained a separate support-focused website for our users:
 A link will need to be on the CVAD website that directs our users to the UNT Helpdesk to report IT issues or make a request, each area will have a custom landing pages, however. I have setup a redirect that can be used for our link. Their is not an official logo at present, but the logos below are candiates I proposed that use the [current brand colors](https://identityguide.unt.edu/create-our-look/color 'UNT Branding Colors').  They are in **SVG** format.  You can edit the colors of an svg file using this [free website](https://deeditor.com/ "DeEditor: CVG Editor").   
 
 <p style="margin-bottom: 1.5rem">
-<img src="/img/helpdesk-branded.svg" class="smpic">
-<img src="/img/helpdesk-branded3.svg" class="smpic">
-<img src="/img/helpdesk-branded4.svg" class="smpic">
-<img src="/img/helpdesk-branded2.svg" class="smpic">
-<img src="/img/helpdesk-branded5.svg" class="smpic">
-<img src="/img/helpdesk_00853E.svg" class="smpic">
-<img src="/img/helpdesk_509E2F.svg" class="smpic">
-<img src="/img/helpdesk_B9DCD2.svg" class="smpic">
-<img src="/img/helpdesk_C4D600.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded3.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded4.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded2.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded5.svg" class="smpic">
+<img src="/mainroad/img/helpdesk_00853E.svg" class="smpic">
+<img src="/mainroad/img/helpdesk_509E2F.svg" class="smpic">
+<img src="/mainroad/img/helpdesk_B9DCD2.svg" class="smpic">
+<img src="/mainroad/img/helpdesk_C4D600.svg" class="smpic">
 </p>
 
 ## CVAD Website ##

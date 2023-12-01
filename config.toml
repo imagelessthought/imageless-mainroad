@@ -104,7 +104,7 @@ sectionPagesMenu = 'main posts departments'
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/branded_bulb_padded.png" # Logo image. Path relative to "static"
+  image = "img/gears-blue.svg" # Logo image. Path relative to "static"
 # title = "Mainroad" # Logo title, otherwise will use site title 
   subtitle = "innovate ⚬ build ⚬ repeat" # Logo subtitle
   tagline = "Innovation Technology"
