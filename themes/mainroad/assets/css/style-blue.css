@@ -3,7 +3,7 @@
 {{- $fontMono := `SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace` -}}
 {{- $fontFamilyPrimary := .Site.Params.style.vars.fontFamilyPrimary | default $fontSans -}}
 {{- $fontFamilySecondary := .Site.Params.style.vars.fontFamilySecondary | default $fontMono -}}
-
+ 
 html {
 	--background: #2d2c2c;
 	--foreground: white;
