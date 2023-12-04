@@ -13,10 +13,12 @@
                 <span class="post__author">{{ . }}</span><span>: </span>
             {{ end }}
         {{ end }}
+        {{ with .Params.postauthorarea }}
+        <span class="postauthorarea"><b>{{ . }}</b></span> -
+        {{ end }}
         {{ with .Params.postauthorinfo }}
         <span class="post__author-info">{{ . }}</span>
-    {{ end }}
-
+        {{ end }}
     <!--
         {{ if and .Params.postauthorarea .Params.posturl }}
             <p class="post__author-area"><a href="{{ .Params.posturl }}">{{ .Params.postauthorarea }}</a></p>   
