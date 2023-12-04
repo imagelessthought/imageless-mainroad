@@ -33,7 +33,7 @@ html {
 	--button-active-back: #C0392B;
 	--h1c: white;
 	--h2c: #C5E1A5;
-	--hc: #C5E1A5;
+	--hc: white;
 	--hr: #dadada;
 	--markc: #fd5;
 	--figc: #666;
@@ -648,7 +648,7 @@ select {
 	max-height: 100px;
 	box-shadow: #162129 0 0 4px 4px;
 	border: 2px solid var(--thickborder3);
-	background-color: var(--back);
+	background-color: var(--background);
 	border-radius: 4px;
 	padding: .25rem .5rem;
 }

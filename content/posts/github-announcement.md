@@ -104,15 +104,15 @@ If you are looking for images for your website, I would start with these:
 The majority of the UXwing images are monochromatic (black on a transparent white background). The easiest way I have found to change the colors of an SVG file is to use this free tool: [DeEditor](https://deeditor.com/ 'Deeditor').
 
 <p style="margin-bottom: 1.5rem">
-<img src="/img/helpdesk-branded.svg" class="smpic">
-<img src="/img/helpdesk-branded3.svg" class="smpic">
-<img src="/img/helpdesk-branded4.svg" class="smpic">
-<img src="/img/helpdesk-branded2.svg" class="smpic">
-<img src="/img/helpdesk-branded5.svg" class="smpic">
-<img src="/img/helpdesk_00853E.svg" class="smpic">
-<img src="/img/helpdesk_509E2F.svg" class="smpic">
-<img src="/img/helpdesk_B9DCD2.svg" class="smpic">
-<img src="/img/helpdesk_C4D600.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded3.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded4.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded2.svg" class="smpic">
+<img src="/mainroad/img/helpdesk-branded5.svg" class="smpic">
+<img src="/mainroad/img/helpdesk_00853E.svg" class="smpic">
+<img src="/mainroad/img/helpdesk_509E2F.svg" class="smpic">
+<img src="/mainroad/img/helpdesk_B9DCD2.svg" class="smpic">
+<img src="/mainroad/img/helpdesk_C4D600.svg" class="smpic">
 </p>
 
 ### Other Resources ###

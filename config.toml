@@ -1,5 +1,5 @@
 baseurl = "https://imagelessthought.github.io/mainroad/"
-title = "Imageless Thought"
+title = "Information Technology Helpdesk"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
@@ -71,12 +71,12 @@ sectionPagesMenu = 'main posts departments'
     identifier = 'Repositories'
     parent = 'More'
 [Author] # Used in authorbox
-  name = "Imageless Thought"
+  name = "Information Technology Helpdesk"
   bio = 'On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.'
-  avatar = "img/cluster-data-icon-cyan.svg"
+  avatar = "img/green/cluster-data-icon-green.svg"
 [Params]
-  description = "Imageless Thought" # Site description. Used in meta description
-  copyright = "Imageless Thought |" # Footer copyright holder, otherwise will use site title
+  description = "Information Technology Helpdesk" # Site description. Used in meta description
+  copyright = "Information Technology Helpdesk |" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -104,9 +104,9 @@ sectionPagesMenu = 'main posts departments'
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/gears-blue.svg" # Logo image. Path relative to "static"
+  image = "img/unt_logo_fixed.png" # Logo image. Path relative to "static"
 # title = "Mainroad" # Logo title, otherwise will use site title 
-  subtitle = "innovate ⚬ build ⚬ repeat" # Logo subtitle
+  subtitle = "A centralized solution for a diverse environment" # Logo subtitle innovate ⚬ build ⚬ repeat
   tagline = "Innovation Technology"
 
 [Params.thumbnail]
