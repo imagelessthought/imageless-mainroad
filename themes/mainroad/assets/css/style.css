@@ -905,8 +905,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .meta {
-	font-size: 13px;
-	font-size: .8125rem;
+    font-weight: 400;
+	font-size: .8rem;
 	vertical-align: baseline;
 	color: var(--aurl);
 	border-radius: 4px; 
@@ -915,10 +915,11 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .meta a {
 	color: var(--aurl);
-	padding: .3rem .3rem; 
+	padding: .25rem; 
 	border-radius: 4px; 
-	background-color: var(--meta-back); 
-	width: fit-content
+	background-color: transparent; 
+	width: fit-content;
+	box-shadow: var(--shadow) 0 0 2px 1px;
 }
 
 .meta-post-author,
@@ -937,7 +938,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .meta__item {
 	display: inline;
-	margin-left: 15px;
 }
 
 .meta__item:first-child {
@@ -1780,7 +1780,7 @@ a.widget__link:active {
 	  text-align: center;
 	  margin: 0 1rem;
 	  padding: 0 1rem .2rem 1rem;
-	  font-size: 160%;
+	  font-size: 120%;
 	  font-weight: 600!important;
 	  width: 100%;
 /*	  border: 1px solid var(--btn-border); */
