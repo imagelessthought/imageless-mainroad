@@ -105,7 +105,8 @@ html {
 	--welcomec: white;
 	--welcome-back: #2a2a2a;
     --welcome-border:#B9DCD2;
-
+	--service-desk-hover: #00A9E0;
+	
 }
 
 *,
@@ -2173,9 +2174,9 @@ a.widget__link:active {
 }
 
 .list__thumbnail img:hover, .portalimg:hover {
-	background-color: var(--ahover-un);
-	box-shadow: var(--shadow3) 0 0 3px 3px;
-	border: 2px solid var(--thickborder6);
+	background-color: var(--ahover);
+	box-shadow: var(--ahover) 0 0 3px 3px;
+	border: 2px solid var(--thickborder4);
 }
 
 .list__thumbnail img:active, .portalimg:active {
@@ -2310,8 +2311,9 @@ a.widget__link:active {
 }
 
 .service-desk img:hover {
-  transform: scale(1.25);
-      transition: transform 0.4s; 
+  transform: scale(1.20);
+  transition: transform 0.4s; 
+  background-color: var(--service-desk-hover);
 }
 
 .smpic {
