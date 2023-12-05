@@ -19,27 +19,26 @@ layout: list-home
 <p class="nomobile" style="text-align: justify">Our Online Service Desk is available in Microsoft Teams for you to receive direct and immediate support. Click the button to <b>the left</b> to begin a remote support session with one of our technicians.</p>
 </div>
 </div>
+
+
 <div class="service-desk">
 <div class="img-container">
 <a href="https://unts.service-now.com/saml_redirector.do?sysparm_uri=/unt?id=search%26q%3Dcvad-direct" alt="Submit a ServiceNow Ticket to the Service Desk" title="Submit a Support Ticket">
 <img src="/mainroad/img/green/ticket-green.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
 </a>
 </div>
-
-
 <div style="margin: 0 3rem;">
 <h3 class="nomobile">Submit a Ticket</h3>
 <p class="nomobile" style="text-align: justify">If you prefer, you may click the button to <b>the left</b> to submit a support ticket and one of our technicians will follow up with you by email.</p>
 </div>
 </div>
+
 <div class="service-desk">
 <div class="img-container">
-<a href="https://unts.service-now.com/saml_redirector.do?sysparm_uri=/unt?id=search%26q%3Dcvad-direct" alt="Submit a ServiceNow Ticket to the Service Desk" title="Submit a Support Ticket">
-<img src="/mainroad/img/green/faq-green.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
+<a href="faq" alt="Frequently Asked Questions" title="FAQ">
+<img src="/mainroad/img/green/faq-green.svg" alt="FAQS">
 </a>
 </div>
-
-
 <div style="margin: 0 3rem;">
 <h3 class="nomobile">Frequently Asked Questions</h3>
 <p class="nomobile" style="text-align: justify">Have a question? You may be able to find the answerin our FAQ. However, if you have a question that is not addressed, please <a href="mailto:cvad.itservices@unt.edu" alt="Email Support" title="Email IT Support">email</a> us. We appreciate your feedback.</p>
@@ -47,7 +46,7 @@ layout: list-home
 </div>
 <div class="service-desk">
 <div class="img-container">
-<a href="/mainroad/documentation" alt="IT Help Documentation" title="Help Documentation">
+<a href="documentation" alt="IT Help Documentation" title="Help Documentation">
 <img src="/mainroad/img/green/documentation-green.svg" alt="Help Documentation">
 </a>
 </div>
@@ -60,19 +59,19 @@ layout: list-home
 
 <div class="service-desk">
 <div class="img-container">
-<a href="/redirects/rdir-service-desk.html" alt="Chat with Service Desk Technician" title="Chat with Service Desk Technician">
-<img src="/mainroad/img/green/cloud-computing-green.svg" alt="Chat with Service Desk Technician">
+<a href="portals" alt="Online Service Portals" title="Online Service Portals">
+<img src="/mainroad/img/green/cloud-computing-green.svg" alt="Online Service Portals">
 </a>
 </div>
 <div style="margin: 0 3rem;">
-<h3 class="nomobile">Onlline Applications</h3>
+<h3 class="nomobile">Online Applications</h3>
 <p class="nomobile" style="text-align: justify">Faculty, staff and students are provided access to many online applications and services to support their academic and research endeavours.</p>
 </div>
 </div>
 <div class="service-desk">
 <div class="img-container">
-<a href="https://unts.service-now.com/saml_redirector.do?sysparm_uri=/unt?id=search%26q%3Dcvad-direct" alt="Submit a ServiceNow Ticket to the Service Desk" title="Submit a Support Ticket">
-<img src="/mainroad/img/green/status-check-green.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
+<a href="status" alt="Check Status of Service for an Outage" title="Service Status Check">
+<img src="/mainroad/img/green/status-check-green.svg" alt="Check Status of Service for an Outage">
 </a>
 </div>
 <div style="margin: 0 3rem;">
