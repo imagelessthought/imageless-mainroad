@@ -11,7 +11,7 @@ layout: list-home
 <div class="service-desk">
 <div class="img-container">
 <a href="/redirects/rdir-service-desk.html" alt="Chat with Service Desk Technician" title="Chat with Service Desk Technician">
-<img src="/mainroad/img/green/helpdesk-green.svg" alt="Chat with Service Desk Technician">
+<img src="/mainroad/img/blue/helpdesk-blue.svg" alt="Chat with Service Desk Technician">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -24,7 +24,7 @@ layout: list-home
 <div class="service-desk">
 <div class="img-container">
 <a href="https://unts.service-now.com/saml_redirector.do?sysparm_uri=/unt?id=search%26q%3Dcvad-direct" alt="Submit a ServiceNow Ticket to the Service Desk" title="Submit a Support Ticket">
-<img src="/mainroad/img/green/ticket-green.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
+<img src="/mainroad/img/blue/ticket-blue.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -36,7 +36,7 @@ layout: list-home
 <div class="service-desk">
 <div class="img-container">
 <a href="faq" alt="Frequently Asked Questions" title="FAQ">
-<img src="/mainroad/img/green/faq-green.svg" alt="FAQS">
+<img src="/mainroad/img/blue/faq-blue.svg" alt="FAQS">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -47,7 +47,7 @@ layout: list-home
 <div class="service-desk">
 <div class="img-container">
 <a href="documentation" alt="IT Help Documentation" title="Help Documentation">
-<img src="/mainroad/img/green/documentation-green.svg" alt="Help Documentation">
+<img src="/mainroad/img/blue/documentation-blue.svg" alt="Help Documentation">
 </a>
 </div>
 
@@ -60,7 +60,7 @@ layout: list-home
 <div class="service-desk">
 <div class="img-container">
 <a href="portals" alt="Online Service Portals" title="Online Service Portals">
-<img src="/mainroad/img/green/cloud-computing-green.svg" alt="Online Service Portals">
+<img src="/mainroad/img/blue/cloud-computing-blue.svg" alt="Online Service Portals">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -71,7 +71,7 @@ layout: list-home
 <div class="service-desk">
 <div class="img-container">
 <a href="status" alt="Check Status of Service for an Outage" title="Service Status Check">
-<img src="/mainroad/img/green/status-check-green.svg" alt="Check Status of Service for an Outage">
+<img src="/mainroad/img/blue/status-check-blue.svg" alt="Check Status of Service for an Outage">
 </a>
 </div>
 <div style="margin: 0 3rem;">

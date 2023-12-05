@@ -1,5 +1,5 @@
 baseurl = "https://imagelessthought.github.io/mainroad/"
-title = "Information Technology Helpdesk"
+title = "Imageless Thought"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
@@ -11,14 +11,22 @@ sectionPagesMenu = 'main posts departments'
     name = 'Home'
     pageRef = '/'
     weight = 10
+    [[menu.main]]
+    name = 'About'
+    pageRef = '/about/'
+    weight = 15
 [[menu.main]]
     name = 'Posts'
     pageRef = '/posts/'
     weight = 20
 [[menu.main]]
-    name = 'Departments'
-    pageRef = '/departments/'
-    weight = 40
+    name = 'Documentation'
+    pageRef = '/documentation'
+    weight = 30
+# [[menu.main]]
+#    name = 'Departments'
+#    pageRef = '/departments/'
+#    weight = 40
 [[menu.main]]
     name = 'Services'
     pageRef = '/services/'
@@ -28,36 +36,32 @@ sectionPagesMenu = 'main posts departments'
     pageRef = '/portals/'
     weight = 50
 [[menu.main]]
-    name = 'FAQ'
-    pageRef = '/faq/'
-    weight = 55
-[[menu.main]]
-    name = 'Documentation'
-    pageRef = '/documentation'
+    name = 'Links'
+    pageRef = '/tech-links/'
     weight = 60
 [[menu.main]]
     name = 'More'
     url = ''
-    weight = 65
+    weight = 70
     identifier ='More'
-[[menu.main]]
-    name = 'Campus-Links'
-    pageRef = '/campus-links'
-    weight = 2
-    identifier ='Campus-Links'
-    parent = 'More'
-[[menu.main]]
-    name = 'Tech-Links'
-    pageRef = '/tech-links/'
-    weight = 3
-    identifier = 'Tech-Links'
-    parent = 'More'
-[[menu.main]]
-    name = 'Student Websites'
-    pageRef = '/student-web/'
-    weight = 4
-    identifier = 'Student Websites'
-    parent = 'More'
+#[[menu.main]]
+#    name = 'Campus-Links'
+#    pageRef = '/campus-links'
+#    weight = 2
+#    identifier ='Campus-Links'
+#    parent = 'More'
+#[[menu.main]]
+#    name = 'Tech-Links'
+#    pageRef = '/tech-links/'
+#    weight = 3
+#    identifier = 'Tech-Links'
+#    parent = 'More'
+#[[menu.main]]
+#    name = 'Student Websites'
+#    pageRef = '/student-web/'
+#    weight = 4
+#    identifier = 'Student Websites'
+#    parent = 'More'
 [[menu.main]]
     name = 'Status Check'
     pageRef = '/status/'
@@ -71,12 +75,12 @@ sectionPagesMenu = 'main posts departments'
     identifier = 'Repositories'
     parent = 'More'
 [Author] # Used in authorbox
-  name = "Information Technology Helpdesk"
+  name = "Imageless Thought"
   bio = 'On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.'
-  avatar = "img/green/cluster-data-icon-green.svg"
+  avatar = "img/blue/cluster-data-icon-blue.svg"
 [Params]
-  description = "Information Technology Helpdesk" # Site description. Used in meta description
-  copyright = "Information Technology Helpdesk |" # Footer copyright holder, otherwise will use site title
+  description = "Imageless Thought" # Site description. Used in meta description
+  copyright = "Imageless Thought |" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -104,9 +108,9 @@ sectionPagesMenu = 'main posts departments'
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/unt_logo_fixed.png" # Logo image. Path relative to "static"
+  image = "img/connection.svg" # Logo image. Path relative to "static"
 # title = "Mainroad" # Logo title, otherwise will use site title 
-  subtitle = "A centralized solution for a diverse environment" # Logo subtitle innovate ⚬ build ⚬ repeat
+  subtitle = "INNOVATE ⚬ BUILD ⚬ REPEAT" # Logo subtitle innovate ⚬ build ⚬ repeat
   tagline = "Innovation Technology"
 
 [Params.thumbnail]

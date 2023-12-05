@@ -1,25 +1,21 @@
-<article class="list__item post">
-	{{ partial "post_thumbnail-faq.html" (dict "class" "list" "page" .) }}
-	<header class="list__header">
-		<h2 class="list__title post__title">
-            {{- with .Params.portalurl }}
-			<a href="{{ . }}" rel="bookmark">
-                {{ end }}
-			{{ .Title }}
-			</a>
-		</h2>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		{{ .Summary }}
-	</div>
-	{{- if .Site.Params.readmore }}
-	{{- if .Truncated }}
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
-	</div>
-	{{- end }}
-	{{- end }}
-	{{- with .Params.lead }}
-	<p class="list__lead post__lead">{{ . }}</p>
+<article class="list__item post clearfix" style="display: flex; flex-direction: column;">
+    <header class="list__header" style="display: flex; align-items: center;">
+<!--        {{ partial "post_thumbnail-faq.html" (dict "class" "list" "page" .) }}  -->
+        <h2 class="list__title post__title">
+            {{ .Title }}
+        </h2>
+    </header>
+    <div class="content list__excerpt post__content clearfix" style="flex: 1;">
+{{ .Content }}
+    </div>
+    {{- if .Site.Params.readmore }}
+    {{- if .Truncated }}
+    <div class="list__footer clearfix">
+        <a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
+    </div>
+    {{- end }}
+    {{- end }}
+	{{ with partial "post_meta_date.html" . -}}
+	<div style="margin-top: 0" class="list__meta meta">{{ . }}</div>
 	{{- end }}
 </article>

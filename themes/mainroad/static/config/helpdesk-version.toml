@@ -1,0 +1,136 @@
+baseurl = "https://imagelessthought.github.io/mainroad/"
+title = "Imageless Thought"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = ""
+sectionPagesMenu = 'main posts departments'
+[menu]
+[[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menu.main]]
+    name = 'Posts'
+    pageRef = '/posts/'
+    weight = 20
+[[menu.main]]
+    name = 'Departments'
+    pageRef = '/departments/'
+    weight = 40
+[[menu.main]]
+    name = 'Services'
+    pageRef = '/services/'
+    weight = 45
+[[menu.main]]
+    name = 'Portals'
+    pageRef = '/portals/'
+    weight = 50
+[[menu.main]]
+    name = 'FAQ'
+    pageRef = '/faq/'
+    weight = 55
+[[menu.main]]
+    name = 'Documentation'
+    pageRef = '/documentation'
+    weight = 60
+[[menu.main]]
+    name = 'More'
+    url = ''
+    weight = 65
+    identifier ='More'
+[[menu.main]]
+    name = 'Campus-Links'
+    pageRef = '/campus-links'
+    weight = 2
+    identifier ='Campus-Links'
+    parent = 'More'
+[[menu.main]]
+    name = 'Tech-Links'
+    pageRef = '/tech-links/'
+    weight = 3
+    identifier = 'Tech-Links'
+    parent = 'More'
+[[menu.main]]
+    name = 'Student Websites'
+    pageRef = '/student-web/'
+    weight = 4
+    identifier = 'Student Websites'
+    parent = 'More'
+[[menu.main]]
+    name = 'Status Check'
+    pageRef = '/status/'
+    weight = 5
+    identifier = 'Status Checks'
+    parent = 'More'
+[[menu.main]]
+    name = 'Repositories'
+    pageRef = '/repositories/'
+    weight = 6
+    identifier = 'Repositories'
+    parent = 'More'
+[Author] # Used in authorbox
+  name = "Imageless Thought"
+  bio = 'On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.'
+  avatar = "img/blue/cluster-data-icon-blue.svg"
+[Params]
+  description = "Imageless Thought" # Site description. Used in meta description
+  copyright = "Imageless Thought |" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["posts"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.style.vars]
+  highlightColor = "#509E2F" # Override highlight color (original: #e22d30)
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  image = "img/connection.svg" # Logo image. Path relative to "static"
+# title = "Mainroad" # Logo title, otherwise will use site title 
+  subtitle = "INNOVATE ⚬ BUILD ⚬ REPEAT" # Logo subtitle innovate ⚬ build ⚬ repeat
+  tagline = "Innovation Technology"
+
+[Params.thumbnail]
+  visibility = ["list", "posts"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+  [Params.widgets.search]
+  cached = false # activate cache if true
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
