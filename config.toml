@@ -10,14 +10,18 @@ sectionPagesMenu = 'main posts departments'
 [[menu.main]]
     name = 'Home'
     pageRef = '/'
-    weight = 10
+    weight = 5
     [[menu.main]]
     name = 'About'
     pageRef = '/about/'
+    weight = 10
+[[menu.main]]
+    name = 'Skills'
+    pageRef = '/skills/'
     weight = 15
 [[menu.main]]
-    name = 'Posts'
-    pageRef = '/posts/'
+    name = 'Blog'
+    pageRef = '/blog/'
     weight = 20
 [[menu.main]]
     name = 'Documentation'
@@ -27,10 +31,6 @@ sectionPagesMenu = 'main posts departments'
 #    name = 'Departments'
 #    pageRef = '/departments/'
 #    weight = 40
-[[menu.main]]
-    name = 'Services'
-    pageRef = '/services/'
-    weight = 45
 [[menu.main]]
     name = 'Portals'
     pageRef = '/portals/'
@@ -110,7 +110,7 @@ sectionPagesMenu = 'main posts departments'
 [Params.logo]
   image = "img/connection.svg" # Logo image. Path relative to "static"
 # title = "Mainroad" # Logo title, otherwise will use site title 
-  subtitle = "INNOVATE ⚬ BUILD ⚬ REPEAT" # Logo subtitle innovate ⚬ build ⚬ repeat
+  subtitle = "Michael Baggett" # Logo subtitle innovate ⚬ build ⚬ repeat INNOVATE ⚬ BUILD ⚬ REPEAT
   tagline = "Innovation Technology"
 
 [Params.thumbnail]

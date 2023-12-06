@@ -43,6 +43,7 @@ html {
 	--logosubc: #B9DCD2;
 	--logotagc: #ddd;
 	--logo-back: #2d2c2c;
+	--logo-shadow: #B9DCD2;
 	--menu-btn-out: #53565A;
 	--gradient-gray: #53565A;
 	--list-out: #B9DCD2;
@@ -98,7 +99,10 @@ html {
 	--welcomec: white;
 	--welcome-back: #2a2a2a;
     --welcome-border:#B9DCD2;
-
+	--service-desk-hover: #00A9E0;
+	--card-shadow: #B9DCD2 0 0 0 1px #00A9E0 0 2px 6px 0;
+	--preview-hover: #53565A;
+	
 }
 
 *,
@@ -642,8 +646,8 @@ select {
 .logo--mixed .logo__img {
 	max-width: 100px; /* 128 */
 	max-height: 100px;
-	box-shadow: #162129 0 0 4px 4px;
-	border: 0px solid var(--logo-shadow);
+	box-shadow: var(--logo-shadow) 0 0 4px 4px;
+	border: 1px solid var(--logo-shadow);
 	background-color: var(--logo-back);
 	border-radius: 4px;
 	padding: .25rem .3rem;
@@ -833,8 +837,11 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	padding-top: 1rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	background-color: var(--background);
-	border-radius: 4px;
+    border-radius: 4px;
+}
+
+.list__item:hover {
+ opacity: 1;
 }
 
 .list__item:last-child {
@@ -2144,12 +2151,12 @@ a.widget__link:active {
 }
 
 .list__thumbnail-faq img, .list__thumbnail-faq img:hover, .list__thumbnail-faq img:active {
-	width: 6rem;
-	max-width: 6rem;
-	height: 6rem;
+	width: 3rem;
+	max-width: 3rem;
+	height: 3rem;
 	border: 2px solid var(--thickborder4);
 	border-radius: 4px;
-	padding: .5rem;
+	padding: .15rem;
 	background-color: var(--thumbnailback)!important;
 	box-shadow: var(--shadow) 0 0 3px 3px!important;
 }
@@ -2166,9 +2173,9 @@ a.widget__link:active {
 }
 
 .list__thumbnail img:hover, .portalimg:hover {
-	background-color: var(--ahover-un);
-	box-shadow: var(--shadow3) 0 0 3px 3px;
-	border: 2px solid var(--thickborder6);
+	background-color: var(--ahover);
+	box-shadow: var(--ahover) 0 0 3px 3px;
+	border: 2px solid var(--thickborder4);
 }
 
 .list__thumbnail img:active, .portalimg:active {
@@ -2303,8 +2310,9 @@ a.widget__link:active {
 }
 
 .service-desk img:hover {
-  transform: scale(1.25);
-      transition: transform 0.4s; 
+  transform: scale(1.20);
+  transition: transform 0.4s; 
+  background-color: var(--service-desk-hover);
 }
 
 .smpic {
@@ -2314,11 +2322,11 @@ a.widget__link:active {
 
 .list__excerpt {
 
-	font-size: .8rem;
-
-	p {
+font-size: .8rem;
+p {
 		margin: 0 0 1rem 0;
-	}
+}
+
 }
 
 
@@ -2460,7 +2468,7 @@ a.widget__link:active {
   .welcome-box {
 	background-color: var(--welcome-back);
 	opacity: .85;
-	font-size: .85rem;
+	font-size: .95rem;
 	color: var(--welcomec);
 	border-radius: 4px;
 	border: 2px solid var(--thickborder3);

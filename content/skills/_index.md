@@ -1,5 +1,5 @@
 ---
-title: Services Available
+title: Skills
 layout: list-owner
 authorbox: "True"
 ---

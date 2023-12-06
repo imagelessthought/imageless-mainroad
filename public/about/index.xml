@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mainroad/about/</link>
+    <description>Recent content in About Me on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What training and current certificatons do you have?</title>
+      <link>https://imagelessthought.github.io/mainroad/about/example-faq/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/about/example-faq/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
+    </item>
+    
+  </channel>
+</rss>

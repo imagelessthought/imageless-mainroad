@@ -26,7 +26,7 @@
     <loc>https://imagelessthought.github.io/mainroad/campus-links/audio-visual/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/posts/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/blog/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/</loc>
@@ -41,7 +41,7 @@
     <loc>https://imagelessthought.github.io/mainroad/tags/github/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/posts/github-announcement/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/blog/github-announcement/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/tags/</loc>
@@ -49,6 +49,9 @@
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/about/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/portals/adobe/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
@@ -63,9 +66,6 @@
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/departments/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/faq/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/repositories/</loc>
@@ -98,13 +98,13 @@
     <loc>https://imagelessthought.github.io/mainroad/portals/webprint/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/services/research-support/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/skills/research-support/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/status/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/services/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/skills/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/portals/stats/</loc>
@@ -122,7 +122,7 @@
     <loc>https://imagelessthought.github.io/mainroad/status/status-websites/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/faq/example-faq/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/about/example-faq/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/portals/zoom/</loc>
@@ -137,7 +137,7 @@
     <loc>https://imagelessthought.github.io/mainroad/departments/digital-fabrication-lab/</loc>
     <lastmod>2023-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/services/event-and-exhibition-support/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/skills/event-and-exhibition-support/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/departments/photo-documentation/</loc>

@@ -47,7 +47,7 @@ html {
 	--header-back: #336699;
 	--logo-titlec: white;
 	--logosubc: #B9DCD2;
-	--logotagc: #ddd;
+	--logotagc: white;
 	--logo-back: #2d2c2c;
 	--logo-shadow: #B9DCD2;
 	--menu-btn-out: #53565A;
@@ -684,13 +684,17 @@ select {
 }
 .logo__tagline {
 	display: inline-block;
-	padding-top: 10px;
-	margin-top: 10px;
+	margin:1rem 0;
 	font-size: 14px;
 	font-size: .875rem;
 	font-weight: 700;
 	line-height: 1;
 	color: var(--logotagc);
+	box-shadow: var(--logo-shadow) 0 0 4px 1px;
+	border: 1px solid var(--logo-shadow);
+	background-color: var(--logo-back);
+	border-radius: 4px;
+	padding: .25rem .5rem;
 	/* border-top: 1px solid var(--ebebeb); */
 }
 .divider {
@@ -822,13 +826,26 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .main__header h1, .main__header h2, .main__header h3 {
-	padding: 0; margin: 0 0 2rem 0;
+    margin: 0 0 2rem 0;
 }
 
 .main__title {
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
+	margin-left: .1rem;
 	color: var(--h1c);
+	width: fit-content;
+	padding: .25rem .5rem;
+	border-radius: 4px;
+	background-color: var(--author-back);
+/*
+	border: 1px solid var(--page-back);
+    border-left: 5px solid var(--thickborder3);
+	border-right: 5px solid var(--thickborder3);
+    border: 1px solid var(--shadow2);
+	box-shadow: var(--shadow2) 0 0 2px 2px;
+	outline: 2px solid var(--shadow2);
+*/
 }
 
 .main__content {
@@ -1298,10 +1315,11 @@ width: 4rem; height: 4rem;
 /* Author Box */
 .authorbox {
 	padding: 1.5rem 1rem;
-	margin: 2.5rem 0;
+	margin: 3.5rem 0;
 	line-height: 1.5;
-	border-top: 1px solid var(--author-border);
-	border-bottom: 1px solid var(--author-border);
+	border-left: 5px solid var(--thickborder3);
+	border-right: 5px solid var(--thickborder3);
+
 	background-color: var(--author-back);
 	border-radius: 4px;
 }
@@ -1975,7 +1993,7 @@ a.widget__link:active {
   
   .menu__list .menu__item:first-child {
 	border: 0;
-	margin-left: 6.7rem;
+	margin-left: 5.9rem;
   }
   
   .submenu__list .menu__item:first-child {
