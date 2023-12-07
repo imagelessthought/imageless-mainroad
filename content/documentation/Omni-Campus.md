@@ -11,7 +11,7 @@ nosearch: "True"
 postauthor: Michael Baggett
 postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
-postemail: michael.baggett@unt.edu
+postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/modern-campus.png"
 ---

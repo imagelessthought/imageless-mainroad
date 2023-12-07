@@ -831,7 +831,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     margin: 0 0 2rem 0;
 }
 
-.main__title {
+.main__title, .post__title {
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
 	margin-left: .1rem;
@@ -980,11 +980,11 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	vertical-align: middle;
 	margin-left: .5rem;
 }
-
+/*
 .post__title {
 	margin: 0 0 .5rem 0;
 	color: var(--h1c);
-}
+} */
 
 .post__title a {
   text-decoration: underline;
@@ -1659,8 +1659,6 @@ a.widget__link:active {
 /* Footer */
 .footer {
 	padding: 1rem 0 1rem 6.5rem;
-	font-size: 12px;
-	font-size: .75rem;
 	color: var(--footerc);
 	background: var(--footer-back);
 }

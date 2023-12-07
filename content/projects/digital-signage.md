@@ -1,6 +1,6 @@
 ---
-title: Online Service Desk
-subtitle: Providing off-site computer support for our users - get help regardless of where you are.
+title: Universal Digital Signage
+subtitle: A device independent digital signage solution.
 date: 2023-10-05
 layout: single-owner
 owner:

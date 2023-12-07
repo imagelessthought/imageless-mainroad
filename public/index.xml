@@ -6,7 +6,39 @@
     <description>Recent content in Having Trouble? on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI: A Primer</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</guid>
+      <description>The AI field is heavy with jargon and terminology. To help you navigate and understand the the technologies and solutions that are out there, you will need a some help. I suggest starting by reading this article: Artificial Intelligence Glossary: Neural Networks and Other Terms Explained - New York Times; March 23, 2023.
+Below are links to some glossaries and articles to further assist you with the terminology.
+Glossaries of AI Terminology:  AI Blog provides a searchable database of terms.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll: Static Webpages</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/jekyll/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/blog/jekyll/</guid>
+      <description>Jekyll is a free and open source static site generator that was developed by Github and is written in the Ruby Programming Lanaguage. It takes text written in Markdown, Liquid, HTML &amp;amp; CSS and uses standardized layouts to create static webpages. SASS: Syntactically Awesome Style Sheets integration is bulit-in. You can easily customize the look and feel, URLs, and the data displayed on your pages.
+ Jekyll is the supported solution for webpages using Github Pages.</description>
+    </item>
+    
+    <item>
+      <title>Universal Digital Signage</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/digital-signage/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/blog/digital-signage/</guid>
+      <description>The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well.
+We will be developing the new solution as open source and will use already available code whenever possible: don&amp;rsquo;t reinvent the wheel. Unless you have to, that is.
+New Features This time around we will be adding some new features:</description>
+    </item>
+    
     <item>
       <title>Academic Technologies</title>
       <link>https://imagelessthought.github.io/mainroad/campus-links/academic-technologies/</link>
@@ -53,6 +85,15 @@
     </item>
     
     <item>
+      <title>Windows Subsystem For Linux</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/windows-subsystem-linux/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/blog/windows-subsystem-linux/</guid>
+      <description>Over the past two years years Microsoft has made some significant improvements to the Windows Subsystem for Linux. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps. WSL 2 is a new version of the Windows Subsystem for Linux architecture, available beginning with Windows 10-Version 1903-Build 18362, that powers the Windows Subsystem for Linux to run ELF64 (Executable and Linkable Format) Linux binaries on Windows.</description>
+    </item>
+    
+    <item>
       <title>Audio-Visual Tutorial</title>
       <link>https://imagelessthought.github.io/mainroad/campus-links/audio-visual/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
@@ -67,7 +108,7 @@
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/blog/github-announcement/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://git-scm.com&#34; title=&#34;Git Website&#34;&gt;Git&lt;/a&gt; is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git has been around since 2005 and is widely used for collaborative software development.  But it has wider uses.  As examples it is used by writers and artists to track changes as it keeps a complete history and changes can be rolled back to any point.  You can grant access to your projects and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.&lt;/p&gt;</description>
+      <description>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is widely used for collaborative software development and Github is a very popular Git platform. Git is used to track changes, keep a complete history of the changes, and allows you to roll back to any point. Owners can grant access to a project and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.</description>
     </item>
     
     <item>
@@ -129,12 +170,12 @@ Use the link above to login to your Microsoft 365 account, this will launch the 
     </item>
     
     <item>
-      <title>Online Service Desk</title>
-      <link>https://imagelessthought.github.io/mainroad/departments/service-desk/</link>
+      <title>Universal Digital Signage</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/digital-signage/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/departments/service-desk/</guid>
-      <description>&lt;p&gt;Our online service desk is available in Microsoft Teams for you to receive direct, immediate support or you may submit a ticket and we will follow up with you.  No need to make a physical visit to our office: we can remotely perform most tasks regardless of whether your are on-campus or off.&lt;/p&gt;</description>
+      <guid>https://imagelessthought.github.io/mainroad/projects/digital-signage/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
     </item>
     
     <item>
@@ -164,28 +205,28 @@ Microsoft Sharepoint</description>
     
     <item>
       <title>Classroom | Instructional Support</title>
-      <link>https://imagelessthought.github.io/mainroad/departments/instructional/</link>
+      <link>https://imagelessthought.github.io/mainroad/projects/instructional/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/departments/instructional/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/projects/instructional/</guid>
       <description>&lt;p&gt;Issues that hinder an instructor&amp;rsquo;s ability to teach are given the highest priority at the College of Visual Arts and Design. If you are experiencing issues with the equipment in one of our classrooms during a scheduled class period, please &lt;strong&gt;Submit a Ticket&lt;/strong&gt; by using the link on the instructor lectern computer and a technician will be dispatched to your location.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Computer Lab</title>
-      <link>https://imagelessthought.github.io/mainroad/departments/computer-lab/</link>
+      <title>Training</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/training/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/departments/computer-lab/</guid>
-      <description>&lt;p&gt;Our computer lab is available to all currently enrolled UNT students, in support of their academic programs. The mostly widely used software applications used by students are available, as well as software titles required by our students to complete arts and design related course work.&lt;/p&gt;</description>
+      <guid>https://imagelessthought.github.io/mainroad/projects/training/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
     </item>
     
     <item>
       <title>Digital Fabrication Lab</title>
-      <link>https://imagelessthought.github.io/mainroad/departments/digital-fabrication-lab/</link>
+      <link>https://imagelessthought.github.io/mainroad/projects/digital-fabrication-lab/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/departments/digital-fabrication-lab/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/projects/digital-fabrication-lab/</guid>
       <description>&lt;p&gt;The CVAD Digital Fabrication Lab is available without an additional charge or fee to all students enrolled in at least one CVAD course in each semester. We provide student access to high-end fabrication and maker equipment needed by our student population to meet course and professional requirements.&lt;/p&gt;</description>
     </item>
     
@@ -199,12 +240,12 @@ Microsoft Sharepoint</description>
     </item>
     
     <item>
-      <title>Photo Documentation</title>
-      <link>https://imagelessthought.github.io/mainroad/departments/photo-documentation/</link>
+      <title>Web and UI Design</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/web-design/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/departments/photo-documentation/</guid>
-      <description>&lt;p&gt;The Photo Documentation Service is open to CVAD students, faculty, and staff. Part of the function of the service is to create a database of student work that the university can pull from when creating promotional materials. Because of this, you will be required to sign a release to have your work photographed.&lt;/p&gt;</description>
+      <guid>https://imagelessthought.github.io/mainroad/projects/web-design/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
     </item>
     
     <item>

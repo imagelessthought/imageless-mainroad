@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mainroad/categories/getting-started/</link>
+    <description>Recent content in Getting Started on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI: A Primer</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</guid>
+      <description>The AI field is heavy with jargon and terminology. To help you navigate and understand the the technologies and solutions that are out there, you will need a some help. I suggest starting by reading this article: Artificial Intelligence Glossary: Neural Networks and Other Terms Explained - New York Times; March 23, 2023.
+Below are links to some glossaries and articles to further assist you with the terminology.
+Glossaries of AI Terminology:  AI Blog provides a searchable database of terms.</description>
+    </item>
+    
+    <item>
+      <title>Windows Subsystem For Linux</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/windows-subsystem-linux/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/blog/windows-subsystem-linux/</guid>
+      <description>Over the past two years years Microsoft has made some significant improvements to the Windows Subsystem for Linux. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps. WSL 2 is a new version of the Windows Subsystem for Linux architecture, available beginning with Windows 10-Version 1903-Build 18362, that powers the Windows Subsystem for Linux to run ELF64 (Executable and Linkable Format) Linux binaries on Windows.</description>
+    </item>
+    
+  </channel>
+</rss>

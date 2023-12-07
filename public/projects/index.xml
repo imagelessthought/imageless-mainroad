@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mainroad/projects/</link>
+    <description>Recent content in Projects on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universal Digital Signage</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/digital-signage/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/projects/digital-signage/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
+    </item>
+    
+    <item>
+      <title>Classroom | Instructional Support</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/instructional/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/projects/instructional/</guid>
+      <description>&lt;p&gt;Issues that hinder an instructor&amp;rsquo;s ability to teach are given the highest priority at the College of Visual Arts and Design. If you are experiencing issues with the equipment in one of our classrooms during a scheduled class period, please &lt;strong&gt;Submit a Ticket&lt;/strong&gt; by using the link on the instructor lectern computer and a technician will be dispatched to your location.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/training/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/projects/training/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
+    </item>
+    
+    <item>
+      <title>Digital Fabrication Lab</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/digital-fabrication-lab/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/projects/digital-fabrication-lab/</guid>
+      <description>&lt;p&gt;The CVAD Digital Fabrication Lab is available without an additional charge or fee to all students enrolled in at least one CVAD course in each semester. We provide student access to high-end fabrication and maker equipment needed by our student population to meet course and professional requirements.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web and UI Design</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/web-design/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/projects/web-design/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
+    </item>
+    
+  </channel>
+</rss>
