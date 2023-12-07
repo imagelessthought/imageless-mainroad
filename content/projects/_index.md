@@ -1,5 +1,5 @@
 ---
-title: Departments
+title: Projects
 layout: list-owner
 authorbox: "True"
 ---

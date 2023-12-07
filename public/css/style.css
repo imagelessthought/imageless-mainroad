@@ -3,9 +3,9 @@ html {
 	--foreground: white;
 	--hclass: #C5E1A5;
     --aurl: #B9DCD2;
-	--aurl-un: white;
+	--aurl-un: #00A9E0;
 	--ahover: #00A9E0;
-	--ahover-un: #336699;
+	--ahover-un: #B9DCD2;
 	--aactive: #ffa500;
 	--aactive-un: #C0392B;
 	--shadow: white;
@@ -41,7 +41,7 @@ html {
 	--header-back: #336699;
 	--logo-titlec: white;
 	--logosubc: #B9DCD2;
-	--logotagc: #ddd;
+	--logotagc: white;
 	--logo-back: #2d2c2c;
 	--logo-shadow: #B9DCD2;
 	--menu-btn-out: #53565A;
@@ -80,7 +80,7 @@ html {
 	--menulinka: 336699;
 	--menulinkc: #336699;
 	--menulink-hoverc: #B9DCD2;
-	--thumbnailback: #B9DCD2;
+	--thumbnailback: white;
 	--faqimg-back:#B9DCD2;
 	--faqimg-c: #336699;
 	--service-back: #2a2a2a;
@@ -102,6 +102,8 @@ html {
 	--service-desk-hover: #00A9E0;
 	--card-shadow: #B9DCD2 0 0 0 1px #00A9E0 0 2px 6px 0;
 	--preview-hover: #53565A;
+	--meta-text: white;
+	--thumbnail-hover: #B9DCD2;
 	
 }
 
@@ -678,13 +680,17 @@ select {
 }
 .logo__tagline {
 	display: inline-block;
-	padding-top: 10px;
-	margin-top: 10px;
+	margin:1rem 0;
 	font-size: 14px;
 	font-size: .875rem;
 	font-weight: 700;
 	line-height: 1;
 	color: var(--logotagc);
+	box-shadow: var(--logo-shadow) 0 0 4px 1px;
+	border: 1px solid var(--logo-shadow);
+	background-color: var(--logo-back);
+	border-radius: 4px;
+	padding: .25rem .5rem;
 	/* border-top: 1px solid var(--ebebeb); */
 }
 .divider {
@@ -816,13 +822,26 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .main__header h1, .main__header h2, .main__header h3 {
-	padding: 0; margin: 0 0 2rem 0;
+    margin: 0 0 2rem 0;
 }
 
 .main__title {
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
+	margin-left: .1rem;
 	color: var(--h1c);
+	width: fit-content;
+	padding: .25rem .5rem!important;
+	border-radius: 4px;
+	background-color: var(--author-back);
+/*
+	border: 1px solid var(--page-back);
+    border-left: 5px solid var(--thickborder3);
+	border-right: 5px solid var(--thickborder3);
+    border: 1px solid var(--shadow2);
+	box-shadow: var(--shadow2) 0 0 2px 2px;
+	outline: 2px solid var(--shadow2);
+*/
 }
 
 .main__content {
@@ -915,7 +934,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .meta a {
-	color: var(--aurl-un);
+	color: var(--meta-text);
 	border-radius: 4px; 
 	background-color: transparent; 
 	max-width: fit-content;
@@ -1292,10 +1311,11 @@ width: 4rem; height: 4rem;
 /* Author Box */
 .authorbox {
 	padding: 1.5rem 1rem;
-	margin: 2.5rem 0;
+	margin: 3.5rem 0;
 	line-height: 1.5;
-	border-top: 1px solid var(--author-border);
-	border-bottom: 1px solid var(--author-border);
+	border-left: 5px solid var(--thickborder3);
+	border-right: 5px solid var(--thickborder3);
+
 	background-color: var(--author-back);
 	border-radius: 4px;
 }
@@ -1346,7 +1366,7 @@ width: 4rem; height: 4rem;
 	margin: 0 2rem 1rem 0;
 }
 
-.list__thumbnail img, .list__thumbnail-faq img {
+.list__thumbnail-faq img {
 	width: 100%;
 	max-width: 235px;
 }
@@ -1969,7 +1989,7 @@ a.widget__link:active {
   
   .menu__list .menu__item:first-child {
 	border: 0;
-	margin-left: 6.7rem;
+	margin-left: 5.9rem;
   }
   
   .submenu__list .menu__item:first-child {
@@ -2165,7 +2185,7 @@ a.widget__link:active {
 	width: 6rem;
 	max-width: 6rem;
 	height: 6rem;
-	border: 2px solid var(--thickborder4);
+	border: 2px solid var(--thickborder5);
 	border-radius: 4px;
 	padding: .5rem;
 	background-color: var(--thumbnailback);
@@ -2173,7 +2193,7 @@ a.widget__link:active {
 }
 
 .list__thumbnail img:hover, .portalimg:hover {
-	background-color: var(--ahover);
+	background-color: var(--thumbnail-hover);
 	box-shadow: var(--ahover) 0 0 3px 3px;
 	border: 2px solid var(--thickborder4);
 }

@@ -1,6 +1,6 @@
 ---
-title: "Github for Web Development: Campus Enterprise Agreement"
-subtitle: "Learn about the University Unlimited agreement that the university recently signed with GitHub."
+title: "Github for Development and Version Control"
+subtitle: "Learn about using GitHub Pages for Web Development."
 layout: single-post
 date: 2023-10-12
 categories:
@@ -16,11 +16,8 @@ postemail: michael.baggett@unt.edu
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/branching-icon.svg"
 ---
-UNT has entered into an [**University Unlimited**](https://education.github.com/ 'Github Global Campus') enterprise agreement with Github.  More details will be announced, but all faculty, staff and students will be elligible for Github Pro accounts, with many addtional features available for academics at no additional cost to the students. This article will help you get started using this service.
-<!--more-->
-## What is Git? ##
 [Git](https://git-scm.com 'Git Website') is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git has been around since 2005 and is widely used for collaborative software development.  But it has wider uses.  As examples it is used by writers and artists to track changes as it keeps a complete history and changes can be rolled back to any point.  You can grant access to your projects and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.
-
+<!--more-->
 ## GitHub ##
 [GitHub](https://en.wikipedia.org/wiki/GitHub 'GitHub article ot Wikipedia') is a platform and cloud-based service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Github was acquired by Microsoft in 2018.  It is used extensively by MIcrosoft, including [Microsoft Azure](https://en.wikipedia.org/wiki/Microsoft_Azure 'Microsoft Azure article on Wikipedia'). 
 
@@ -31,7 +28,7 @@ UNT has entered into an [**University Unlimited**](https://education.github.com/
 > * [Git Actions](https://github.com/features/actions 'Link to GitHub Actions information')
 > * [Github Pages](https://pages.github.com 'Link to Github Pages: host your own website for free on GitHub')
 
-The enterprise agreement with GitHub grants us some addtional features and options:
+An enterprise agreement with GitHub grants additional features and options:
 
 > Benefits of Github Enterprise for Education: 
 > * [Github Student Developer Webpack](https://education.github.com/pack, 'Github Student Developer Webpack')
@@ -39,21 +36,7 @@ The enterprise agreement with GitHub grants us some addtional features and optio
 > * [Github Teams](https://github.com/pricing, 'Github Teams')
 > * [Github Classroom](https://classroom.github.com/, 'Github Classrom')
 
-Encourage your students to take advantage of this offer and also apply for the free Student Developer Pack. The [Student Developer Pack](https://education.github.com/pack 'GitHub Student Pack') contains tools are services that would otherwise be quite costly. 
-
-## Activate your Github Enterpise Account ## 
-Before you can begin using GitHub through our enterprise agreement, you will need to **create an account** and **receive an invitation** from UNT.  If you have not received an invitation - talk to your [local IT support group](https://academictechnologies.unt.edu/contact 'List of Local IT Support Teams at UNT').
-
-> Your Github invitation will be sent to your **official UNT email address**.  If you are a student using GitHub for academic work - the email will be sent to your *@my.unt.edu* email address.  If you are an employee your invitation will be sent to your *@unt.edu* email address. In cases where the person is both a student and employee, the invitation will be sent to the email address that matches the use case.
-
-* If you already have a GitHub account, it is up to you as to whether or not you want to create a separate account for UNT GitHub Enterprise. If you choose to use your existing account, before clicking on the link in the invitation you will need to [add your UNT email address(es) to that account](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account 'Add an email to a Github Account'). If you have a student email address **and** an employee email addresss: add both.  If this is the route you take - you can skip the next step.
-* If you do not have a GitHub account, or want to to keep your personal account separate from your UNT account, you can signup for a GitHub account here: [GitHub Signup](https://github.com/signup 'Github Account Creation Link'). If you have dual roles as a student and employee - one address will need to be designated the primary and the other added using the instructions linked to above.  **The primary address should be the email address where you received your invitation**.
-
-Once you have completed one of the steps above - click on the invitation and you will walked through the activation processes. GitHub requires that all accounts that are included in an enterprise instance have multi-factor authentication enabled.  You can use the DUO app for the GitHub MFA: your invitation will provide you with a QR code - scan this into the DUO app. This will be a separate MFA account in DUO - it will be labelled as Github and include the GitHub logo. If you created an account with your *@unt.edu* or *@my.unt.edu* account as the primary email address, when logging into Github you will also be prompted to sign-in through the UNT SSO (Single-Sign-On), which also requires MFA. 
-
-Once you have completed the signup and activation steps above, you can confirm your membership by clicking on your profile image in the top-right of the screen and choosing, **Your Organizations**.  If you have been added for a **College of Visual Arts and Design** course you will see **unt-cvad** as one of your organizations. If you sign up for the GitHub Campus programs for students and teachers - you will see one or more additional organizations related to those programs.
-
-If you are taking a course that utilizes GitHub: you will also be added to the GitHub team for that course.  In the **College of Visual Arts and Design** those teams will be labelled by the course and section ID: example, **ASTU 3703.501**.
+Encourage students to take advantage of this offer and also apply for the free Student Developer Pack. The [Student Developer Pack](https://education.github.com/pack 'GitHub Student Pack') contains tools are services that would otherwise be quite costly. 
 
 ## Using GitHub ##
 There are many things you can do with Github, but one of the most popular is website development using [GitHub Pages](https://pages.github.com 'Link to Github Pages: host your own website for free on GitHub'). For more information on using GitHub Pages and its limitations, checkout [this page in the documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages 'GitHub Docs: GitHub Pages').  

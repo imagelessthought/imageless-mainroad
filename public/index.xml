@@ -62,23 +62,12 @@
     </item>
     
     <item>
-      <title>Github for Web Development: Campus Enterprise Agreement</title>
+      <title>Github for Development and Version Control</title>
       <link>https://imagelessthought.github.io/mainroad/blog/github-announcement/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/blog/github-announcement/</guid>
-      <description>&lt;p&gt;UNT has entered into an &lt;a href=&#34;https://education.github.com/&#34; title=&#34;Github Global Campus&#34;&gt;&lt;strong&gt;University Unlimited&lt;/strong&gt;&lt;/a&gt; enterprise agreement with Github.  More details will be announced, but all faculty, staff and students will be elligible for Github Pro accounts, with many addtional features available for academics at no additional cost to the students. This article will help you get started using this service.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Adobe Creative Cloud Webstore</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/adobe/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/portals/adobe/</guid>
-      <description>This offer is only available to students. Full-time employees and instructors of record receive an educational enterprise subscription as part of their employment. Part-time employees who require the Adobe Creative Cloud for their job duties should contact their department regarding access. Subscriptions are not available for purchase by employees.
-  Employees may contact their local support team if they are having difficulty accessing their Adobe subscription.
-  If you are an adjunct or graduate student who is working as an instructor of record during the current semester, contact the local IT department of the college that employed you if you are having trouble accessing the Adobe Creative Cloud.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://git-scm.com&#34; title=&#34;Git Website&#34;&gt;Git&lt;/a&gt; is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git has been around since 2005 and is widely used for collaborative software development.  But it has wider uses.  As examples it is used by writers and artists to track changes as it keeps a complete history and changes can be rolled back to any point.  You can grant access to your projects and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -92,24 +81,12 @@ Instructor: Ranran Fan</description>
     </item>
     
     <item>
-      <title>Booked Scheduler: Reservations</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/booked/</link>
+      <title>Cybersecurity</title>
+      <link>https://imagelessthought.github.io/mainroad/skills/cybersecurity/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/portals/booked/</guid>
-      <description>Booked is an online appointment scheduling solution that is available to students, instructors, and staff at the College of Visual Arts and Design at the University of North Texas to make appointments for various services we provide to our users.
-If you are an instructor, student or staff member of the College of Visual Arts and Design use the link above to login to your Booked Scheduler account.</description>
-    </item>
-    
-    <item>
-      <title>Canvas: Learning Management System</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/canvas/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/portals/canvas/</guid>
-      <description>Canvas LMS, is the online learning management solution for the University of North Texas that is available to all students and instructors. Canvas LMS is an open-source Learning Management System that serves as a central hub for online, hybrid, and in-person classrooms. As a modern education tool, Canvas LMS connects teachers and educators to their students.
-Use the link above to login to Canvas.
-Here are some links to get you started:</description>
+      <guid>https://imagelessthought.github.io/mainroad/skills/cybersecurity/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Cybersecurity&lt;/strong&gt; is the art of protecting networks, devices, and data from unauthorized access or criminal use and the practice of ensuring confidentiality, integrity, and availability of information. It seems that everything relies on computers and the internet now—communication (e.g., email, smartphones, tablets), entertainment (e.g., interactive video games, social media, apps ), transportation (e.g., navigation systems), shopping (e.g., online shopping, credit cards), medicine (e.g., medical equipment, medical records), and the list goes on.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -122,12 +99,12 @@ Here are some links to get you started:</description>
     </item>
     
     <item>
-      <title>GitHub: UNT Enterprise and Organizations</title>
-      <link>https://imagelessthought.github.io/mainroad/tech-links/github/</link>
+      <title>GitHub: Version Control</title>
+      <link>https://imagelessthought.github.io/mainroad/portals/github/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/tech-links/github/</guid>
-      <description>To access the UNT Enterprise GitHub instance: GitHub Enterprise: UNT-SYS. To access the UNT College of Visual Arts and Design Github Organization: GitHub Organization: UNT-CVAD.  A tutorial is available to help you get started with GitHub, GitHub Pages, and static website builders such as Jekyll and Hugo.</description>
+      <guid>https://imagelessthought.github.io/mainroad/portals/github/</guid>
+      <description>GitHub is a platform and cloud-based service for software development and version control, allowing developers to store and manage their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</description>
     </item>
     
     <item>
@@ -147,18 +124,8 @@ cloud.guacamole.unt.edu</description>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/portals/o365/</guid>
-      <description>Microsoft 365 is available to all students, instructors and staff at the University of North Texas. Microsoft 365 is a product family of productivity software, collaboration and cloud-based services developed by by Microsoft. It encompasses online services and applications formerly part of the Microsoft Office Suite: Word, Excel, PowerPoint, Outlook, among others.
-Use the link above to login to your Microsoft 365 account, this will launch the online version of Microsoft Outlook: The other available applications can be accessed by using the icon at the top left:</description>
-    </item>
-    
-    <item>
-      <title>MyLab: Online Computer Lab</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/mylab/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/portals/mylab/</guid>
-      <description>MyLab, the online computer lab for the University of North Texas is available for students and instructors to access a Windows (Citrix) or Mac (Guacamole) computer from anywhere, using any device that is capable of running a modern, HTML5 web browser.
-Use the link above to access the MyLab Online Computer Labs.</description>
+      <description>Microsoft 365 is a product family of productivity software, collaboration and cloud-based services developed by by Microsoft. It encompasses online services and applications formerly part of the Microsoft Office Suite: Word, Excel, PowerPoint, Outlook, among others.
+Use the link above to login to your Microsoft 365 account, this will launch the online version of Microsoft Outlook: The other available applications can be accessed by using the icon at the top left.</description>
     </item>
     
     <item>
@@ -168,54 +135,6 @@ Use the link above to access the MyLab Online Computer Labs.</description>
       
       <guid>https://imagelessthought.github.io/mainroad/departments/service-desk/</guid>
       <description>&lt;p&gt;Our online service desk is available in Microsoft Teams for you to receive direct, immediate support or you may submit a ticket and we will follow up with you.  No need to make a physical visit to our office: we can remotely perform most tasks regardless of whether your are on-campus or off.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Online Service Desk</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/osd/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/portals/osd/</guid>
-      <description>Our college uses Microsoft Teams to provide an online service desk to our students, instructors, and staff. Physical visits to our service desk are rarely required as we can begin a remote session to help with any hardware or software issues - including new software installation. We can begin a remote session with you regardless of whether you are on campus, working at home, or travelling in a foreign country as long as your device is connected to the internet.</description>
-    </item>
-    
-    <item>
-      <title>Papercut: Webprint from Any Device</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/webprint/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/portals/webprint/</guid>
-      <description>Papercut, is an online webprinting solution for the University of North Texas that is available for our students, instructors, and staff to submit their print jobs online. Print outs can be picked up at the printer or service location you slect to print to from within the app.
-Use the link above to login to your Papercut account.</description>
-    </item>
-    
-    <item>
-      <title>Research Consultation and Support</title>
-      <link>https://imagelessthought.github.io/mainroad/skills/research-support/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/skills/research-support/</guid>
-      <description>&lt;p&gt;Faculty research and student exhbition support is available beginning on the Monday following the 12th class day each term. If you are faculty researcher and would like to request assistance with a research project, please submit a ticket and we can schedule a time to work with you. Please provide a detailed description of your project so we can prepare for the meeting in advance: include a project description, an expected timeline and information on the technology that will be part of the project. Contact us as early in the planning stages as possible so we can allocate sufficient time in our schedule to assist you.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Statistics Software: License Portal</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/stats/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/portals/stats/</guid>
-      <description>The Statistics License Portal, is available to all students, instructors and staff at the University of North Texas. You may use this service to acquire licenses for the latest versions of statistics software licensed by the university
-Use the link above to login to the Statistics Software License portal for UNT.</description>
-    </item>
-    
-    <item>
-      <title>WebCheckout: Equipment Checkout</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/webcheckout/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/portals/webcheckout/</guid>
-      <description>Webcheckout, is an online equipment reservation solution for the University of North Texas that is available for our students, instructors, and staff to reserve equipment. Equipment can be picked up and returned to the service location shown in the portal.
-Use the link above to login to your WebCheckout account.</description>
     </item>
     
     <item>
@@ -241,16 +160,6 @@ Microsoft Sharepoint</description>
       
       <guid>https://imagelessthought.github.io/mainroad/about/example-faq/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
-    </item>
-    
-    <item>
-      <title>Zoom: Video Conferencing</title>
-      <link>https://imagelessthought.github.io/mainroad/portals/zoom/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/portals/zoom/</guid>
-      <description>Zoom, is a video-conferencing solution that is available to all students, instructors and staff at the University of North Texas. Online classes use Zoom for their class sessions but it is used widely across campus as a general video-conferencing solution.
-Use the link above to login to your Zoom account for UNT.</description>
     </item>
     
     <item>
@@ -281,12 +190,12 @@ Use the link above to login to your Zoom account for UNT.</description>
     </item>
     
     <item>
-      <title>Event and Exhibition Support</title>
-      <link>https://imagelessthought.github.io/mainroad/skills/event-and-exhibition-support/</link>
+      <title>IT Support Managemenmt</title>
+      <link>https://imagelessthought.github.io/mainroad/skills/it-management/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/skills/event-and-exhibition-support/</guid>
-      <description>&lt;p&gt;If you have an on-campus event planned, in one of our buildings or elsewhere on campus, we can provide event planning and support for the event. We need sufficient lead time to prepare. Contact us early so we can make sure the space(s) you require will be available. If you are hosting an event off-campus, please contact the CVAD Service Desk to inquire about available services.&lt;/p&gt;</description>
+      <guid>https://imagelessthought.github.io/mainroad/skills/it-management/</guid>
+      <description>&lt;p&gt;IT support refers to the assistance provided to users of technology products or services. This can include end-point management, troubleshooting technical issues, providing training and education, and offering guidance on best practices. An IT support department plays a crucial role in ensuring that technology-related issues are addressed and resolved efficiently. The range of services provided by an IT support department may vary depending on the organization&amp;rsquo;s size, structure, and specific needs.&lt;/p&gt;</description>
     </item>
     
     <item>

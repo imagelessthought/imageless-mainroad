@@ -86,7 +86,7 @@ html {
 	--menulinka: 336699;
 	--menulinkc: #336699;
 	--menulink-hoverc: #B9DCD2;
-	--thumbnailback: #B9DCD2;
+	--thumbnailback: white;
 	--faqimg-back:#B9DCD2;
 	--faqimg-c: #336699;
 	--service-back: #2a2a2a;
@@ -109,6 +109,7 @@ html {
 	--card-shadow: #B9DCD2 0 0 0 1px #00A9E0 0 2px 6px 0;
 	--preview-hover: #53565A;
 	--meta-text: white;
+	--thumbnail-hover: #B9DCD2;
 	
 }
 
@@ -836,7 +837,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin-left: .1rem;
 	color: var(--h1c);
 	width: fit-content;
-	padding: .25rem .5rem;
+	padding: .25rem .5rem!important;
 	border-radius: 4px;
 	background-color: var(--author-back);
 /*
@@ -1371,7 +1372,7 @@ width: 4rem; height: 4rem;
 	margin: 0 2rem 1rem 0;
 }
 
-.list__thumbnail img, .list__thumbnail-faq img {
+.list__thumbnail-faq img {
 	width: 100%;
 	max-width: 235px;
 }
@@ -2190,7 +2191,7 @@ a.widget__link:active {
 	width: 6rem;
 	max-width: 6rem;
 	height: 6rem;
-	border: 2px solid var(--thickborder4);
+	border: 2px solid var(--thickborder5);
 	border-radius: 4px;
 	padding: .5rem;
 	background-color: var(--thumbnailback);
@@ -2198,7 +2199,7 @@ a.widget__link:active {
 }
 
 .list__thumbnail img:hover, .portalimg:hover {
-	background-color: var(--ahover);
+	background-color: var(--thumbnail-hover);
 	box-shadow: var(--ahover) 0 0 3px 3px;
 	border: 2px solid var(--thickborder4);
 }

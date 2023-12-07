@@ -5,55 +5,56 @@ date: 2023-11-01:08:00
 authorbox: "True"
 layout: list-home
 ---
-<p class="welcome-box">We are the primary technology support hub for the <b style="color: var(--prime_white)">College of Visual Arts and Design</b> students, faculty, and staff. We directly support all technology resources and services provided by the college. If you need help with any resource in or outside of the college, we can help. Please contact us with any questions you have or for assistance with any issues you may be experiencing. You can contact us via our online service desk in Microsoft Teams and receive direct, immediate support. You may also submit a ticket and one of our technicians will follow up with you.</p>
-
+<p class="welcome-box">On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles, found under blog, are written by me and generally provide an introduction to a topic with everything needed to get started quickly. Posts may be tutorials, provide an introduction to a topic, or provide a description of an application or service and that includes related links.  Under documentation you will find step-by-step tutorials for various tasks.<br><br>
+The main goal of the website is to provide a resource for colleagues and project collaborators.</p>
+<!-- <h1 style="margin: 2.5rem 0;" class="main__title">Projects</h1> -->
 <div class="service-desk-container">
 <div class="service-desk">
 <div class="img-container">
-<a href="/redirects/rdir-service-desk.html" alt="Chat with Service Desk Technician" title="Chat with Service Desk Technician">
-<img src="/mainroad/img/blue/helpdesk-blue.svg" alt="Chat with Service Desk Technician">
+<a href="/mainroad/projects/training" alt="Suggested Training" title="Suggested Training">
+<img src="/mainroad/img/training.svg" alt="Suggested Training">
 </a>
 </div>
 <div style="margin: 0 3rem;">
-<h3 class="nomobile">Online Service Desk</h3>
-<p class="nomobile" style="text-align: justify">Our Online Service Desk is available in Microsoft Teams for you to receive direct and immediate support. Click the button to <b>the left</b> to begin a remote support session with one of our technicians.</p>
+<h3 class="nomobile">Online Training Resources</h3>
+<p class="nomobile" style="text-align: justify">There are many resources available online for infoormation technology training.  I have created a list of the services I use and recommend.  In many cases I will identify particular courses that are particularly relevant for a particular project or for a career in Information Technology.</p>
 </div>
 </div>
 
 
 <div class="service-desk">
 <div class="img-container">
-<a href="https://unts.service-now.com/saml_redirector.do?sysparm_uri=/unt?id=search%26q%3Dcvad-direct" alt="Submit a ServiceNow Ticket to the Service Desk" title="Submit a Support Ticket">
-<img src="/mainroad/img/blue/ticket-blue.svg" alt="Submit a ServiceNow Ticket to the Service Desk">
+<a href="/mainroad/projects/digital-signage" alt="Universal Digital Signage" title="Universal Digital Signage">
+<img src="/mainroad/img/digital-sign.svg" alt="Universal Digital Signage">
 </a>
 </div>
 <div style="margin: 0 3rem;">
-<h3 class="nomobile">Submit a Ticket</h3>
-<p class="nomobile" style="text-align: justify">If you prefer, you may click the button to <b>the left</b> to submit a support ticket and one of our technicians will follow up with you by email.</p>
+<h3 class="nomobile">Digital Signage</h3>
+<p class="nomobile" style="text-align: justify">My team created an open-source digital signage solution that is device independent.  While we use Raspebrry Pi to display the content, you can use anything that is capable of displaying a website in fill-screen mode. Screen savers for the major operating systems are included as well.</p>
 </div>
 </div>
 
 <div class="service-desk">
 <div class="img-container">
-<a href="faq" alt="Frequently Asked Questions" title="FAQ">
-<img src="/mainroad/img/blue/faq-blue.svg" alt="FAQS">
+<a href="/mainroad/projects/web-design" alt="Web and UI Design" title="Web and UI Design">
+<img src="/mainroad/img/webdesign.svg" alt="Web and UI Design">
 </a>
 </div>
 <div style="margin: 0 3rem;">
-<h3 class="nomobile">Frequently Asked Questions</h3>
-<p class="nomobile" style="text-align: justify">Have a question? You may be able to find the answerin our FAQ. However, if you have a question that is not addressed, please <a href="mailto:cvad.itservices@unt.edu" alt="Email Support" title="Email IT Support">email</a> us. We appreciate your feedback.</p>
+<h3 class="nomobile">Web and UI Design</h3>
+<p class="nomobile" style="text-align: justify">Resources are available to assist you when creating a website or user interfaces for a software application.  Also included is a tutorial on open source software licenses: there are many out there, you need to understand the license restrictions and acceptable use alowances for anything used in your project.</p>
 </div>
 </div>
 <div class="service-desk">
 <div class="img-container">
-<a href="documentation" alt="IT Help Documentation" title="Help Documentation">
+<a href="documentation" alt="Help Documentation" title="Help Documentation">
 <img src="/mainroad/img/blue/documentation-blue.svg" alt="Help Documentation">
 </a>
 </div>
 
 <div style="margin: 0 3rem;">
 <h3 class="nomobile">Help Documentation</h3>
-<p class="nomobile" style="text-align: justify">Need help with a particular system or service?  Not sure how to do something in an application?  Checkout out our help documentation.</p>
+<p class="nomobile" style="text-align: justify">Need help with a particular system, application or service? Not sure how to do something? Checkout out the help documentation. I provide help on a variety of topics, particularly those that relate to my role in Information Technology.</p>
 </div>
 </div>
 
