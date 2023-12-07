@@ -692,8 +692,9 @@ select {
 	font-weight: 700;
 	line-height: 1;
 	color: var(--logotagc);
+	/*
 	box-shadow: var(--logo-shadow) 0 0 4px 1px;
-	border: 1px solid var(--logo-shadow);
+	border: 1px solid var(--logo-shadow); */
 	background-color: var(--logo-back);
 	border-radius: 4px;
 	padding: .25rem .5rem;
@@ -831,7 +832,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     margin: 0 0 2rem 0;
 }
 
-.main__title, .post__title {
+.main__title {
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
 	margin-left: .1rem;
@@ -849,6 +850,22 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	outline: 2px solid var(--shadow2);
 */
 }
+
+.post__title {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	margin-left: .1rem;
+	color: var(--h1c);
+
+}
+
+.post-highlight {
+	width: fit-content;
+	padding: .25rem .5rem!important;
+	border-radius: 4px;
+	background-color: var(--author-back);
+}
+
 
 .main__content {
 	margin-bottom: 1.25rem;
@@ -1170,19 +1187,26 @@ width: 4rem; height: 4rem;
 
 .content ul,
 .content ol {
-	margin: 0 0 20px 40px;
+	margin: 0 0 0 2rem;
 }
 
 .content ul ul,
 .content ol ol,
 .content ol ul,
 .content ul ol {
-	margin: 0 0 0 40px;
+	margin: 0 0 0 2rem;
 }
 
-.content li {
-	margin-bottom: 5px;
+.content ul li {
+	margin-bottom: 0;
+	margin-left: .5rem;
+
 }
+
+.content ul li:last-child {
+	margin-bottom: 1.5rem;
+}
+
 
 .post__footer {
 	margin-top: 20px;

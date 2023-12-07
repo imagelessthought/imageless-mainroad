@@ -686,8 +686,9 @@ select {
 	font-weight: 700;
 	line-height: 1;
 	color: var(--logotagc);
+	/*
 	box-shadow: var(--logo-shadow) 0 0 4px 1px;
-	border: 1px solid var(--logo-shadow);
+	border: 1px solid var(--logo-shadow); */
 	background-color: var(--logo-back);
 	border-radius: 4px;
 	padding: .25rem .5rem;
@@ -825,7 +826,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     margin: 0 0 2rem 0;
 }
 
-.main__title, .post__title {
+.main__title {
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
 	margin-left: .1rem;
@@ -843,6 +844,22 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	outline: 2px solid var(--shadow2);
 */
 }
+
+.post__title {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	margin-left: .1rem;
+	color: var(--h1c);
+
+}
+
+.post-highlight {
+	width: fit-content;
+	padding: .25rem .5rem!important;
+	border-radius: 4px;
+	background-color: var(--author-back);
+}
+
 
 .main__content {
 	margin-bottom: 1.25rem;
@@ -1653,8 +1670,6 @@ a.widget__link:active {
 /* Footer */
 .footer {
 	padding: 1rem 0 1rem 6.5rem;
-	font-size: 12px;
-	font-size: .75rem;
 	color: var(--footerc);
 	background: var(--footer-back);
 }
