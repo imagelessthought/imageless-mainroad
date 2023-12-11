@@ -5,7 +5,7 @@ authorbox: "True"
 ---
 <div class="portfolio">
 
-<div class="flex-container">
+<div class="flex-container-links">
 <div class="rsidebar-links" style="margin-top:0;">
 <p>Information Security</p>
 <a href="https://www.sans.org" alt="SANS">SANS Institute</a>
