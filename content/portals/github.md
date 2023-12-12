@@ -1,6 +1,6 @@
 ---
 title: "GitHub: Version Control"
-date: 2023-10-05
+date: 2023-12-05
 layout: single-portal
 thumbnail: "/mainroad/img/github-purple.svg"
 portalurl: "https://github.com/"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skills on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mainroad/training/</link>
+    <description>Recent content in Skills on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/training/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub: Version Control</title>
+      <link>https://imagelessthought.github.io/mainroad/training/github/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/training/github/</guid>
+      <description>GitHub is a platform and cloud-based service for software development and version control, allowing developers to store and manage their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</description>
+    </item>
+    
+  </channel>
+</rss>

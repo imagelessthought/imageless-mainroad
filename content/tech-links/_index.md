@@ -3,7 +3,7 @@ title: Technology Links
 layout: list-tech
 authorbox: "True"
 ---
-<div class="portfolio">
+<div style="margin: 4rem 0 0 0" class="portfolio">
 
 <div class="flex-container-links">
 <div class="rsidebar-links" style="margin-top:0;">

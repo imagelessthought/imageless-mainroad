@@ -149,6 +149,15 @@ Instructor: Ranran Fan</description>
     </item>
     
     <item>
+      <title>GitHub: Version Control</title>
+      <link>https://imagelessthought.github.io/mainroad/training/github/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/training/github/</guid>
+      <description>GitHub is a platform and cloud-based service for software development and version control, allowing developers to store and manage their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</description>
+    </item>
+    
+    <item>
       <title>Guacamole: Remote Access Service</title>
       <link>https://imagelessthought.github.io/mainroad/status/status-guacamole/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
@@ -175,7 +184,7 @@ Use the link above to login to your Microsoft 365 account, this will launch the 
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/projects/digital-signage/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
+      <description>Description: This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.. The server will host the content in playlists using one of the available templates. The digital signage device will simply need to launch a browser in full-screen mode and open the URL at startup: the URL will be the server. and the hostname of the device example: https://signage.</description>
     </item>
     
     <item>
@@ -195,12 +204,12 @@ Microsoft Sharepoint</description>
     </item>
     
     <item>
-      <title>What training and current certificatons do you have?</title>
+      <title>What training and certificatons have you completed?</title>
       <link>https://imagelessthought.github.io/mainroad/about/example-faq/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/about/example-faq/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
+      <description>Below is the information on the various training and certifications I have completed. I complete training using a variety of vendors, my preferred training vendors are: Coursera (used for my Google and IBM certifications), Stormwind Studios (used for Microsoft and other proprietary software training), ACI Learning (used for open source and new technology training), W3 Schools (provides training certifications that are primarily focused on web technologies and not tied to a specific product), and finally LinkedIn Learning (provides a wide range of technical and business-related certifications).</description>
     </item>
     
     <item>
@@ -222,15 +231,6 @@ Microsoft Sharepoint</description>
     </item>
     
     <item>
-      <title>Digital Fabrication Lab</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/digital-fabrication-lab/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/projects/digital-fabrication-lab/</guid>
-      <description>&lt;p&gt;The CVAD Digital Fabrication Lab is available without an additional charge or fee to all students enrolled in at least one CVAD course in each semester. We provide student access to high-end fabrication and maker equipment needed by our student population to meet course and professional requirements.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>IT Support Management</title>
       <link>https://imagelessthought.github.io/mainroad/skills/it-management/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
@@ -245,7 +245,8 @@ Microsoft Sharepoint</description>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/projects/web-design/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
+      <description>Understanding Open-Source Licensing Terms You will find many resources online that you may want to include in your website: images, fonts, themes, templates, plug-ins etc&amp;hellip; Before you use them in your website it is important to check the licensing terms to confirm that your use is in compliance with the agreement. You must follow any stipulations included in the agreement.
+When it comes to open-source resources, many of the licensing terms you will encounter grant you permission to use the resource pretty freely.</description>
     </item>
     
     <item>

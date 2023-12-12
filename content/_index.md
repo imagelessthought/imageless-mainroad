@@ -11,7 +11,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk-container">
 <div class="service-desk">
 <div class="img-container">
-<a href="/mainroad/projects/training" alt="Suggested Training" title="Suggested Training">
+<a href="/mainroad/training" alt="Suggested Training" title="Suggested Training">
 <img src="/mainroad/img/training.svg" alt="Suggested Training">
 </a>
 </div>
