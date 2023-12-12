@@ -6,14 +6,40 @@ thumbnail: "img/webdesign.svg"
 exclude_from_recent: true
 authorbox: True
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a. Etiam pellentesque porttitor dolor. Aliquam consequat sem tellus, non vestibulum risus rhoncus quis. In in ultricies felis, eget sodales sem. Proin eros magna, dignissim a enim nec, ultricies viverra diam. Etiam convallis malesuada ligula. Donec vel mi sit amet magna congue viverra quis ut ante. Vivamus quis felis non est posuere rutrum.
+## Understanding Open-Source Licensing Terms ##
+You will find many resources online that you may want to include in your website: images, fonts, themes, templates, plug-ins etc... Before you use them in your website it is important to check the [licensing terms](https://opensource.org/licenses/ 'Open-Source Licenses') to confirm that your use is in compliance with the agreement.  You must follow any stipulations included in the agreement.  
 
-Cras enim felis, finibus non sagittis at, viverra eu nunc. Vestibulum magna risus, pretium sit amet enim eget, placerat scelerisque nisi. Phasellus eget diam ornare, convallis sapien vitae, feugiat odio. Praesent consectetur eleifend sapien. Vestibulum finibus eros in nibh facilisis, quis placerat tortor pulvinar. Praesent viverra scelerisque ligula, ac finibus est posuere aliquam. In eu ex at ante condimentum aliquam.
+When it comes to open-source resources, many of the licensing terms you will encounter grant you permission to use the resource pretty freely. But there are exceptions.  Before using anything you find online check:
 
-Proin egestas euismod sem, vitae auctor mauris commodo ut. Nulla at libero lorem. Aliquam maximus scelerisque neque, vitae sagittis felis. Pellentesque aliquam commodo urna nec dapibus. Ut ac ligula ut sem congue pretium. Duis auctor lacus non velit vulputate, in sollicitudin tortor imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- Is there a restriction on commerical use?
+- Is attribution required?  If so - what does that entail?
+- Not all open-source resources are *entirely free*: sometimes there is a free and pro version. The pro version will likely require a fee. Just because you can download it does not mean you are licensed to use it without payment. 
 
-Proin facilisis enim tristique quam malesuada aliquam. Vestibulum iaculis tempus facilisis. Vivamus cursus lacinia est, sagittis semper dui egestas suscipit. Aenean tincidunt neque suscipit, ornare nisl eget, tincidunt sem. Aliquam erat volutpat. Maecenas et nunc vel turpis cursus consectetur. Quisque non lacinia purus.
+Also, for your own projects - always specify a license agreement.  
 
-Sed eget lacus eleifend nisl sodales fermentum id ac augue. Ut ipsum lorem, maximus sed dolor et, lacinia suscipit mi. Proin faucibus turpis tortor, vitae venenatis diam mattis cursus. Duis eu orci non urna consectetur ornare at sed lorem. Ut vulputate sodales commodo. Nunc ut nisl neque. Curabitur vehicula pharetra nunc, porttitor pellentesque ipsum accumsan nec. Nunc elementum sem libero. Donec mollis ornare magna at tristique. Nullam facilisis nulla lacus, eget fringilla tortor hendrerit rutrum. Etiam consectetur dolor vel justo facilisis finibus venenatis non ex. Quisque nec vestibulum risus, nec mollis ante. In ut interdum lorem. Quisque mattis sapien in egestas euismod. Donec ut mi dignissim, pulvinar ex vitae, dignissim turpis.
+Here is some information on some popular open-source license agreements:
 
-Nunc efficitur efficitur mollis. Donec feugiat lacinia eleifend. Vestibulum ullamcorper nunc a neque pharetra commodo. Etiam at congue erat. Sed ultrices, ex ac cursus vulputate, ex arcu elementum eros, quis tincidunt odio enim in neque. Etiam congue dui vel dui efficitur sodales. Fusce vel est dictum, aliquet tortor ac, convallis dui. Praesent dapibus tincidunt nisl.
+- [MIT Licenses](https://tlo.mit.edu/learn-about-intellectual-property/software-and-open-source-licensing/open-source-licensing 'MIT Licenses')
+- [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/ 'Creative Commons')
+- [Public Domain "Creative Commons Zero"](https://creativecommons.org/publicdomain/zero/1.0/ 'Public Domain CC0')
+- [GNU Licenses](https://www.gnu.org/licenses/licenses.en.html 'GNU Licenses')
+
+## Available Resources ##
+Here are some resources that are available online that may be of use to you on your project:
+
+### Fonts ###
+When it comes to free and open-source fonts used on websites - [Google Fonts](https://fonts.google.com/knowledge 'Google Fonts') pretty much dominates. Google also offers icons (Material Symbols).  You may want to look at the [Noto](https://fonts.google.com/noto 'Noto Font by Google') fonts: it is intended to be a font that is available in all languages. 
+
+- [Google Font Collection](https://fonts.google.com/ 'Google Fonts')
+- [Google Icons (Material Symbols)](https://fonts.google.com/icons 'Google Material Symbols Icons')
+
+### Images ###
+If you are looking for images for your website, I would start with these:
+
+- [UXWing](https://uxwing.com/ 'UXWING Free images'): A collection of free icons availabel for use on non-commercial *and* commercial projects without attribution. The collection contains well optimized free SVG and PNG icons that can be used on interface design, web and application development.
+- [SVGRepo](https://www.svgrepo.com/ 'SVGRepo'): 500.000+ Open-licensed SVG Vector and Icons: Search, explore and edit the best-fitting free icons or vectors for your projects using a wide variety vector library. Download free SVG vectors and icons for commercial use. **Check the license terms carefully - some require attribution**.
+
+The majority of the UXwing images are monochromatic (black on a transparent white background). The easiest way I have found to change the colors of an SVG file is to use this free tool: [DeEditor](https://deeditor.com/ 'Deeditor').
+
+### Other Resources ###
+- [Font Awesome](https://fontawesome.com/ 'Font Awesome') is a collection of fonts available in two versions: free and paid.  It is pretty popular and fairly easy to use.

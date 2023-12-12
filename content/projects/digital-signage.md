@@ -1,6 +1,6 @@
 ---
 title: Universal Digital Signage
-subtitle: A device independent digital signage solution.
+subtitle: Centrally Managed Content Delivery for Digital Signs, Screensavers, Kiosks, Presentations and More.
 date: 2023-10-05
 layout: single-owner
 owner:
@@ -10,14 +10,75 @@ thumbnail: "img/digitial-sign.svg"
 exclude_from_recent: true
 authorbox: True
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a. Etiam pellentesque porttitor dolor. Aliquam consequat sem tellus, non vestibulum risus rhoncus quis. In in ultricies felis, eget sodales sem. Proin eros magna, dignissim a enim nec, ultricies viverra diam. Etiam convallis malesuada ligula. Donec vel mi sit amet magna congue viverra quis ut ante. Vivamus quis felis non est posuere rutrum.
 
-Cras enim felis, finibus non sagittis at, viverra eu nunc. Vestibulum magna risus, pretium sit amet enim eget, placerat scelerisque nisi. Phasellus eget diam ornare, convallis sapien vitae, feugiat odio. Praesent consectetur eleifend sapien. Vestibulum finibus eros in nibh facilisis, quis placerat tortor pulvinar. Praesent viverra scelerisque ligula, ac finibus est posuere aliquam. In eu ex at ante condimentum aliquam.
+## Description: ##
 
-Proin egestas euismod sem, vitae auctor mauris commodo ut. Nulla at libero lorem. Aliquam maximus scelerisque neque, vitae sagittis felis. Pellentesque aliquam commodo urna nec dapibus. Ut ac ligula ut sem congue pretium. Duis auctor lacus non velit vulputate, in sollicitudin tortor imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.. The server will host the content in playlists using one of the available templates. The digital signage device will simply need to launch a browser in full-screen mode and open the URL at startup: the URL will be the server. and the hostname of the device example: <b>https://signage.unt.edu/rasperrypi1</b>. The index file at the path provided will redirect to the currently assigned playlist. Below is the html that could be used in the index file to point the digital sign in our example (https://signage.unt.edu/raspberrypi1/index.html) to the default playlist on the server:
 
-Proin facilisis enim tristique quam malesuada aliquam. Vestibulum iaculis tempus facilisis. Vivamus cursus lacinia est, sagittis semper dui egestas suscipit. Aenean tincidunt neque suscipit, ornare nisl eget, tincidunt sem. Aliquam erat volutpat. Maecenas et nunc vel turpis cursus consectetur. Quisque non lacinia purus.
+<div class="welcome-box">&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0; URL=https://signage.unt.edu/default-playlist/&quot;&gt;</div>
 
-Sed eget lacus eleifend nisl sodales fermentum id ac augue. Ut ipsum lorem, maximus sed dolor et, lacinia suscipit mi. Proin faucibus turpis tortor, vitae venenatis diam mattis cursus. Duis eu orci non urna consectetur ornare at sed lorem. Ut vulputate sodales commodo. Nunc ut nisl neque. Curabitur vehicula pharetra nunc, porttitor pellentesque ipsum accumsan nec. Nunc elementum sem libero. Donec mollis ornare magna at tristique. Nullam facilisis nulla lacus, eget fringilla tortor hendrerit rutrum. Etiam consectetur dolor vel justo facilisis finibus venenatis non ex. Quisque nec vestibulum risus, nec mollis ante. In ut interdum lorem. Quisque mattis sapien in egestas euismod. Donec ut mi dignissim, pulvinar ex vitae, dignissim turpis.
+The screensavers for Mac, Windows and Linux: when the screensaver is active it simply needs to play a slideshow from server. The only required configurable options are the ability to specify the server and playlist (rather than hostname). Ideally this information should be read from a .cfg file and not directly configurable by the user. These need to be simple and very likely the code already exists. Feel free to use what you are able to find as long as they are open-source.
+Example of use case: each department wants a unique slideshow for a screensaver that they may distribute or use in their area. They will each create their own playlists using the application and configure the screensaver to point to it before distributing.
+- Three templates will be needed for development; one for digital signs, one for kiosks, and one for presentations.
+- All templates should use the full-screen, and have an option for a border and padding.
+- Digital Sign: This should autoplay the slideshow on an endless loop and include an option for a text caption at the top or bottom of the page.
+- Kiosk: include slide advancement controls available to the user on the right-hand (next slide) and left-hand (previous slide) of the screen.
+- Presentation: include a small slideshow controls box in the top right of the screen that allows the user to control the slideshow: advance, previous, autoplay, autoplay-pause. A the bottom of the screen shoud be small numbered buttons that allow the user to move to a particular slide.
+- We will be using the RaspberryPi with the <a href="https://www.otot.tv/fullpageos-setup-instructions/" alt="Raspberry Pi FullPageOS">FullPageOS</a> as the digital signage device for testing. FullPageOS is an <em>existing</em> simple OS build that launches a web browser in kiosk mode and opens a specified URL at startup. <b>No development is required as part of this project</b>.
 
-Nunc efficitur efficitur mollis. Donec feugiat lacinia eleifend. Vestibulum ullamcorper nunc a neque pharetra commodo. Etiam at congue erat. Sed ultrices, ex ac cursus vulputate, ex arcu elementum eros, quis tincidunt odio enim in neque. Etiam congue dui vel dui efficitur sodales. Fusce vel est dictum, aliquet tortor ac, convallis dui. Praesent dapibus tincidunt nisl.
+## Application Features ##
+
+<u>User options through a UI</u>
+
+<b>Digital Signs</b> (Non-interactive Slideshows)
+- Register and Unregsiter hostnames of devices. Registration creates the folder with the hostname and creates the initial index file (should point to the default playlist or allow the user to assign a playlist upon registration). Unregistering removes the folder
+- When registering, ask whether the digital sign is a touch-screen and apply a tag to the device. <b>Digital signs <em>without a touch-screen</em> should not be permitted to assign an interactive playlist</b>.
+
+- Display all hosts with the assigned <span class="primefont">playlist</span> and <span class="primefont">group</span> if applicable.
+- Add or Remove from asset group (adding to an asset group assigns that group's playlist).
+- Assign playlist: directly assigning a playlist removes it from an assigned group.
+- Assign to user group(s) for management permissions.
+
+<b>Kiosk-Presentations</b> (Interactive Slideshows) 
+- Template <b>3</b> referenced above is intended to be used primarily to create playlists for the kiosks and presentations: it does require user-interaction.
+- Create, edit or remove a kiosk-presentation. A folder will be created with the name of the slideshow and the initial index file will be created (should point to the default kiosk-presentation playlist or allow the user to assign a playlist at the time of creation). Removing the  the folder.
+- Display all kiosk-presentations with the assigned <span class="primefont">playlist</span> and <span class="primefont">group</span> if applicable.
+- Add or Remove from asset group (adding to an asset group assigns that group's playlist).
+- Assign playlist: directly assigning a playlist removes it from an assigned group.
+- Assign to user group(s) for management permissions.
+
+<b>Playlists</b> 
+- Display all playlists and the devices and groups that have it assigned.
+- Assign a template to the playlist
+- Create, Edit or Delete a playlist. Prevent the deletion of a playlist that is currently assigned to a host. Images can be slected from the Image Library or by enetering a URL to an image. For template with caption - the caption can be edit or updated here. 
+
+<b>Image Library</b> 
+- Diplay all images in the library with the description and tags.
+- Add or remove an image from the libarary.  
+- Allow for a description to be added to an image.
+- Allow for tags to be added to an image.
+- Create, Edit, and Delete tags.
+    
+<b>Template Library</b>
+- View all templates and current properties.
+- Configure template properties (background color, image padding, slide duration...).
+- Edit and delete templates.
+- Copy an existing template to a new template for modification.
+
+<b>Scheduler</b>
+- Create an assignable schedule for playlist changes: daily, weekly, monthly schedules and by specific date and time.
+- Allow a schedule to be applied to a device or group.
+
+<u>Server</u>
+
+<b>User and Group Management (accessible by users with admin or asset manager role only)</b>
+- Create, edit and delete users. <span class="role-emph1">admin</span>
+- Assign role: standard or admin. <span class="role-emph1">admin</span>
+- Disable a user account. <span class="role-emph1">admin</span>
+- Require user to reset password at next login. <span class="role-emph1">admin</span>
+- Add\remove digital signs and kiosk-presentations to user groups: user groups control management permissions. <span class="role-emph1">admin</span>
+- Lock a digital sign, kiosk-presentations, or asset group to prevent changes. <span class="role-emph2">asset manager</span>
+
+<u>Screensavers and Digital Signs</u>
+
+- <b>Failure</b>: If the playlist canot be found amessage should be dislpayed that provides contact information for support.
