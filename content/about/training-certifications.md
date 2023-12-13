@@ -9,7 +9,7 @@ layout: single-faq
 <p class="glow">Below is the information on the various training and certifications I have completed.  I complete training using a variety of vendors, my preferred training vendors are: <a href="https://www.coursera.org/" alt="Coursera">Coursera</a> (used for my Google and IBM certifications), <a href="https://www.stormwindstudios.com/" ALT="Stormwind Studios">Stormwind Studios</a> (used for Microsoft and other proprietary software training), <a href="https://www.acilearning.com/" alt="ACI Learning">ACI Learning</a> (used for open source and new technology training), <a href="https://campus.w3schools.com/" alt="W3Schools">W3 Schools</a> (provides training certifications that are primarily focused on web technologies and not tied to a specific product), and finally <a href="https://www.linkedin.com/learning/" a;t="LinkedIn Learning">LinkedIn Learning</a> (provides a wide range of technical and business-related certifications).</p>
 <div style="margin: 2.5rem 0"></div>
 <h3 class="label1">Scrum Alliance, Inc.</h3>
-<div class="portfolio">
+<div class="portfolio2 list-bordered">
 <div class="flex-container">
       <div class="flex-item">
         <p class="ctr"><a href="https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" alt="Coursera Page">Certified ScrumMaster® (CSM®)</a></p>
@@ -25,7 +25,7 @@ layout: single-faq
 </div>
 </div>
 <h3 class="label1">Google Certifications</h3>
-<div class="portfolio2">
+<div class="portfolio2 list-bordered">
 <div class="flex-container">
       <div class="flex-item">
         <p class="ctr"><a href="https://www.coursera.org/google-certificates/cybersecurity-certificate" alt="Coursera Page">Google Cybersecurity Professional Certificate</a></p>
@@ -129,7 +129,7 @@ layout: single-faq
 </div>
 </div>
 <h3 class="label1">W3 School Certifications</h3>
-<div class="portfolio2">
+<div class="portfolio2 list-bordered">
 <div class="flex-container">
       <div class="flex-item">
           <p class="ctr"><a href="https://verify.w3schools.com/1OAVFMY80M" alt="Coursera Page">W3 Cybersecurity Certification</a></p>
