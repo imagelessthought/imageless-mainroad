@@ -16,8 +16,7 @@ posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/linux.svg"
 ---
 Over the past two years years Microsoft has made some significant improvements to the <b>Windows Subsystem for Linux</b>. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps. <b>WSL 2</b> is a new version of the Windows Subsystem for Linux architecture, available beginning with Windows 10-Version 1903-Build 18362, that powers the Windows Subsystem for Linux to run ELF64 (Executable and Linkable Format) Linux binaries on Windows. WSL2 provides a truly great resource for developers and application testing.
-
-<!-- Add your post content here -->
+<!--more-->
 
 The Windows Subsystem for Linux [(WSL)](https://learn.microsoft.com/en-us/windows/wsl 'Microsoft WSL') allows you to install virtually any Linux distro on your Windows 10 or 11 machine, without the need for a traditional virtual machine or dualboot setup, and use Linux applications, utilities, and Bash command-line tools directly from Windows. You can install [multiple Linux distros](https://learn.microsoft.com/en-us/windows/wsl/install#ways-to-run-multiple-linux-distros-with-wsl 'Multiple Linux Distros on WSL2') such as Ubuntu, OpenSUSE, Kali, Debian, Arch Linux, and Oracle Linux, and have them running at the same time.
 

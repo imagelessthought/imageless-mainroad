@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applications on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mainroad/categories/applications/</link>
+    <description>Recent content in Applications on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/applications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universal Digital Signage: Installation Instructons</title>
+      <link>https://imagelessthought.github.io/mainroad/documentation/digital-signage-install/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/documentation/digital-signage-install/</guid>
+      <description>Welcome to the Universal Digital Signage project, a centralized digital signage solution that allows users to create playlists, add host devices on demand, and control what hosts display on their screens by managing playlists. ## Table of Contents  - [Project Overview](#project-overview) - [Backend (Node.js Server)](#backend-nodejs-server) - [Prerequisites](#prerequisites-for-backend) - [Getting Started](#getting-started-for-backend) - [Project Structure](#project-structure-for-backend) - [Environment Variables](#environment-variables-for-backend) - [Running the Server](#running-the-server-for-backend) - [Endpoints](#endpoints-for-backend) - [Frontend (React App)](#frontend-react-app) - [Prerequisites](#prerequisites-for-frontend) - [Getting Started](#getting-started-for-frontend) - [Environment Variables](#environment-variables-for-frontend) - [Available Scripts](#available-scripts-for-frontend) - [Folder Structure](#folder-structure-for-frontend) ## Project Overview  This project consists of both a Node.</description>
+    </item>
+    
+  </channel>
+</rss>

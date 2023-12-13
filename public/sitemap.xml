@@ -11,6 +11,33 @@
     <loc>https://imagelessthought.github.io/mainroad/tech-links/</loc>
     <lastmod>2023-12-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/blog/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/categories/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/categories/flipper-zero/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/blog/flipper0/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tags/hacking/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tags/multi-tools/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tags/penetration-testing/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/categories/penetration-testing/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tags/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://imagelessthought.github.io/mainroad/tech-links/rpi/</loc>
     <lastmod>2023-12-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -26,16 +53,7 @@
     <loc>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/blog/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/categories/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/getting-started/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/tags/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/training/aci/</loc>
@@ -200,9 +218,6 @@
     <loc>https://imagelessthought.github.io/mainroad/about/training-certifications/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/about/training-certifications2/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://imagelessthought.github.io/mainroad/projects/instructional/</loc>
     <lastmod>2023-10-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -215,6 +230,18 @@
     <loc>https://imagelessthought.github.io/mainroad/projects/web-design/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tags/applications/</loc>
+    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/categories/applications/</loc>
+    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tags/digital-signage/</loc>
+    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/categories/digital-signage/</loc>
+    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://imagelessthought.github.io/mainroad/documentation/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -224,22 +251,28 @@
     <loc>https://imagelessthought.github.io/mainroad/categories/file-storage/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/categories/innovation-projects/</loc>
+    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/isilion/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/documentation/hammerspace/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/projects/hammerspace/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/modern-campus/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/documentation/omni-campus/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/projects/omni-campus/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/omni-cms/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/pure-data/</loc>
+    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/documentation/digital-signage-install/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/tags/unt-websites/</loc>

@@ -17,7 +17,7 @@ thumbnail: "img/website-design.svg"
 ---
 
 [Jekyll](https://jekyllrb.com/ 'Jekyll Website') is a free and open source static site generator that was developed by Github and is written in the [Ruby Programming Lanaguage](https://www.ruby-lang.org/en 'Ruby Programming Language'). It takes text written in [Markdown](https://daringfireball.net/projects/markdown/ 'Markdown Website'), [Liquid](https://github.com/Shopify/liquid/wiki 'Liquid Website">Liquid'), HTML & CSS and uses standardized layouts to create static webpages. [SASS: Syntactically Awesome Style Sheets](https://sass-lang.com/ 'SASS Website') integration is bulit-in. You can easily customize the look and feel, URLs, and the data displayed on your pages.
-
+<!--more-->
 > Jekyll is the supported solution for webpages using [Github Pages](https://pages.github.com/ 'Github Pages website').  The deployment workflow, using [Github Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/ 'Github Actions on the Jekyll Website'), is very well documented.
 {: .prompt-tip}
 

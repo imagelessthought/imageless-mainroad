@@ -17,7 +17,7 @@ posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/branching-icon.svg"
 ---
 [Git](https://git-scm.com 'Git Website') is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is widely used for collaborative software development and **Github** is a very popular Git platform. Git is used to track changes, keep a complete history of the changes, and allows you to roll back to any point. Owners can grant access to a project and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.
-
+<!--more-->
 ## GitHub ##
 [GitHub](https://en.wikipedia.org/wiki/GitHub 'GitHub article ot Wikipedia') is a platform and cloud-based service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Github was acquired by Microsoft in 2018.  It is used extensively by MIcrosoft, including [Microsoft Azure](https://en.wikipedia.org/wiki/Microsoft_Azure 'Microsoft Azure article on Wikipedia'). 
 

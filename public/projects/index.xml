@@ -44,5 +44,23 @@
 When it comes to open-source resources, many of the licensing terms you will encounter grant you permission to use the resource pretty freely.</description>
     </item>
     
+    <item>
+      <title>Migrating from Isilon to Pure Storage</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/hammerspace/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/projects/hammerspace/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.purestorage.com/&#34; title=&#34;Pure Storage Website&#34;&gt;Pure Storage&lt;/a&gt; is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modern Campus and Omni CMS</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/omni-campus/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/projects/omni-campus/</guid>
+      <description>&lt;p&gt;The UNT campus is migrating from Drupal 7 to &lt;a href=&#34;https://moderncampus.com/resources/index.html&#34; title=&#34;Modern Campus and Omni CMS website&#34;&gt;Modern Campus, Omni CMS&lt;/a&gt;. This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1920,7 +1920,7 @@ a.widget__link:active {
 	  text-align: center;
 	  margin: 0 1rem;
 	  padding: 0 1rem .2rem 1rem;
-	  font-size: 120%;
+	  font-size: 140%;
 	  font-weight: 600!important;
 	  width: 100%;
 /*	  border: 1px solid var(--btn-border); */
@@ -1942,7 +1942,7 @@ a.widget__link:active {
 			max-width: 2.95rem;
 			border-radius: 4px;
 			box-shadow: var(--shadow2) 0 0 3px 1px; 
-			padding: .1rem .25rem .1rem .1rem;
+			padding: .25rem;
 		}
 	
 	  .menu__item:first-child {

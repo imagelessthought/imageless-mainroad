@@ -8,21 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Migrating from Isilon to Pure Storage</title>
-      <link>https://imagelessthought.github.io/mainroad/documentation/hammerspace/</link>
+      <title>Universal Digital Signage: Installation Instructons</title>
+      <link>https://imagelessthought.github.io/mainroad/documentation/digital-signage-install/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/documentation/hammerspace/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.purestorage.com/&#34; title=&#34;Pure Storage Website&#34;&gt;Pure Storage&lt;/a&gt; is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Modern Campus and Omni CMS</title>
-      <link>https://imagelessthought.github.io/mainroad/documentation/omni-campus/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/documentation/omni-campus/</guid>
-      <description>&lt;p&gt;The UNT campus is migrating from Drupal 7 to &lt;a href=&#34;https://moderncampus.com/resources/index.html&#34; title=&#34;Modern Campus and Omni CMS website&#34;&gt;Modern Campus, Omni CMS&lt;/a&gt;. This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.&lt;/p&gt;</description>
+      <guid>https://imagelessthought.github.io/mainroad/documentation/digital-signage-install/</guid>
+      <description>Welcome to the Universal Digital Signage project, a centralized digital signage solution that allows users to create playlists, add host devices on demand, and control what hosts display on their screens by managing playlists. ## Table of Contents  - [Project Overview](#project-overview) - [Backend (Node.js Server)](#backend-nodejs-server) - [Prerequisites](#prerequisites-for-backend) - [Getting Started](#getting-started-for-backend) - [Project Structure](#project-structure-for-backend) - [Environment Variables](#environment-variables-for-backend) - [Running the Server](#running-the-server-for-backend) - [Endpoints](#endpoints-for-backend) - [Frontend (React App)](#frontend-react-app) - [Prerequisites](#prerequisites-for-frontend) - [Getting Started](#getting-started-for-frontend) - [Environment Variables](#environment-variables-for-frontend) - [Available Scripts](#available-scripts-for-frontend) - [Folder Structure](#folder-structure-for-frontend) ## Project Overview  This project consists of both a Node.</description>
     </item>
     
   </channel>

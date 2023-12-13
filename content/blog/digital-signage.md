@@ -14,10 +14,8 @@ postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/digital-sign.svg"
 ---
-The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well.
-
-We will be developing the new solution as open source and will use already available code whenever possible: don't reinvent the wheel.  Unless you have to, that is. 
-
+The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well. We will be developing the new solution as open source and will use already available code whenever possible: don't reinvent the wheel.  Unless you have to, that is. 
+<!--more-->
 ## New Features
 
 This time around we will be adding some new features:

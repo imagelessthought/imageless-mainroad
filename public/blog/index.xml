@@ -6,16 +6,23 @@
     <description>Recent content in Blog on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FlipperZero: A PenTest Tool</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/flipper0/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/blog/flipper0/</guid>
+      <description>&lt;p&gt;Flipper Zero is a portable multi-tool for pentesters and geeks in a toy-like body. Used to pentest digital services, such as radio protocols, access control systems, hardware, and more. It&amp;rsquo;s fully open-source and customizable, so you can extend it in whatever way you like.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>AI: A Primer</title>
       <link>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</guid>
-      <description>The AI field is heavy with jargon and terminology. To help you navigate and understand the the technologies and solutions that are out there, you will need a some help. I suggest starting by reading this article: Artificial Intelligence Glossary: Neural Networks and Other Terms Explained - New York Times; March 23, 2023.
-Below are links to some glossaries and articles to further assist you with the terminology.
-Glossaries of AI Terminology:  AI Blog provides a searchable database of terms.</description>
+      <description>&lt;p&gt;The AI field is heavy with jargon and terminology.  To help you navigate and understand the the technologies and solutions that are out there, you will need a some help.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -24,8 +31,7 @@ Glossaries of AI Terminology:  AI Blog provides a searchable database of terms.<
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/blog/jekyll/</guid>
-      <description>Jekyll is a free and open source static site generator that was developed by Github and is written in the Ruby Programming Lanaguage. It takes text written in Markdown, Liquid, HTML &amp;amp; CSS and uses standardized layouts to create static webpages. SASS: Syntactically Awesome Style Sheets integration is bulit-in. You can easily customize the look and feel, URLs, and the data displayed on your pages.
- Jekyll is the supported solution for webpages using Github Pages.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://jekyllrb.com/&#34; title=&#34;Jekyll Website&#34;&gt;Jekyll&lt;/a&gt; is a free and open source static site generator that was developed by Github and is written in the &lt;a href=&#34;https://www.ruby-lang.org/en&#34; title=&#34;Ruby Programming Language&#34;&gt;Ruby Programming Lanaguage&lt;/a&gt;. It takes text written in &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34; title=&#34;Markdown Website&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://github.com/Shopify/liquid/wiki&#34; title=&#34;Liquid Website&amp;quot;&amp;gt;Liquid&#34;&gt;Liquid&lt;/a&gt;, HTML &amp;amp; CSS and uses standardized layouts to create static webpages. &lt;a href=&#34;https://sass-lang.com/&#34; title=&#34;SASS Website&#34;&gt;SASS: Syntactically Awesome Style Sheets&lt;/a&gt; integration is bulit-in. You can easily customize the look and feel, URLs, and the data displayed on your pages.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,9 +40,7 @@ Glossaries of AI Terminology:  AI Blog provides a searchable database of terms.<
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/blog/digital-signage/</guid>
-      <description>The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well.
-We will be developing the new solution as open source and will use already available code whenever possible: don&amp;rsquo;t reinvent the wheel. Unless you have to, that is.
-New Features This time around we will be adding some new features:</description>
+      <description>&lt;p&gt;The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well. We will be developing the new solution as open source and will use already available code whenever possible: don&amp;rsquo;t reinvent the wheel.  Unless you have to, that is.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -45,7 +49,7 @@ New Features This time around we will be adding some new features:</description>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/blog/windows-subsystem-linux/</guid>
-      <description>Over the past two years years Microsoft has made some significant improvements to the Windows Subsystem for Linux. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps. WSL 2 is a new version of the Windows Subsystem for Linux architecture, available beginning with Windows 10-Version 1903-Build 18362, that powers the Windows Subsystem for Linux to run ELF64 (Executable and Linkable Format) Linux binaries on Windows.</description>
+      <description>&lt;p&gt;Over the past two years years Microsoft has made some significant improvements to the &lt;b&gt;Windows Subsystem for Linux&lt;/b&gt;. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps. &lt;b&gt;WSL 2&lt;/b&gt; is a new version of the Windows Subsystem for Linux architecture, available beginning with Windows 10-Version 1903-Build 18362, that powers the Windows Subsystem for Linux to run ELF64 (Executable and Linkable Format) Linux binaries on Windows. WSL2 provides a truly great resource for developers and application testing.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,7 +58,7 @@ New Features This time around we will be adding some new features:</description>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/blog/github-announcement/</guid>
-      <description>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is widely used for collaborative software development and Github is a very popular Git platform. Git is used to track changes, keep a complete history of the changes, and allows you to roll back to any point. Owners can grant access to a project and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://git-scm.com&#34; title=&#34;Git Website&#34;&gt;Git&lt;/a&gt; is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is widely used for collaborative software development and &lt;strong&gt;Github&lt;/strong&gt; is a very popular Git platform. Git is used to track changes, keep a complete history of the changes, and allows you to roll back to any point. Owners can grant access to a project and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.&lt;/p&gt;</description>
     </item>
     
   </channel>

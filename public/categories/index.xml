@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flipper Zero</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/flipper-zero/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/flipper-zero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penetration Testing</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/penetration-testing/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/penetration-testing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Getting Started</title>
       <link>https://imagelessthought.github.io/mainroad/categories/getting-started/</link>
@@ -62,11 +80,38 @@
     </item>
     
     <item>
+      <title>Applications</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/applications/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Signage</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/digital-signage/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/digital-signage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>File Storage</title>
       <link>https://imagelessthought.github.io/mainroad/categories/file-storage/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/categories/file-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Innovation Projects</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/innovation-projects/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/innovation-projects/</guid>
       <description></description>
     </item>
     

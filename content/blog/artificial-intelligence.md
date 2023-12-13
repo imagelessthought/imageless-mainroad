@@ -13,7 +13,9 @@ postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/ai.svg"
 ---
-The AI field is heavy with jargon and terminology.  To help you navigate and understand the the technologies and solutions that are out there, you will need a some help. I suggest starting by reading this article: [Artificial Intelligence Glossary: Neural Networks and Other Terms Explained](https://www.nytimes.com/article/ai-artificial-intelligence-glossary.html 'NYTimes') - New York Times; March 23, 2023.
+The AI field is heavy with jargon and terminology.  To help you navigate and understand the the technologies and solutions that are out there, you will need a some help. 
+<!--more-->
+I suggest starting by reading this article: [Artificial Intelligence Glossary: Neural Networks and Other Terms Explained](https://www.nytimes.com/article/ai-artificial-intelligence-glossary.html 'NYTimes') - New York Times; March 23, 2023.
 
 Below are links to some glossaries and articles to further assist you with the terminology.    
 
