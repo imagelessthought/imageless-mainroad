@@ -112,6 +112,7 @@ html {
 	--thumbnail-hover: #B9DCD2;
 	--flex-image-back: white;
 	--button-up-text: white;
+	--label1-back: #336699;
 	
 }
 
@@ -898,8 +899,9 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 
 .list__item {
+	/*
 	outline: 2px solid var(--list-out);
-	border: 1px solid var(--thickborder2);
+	border: 1px solid var(--thickborder2); */
 	margin-bottom: 2rem;
 	padding-top: 1rem;
 	padding-left: 1rem;
@@ -913,8 +915,9 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .list__item:last-child {
+	/*
 	outline: 2px solid var(--list-out);
-	border: 1px solid var(--thickborder2);
+	border: 1px solid var(--thickborder2); */
 	margin-bottom: 1rem;
 	padding-top: 1rem;
 	padding-left: 1rem;
@@ -923,8 +926,9 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .list__item-np {
-    outline: 2px solid var(--list-out);
-    border: 1px solid var(--thickborder2);
+	/*
+	outline: 2px solid var(--list-out);
+	border: 1px solid var(--thickborder2); */
 	padding: .5rem 1.5rem 0 1.5rem;
 	margin-bottom: 1rem;
 	border-radius: 4px;
@@ -932,8 +936,9 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .list__item-np:last-child {
-    outline: 2px solid var(--list-out);
-    border: 1px solid var(--thickborder2);
+	/*
+	outline: 2px solid var(--list-out);
+	border: 1px solid var(--thickborder2); */
 	padding: .5rem 1.5rem 0 1.5rem!important;
 	margin-bottom: 2rem;
 	border-radius: 4px;
@@ -942,32 +947,36 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 
 .list__item-portal {
-    outline: 2px solid var(--list-out);
-    border: 1px solid var(--thickborder2);
+	/*
+	outline: 2px solid var(--list-out);
+	border: 1px solid var(--thickborder2); */
 	padding: 1rem!important;
 	margin-bottom: 1rem;
 	border-radius: 4px;
 }
 
 .list__item-portal:last-child {
-    outline: 2px solid var(--list-out);
-    border: 1px solid var(--thickborder2);
+	/*
+	outline: 2px solid var(--list-out);
+	border: 1px solid var(--thickborder2); */
 	padding: 1rem!important;
 	margin-bottom: 2rem;
 	border-radius: 4px;
 }
 
 .list__item-link {
+	/*
 	outline: 2px solid var(--list-out);
-	border: 1px solid var(--thickborder2);
+	border: 1px solid var(--thickborder2); */
 	margin-bottom: 1rem;
 	padding: 0 1.5rem;
 	border-radius: 4px;
 }
 
 .list__item-link:last-child {
+	/*
 	outline: 2px solid var(--list-out);
-	border: 1px solid var(--thickborder2);
+	border: 1px solid var(--thickborder2); */
 	margin-bottom: 2rem;
 	padding: 0 1.5rem;
 	border-radius: 4px;
@@ -1747,24 +1756,29 @@ a.widget__link:active {
 	width: 100%;
 	text-align: center;
 }
-	
+.ctr {
+   height: 2em; /* You can adjust the value as needed */
+    align-items: center;
+    margin: 0 auto .5rem auto!important; /* Remove default margin to avoid extra space */
+
+}
 
 	.portfolio2 {
 		display: flex;
 		justify-content: center;
 		height: auto;
-		margin: 1rem 0 0 0;
+/*		margin: 1rem 0 0 0; */
 		padding: 0;
 		width: 100%;
 	}
 
 	.flex-item {
-		margin: auto;
+		margin: 0 auto 1.5rem 0;
 		width: 100%!important;
 	}
 
 	.flex-item ul {
-		margin: 1rem auto 0 auto!important;
+		margin: 0 auto 0 auto!important;
 		text-align: center!important;
 		width: 100%;
 	  }
@@ -2447,7 +2461,7 @@ p {
 
 .label1 {
 	padding: .25rem .5rem!important;
-	background-color: var(--author-back);
+	background-color: var(--label1-back);
 	color: var(--button-up-text);
 	text-decoration: none!important;
 	border-radius: 4px;
@@ -2476,7 +2490,7 @@ p {
 }
 
 .flex-item {
-width: 15%;
+width: 20%;
 padding: 0;
   }
   
@@ -2534,8 +2548,11 @@ padding: 0;
 
 .ctr {
 	width: 100%;
-	margin: auto;
 	text-align: center;
+    height: 2em; /* You can adjust the value as needed */
+    align-items: center;
+    margin: 0 auto 1.5rem auto!important; /* Remove default margin to avoid extra space */
+
 }
 
 a.button-up {

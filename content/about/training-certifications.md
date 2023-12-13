@@ -19,7 +19,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://badgecert.com/bc/html/groupbadges.html?k=R3NJUUdoakdvSVZEY2l0ZHZ6SU5kams0cTkybW0yb2Q" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: 1630266</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
 </div>
@@ -35,18 +35,18 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/specialization/certificate/DHM7ZFYDMQCG" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: DHM7ZFYDMQCG</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
-          <p class="ctr"><a href="https://www.coursera.org/learn/foundations-of-cybersecurity?specialization=google-cybersecurity" alt="Coursera Page">Foundations of Cybersecurity</a></p><br>
+          <p class="ctr"><a href="https://www.coursera.org/learn/foundations-of-cybersecurity?specialization=google-cybersecurity" alt="Coursera Page">Foundations of Cybersecurity</a></p>
           <div class="image-wrapper">
           <a href="/mainroad/pdf/google-cyber1.pdf" alt="View Certification"><img src="/mainroad/img/cert/google-cyber1.png" alt="Google: Foundations of Cybersecurity"></a>
           </div>
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/certificate/6NAVCABJ9FPB" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: 6NAVCABJ9FPB</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
@@ -57,7 +57,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/certificate/SQYB68RQMCZ8" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: SQYB68RQMCZ8</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
@@ -68,7 +68,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/certificate/EQKKRFKTLVUR" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: EQKKRFKTLVUR</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
@@ -79,7 +79,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/certificate/69UVYTD8HT59" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: 69UVYTD8HT59</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
@@ -90,7 +90,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/certificate/92NE9FCULYFU" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: 92NE9FCULYFU</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
@@ -101,7 +101,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/certificate/9RJZDRV473BG" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: 9RJZDRV473BG</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
@@ -112,7 +112,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/certificate/TQ6Y8JTTZZCG" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: TQ6Y8JTTZZCG</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
@@ -123,7 +123,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://www.coursera.org/account/accomplishments/certificate/JMDVK5J6DAH4" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: JMDVK5J6DAH4</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
 </div>
@@ -139,7 +139,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://verify.w3schools.com/1OAVFMY80M" alt="Coursera Page">Credential URL</a></li>
           <li>Credential ID: 1OAVFMY80M</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
       <div class="flex-item">
@@ -150,7 +150,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://verify.w3schools.com/1NLYOFHYY8" alt="W3 Accessibility">Credential URL</a></li>
           <li>Credential ID: 1NLYOFHYY8</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
           <div class="flex-item">
@@ -161,7 +161,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://verify.w3schools.com/1NLYOFHYY8" alt="W3 Accessibility">Credential URL</a></li>
           <li>Credential ID: 1NLYOFHYY8</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
           <div class="flex-item">
@@ -172,7 +172,7 @@ layout: single-faq
           <ul>
           <li><a class="button-up" href="https://verify.w3schools.com/1NLYOFHYY8" alt="W3 Accessibility">Credential URL</a></li>
           <li>Credential ID: 1NLYOFHYY8</li>
-          <li>&nbsp;</li>
+          <li class="nomobile">&nbsp;</li>
           </ul>          
       </div>
 </div> 
