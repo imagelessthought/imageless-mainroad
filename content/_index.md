@@ -1,5 +1,5 @@
 ---
-title: Having Trouble?
+title: Imageless Thought
 description: Page with links to contact service desk, start a chat or submit a ticket.
 date: 2023-11-01:08:00
 authorbox: "True"
@@ -17,7 +17,7 @@ The main goal of the website is to provide a resource for colleagues and project
 </div>
 <div style="margin: 0 3rem;">
 <h3 class="nomobile">Online Training Resources</h3>
-<p class="nomobile" style="text-align: justify">There are many resources available online for infoormation technology training.  I have created a list of the services I use and recommend.  In many cases I will identify particular courses that are particularly relevant for a particular project or for a career in Information Technology.</p>
+<p class="nomobile" style="text-align: justify">There are many resources available online for information technology training.  I have created a list of the services I use and recommend.  In many cases I will identify particular courses that are particularly relevant for a particular project or for a career in Information Technology.</p>
 </div>
 </div>
 
