@@ -11,7 +11,7 @@
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:title" content="Universal Digital Signage: Installation Instructons" />
-<meta property="og:description" content="Welcome to the Universal Digital Signage project, a centralized digital signage solution that allows users to create playlists, add host devices on demand, and control what hosts display on their screens by managing playlists. ## Table of Contents  - [Project Overview](#project-overview) - [Backend (Node.js Server)](#backend-nodejs-server) - [Prerequisites](#prerequisites-for-backend) - [Getting Started](#getting-started-for-backend) - [Project Structure](#project-structure-for-backend) - [Environment Variables](#environment-variables-for-backend) - [Running the Server](#running-the-server-for-backend) - [Endpoints](#endpoints-for-backend) - [Frontend (React App)](#frontend-react-app) - [Prerequisites](#prerequisites-for-frontend) - [Getting Started](#getting-started-for-frontend) - [Environment Variables](#environment-variables-for-frontend) - [Available Scripts](#available-scripts-for-frontend) - [Folder Structure](#folder-structure-for-frontend) ## Project Overview  This project consists of both a Node." />
+<meta property="og:description" content="The Universal Digital Signage web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (hosts) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an interrupt schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to channels to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), interactive kiosks, and hosted online presentations." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://imagelessthought.github.io/mainroad/documentation/digital-signage-install/" /><meta property="article:section" content="documentation" />
 <meta property="article:published_time" content="2023-08-12T00:00:00+00:00" />
@@ -19,13 +19,13 @@
 
 
 		<meta itemprop="name" content="Universal Digital Signage: Installation Instructons">
-<meta itemprop="description" content="Welcome to the Universal Digital Signage project, a centralized digital signage solution that allows users to create playlists, add host devices on demand, and control what hosts display on their screens by managing playlists. ## Table of Contents  - [Project Overview](#project-overview) - [Backend (Node.js Server)](#backend-nodejs-server) - [Prerequisites](#prerequisites-for-backend) - [Getting Started](#getting-started-for-backend) - [Project Structure](#project-structure-for-backend) - [Environment Variables](#environment-variables-for-backend) - [Running the Server](#running-the-server-for-backend) - [Endpoints](#endpoints-for-backend) - [Frontend (React App)](#frontend-react-app) - [Prerequisites](#prerequisites-for-frontend) - [Getting Started](#getting-started-for-frontend) - [Environment Variables](#environment-variables-for-frontend) - [Available Scripts](#available-scripts-for-frontend) - [Folder Structure](#folder-structure-for-frontend) ## Project Overview  This project consists of both a Node."><meta itemprop="datePublished" content="2023-08-12T00:00:00+00:00" />
+<meta itemprop="description" content="The Universal Digital Signage web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (hosts) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an interrupt schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to channels to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), interactive kiosks, and hosted online presentations."><meta itemprop="datePublished" content="2023-08-12T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-08-12T00:00:00+00:00" />
-<meta itemprop="wordCount" content="721">
+<meta itemprop="wordCount" content="563">
 <meta itemprop="keywords" content="Digital Signage,Applications," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Universal Digital Signage: Installation Instructons"/>
-<meta name="twitter:description" content="Welcome to the Universal Digital Signage project, a centralized digital signage solution that allows users to create playlists, add host devices on demand, and control what hosts display on their screens by managing playlists. ## Table of Contents  - [Project Overview](#project-overview) - [Backend (Node.js Server)](#backend-nodejs-server) - [Prerequisites](#prerequisites-for-backend) - [Getting Started](#getting-started-for-backend) - [Project Structure](#project-structure-for-backend) - [Environment Variables](#environment-variables-for-backend) - [Running the Server](#running-the-server-for-backend) - [Endpoints](#endpoints-for-backend) - [Frontend (React App)](#frontend-react-app) - [Prerequisites](#prerequisites-for-frontend) - [Getting Started](#getting-started-for-frontend) - [Environment Variables](#environment-variables-for-frontend) - [Available Scripts](#available-scripts-for-frontend) - [Folder Structure](#folder-structure-for-frontend) ## Project Overview  This project consists of both a Node."/>
+<meta name="twitter:description" content="The Universal Digital Signage web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (hosts) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an interrupt schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to channels to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), interactive kiosks, and hosted online presentations."/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -173,10 +173,10 @@
             <span class="post__author"><a href="mailto:shivam.jadhav@unt.edu">Shivam Jadhav</a></span><span style="color: var(--light_gray);"> - </span>
         
         
-        <span class="postauthorarea"><b>College of Visual Arts and Design</b></span> -
+        <span class="postauthorarea"><b>Computer Science</b></span> -
         
         
-        <span class="post__author-info">Innovation Technology Group-Student</span>
+        <span class="post__author-info">Innovation Technology Group: Student</span>
         
     
     </div>
@@ -186,105 +186,42 @@
 		
 
 		<div class="content post__content clearfix">
-			<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">Welcome to the Universal Digital Signage project, a centralized digital signage solution that allows users to create playlists, add host devices on demand, and control what hosts display on their screens by managing playlists.
-
-<span style="color:#75715e">## Table of Contents
-</span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">-</span> [<span style="color:#f92672">Project Overview</span>](<span style="color:#a6e22e">#project-overview</span>)
-<span style="color:#66d9ef">-</span> [<span style="color:#f92672">Backend (Node.js Server)</span>](<span style="color:#a6e22e">#backend-nodejs-server</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Prerequisites</span>](<span style="color:#a6e22e">#prerequisites-for-backend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Getting Started</span>](<span style="color:#a6e22e">#getting-started-for-backend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Project Structure</span>](<span style="color:#a6e22e">#project-structure-for-backend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Environment Variables</span>](<span style="color:#a6e22e">#environment-variables-for-backend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Running the Server</span>](<span style="color:#a6e22e">#running-the-server-for-backend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Endpoints</span>](<span style="color:#a6e22e">#endpoints-for-backend</span>)
-<span style="color:#66d9ef">-</span> [<span style="color:#f92672">Frontend (React App)</span>](<span style="color:#a6e22e">#frontend-react-app</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Prerequisites</span>](<span style="color:#a6e22e">#prerequisites-for-frontend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Getting Started</span>](<span style="color:#a6e22e">#getting-started-for-frontend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Environment Variables</span>](<span style="color:#a6e22e">#environment-variables-for-frontend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Available Scripts</span>](<span style="color:#a6e22e">#available-scripts-for-frontend</span>)
-  <span style="color:#66d9ef">-</span> [<span style="color:#f92672">Folder Structure</span>](<span style="color:#a6e22e">#folder-structure-for-frontend</span>)
-
-<span style="color:#75715e">## Project Overview
-</span><span style="color:#75715e"></span>
-This project consists of both a Node.js server that serves as the API server and file system server for your Universal Digital Signage solution, and a React application for the frontend. Below are instructions for setting up and running both parts of the project.
-
-<span style="color:#75715e">### Node.js and npm Installation Guide
-</span><span style="color:#75715e"></span>
-This guide will walk you through the process of installing Node.js and npm on a Windows machine.
-<span style="color:#75715e">## Prerequisites
-</span><span style="color:#75715e"></span>
-    Ensure that you have administrative privileges on your machine.
-    Uninstall any existing versions of Node.js and npm to avoid conflicts.
-
-Steps
-<span style="color:#66d9ef">1.</span> Install Node.js
-
-    Download the Node.js installer from the official website: Node.js Downloads.
-
-    Run the downloaded installer executable (node-v18.18.2-x64.msi or a similar filename) and follow the installation prompts.
-
-    Accept the license agreement and click &#34;Next.&#34;
-
-    Choose the installation directory (the default is recommended), and click &#34;Next.&#34;
-
-    Select the components you want to install. Ensure that the &#34;npm package manager&#34; option is selected.
-
-    Click &#34;Next&#34; and complete the installation process.
-
-    To verify the installation, open a command prompt and run the following commands:
-
-    bash
-
-    node -v
-    npm -v
-
-    Verify that the displayed versions match the Node.js and npm versions you installed.
-
-<span style="color:#66d9ef">2.</span> Upgrade npm (if necessary)
-
-To upgrade npm to version 9.8.1, run the following command in the command prompt:
-
-bash
-
-npm install -g npm@9.8.1
-
-This command installs npm globally (-g) and specifies version 9.8.1.
-<span style="color:#66d9ef">3.</span> Verify npm Version
-
-After upgrading npm, verify the installed version by running:
-
-bash
-
-npm -v
-
-Ensure that the displayed version matches the one you installed (9.8.1).
-
-<span style="color:#75715e">### Backend (Node.js Server)
-</span><span style="color:#75715e"></span>
-<span style="color:#75715e">#### Prerequisites for Backend
-</span><span style="color:#75715e"></span>
-Before you begin, ensure you have the following requirements:
-
-<span style="color:#66d9ef">-</span> **Node.js and npm**: Make sure you have Node.js and npm (Node Package Manager) installed on your local machine. You can download and install them from [<span style="color:#f92672">Node.js official website</span>](<span style="color:#a6e22e">https://nodejs.org/</span>).
-
-<span style="color:#75715e">#### Getting Started for Backend
-</span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">1.</span> <span style="font-weight:bold">**Clone the repository**</span>:
-
-   ```sh
-   git clone https://github.com/imagelessthought/universal-signage.git
-</code></pre></div><ol start="2">
-<li>
+			<p>The <strong>Universal Digital Signage</strong> web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (<strong>hosts</strong>) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an <em>interrupt</em> schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to <strong>channels</strong> to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), <strong>interactive kiosks</strong>, and hosted online <strong>presentations</strong>.</p>
+<h2 id="project-overview">Project Overview</h2>
+<p>This project consists of both a Node.js server for the backend that serves as the API server and file system server and a React application for the frontend.</p>
+<p>Below are instructions for installing the prerequisites (Node.js, npm, MongoDB) and setting up the backend and frontend.</p>
+<p>The install instructions were tested using <strong>Ubuntu 22.04.3 LTS</strong> running on Windows 11, Windows Subsystem for Linux 2 (WSL2).</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<h3 id="nodejs-and-npm-installation-guide">Node.js and npm Installation Guide</h3>
+<h5 id="uninstall-any-existing-versions-of-nodejs-and-npm-to-avoid-conflicts">Uninstall any existing versions of Node.js and npm to avoid conflicts.</h5>
+<p>Install Node.js</p>
+<ul>
+<li>curl -o- <a href="https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh">https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh</a> | bash</li>
+<li>source ~/.bashrc</li>
+<li>nvm ls-remote</li>
+<li>nvm install v18.18.2</li>
+<li>nvm use v18.18.2</li>
+<li>npm install -g <a href="mailto:npm@9.8.1">npm@9.8.1</a></li>
+</ul>
+<p>Confirm the correct versions of each oare installed: (node.js - v18.18.2; npm - 9.8.1 )</p>
+<ul>
+<li>node -v</li>
+<li>npm -v</li>
+</ul>
+<h4 id="clone-the-repository">Clone the repository:</h4>
+<p>Use https, ssh or the Github CLI:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git clone https://github.com/imagelessthought/universal-signage.git
+git clone git@github.com:imagelessthought/universal-signage.git
+gh repo clone imagelessthought/universal-signage
+</code></pre></div><h2 id="setup-the-backend-nodejs-server">SETUP the Backend: Node.js Server</h2>
 <p><strong>Navigate to the server directory</strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd universal-signage/backend
-</code></pre></div></li>
-<li>
-<p><strong>Install project dependencies</strong>:</p>
+</code></pre></div><p><strong>Install project dependencies</strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm install
-</code></pre></div></li>
-</ol>
-<h4 id="project-structure-for-backend">Project Structure for Backend</h4>
+</code></pre></div><h3 id="running-the-server-for-backend">Running the Server for Backend</h3>
+<p>To start the server, use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm start
+</code></pre></div><h3 id="directory-structure-for-backend">Directory Structure for Backend</h3>
 <p>The backend project structure may vary based on your specific setup, but here&rsquo;s a typical structure:</p>
 <pre tabindex="0"><code>backend/
   ├── src/
@@ -296,56 +233,46 @@ Before you begin, ensure you have the following requirements:
   ├── package.json
   ├── README.md
   └── ...
-</code></pre><h4 id="environment-variables-for-frontend">Environment Variables for Frontend</h4>
-<p>[Download sample .env File (https://myunt-my.sharepoint.com/:w:/g/personal/shivam_jadhav_unt_edu/EauX86cJJ69DpEIy4bVwrB0BLodgB7fpLKFgUSLJ32ZcUQ?email=Michael.Baggett%40unt.edu&amp;e=HTT0IF)]</p>
-<h4 id="environment-variables-for-backend">Environment Variables for Backend</h4>
-<p>This project requires certain environment variables to be set. Create a <code>.env</code> file in the root of your project and define the required variables. Make sure to keep this file private and never commit it to version control. <a href="https://myunt-my.sharepoint.com/:w:/g/personal/shivam_jadhav_unt_edu/EXzWlSwGNvBEpmUi430JSZoBaN6TBLvEk626ZI0plCn9yA?e=SyfaII">Download Sample .env File</a></p>
-<h4 id="running-the-server-for-backend">Running the Server for Backend</h4>
-<p>To start the server, use the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm start
-</code></pre></div><p>The server will start and listen on the port specified in your <code>.env</code> file (default is 3000).</p>
-<h4 id="endpoints-for-backend">Endpoints for Backend</h4>
+</code></pre><h3 id="environment-variables-for-backend">Environment Variables for Backend</h3>
+<p>This project requires certain environment variables to be set. Create a <code>.env</code> file in the root of your project and define the required variables. <em>Make sure to keep this file private and never commit it to version control</em>.</p>
+<p>Example .env file: /universal-signage/backend/.env -&gt; ** This will run it on the localhost ONLY **</p>
+<pre tabindex="0"><code>NODE_ENV='production'  
+#For Instance QA  
+NODE_ENV = 'local'  
+HOST='localhost'  
+LOCAL_DB='mongodb+srv://jadhavshivam0338:EnFX0MIMiBuFGOEf@cluster0.ifmyhtn.mongodb.net/digitalsignage'  
+PROD_DB=''  
+LOCALHOST='http://localhost:8080/'  
+PRODHOST=''  
+PORT = 8080  
+JWT_SECRET=&quot;&quot;   
+</code></pre><p>The server will start and listen on the port specified in your <code>.env</code> file (default is 3000).</p>
+<h3 id="api-endpoints-for-backend">API Endpoints for Backend</h3>
 <p>Describe the endpoints of your API, how to use them, and any parameters they accept.</p>
 <p>Example:</p>
 <ul>
 <li><code>GET /api/users</code>: Retrieve a list of users.</li>
 <li><code>POST /api/users</code>: Create a new user.</li>
 </ul>
-<h3 id="frontend-react-app">Frontend (React App)</h3>
-<h4 id="prerequisites-for-frontend">Prerequisites for Frontend</h4>
-<p>Before you begin, ensure you have the following requirements:</p>
-<ul>
-<li><strong>Node.js and npm</strong>: Make sure you have Node.js and npm installed on your local machine. You can download and install them from <a href="https://nodejs.org/">Node.js official website</a>.</li>
-</ul>
-<h4 id="getting-started-for-frontend">Getting Started for Frontend</h4>
-<ol>
-<li>
-<p><strong>Clone the repository</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git clone https://github.com/imagelessthought/universal-signage.git
-</code></pre></div></li>
-<li>
+<h2 id="setup-the-frontend-react-app">SETUP the Frontend: React App</h2>
 <p><strong>Navigate to the frontend directory</strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd universal-signage/frontend/
-</code></pre></div></li>
-<li>
-<p><strong>Install project dependencies</strong>:</p>
+</code></pre></div><p><strong>Install project dependencies</strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm install
-</code></pre></div></li>
-<li>
-<p><strong>Start the development server</strong>:</p>
+</code></pre></div><p><strong>Running the Server for Frontend</strong></p>
+<p>To start the server, use the following command:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm start
 </code></pre></div><p>Your app should now be running at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
-</li>
-</ol>
-<h4 id="environment-variables-for-frontend-1">Environment Variables for Frontend</h4>
-<p>This project requires certain environment variables to be set. Create a <code>.env</code> file in the root of your project and define the required variables. Make sure to keep this file private and never commit it to version control. <a href="https://myunt-my.sharepoint.com/:w:/g/personal/shivam_jadhav_unt_edu/EauX86cJJ69DpEIy4bVwrB0BLodgB7fpLKFgUSLJ32ZcUQ?e=xWkQE4">Download Sample .env File</a>
-copy the contents of the file an create a new .env file inside
-/universal-signage/frontend/
-and paste the contents copied earlier.</p>
-<h4 id="use-the-demo-credentials-for-login">USE THE DEMO CREDENTIALS FOR LOGIN:</h4>
-<p><strong>email</strong> :- <a href="mailto:cvad@gmail.com">cvad@gmail.com</a>
-<strong>password</strong> :- cvadadmin</p>
-
+<h3 id="environment-variables-for-frontend">Environment Variables for Frontend</h3>
+<p>This project requires certain environment variables to be set. Create a <code>.env</code> file in the root of your project and define the required variables. <em>Make sure to keep this file private and never commit it to version control</em>.</p>
+<p>Example .env file: /universal-signage/frontend/.env -&gt; ** This will run it on the localhost ONLY **</p>
+<p><strong>Example:</strong></p>
+<pre tabindex="0"><code>REACT_APP_ENV=Dev  
+REACT_APP_API_URL=http://localhost:8080/api/  
+REACT_APP_API_DEV=  
+REACT_APP_HOST=http://localhost:8080/  
+REACT_APP_HOST_NAME=  
+REACT_APP_PROD_HOST=  </code></pre>
 		</div>
 		<footer class="post__footer">
 			
@@ -384,10 +311,23 @@ and paste the contents copied earlier.</p>
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#prerequisites">Prerequisites</a>
       <ul>
-        <li></li>
-        <li><a href="#frontend-react-app">Frontend (React App)</a></li>
+        <li><a href="#nodejs-and-npm-installation-guide">Node.js and npm Installation Guide</a></li>
+      </ul>
+    </li>
+    <li><a href="#setup-the-backend-nodejs-server">SETUP the Backend: Node.js Server</a>
+      <ul>
+        <li><a href="#running-the-server-for-backend">Running the Server for Backend</a></li>
+        <li><a href="#directory-structure-for-backend">Directory Structure for Backend</a></li>
+        <li><a href="#environment-variables-for-backend">Environment Variables for Backend</a></li>
+        <li><a href="#api-endpoints-for-backend">API Endpoints for Backend</a></li>
+      </ul>
+    </li>
+    <li><a href="#setup-the-frontend-react-app">SETUP the Frontend: React App</a>
+      <ul>
+        <li><a href="#environment-variables-for-frontend">Environment Variables for Frontend</a></li>
       </ul>
     </li>
   </ul>

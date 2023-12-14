@@ -11,114 +11,74 @@ tags:
   - "Applications"
 nosearch: "True"
 postauthor: Shivam Jadhav
-postauthorinfo: Innovation Technology Group-Student
-postauthorarea: College of Visual Arts and Design
+postauthorinfo: "Innovation Technology Group: Student"
+postauthorarea: Computer Science
 postemail: shivam.jadhav@unt.edu
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/digital-sign.svg"
 ---
-Welcome to the Universal Digital Signage project, a centralized digital signage solution that allows users to create playlists, add host devices on demand, and control what hosts display on their screens by managing playlists.
-<!--
-<h2 class="label2">Table of Contents</h2>
-
-- [Project Overview](#project-overview)
-- [Backend (Node.js Server)](#backend-nodejs-server)
-  - [Prerequisites](#prerequisites-for-backend)
-  - [Getting Started](#getting-started-for-backend)
-  - [Project Structure](#project-structure-for-backend)
-  - [Environment Variables](#environment-variables-for-backend)
-  - [Running the Server](#running-the-server-for-backend)
-  - [Endpoints](#endpoints-for-backend)
-- [Frontend (React App)](#frontend-react-app)
-  - [Prerequisites](#prerequisites-for-frontend)
-  - [Getting Started](#getting-started-for-frontend)
-  - [Environment Variables](#environment-variables-for-frontend)
--->
+The **Universal Digital Signage** web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (**hosts**) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an *interrupt* schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to **channels** to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), **interactive kiosks**, and hosted online **presentations**.   
+<!--more-->
 ## Project Overview
 
-This project consists of both a Node.js server that serves as the API server and file system server for your Universal Digital Signage solution, and a React application for the frontend. Below are instructions for setting up and running both parts of the project.
+This project consists of both a Node.js server for the backend that serves as the API server and file system server and a React application for the frontend.  
 
-## Node.js and npm Installation Guide
+Below are instructions for installing the prerequisites (Node.js, npm, MongoDB) and setting up the backend and frontend.
 
-This guide will walk you through the process of installing Node.js and npm on a Windows machine.
+The install instructions were tested using **Ubuntu 22.04.3 LTS** running on Windows 11, Windows Subsystem for Linux 2 (WSL2).
 
-### Prerequisites
+## Prerequisites
 
-    Ensure that you have administrative privileges on your machine.
-    Uninstall any existing versions of Node.js and npm to avoid conflicts.
+Uninstall any existing versions of Node.js and npm to avoid conflicts.
 
-Steps
-1. Install Node.js
+### Node.js and npm Installation Guide  
+     
+- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
+- source ~/.bashrc
+- nvm ls-remote
+- nvm install v18.18.2
+- nvm use v18.18.2
+- npm install -g npm@9.8.1
 
-    Download the Node.js installer from the official website: Node.js Downloads.
+Confirm the correct versions of each oare installed: (node.js - v18.18.2; npm - 9.8.1 )
 
-    Run the downloaded installer executable (node-v18.18.2-x64.msi or a similar filename) and follow the installation prompts.
+- node -v 
+- npm -v
 
-    Accept the license agreement and click "Next."
+### MongoDB Installation Guide
 
-    Choose the installation directory (the default is recommended), and click "Next."
+To be added.
 
-    Select the components you want to install. Ensure that the "npm package manager" option is selected.
+### Clone the repository:
 
-    Click "Next" and complete the installation process.
+Use https, ssh or the Github CLI:
+- git clone https://github.com/imagelessthought/universal-signage.git
+- git clone git@github.com:imagelessthought/universal-signage.git
+- gh repo clone imagelessthought/universal-signage
+  
+## SETUP the Backend: Node.js Server
 
-    To verify the installation, open a command prompt and run the following commands:
-
-    bash
-
-    node -v
-    npm -v
-
-    Verify that the displayed versions match the Node.js and npm versions you installed.
-
-2. Upgrade npm (if necessary)
-
-To upgrade npm to version 9.8.1, run the following command in the command prompt:
-
-bash
-
-npm install -g npm@9.8.1
-
-This command installs npm globally (-g) and specifies version 9.8.1.
-3. Verify npm Version
-
-After upgrading npm, verify the installed version by running:
-
-bash
-
-npm -v
-
-Ensure that the displayed version matches the one you installed (9.8.1).
-
-## Backend (Node.js Server)
-
-### Prerequisites for Backend
-
-Before you begin, ensure you have the following requirements:
-
-- **Node.js and npm**: Make sure you have Node.js and npm (Node Package Manager) installed on your local machine. You can download and install them from [Node.js official website](https://nodejs.org/).
-
-### Getting Started for Backend
-
-1. **Clone the repository**:
-
-   ```sh
-   git clone https://github.com/imagelessthought/universal-signage.git
-   ```
-
-2. **Navigate to the server directory**:
+**Navigate to the backend directory**:
 
    ```sh
    cd universal-signage/backend
    ```
 
-3. **Install project dependencies**:
+**Install project dependencies**:
 
    ```sh
    npm install
    ```
 
-### Project Structure for Backend
+**Running the Server for Backend**:
+
+To start the server, use the following command:
+
+```sh
+npm start
+```
+
+### Directory Structure for Backend
 
 The backend project structure may vary based on your specific setup, but here's a typical structure:
 
@@ -135,23 +95,25 @@ backend/
   └── ...
 ```
 ### Environment Variables for Backend
-This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. Make sure to keep this file private and never commit it to version control. 
+This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. *Make sure to keep this file private and never commit it to version control*. 
 
-/universal-signage/backend/.env
-
-<INSERT ENVIRONMENTAL VAR>
-
-### Running the Server for Backend
-
-To start the server, use the following command:
-
-```sh
-npm start
+Example .env file: /universal-signage/backend/.env -> ** This will run it on the localhost ONLY **
+```  
+NODE_ENV='production'  
+#For Instance QA  
+NODE_ENV = 'local'  
+HOST='localhost'  
+LOCAL_DB=''  
+PROD_DB=''  
+LOCALHOST='http://localhost:8080/'  
+PRODHOST=''  
+PORT = 8080  
+JWT_SECRET=""   
 ```
 
 The server will start and listen on the port specified in your `.env` file (default is 3000).
 
-### Endpoints for Backend
+### API Endpoints for Backend
 
 Describe the endpoints of your API, how to use them, and any parameters they accept.
 
@@ -160,58 +122,41 @@ Example:
 - `GET /api/users`: Retrieve a list of users.
 - `POST /api/users`: Create a new user.
 
-## Frontend (React App)
+## SETUP the Frontend: React App
 
-### Prerequisites for Frontend
+**Navigate to the frontend directory**:
 
-Before you begin, ensure you have the following requirements:
+```sh
+cd universal-signage/frontend/
+```
 
-- **Node.js and npm**: Make sure you have Node.js and npm installed on your local machine. You can download and install them from [Node.js official website](https://nodejs.org/).
+**Install project dependencies**:
 
-### Getting Started for Frontend
+```sh
+npm install
+```
 
-1. **Clone the repository**:
+**Running the Server for Frontend**:
 
-   ```sh
-   git clone https://github.com/imagelessthought/universal-signage.git
-   ```
+To start the server, use the following command:
 
-2. **Navigate to the frontend directory**:
+```sh
+npm start
+```
 
-   ```sh
-   cd universal-signage/frontend/
-   ```
-
-3. **Install project dependencies**:
-
-   ```sh
-   npm install
-   ```
-
-4. **Start the development server**:
-
-   ```sh
-   npm start
-   ```
-
-   Your app should now be running at [http://localhost:3000](http://localhost:3000).
+Your app should now be running at [http://localhost:3000](http://localhost:3000).
 
 ### Environment Variables for Frontend
 
-This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. Make sure to keep this file private and never commit it to version control. 
+This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. *Make sure to keep this file private and never commit it to version control*. 
 
-/universal-signage/frontend/.env
+Example .env file: /universal-signage/frontend/.env -> ** This will run it on the localhost ONLY **
 
 **Example:**
-
-REACT_APP_ENV=Dev
-
-REACT_APP_API_URL=http://localhost:8080/api/
-
-REACT_APP_API_DEV=http://signage.something.edu:8080/api/
-
-REACT_APP_HOST=http://localhost:8080/
-
-REACT_APP_HOST_NAME=http://signage.something.edu/
-
-REACT_APP_PROD_HOST=http://signage.something.edu:8080/
+```  
+REACT_APP_ENV=Dev  
+REACT_APP_API_URL=http://localhost:8080/api/  
+REACT_APP_API_DEV=  
+REACT_APP_HOST=http://localhost:8080/  
+REACT_APP_HOST_NAME=  
+REACT_APP_PROD_HOST=  
