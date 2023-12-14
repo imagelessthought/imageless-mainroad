@@ -18,8 +18,8 @@ posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/digital-sign.svg"
 ---
 Welcome to the Universal Digital Signage project, a centralized digital signage solution that allows users to create playlists, add host devices on demand, and control what hosts display on their screens by managing playlists.
-
-## Table of Contents
+<!--
+<h2 class="label2">Table of Contents</h2>
 
 - [Project Overview](#project-overview)
 - [Backend (Node.js Server)](#backend-nodejs-server)
@@ -33,17 +33,16 @@ Welcome to the Universal Digital Signage project, a centralized digital signage 
   - [Prerequisites](#prerequisites-for-frontend)
   - [Getting Started](#getting-started-for-frontend)
   - [Environment Variables](#environment-variables-for-frontend)
-  - [Available Scripts](#available-scripts-for-frontend)
-  - [Folder Structure](#folder-structure-for-frontend)
-
+-->
 ## Project Overview
 
 This project consists of both a Node.js server that serves as the API server and file system server for your Universal Digital Signage solution, and a React application for the frontend. Below are instructions for setting up and running both parts of the project.
 
-### Node.js and npm Installation Guide
+## Node.js and npm Installation Guide
 
 This guide will walk you through the process of installing Node.js and npm on a Windows machine.
-## Prerequisites
+
+### Prerequisites
 
     Ensure that you have administrative privileges on your machine.
     Uninstall any existing versions of Node.js and npm to avoid conflicts.
@@ -91,15 +90,15 @@ npm -v
 
 Ensure that the displayed version matches the one you installed (9.8.1).
 
-### Backend (Node.js Server)
+## Backend (Node.js Server)
 
-#### Prerequisites for Backend
+### Prerequisites for Backend
 
 Before you begin, ensure you have the following requirements:
 
 - **Node.js and npm**: Make sure you have Node.js and npm (Node Package Manager) installed on your local machine. You can download and install them from [Node.js official website](https://nodejs.org/).
 
-#### Getting Started for Backend
+### Getting Started for Backend
 
 1. **Clone the repository**:
 
@@ -119,7 +118,7 @@ Before you begin, ensure you have the following requirements:
    npm install
    ```
 
-#### Project Structure for Backend
+### Project Structure for Backend
 
 The backend project structure may vary based on your specific setup, but here's a typical structure:
 
@@ -135,22 +134,14 @@ backend/
   ├── README.md
   └── ...
 ```
-#### Environment Variables for Frontend
+### Environment Variables for Backend
+This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. Make sure to keep this file private and never commit it to version control. 
 
-sample frontend.env:
+/universal-signage/backend/.env
 
-REACT_APP_ENV=Dev
-REACT_APP_API_URL=http://localhost:8080/api/
-REACT_APP_API_DEV=http://signage.something.edu:8080/api/
-REACT_APP_HOST=http://localhost:8080/
-REACT_APP_HOST_NAME=http://signage.something.edu/
-REACT_APP_PROD_HOST=http://signage.something.edu:8080/
+<INSERT ENVIRONMENTAL VAR>
 
-#### Environment Variables for Backend
-
-This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. Make sure to keep this file private and never commit it to version control. [Download Sample .env File](https://myunt-my.sharepoint.com/:w:/g/personal/shivam_jadhav_unt_edu/EXzWlSwGNvBEpmUi430JSZoBaN6TBLvEk626ZI0plCn9yA?e=SyfaII)
-
-#### Running the Server for Backend
+### Running the Server for Backend
 
 To start the server, use the following command:
 
@@ -160,7 +151,7 @@ npm start
 
 The server will start and listen on the port specified in your `.env` file (default is 3000).
 
-#### Endpoints for Backend
+### Endpoints for Backend
 
 Describe the endpoints of your API, how to use them, and any parameters they accept.
 
@@ -169,15 +160,15 @@ Example:
 - `GET /api/users`: Retrieve a list of users.
 - `POST /api/users`: Create a new user.
 
-### Frontend (React App)
+## Frontend (React App)
 
-#### Prerequisites for Frontend
+### Prerequisites for Frontend
 
 Before you begin, ensure you have the following requirements:
 
 - **Node.js and npm**: Make sure you have Node.js and npm installed on your local machine. You can download and install them from [Node.js official website](https://nodejs.org/).
 
-#### Getting Started for Frontend
+### Getting Started for Frontend
 
 1. **Clone the repository**:
 
@@ -205,9 +196,22 @@ Before you begin, ensure you have the following requirements:
 
    Your app should now be running at [http://localhost:3000](http://localhost:3000).
 
-#### Environment Variables for Frontend
+### Environment Variables for Frontend
 
-This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. Make sure to keep this file private and never commit it to version control. [Download Sample .env File](https://myunt-my.sharepoint.com/:w:/g/personal/shivam_jadhav_unt_edu/EauX86cJJ69DpEIy4bVwrB0BLodgB7fpLKFgUSLJ32ZcUQ?e=xWkQE4)
-copy the contents of the file an create a new .env file inside
-/universal-signage/frontend/
-and paste the contents copied earlier.
+This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. Make sure to keep this file private and never commit it to version control. 
+
+/universal-signage/frontend/.env
+
+**Example:**
+
+REACT_APP_ENV=Dev
+
+REACT_APP_API_URL=http://localhost:8080/api/
+
+REACT_APP_API_DEV=http://signage.something.edu:8080/api/
+
+REACT_APP_HOST=http://localhost:8080/
+
+REACT_APP_HOST_NAME=http://signage.something.edu/
+
+REACT_APP_PROD_HOST=http://signage.something.edu:8080/

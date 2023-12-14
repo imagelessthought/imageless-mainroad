@@ -2478,6 +2478,17 @@ p {
 	margin: 1.5rem 0 0 2.25rem;
 }
 
+.label2 {
+	padding: .25rem .5rem!important;
+	background-color: var(--label1-back);
+	color: var(--button-up-text);
+	text-decoration: none!important;
+	border-radius: 4px;
+	/* box-shadow: var(--thumbnail-hover) 0 0 2px 2px; */
+	width: fit-content;
+	margin: 1.75rem 0 1.5rem 0!important;
+}
+
 .portfolio {
     display: flex;
     justify-content: center;
