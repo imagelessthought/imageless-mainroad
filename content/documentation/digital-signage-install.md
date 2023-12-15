@@ -33,12 +33,12 @@ Uninstall any existing versions of Node.js and npm to avoid conflicts.
 
 ### Node.js and npm Installation Guide  
      
-- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
+- curl -o- https:&#x2215;&#x2215;raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
 - source ~/.bashrc
 - nvm ls-remote
 - nvm install v18.18.2
 - nvm use v18.18.2
-- npm install -g npm@9.8.1
+- npm install -g npm&#64;9.8.1
 
 Confirm the correct versions of each oare installed: (node.js - v18.18.2; npm - 9.8.1 )
 
@@ -52,8 +52,8 @@ To be added.
 ### Clone the repository:
 
 Use https, ssh or the Github CLI:
-- git clone https://github.com/imagelessthought/universal-signage.git
-- git clone git@github.com:imagelessthought/universal-signage.git
+- git clone https:&#x2215;&#x2215;github.com/imagelessthought/universal-signage.git
+- git clone git&#64;github.com:imagelessthought/universal-signage.git
 - gh repo clone imagelessthought/universal-signage
   
 ## SETUP the Backend: Node.js Server
@@ -105,7 +105,7 @@ NODE_ENV = 'local'
 HOST='localhost'  
 LOCAL_DB=''  
 PROD_DB=''  
-LOCALHOST='http://localhost:8080/'  
+LOCALHOST='http:&#x2215;&#x2215;localhost:8080/'  
 PRODHOST=''  
 PORT = 8080  
 JWT_SECRET=""   
@@ -144,7 +144,7 @@ To start the server, use the following command:
 npm start
 ```
 
-Your app should now be running at [http://localhost:3000](http://localhost:3000).
+Your app should now be running at **https:&#x2215;&#x2215;localhost:3000**.
 
 ### Environment Variables for Frontend
 
@@ -155,8 +155,8 @@ Example .env file: /universal-signage/frontend/.env -> ** This will run it on th
 **Example:**
 ```  
 REACT_APP_ENV=Dev  
-REACT_APP_API_URL=http://localhost:8080/api/  
+REACT_APP_API_URL=http:&#x2215;&#x2215;localhost:8080/api/  
 REACT_APP_API_DEV=  
-REACT_APP_HOST=http://localhost:8080/  
+REACT_APP_HOST=http:&#x2215;&#x2215;localhost:8080/  
 REACT_APP_HOST_NAME=  
 REACT_APP_PROD_HOST=  
