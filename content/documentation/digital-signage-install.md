@@ -31,19 +31,24 @@ The install instructions were tested using **Ubuntu 22.04.3 LTS** running on Win
 
 Uninstall any existing versions of Node.js and npm to avoid conflicts.
 
-### Node.js and npm Installation Guide  
-     
-- curl -o- https:&#x2215;&#x2215;raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
-- source ~/.bashrc
-- nvm ls-remote
-- nvm install v18.18.2
-- nvm use v18.18.2
-- npm install -g npm&#64;9.8.1
+### Node.js, npm and npm-run-all Installation Guide  
 
-Confirm the correct versions of each oare installed: (node.js - v18.18.2; npm - 9.8.1 )
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
+source ~/.bashrc
+nvm ls-remote
+nvm install v18.18.2
+nvm use v18.18.2
+npm install -g npm@9.8.1
+npm install -g npm-run-all
+```  
 
-- node -v 
-- npm -v
+Confirm the correct versions of each are installed: (node.js - v18.18.2; npm - 9.8.1 )
+
+```sh 
+node -v 
+npm -v
+```  
 
 ### MongoDB Installation Guide
 
@@ -52,30 +57,25 @@ To be added.
 ### Clone the repository:
 
 Use https, ssh or the Github CLI:
-- git clone https:&#x2215;&#x2215;github.com/imagelessthought/universal-signage.git
-- git clone git&#64;github.com:imagelessthought/universal-signage.git
-- gh repo clone imagelessthought/universal-signage
-  
+
+```sh
+git clone https://github.com/imagelessthought/universal-signage.git
+git clone git@github.com:imagelessthought/universal-signage.git
+gh repo clone imagelessthought/universal-signage
+```
+
 ## SETUP the Backend: Node.js Server
 
 **Navigate to the backend directory**:
 
-   ```sh
-   cd universal-signage/backend
-   ```
+```sh
+cd universal-signage/backend
+```
 
 **Install project dependencies**:
 
-   ```sh
-   npm install
-   ```
-
-**Running the Server for Backend**:
-
-To start the server, use the following command:
-
 ```sh
-npm start
+npm install
 ```
 
 ### Directory Structure for Backend
@@ -97,7 +97,8 @@ backend/
 ### Environment Variables for Backend
 This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. *Make sure to keep this file private and never commit it to version control*. 
 
-Example .env file: /universal-signage/backend/.env -> ** This will run it on the localhost ONLY **
+Example .env file: /universal-signage/backend/.env -> ** The version below will run it on the localhost ONLY **
+
 ```  
 NODE_ENV='production'  
 #For Instance QA  
@@ -105,7 +106,7 @@ NODE_ENV = 'local'
 HOST='localhost'  
 LOCAL_DB=''  
 PROD_DB=''  
-LOCALHOST='http:&#x2215;&#x2215;localhost:8080/'  
+LOCALHOST='http://localhost:8080/'  
 PRODHOST=''  
 PORT = 8080  
 JWT_SECRET=""   
@@ -135,28 +136,43 @@ cd universal-signage/frontend/
 ```sh
 npm install
 ```
-
-**Running the Server for Frontend**:
-
-To start the server, use the following command:
-
-```sh
-npm start
-```
-
-Your app should now be running at **https:&#x2215;&#x2215;localhost:3000**.
-
 ### Environment Variables for Frontend
 
 This project requires certain environment variables to be set. Create a `.env` file in the root of your project and define the required variables. *Make sure to keep this file private and never commit it to version control*. 
 
-Example .env file: /universal-signage/frontend/.env -> ** This will run it on the localhost ONLY **
+Example .env file: /universal-signage/frontend/.env -> ** The version below will run it on the localhost ONLY **
 
-**Example:**
+**Example: .env**
+
 ```  
 REACT_APP_ENV=Dev  
-REACT_APP_API_URL=http:&#x2215;&#x2215;localhost:8080/api/  
+REACT_APP_API_URL=http://localhost:8080/api/  
 REACT_APP_API_DEV=  
-REACT_APP_HOST=http:&#x2215;&#x2215;localhost:8080/  
+REACT_APP_HOST=http://localhost:8080/  
 REACT_APP_HOST_NAME=  
-REACT_APP_PROD_HOST=  
+REACT_APP_PROD_HOST=
+```  
+## Setup npm-run-all
+
+You will need to update the package.json located in the root of the project and provide the path to the backend and frontend directories on your system:
+
+**Example: package.json**
+
+```  
+{
+  "dependencies": {
+    "react-bootstrap": "^2.9.1"
+  },
+    "scripts": {
+    "start": "npm-run-all --parallel start-frontend start-backend",
+    "start-frontend": "cd ~/server/universal-signage/frontend && npm start",
+    "start-backend": "cd ~/server/universal-signage/backend && npm start"
+  }
+}
+```  
+## Starting the Server ##
+If you have configured the package.jason located in the root of thje project correctly, as shown above, you can launch the server by running this command from the root folder of the project:
+
+```sh
+npm start
+```  
