@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skills on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/skills/</link>
+    <link>https://imagelessthought.github.io/site/skills/</link>
     <description>Recent content in Skills on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/skills/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/skills/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cybersecurity</title>
-      <link>https://imagelessthought.github.io/mainroad/skills/cybersecurity/</link>
+      <link>https://imagelessthought.github.io/site/skills/cybersecurity/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/skills/cybersecurity/</guid>
+      <guid>https://imagelessthought.github.io/site/skills/cybersecurity/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Cybersecurity&lt;/strong&gt; is the art of protecting networks, devices, and data from unauthorized access or criminal use and the practice of ensuring confidentiality, integrity, and availability of information. It seems that everything relies on computers and the internet now—communication (e.g., email, smartphones, tablets), entertainment (e.g., interactive video games, social media, apps ), transportation (e.g., navigation systems), shopping (e.g., online shopping, credit cards), medicine (e.g., medical equipment, medical records), and the list goes on.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>IT Support Management</title>
-      <link>https://imagelessthought.github.io/mainroad/skills/it-management/</link>
+      <link>https://imagelessthought.github.io/site/skills/it-management/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/skills/it-management/</guid>
+      <guid>https://imagelessthought.github.io/site/skills/it-management/</guid>
       <description>&lt;p&gt;IT support refers to the assistance provided to users of technology products or services. This can include end-point management, troubleshooting technical issues, providing training and education, and offering guidance on best practices. An IT support department plays a crucial role in ensuring that technology-related issues are addressed and resolved efficiently. The range of services provided by an IT support department may vary depending on the organization&amp;rsquo;s size, structure, and specific needs.&lt;/p&gt;</description>
     </item>
     

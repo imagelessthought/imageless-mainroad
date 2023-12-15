@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Training Resources on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/training/</link>
+    <link>https://imagelessthought.github.io/site/training/</link>
     <description>Recent content in Training Resources on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/training/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ACI Learning</title>
-      <link>https://imagelessthought.github.io/mainroad/training/aci/</link>
+      <link>https://imagelessthought.github.io/site/training/aci/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/aci/</guid>
+      <guid>https://imagelessthought.github.io/site/training/aci/</guid>
       <description>ACI Learning is another training resource I use. ACI Learning courses are broken down into half-hour, self-contained chunks. Much more engaging than other training options and the have apps for most devices, including Apple tvOS.</description>
     </item>
     
     <item>
       <title>Stormwind Studios</title>
-      <link>https://imagelessthought.github.io/mainroad/training/stormwind/</link>
+      <link>https://imagelessthought.github.io/site/training/stormwind/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/stormwind/</guid>
+      <guid>https://imagelessthought.github.io/site/training/stormwind/</guid>
       <description>Stormwind Studios is a training resource I use to maintain my skill set and knowledge base. They provide live and on-demand bootcamp courses from wide-range of vendors.</description>
     </item>
     
     <item>
       <title>Coursera</title>
-      <link>https://imagelessthought.github.io/mainroad/training/coursera/</link>
+      <link>https://imagelessthought.github.io/site/training/coursera/</link>
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/coursera/</guid>
+      <guid>https://imagelessthought.github.io/site/training/coursera/</guid>
       <description>Coursera is a leading online learning platform for higher education, where more than 49 million learners from around the world come to learn skills of the future. UNT is among the world’s top universities and industry educators to partner with Coursera to offer courses, Specializations, certificates, and degree programs.</description>
     </item>
     
     <item>
       <title>LinkedIn Learning</title>
-      <link>https://imagelessthought.github.io/mainroad/training/linkedin/</link>
+      <link>https://imagelessthought.github.io/site/training/linkedin/</link>
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/linkedin/</guid>
+      <guid>https://imagelessthought.github.io/site/training/linkedin/</guid>
       <description>LinkedIn Learning offers the widest range of offerings of any service, from technical to business. LinkedIn Learning is a great place to find training for your supported users when introducing or migrating to a new service.</description>
     </item>
     
     <item>
       <title>W3 Schools</title>
-      <link>https://imagelessthought.github.io/mainroad/training/w3/</link>
+      <link>https://imagelessthought.github.io/site/training/w3/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/w3/</guid>
+      <guid>https://imagelessthought.github.io/site/training/w3/</guid>
       <description>W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering many aspects of web development.</description>
     </item>
     
     <item>
       <title>Microsoft: Learning Paths</title>
-      <link>https://imagelessthought.github.io/mainroad/training/microsoft/</link>
+      <link>https://imagelessthought.github.io/site/training/microsoft/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/microsoft/</guid>
+      <guid>https://imagelessthought.github.io/site/training/microsoft/</guid>
       <description>Microsoft offers their self-paced technical training, including learning labs, for free online to everyone. Certification tests and instructor-led training are available but are not free.</description>
     </item>
     
     <item>
       <title>Apple: IT Training</title>
-      <link>https://imagelessthought.github.io/mainroad/training/apple/</link>
+      <link>https://imagelessthought.github.io/site/training/apple/</link>
       <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/apple/</guid>
+      <guid>https://imagelessthought.github.io/site/training/apple/</guid>
       <description>Apple offers their technical training for free online to everyone. Certification tests are available but are not free. There are considerably fewer training offerings, when compared to Microsoft.</description>
     </item>
     
     <item>
       <title>JAMF: Apple Endpoint Management</title>
-      <link>https://imagelessthought.github.io/mainroad/training/jamf/</link>
+      <link>https://imagelessthought.github.io/site/training/jamf/</link>
       <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/jamf/</guid>
+      <guid>https://imagelessthought.github.io/site/training/jamf/</guid>
       <description>JAMF provides a complete enterprise management and security solution for Apple devices. Both on-premise and cloud solutions are available. Easy to manage and enterprise-secure.</description>
     </item>
     
     <item>
       <title>Linux Kernel Organization</title>
-      <link>https://imagelessthought.github.io/mainroad/training/linux/</link>
+      <link>https://imagelessthought.github.io/site/training/linux/</link>
       <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/linux/</guid>
+      <guid>https://imagelessthought.github.io/site/training/linux/</guid>
       <description>The Linux Kernel Organization is managed by The Linux Foundation, which provides full technical, financial and staffing support for running and maintaining the kernel.org infrastructure.t.</description>
     </item>
     
     <item>
       <title>Linux Professional Institute</title>
-      <link>https://imagelessthought.github.io/mainroad/training/linux2/</link>
+      <link>https://imagelessthought.github.io/site/training/linux2/</link>
       <pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/training/linux2/</guid>
+      <guid>https://imagelessthought.github.io/site/training/linux2/</guid>
       <description>The Linux Professional Institute is the largest vendor-neutral Linux and open source certification body. Some classes are free to everyone and others require a fee. Certification tests are available for a fee.</description>
     </item>
     

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Imageless Thought</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta name="description" content="Support Documentation for the College of Visual Arts and Design at the University of North Texas">
+<meta name="keywords" content="IT,HELP,SUPPORT,ART,CVAD,UNT">
+<meta name="author" content="cvad students and staff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Bebas+Neue" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap|Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a085645410.js" crossorigin="anonymous"></script>
+<script data-search-pseudo-elements src="https://kit.fontawesome.com/a085645410.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/signage/assets/css/styles-signage.css">
+<link rel="stylesheet" href="/signage/assets/css/prism.css">
+<!--
+<link rel="stylesheet" href="assets/css/updated_accessible-content.css">
+<link rel="stylesheet" href="assets/css/updated_accessible-content-mq.css">
+-->
+<style>
+.screenreader-text {position:absolute; left:-999px; width:1px; height:1px; top:auto;}
+.screenreader-text:focus {color:black; display:inline-block; height:auto; width:auto; position:static; margin:auto;}
+</style>
+<link rel="icon" type="image/x-icon" href="/assets/images/favicons/favicon.ico">
+</head>
+<!-- BEGIN PAGE -->
+<body>
+<a id='skip-nav' class='screenreader-text' href='#main-content'>Skip Navigation or Skip to Content</a>
+<script src="/assets/scripts/prism.js"></script>
+
+<!-- Header -->
+<div class="header" id="myHeader"></div>
+<!-- END: Header -->
+
+<!-- Page Content -->
+<!-- Scripts -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>    
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>  // Uses jquery-3.3.1.js
+$(document).ready(function(){
+   $('#top').load("/signage/assets/snippets/header.html");
+   $('#bottom').load("/signage/assets/snippets/footer.html");
+});
+</script>
+<!--
+<div id="top"></div>
+-->
+<div class="page-container">
+<main id="main-content">
+<h1 class="nomargbot primefont">Universal Digital Signage</h1>
+<p class="nomargtop">Centrally Managed Content Delivery for Digital Signs, Screensavers, Kiosks, Presentations and More.</p>
+<hr>
+<h2>Description:</h2>
+<p><span class="semi">This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server</span>. The server will host the content in playlists using one of the available templates<sup>1</sup>. The digital signage device will simply need to launch a browser in full-screen mode and open the URL at startup: the URL will be the <span class="emph-1">server</span> and the <span class="emph-2">hostname</span> of the device (example: https://<span class="emph-1">signage.unt.edu</span>/<span class="emph-2">rasperrypi1</span>)<sup>2</sup>. The index file at the path provided will redirect to the currently assigned playlist. Below is the html that could be used in the index file to point the digital sign in our example <span class="primefont">(https://signage.unt.edu/raspberrypi1/index.html)</span> to the default playlist on the server:</p>
+<pre>
+<code class="language-css">
+ &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0; URL=https://signage.unt.edu/default-playlist/&quot;&gt;
+</code>
+</pre>
+<p>The screensavers for Mac, Windows and Linux: when the screensaver is active it simply needs to play a slideshow from server. The only required configurable options are the ability to specify the server and playlist (rather than hostname). Ideally this information should be read from a .cfg file and not directly configurable by the user. These need to be simple and very likely the code already exists. Feel free to use what you are able to find as long as they are open-source.</p>
+<p>Example of use case: each department wants a unique slideshow for a screensaver that they may distribute or use in their area. They will each create their own playlists using the application and configure the screensaver to point to it before distributing.</p>
+<ul class="nobullet">
+<li><sup>1</sup> <b>Three</b> templates will be needed for development; one for digital signs, one for kiosks, and one for presentations.</li>
+<li></li>
+<li><b class="greenfont">All templates should use the full-screen, and have an option for a border and padding.</b></li>
+<li></li>
+<li><a href="/signage/templates/signage-template.html" alt="Digital Signs"><span class="highlight">1</span>:Digital Sign</a>: This should autoplay the slideshow on an endless loop and include an option for a text caption at the top or bottom of the page.</li>
+<li><a href="/signage/templates/kiosk-template.html" alt="Kiosk"><span class="highlight">2</span>:Kiosk</a> include slide advancement controls available to the user on the right-hand (next slide) and left-hand (previous slide) of the screen.</li>
+<li><a href="/signage/templates/presentation-template.html" alt="Presentation"><span class="highlight">3</span>:Presentation</a> include a small slideshow controls box in the top right of the screen that allows the user to control the slideshow: advance, previous, autoplay, autoplay-pause. A the bottom of the screen shoud be small numbered buttons that allow the user to move to a particular slide.</li>
+<li></li>
+<li><sup>2</sup> We will be using the RaspberryPi with the <a href="https://www.otot.tv/fullpageos-setup-instructions/" alt="Raspberry Pi FullPageOS">FullPageOS</a> as the digital signage device for testing. FullPageOS is an <em>existing</em> simple OS build that launches a web browser in kiosk mode and opens a specified URL at startup. <b>No development is required as part of this project</b>.</li>
+</ul>
+<h3 class="nomargbot">Application Features</h3>
+<p class="primefont"><b><u>User options through a UI:</u></b></p>
+<ul>
+<li class="nobullet"><b>Digital Signs</b> (Non-interactive Slideshows)</li>
+<li class="nobullet lindent">Templates <b>1</b> and <b>2</b> referenced above are intended to be used to create playlists for the digital signs: they do not require user-interaction.</li>
+<li>Register and Unregsiter hostnames of devices. Registration creates the folder with the hostname and creates the initial index file (should point to the default playlist or allow the user to assign a playlist upon registration). Unregistering removes the folder.</li>
+<li>When registering, ask whether the digital sign is a touch-screen and apply a tag to the device. <b>Digital signs <em>without a touch-screen</em> should not be permitted to assign an interactive playlist</b>.</li>
+<li>Display all hosts with the assigned <span class="primefont">playlist</span> and <span class="primefont">group</span> if applicable.</li>
+<li>Add or Remove from asset group (adding to an asset group assigns that group's playlist).</li>
+<li>Assign playlist: directly assigning a playlist removes it from an assigned group.</li>
+<li>Assign to user group(s) for management permissions.</li>
+</ul>
+<ul class="nomargtop">
+<li class="nobullet"><b>Kiosk-Presentations</b> (Interactive Slideshows)</li> 
+<li class="nobullet lindent">Template <b>3</b> referenced above is intended to be used primarily to create playlists for the kiosks and presentations: it does require user-interaction.</li>
+<li>Create, edit or remove a kiosk-presentation. A folder will be created with the name of the slideshow and the initial index file will be created (should point to the default kiosk-presentation playlist or allow the user to assign a playlist at the time of creation). Removing the  the folder.</li>
+<li>Display all kiosk-presentations with the assigned <span class="primefont">playlist</span> and <span class="primefont">group</span> if applicable.</li>
+<li>Add or Remove from asset group (adding to an asset group assigns that group's playlist).</li>
+<li>Assign playlist: directly assigning a playlist removes it from an assigned group.</li>
+<li>Assign to user group(s) for management permissions.</li>
+</ul>
+<ul>
+<li class="nobullet lipad2"><b>Playlists</b></li> 
+<li>Display all playlists and the devices and groups that have it assigned.</li>
+<li>Assign a template to the playlist</li>
+<li>Create, Edit or Delete a playlist. Prevent the deletion of a playlist that is currently assigned to a host. Images can be slected from the Image Library or by enetering a URL to an image. For template with caption - the caption can be edit or updated here.</li> 
+</ul>
+<ul>
+<li class="nobullet lipad"><b>Image Library</b></li> 
+<li>Diplay all images in the library with the description and tags.</li>
+<li>Add or remove an image from the libarary.</li>  
+<li>Allow for a description to be added to an image.</li>
+<li>Allow for tags to be added to an image.</li>
+<li>Create, Edit, and Delete tags.</li>
+</ul>    
+<ul>
+<li class="nobullet lipad"><b>Template Library</b></li>
+<li>View all templates and current properties.</li>
+<li>Configure template properties (background color, image padding, slide duration...).</li>
+<li>Edit and delete templates.</li>
+<li>Copy an existing template to a new template for modification.</li>
+</ul>
+<ul>
+<li class="nobullet lipad"><b>Scheduler</b></li>
+<li>Create an assignable schedule for playlist changes: daily, weekly, monthly schedules and by specific date and time.</li>
+<li>Allow a schedule to be applied to a device or group.</li>
+</ul>
+<p class="primefont"><b><u>Server</u></b></p>
+<ul>
+<li class="nobullet lipad"><b>User and Group Management (accessible by users with admin or asset manager role only)</b></li>
+<li>Create, edit and delete users. <span class="role-emph1">admin</span></li>
+<li>Assign role: standard or admin. <span class="role-emph1">admin</span></li>
+<li>Disable a user account. <span class="role-emph1">admin</span></li>
+<li>Require user to reset password at next login. <span class="role-emph1">admin</span></li>
+<li>Add\remove digital signs and kiosk-presentations to user groups: user groups control management permissions. <span class="role-emph1">admin</span></li>
+<li>Lock a digital sign, kiosk-presentations, or asset group to prevent changes. <span class="role-emph2">asset manager</span></li>
+</ul>
+<p class="primefont"><b><u>Screensavers and Digital Signs</u></b></p>
+<ul>
+<li class="nobullet lipad"><b>Failure</b></li>
+<li>If the playlist canot be found amessage should be dislpayed that provides contact information for support.</li>
+</ul>
+<h3 class="nomargbot">Template Specifications</h3>
+<p class="greenfont">Kiosk: Slide Advance-Previous</p>
+<p><img src="/signage/assets/images/kiosk-mockup.png"></p>
+<p class="greenfont">Presentation: Slide Control Bar at Top Right of Page</p>
+<p><img src="/signage/assets/images/present-controls-mockup.png"></p>
+<p class="greenfont">Presentation: Slide List at Bottom of Page</p>
+<p><img src="/signage/assets/images/present-numbers-mockup.png"></p>
+<h3 class="nomargbot">Menu Mockups</h3>
+<p class="greenfont"><a href="/signage/menu-mockup.html" alt="Mockups">Mockups</a> of the menus are now available.</p>
+</main>
+</div>
+<!--
+<div id="bottom"></div>
+-->
+</body>
+</html>

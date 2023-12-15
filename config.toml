@@ -1,4 +1,4 @@
-baseurl = "https://imagelessthought.github.io/mainroad/"
+baseurl = "https://imagelessthought.github.io/site/"
 title = "Imageless Thought"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page

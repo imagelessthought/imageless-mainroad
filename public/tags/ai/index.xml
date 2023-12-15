@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/tags/ai/</link>
+    <link>https://imagelessthought.github.io/site/tags/ai/</link>
     <description>Recent content in AI on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI: A Primer</title>
-      <link>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</link>
+      <link>https://imagelessthought.github.io/site/blog/artificial-intelligence/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</guid>
+      <guid>https://imagelessthought.github.io/site/blog/artificial-intelligence/</guid>
       <description>&lt;p&gt;The AI field is heavy with jargon and terminology.  To help you navigate and understand the the technologies and solutions that are out there, you will need a some help.&lt;/p&gt;</description>
     </item>
     

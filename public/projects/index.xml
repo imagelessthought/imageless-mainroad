@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/projects/</link>
+    <link>https://imagelessthought.github.io/site/projects/</link>
     <description>Recent content in Projects on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Universal Digital Signage</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/digital-signage/</link>
+      <link>https://imagelessthought.github.io/site/projects/digital-signage/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/digital-signage/</guid>
+      <guid>https://imagelessthought.github.io/site/projects/digital-signage/</guid>
       <description>Description: This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.. The server will host the content in playlists using one of the available templates. The digital signage device will simply need to launch a browser in full-screen mode and open the URL at startup: the URL will be the server. and the hostname of the device example: https://signage.</description>
     </item>
     
     <item>
       <title>Classroom | Instructional Support</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/instructional/</link>
+      <link>https://imagelessthought.github.io/site/projects/instructional/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/instructional/</guid>
+      <guid>https://imagelessthought.github.io/site/projects/instructional/</guid>
       <description>&lt;p&gt;Issues that hinder an instructor&amp;rsquo;s ability to teach are given the highest priority at the College of Visual Arts and Design. If you are experiencing issues with the equipment in one of our classrooms during a scheduled class period, please &lt;strong&gt;Submit a Ticket&lt;/strong&gt; by using the link on the instructor lectern computer and a technician will be dispatched to your location.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Training</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/training/</link>
+      <link>https://imagelessthought.github.io/site/projects/training/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/training/</guid>
+      <guid>https://imagelessthought.github.io/site/projects/training/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
     </item>
     
     <item>
       <title>Web and UI Design</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/web-design/</link>
+      <link>https://imagelessthought.github.io/site/projects/web-design/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/web-design/</guid>
+      <guid>https://imagelessthought.github.io/site/projects/web-design/</guid>
       <description>Understanding Open-Source Licensing Terms You will find many resources online that you may want to include in your website: images, fonts, themes, templates, plug-ins etc&amp;hellip; Before you use them in your website it is important to check the licensing terms to confirm that your use is in compliance with the agreement. You must follow any stipulations included in the agreement.
 When it comes to open-source resources, many of the licensing terms you will encounter grant you permission to use the resource pretty freely.</description>
     </item>
     
     <item>
       <title>Migrating from Isilon to Pure Storage</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/hammerspace/</link>
+      <link>https://imagelessthought.github.io/site/projects/hammerspace/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/hammerspace/</guid>
+      <guid>https://imagelessthought.github.io/site/projects/hammerspace/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.purestorage.com/&#34; title=&#34;Pure Storage Website&#34;&gt;Pure Storage&lt;/a&gt; is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Modern Campus and Omni CMS</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/omni-campus/</link>
+      <link>https://imagelessthought.github.io/site/projects/omni-campus/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/omni-campus/</guid>
+      <guid>https://imagelessthought.github.io/site/projects/omni-campus/</guid>
       <description>&lt;p&gt;The UNT campus is migrating from Drupal 7 to &lt;a href=&#34;https://moderncampus.com/resources/index.html&#34; title=&#34;Modern Campus and Omni CMS website&#34;&gt;Modern Campus, Omni CMS&lt;/a&gt;. This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.&lt;/p&gt;</description>
     </item>
     

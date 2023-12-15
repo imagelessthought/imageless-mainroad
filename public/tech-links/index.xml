@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology Links on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/tech-links/</link>
+    <link>https://imagelessthought.github.io/site/tech-links/</link>
     <description>Recent content in Technology Links on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tech-links/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/tech-links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub: Version Control</title>
-      <link>https://imagelessthought.github.io/mainroad/tech-links/github/</link>
+      <link>https://imagelessthought.github.io/site/tech-links/github/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/tech-links/github/</guid>
+      <guid>https://imagelessthought.github.io/site/tech-links/github/</guid>
       <description>GitHub is a platform and cloud-based service for software development and version control, allowing developers to store and manage their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</description>
     </item>
     
     <item>
       <title>Raspberry Pi</title>
-      <link>https://imagelessthought.github.io/mainroad/tech-links/rpi/</link>
+      <link>https://imagelessthought.github.io/site/tech-links/rpi/</link>
       <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/tech-links/rpi/</guid>
+      <guid>https://imagelessthought.github.io/site/tech-links/rpi/</guid>
       <description>Raspberry Pi have all the features required for computing: WIFI, Bluetooth, HDMI, USB, along with ample processing power and RAM.</description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>https://imagelessthought.github.io/mainroad/tech-links/ubuntu/</link>
+      <link>https://imagelessthought.github.io/site/tech-links/ubuntu/</link>
       <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/tech-links/ubuntu/</guid>
+      <guid>https://imagelessthought.github.io/site/tech-links/ubuntu/</guid>
       <description>Ubuntu is my preferred Linux distribution for a desktop OS. It is well maintained and the documentation and tutorials are plentiful. Pro subscriptions are available for free for personal use.</description>
     </item>
     
     <item>
       <title>Red Hat</title>
-      <link>https://imagelessthought.github.io/mainroad/tech-links/redhat/</link>
+      <link>https://imagelessthought.github.io/site/tech-links/redhat/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/tech-links/redhat/</guid>
+      <guid>https://imagelessthought.github.io/site/tech-links/redhat/</guid>
       <description>Red Hat Enterprise Linux is my preferred choice as a server OS. They are the maintainers of Ansible, an open-source solution that I have used for endpoint configuration of Linux devices and servers.</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/tags/git/</link>
+    <link>https://imagelessthought.github.io/site/tags/git/</link>
     <description>Recent content in Git on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github for Development and Version Control</title>
-      <link>https://imagelessthought.github.io/mainroad/blog/github-announcement/</link>
+      <link>https://imagelessthought.github.io/site/blog/github-announcement/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/blog/github-announcement/</guid>
+      <guid>https://imagelessthought.github.io/site/blog/github-announcement/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://git-scm.com&#34; title=&#34;Git Website&#34;&gt;Git&lt;/a&gt; is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is widely used for collaborative software development and &lt;strong&gt;Github&lt;/strong&gt; is a very popular Git platform. Git is used to track changes, keep a complete history of the changes, and allows you to roll back to any point. Owners can grant access to a project and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.&lt;/p&gt;</description>
     </item>
     

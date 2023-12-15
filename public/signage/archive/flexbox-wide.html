@@ -1,0 +1,92 @@
+<style>
+
+html {
+  --primedgr: #44611F; --primedgr-rgba: rgba(68, 97, 31, 1);
+  --primelgr: #C5E1A5; --primelgr-rgba: rgba(197, 225, 165, 1);
+  --primedbl: #336699; --primedbl-rgba: rgba(51, 102, 153, 1);
+  --primelbl: #87939d; --primelbl-rgba: rgba(135, 147, 157, 1);
+    }
+
+.portfolio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 3rem 0;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1200px; /* Adjust the max-width as needed */
+    }
+    
+    .flex-item {
+        width: 200px;
+        max-width: 200px;
+        height: auto;
+        margin: 10px; /* Adjust the margin for spacing */
+        text-align: center;
+        background-color: transparent;
+        border-radius: 4px;
+        border-radius: 4px;
+    }
+    
+    .image-wrapper {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primedbl); /* Optional: Add a background color */
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border-radius: 4px;
+    }
+    
+    .image-wrapper img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain; /* Maintain aspect ratio and center image */
+        box-sizing: border-box;
+        background-color: inherit;
+        padding: 1rem;
+
+    }
+    
+    .flex-item figcaption {
+        width: 100%;
+        margin: .5rem; /* Adjust the margin for spacing between image and caption */
+    }
+    
+</style>
+
+  <div class="portfolio">
+    <div class="flex-container">
+      <div class="flex-item">
+
+      </div>
+      <div class="flex-item">
+        <img src="dyegarden.jpg" alt="dyegarden.jpg">
+      </div>
+      <div class="flex-item">
+        <img src="dyegarden.jpg" alt="dyegarden.jpg">
+      </div>
+      <div class="flex-item">
+        <img src="dyegarden.jpg" alt="dyegarden.jpg">
+      </div>
+      <div class="flex-item">
+        <img src="dyegarden.jpg" alt="dyegarden.jpg">
+      </div>
+      <div class="flex-item">
+        <img src="dyegarden.jpg" alt="dyegarden.jpg">
+      </div>
+      <div class="flex-item">
+        <img src="dyegarden.jpg" alt="dyegarden.jpg">
+      </div>
+ <!-- Repeat this structure for additional images -->
+</div> 
+</div>
+ </body>
+ </html>
