@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Student Websites on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/site/student-web/</link>
+    <link>https://imagelessthought.github.io/mainroad/student-web/</link>
     <description>Recent content in Student Websites on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/student-web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/student-web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASTU 3703.501: Creative Coding | Studio Art: New Media</title>
-      <link>https://imagelessthought.github.io/site/student-web/astu3703/</link>
+      <link>https://imagelessthought.github.io/mainroad/student-web/astu3703/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/student-web/astu3703/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/student-web/astu3703/</guid>
       <description>An introduction to the fundamentals of coding and computer science as a creative medium.
 Instructor: Ranran Fan</description>
     </item>

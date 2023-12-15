@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Online Services on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/site/portals/</link>
+    <link>https://imagelessthought.github.io/mainroad/portals/</link>
     <description>Recent content in Online Services on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/portals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/portals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postman: API Platform</title>
-      <link>https://imagelessthought.github.io/site/portals/postman/</link>
+      <link>https://imagelessthought.github.io/mainroad/portals/postman/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/portals/postman/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/portals/postman/</guid>
       <description>Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.</description>
     </item>
     
     <item>
       <title>GitHub: Version Control</title>
-      <link>https://imagelessthought.github.io/site/portals/github/</link>
+      <link>https://imagelessthought.github.io/mainroad/portals/github/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/portals/github/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/portals/github/</guid>
       <description>GitHub is a platform and cloud-based service for software development and version control, allowing developers to store and manage their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</description>
     </item>
     
     <item>
       <title>Discord</title>
-      <link>https://imagelessthought.github.io/site/portals/discord/</link>
+      <link>https://imagelessthought.github.io/mainroad/portals/discord/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/portals/discord/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/portals/discord/</guid>
       <description>Discord is a social-media collaboration platform with servers organized into channels by topic. Collaborate and communicate with instant messaging, VOIP, and video chats.</description>
     </item>
     
     <item>
       <title>Microsoft 365: Online Access to Applications and Collaboration Tools</title>
-      <link>https://imagelessthought.github.io/site/portals/o365/</link>
+      <link>https://imagelessthought.github.io/mainroad/portals/o365/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/portals/o365/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/portals/o365/</guid>
       <description>Microsoft 365 is a product family of productivity software, collaboration and cloud-based services developed by by Microsoft. It encompasses online services and applications formerly part of the Microsoft Office Suite: Word, Excel, PowerPoint, Outlook, among others.
 Use the link above to login to your Microsoft 365 account, this will launch the online version of Microsoft Outlook: The other available applications can be accessed by using the icon at the top left.</description>
     </item>
     
     <item>
       <title>Microsoft: Azure Cloud Computing</title>
-      <link>https://imagelessthought.github.io/site/portals/azure/</link>
+      <link>https://imagelessthought.github.io/mainroad/portals/azure/</link>
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/portals/azure/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/portals/azure/</guid>
       <description>Microsoft Azure is a cloud computing platform which offers access, management, and development of applications and services through global data centers.</description>
     </item>
     

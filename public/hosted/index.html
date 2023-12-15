@@ -15,7 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
 <style>
 
-* {box-sizing: border-box}
+* {box-sizing: border-box;}
 
 html, body {
     margin: 0!important;
@@ -23,7 +23,7 @@ html, body {
     height: 100%;
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
+    background-color: #2d2c2c!important;
 }
 
 .mySlides {
@@ -48,8 +48,32 @@ img {
   margin-bottom: -5px;
 }
 
+.encap {
+  color: white;
+  font-size:3rem;
+  text-align: center;
+  margin: 2rem auto 0 auto;
+  width: 100%;
+}
+
+
+.encap2 {
+  color: black;
+  font-size:2rem;
+  text-align: center;
+  margin: 3rem auto 0 auto;
+  width: fit-content;
+  padding: .25rem .5rem;
+  border-radius: 4px; border: 2px solid black; box-shadow:red 0 0 10px 10px; background-color: orange;
+
+}
+
 .glow {
   border-radius: 20px; border: 2px solid #B9DCD2; outline: 2px solid white; box-shadow:#B9DCD2 0 0 10px 10px; background-color: transparent;
+}
+
+.glow2 {
+  padding: 3rem; border-radius: 20px; border: 2px solid #B9DCD2; outline: 2px solid white; box-shadow:#B9DCD2 0 0 10px 10px; background-color: transparent;
 }
 
 .padme {
@@ -59,7 +83,6 @@ img {
 
 .padme2 {
   padding: 20rem!important;
-  border-radius: 20px; border: 2px solid #B9DCD2; outline: 2px solid white; box-shadow:#B9DCD2 0 0 10px 10px; background-color: transparent;
 }
 
 .imgpdf-container {
@@ -170,7 +193,7 @@ align-items: center!important;
 .caption {
 font-size: 1rem;
 font-weight: 400;
-color: transparent;
+color: white;
 padding: .5rem;
 background-color: transparent;
 border-radius: 4px;
@@ -265,24 +288,51 @@ width: fit-content;
 
 <div class="slideshow-container">
 
+<!-- START SLIDE -->
+
 <div class="mySlides fade">
-  <div class="numbertext">1 / 9</div>
+  <div class="numbertext">1 / 12</div>
   <img class="glow" src="cvadit_presentation.png">
   <div class="text-wrapper-top">
   </div>
 </div>
 
-
 <div class="mySlides fade">
-  <div class="numbertext">2 / 9</div>
-  <img src="cvadits-orgchart.png">
+  <div class="numbertext">2 / 12</div>
+  <img style="background-color: #2d2c2c; border: 1px solid white; border-radius: 10px;" src="cio_visit.png">
   <div class="text-wrapper-top">
-  <p class="caption">Organizational Chart</p>
   </div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 9</div>
+  <div class="numbertext">3 / 12</div>
+  <img class="glow" src="cvadit_presentation_slide1.png">
+  <a style="text-decoration: none" href="tour/"><h2 class="encap2">View Gallery of Spaces Mentioned Above</h2></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 12</div>
+  <img class="glow" src="cvadit_presentation_slide2.png">
+  <div class="text-wrapper-top">
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 12</div>
+  <img src="deloitte-title.png">
+  <div class="text-wrapper-top">
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6/ 12</div>
+  <img src="cvadits-orgchart.png">
+  <div class="text-wrapper-top">
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 12</div>
   <div class="padme"><div class="imgpdf-container">
   <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 001.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
   <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 002.png">  
@@ -292,7 +342,7 @@ width: fit-content;
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">4 / 9</div>
+  <div class="numbertext">8 / 12</div>
   <div class="padme"><div class="imgpdf-container">
     <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 003.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
     <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 004.png">  
@@ -302,7 +352,7 @@ width: fit-content;
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">5 / 9</div>
+  <div class="numbertext">9 / 12</div>
   <div class="padme"><div class="imgpdf-container">
     <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 005.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
     <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 006.png">  
@@ -312,7 +362,7 @@ width: fit-content;
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">6 / 9</div>
+  <div class="numbertext">10 / 12</div>
   <div class="padme"><div class="imgpdf-container">
     <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 007.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
     <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 008.png">  
@@ -322,7 +372,7 @@ width: fit-content;
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">7 / 9</div>
+  <div class="numbertext">11 / 12</div>
   <div class="padme"><div class="imgpdf-container">
     <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 009.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
     <img class="imgpdf" src="20231003_deloitte_cvad-technology-services 010.png">  
@@ -332,19 +382,12 @@ width: fit-content;
 </div>
 
 <div class="mySlides fade">
-    <div class="numbertext">8 / 9</div>
-    <div><img class="padme2" src="x_end.jpg">  
-    <div class="text-wrapper-top">
-    </div></div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">9 / 9</div>
-    <img src="questions.png">  
-    <div class="text-wrapper-top">
+    <div class="numbertext">12 / 12</div>
+    <div class="padme2"><img style="background-color: white" class="glow2" src="stop-blocked-icon.png">
+      <h2 class="encap">End of Presentation</h2>
+    </div>
     </div>
   </div>
-
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
 <a class="next" onclick="plusSlides(1)">❯</a>
@@ -361,6 +404,9 @@ width: fit-content;
   <span class="dot" onclick="currentSlide(7)">7</span> 
   <span class="dot" onclick="currentSlide(8)">8</span> 
   <span class="dot" onclick="currentSlide(9)">9</span> 
+  <span class="dot" onclick="currentSlide(10)">10</span> 
+  <span class="dot" onclick="currentSlide(11)">11</span> 
+  <span class="dot" onclick="currentSlide(12)">12</span> 
 </div>
 
 <script>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Applications on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/site/tags/applications/</link>
+    <link>https://imagelessthought.github.io/mainroad/tags/applications/</link>
     <description>Recent content in Applications on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/tags/applications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/applications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Universal Digital Signage: Installation Instructons</title>
-      <link>https://imagelessthought.github.io/site/documentation/digital-signage-install/</link>
+      <link>https://imagelessthought.github.io/mainroad/documentation/digital-signage-install/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/documentation/digital-signage-install/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/documentation/digital-signage-install/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;Universal Digital Signage&lt;/strong&gt; web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (&lt;strong&gt;hosts&lt;/strong&gt;) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an &lt;em&gt;interrupt&lt;/em&gt; schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to &lt;strong&gt;channels&lt;/strong&gt; to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), &lt;strong&gt;interactive kiosks&lt;/strong&gt;, and hosted online &lt;strong&gt;presentations&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     

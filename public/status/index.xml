@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Service Status Checker on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/site/status/</link>
+    <link>https://imagelessthought.github.io/mainroad/status/</link>
     <description>Recent content in Service Status Checker on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/site/status/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/status/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guacamole: Remote Access Service</title>
-      <link>https://imagelessthought.github.io/site/status/status-guacamole/</link>
+      <link>https://imagelessthought.github.io/mainroad/status/status-guacamole/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/status/status-guacamole/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/status/status-guacamole/</guid>
       <description>guacamole.unt.edu
 main.guacamole.unt.edu
 cloud.guacamole.unt.edu</description>
@@ -20,10 +20,10 @@ cloud.guacamole.unt.edu</description>
     
     <item>
       <title>Websites</title>
-      <link>https://imagelessthought.github.io/site/status/status-websites/</link>
+      <link>https://imagelessthought.github.io/mainroad/status/status-websites/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/site/status/status-websites/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/status/status-websites/</guid>
       <description>public.cvad.unt.edu
 Online Service Desk
 Booked Scheduler
