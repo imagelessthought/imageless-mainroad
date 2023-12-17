@@ -3,12 +3,10 @@ title: "Universal Digital Signage: Installation Instructons"
 date: 2023-08-12
 layout: single-post
 categories:
-  - "Digital Signage"
-  - "Innovation Projects"
   - "Applications"
 tags: 
   - "Digital Signage"
-  - "Applications"
+  - "Innovation Projects"
 nosearch: "True"
 postauthor: Shivam Jadhav
 postauthorinfo: "Innovation Technology Group: Student"
