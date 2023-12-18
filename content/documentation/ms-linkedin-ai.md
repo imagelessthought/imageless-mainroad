@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Generative AI and Microsoft Bing AI Chat"
+title: "Introduction to Generative AI and Microsoft Copilot"
 subtitle: This article was created with assistance from Microsoft Copilot.
 date: 2023-12-15
 layout: single-post
