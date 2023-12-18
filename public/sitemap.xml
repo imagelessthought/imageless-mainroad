@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://imagelessthought.github.io/mainroad/tech-links/github/</loc>
-    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <loc>https://imagelessthought.github.io/mainroad/tags/ai/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/categories/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/documentation/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/documentation/ms-linkedin-ai/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tags/microsoft/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tags/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/categories/training/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mainroad/tech-links/github/</loc>
     <lastmod>2023-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/tech-links/</loc>
     <lastmod>2023-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/blog/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/categories/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/flipper-zero/</loc>
@@ -35,9 +53,6 @@
     <loc>https://imagelessthought.github.io/mainroad/categories/penetration-testing/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/tags/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://imagelessthought.github.io/mainroad/tech-links/rpi/</loc>
     <lastmod>2023-12-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -46,9 +61,6 @@
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/tech-links/redhat/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/tags/ai/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
@@ -233,19 +245,10 @@
     <loc>https://imagelessthought.github.io/mainroad/projects/web-design/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/tags/applications/</loc>
-    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/applications/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/tags/digital-signage/</loc>
-    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/categories/digital-signage/</loc>
-    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/documentation/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/tags/file-storage/</loc>
@@ -254,7 +257,7 @@
     <loc>https://imagelessthought.github.io/mainroad/categories/file-storage/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mainroad/categories/innovation-projects/</loc>
+    <loc>https://imagelessthought.github.io/mainroad/tags/innovation-projects/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mainroad/categories/isilion/</loc>

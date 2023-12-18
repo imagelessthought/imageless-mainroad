@@ -6,7 +6,17 @@
     <description>Recent content in AI on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Generative AI and Microsoft Bing AI Chat</title>
+      <link>https://imagelessthought.github.io/mainroad/documentation/ms-linkedin-ai/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/documentation/ms-linkedin-ai/</guid>
+      <description>The content in this article was created from my notes from the certification course, Career Essentials in Generative AI by Microsoft and LinkedIn with summarization and revisions performed using Microsoft Copilot.
+Introduction What is Generative AI? Generative AI is changing how we create. (light music) For the first time, humans are supervising and machines are generating. It&amp;rsquo;s helping us lift the dirty, dull, dangerous and difficult tasks from humanity&amp;rsquo;s shoulders so then we can simply focus on the very essence of our work, the vision, the idea, and the purpose.</description>
+    </item>
+    
     <item>
       <title>AI: A Primer</title>
       <link>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</link>

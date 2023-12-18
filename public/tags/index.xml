@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://imagelessthought.github.io/mainroad/tags/ai/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://imagelessthought.github.io/mainroad/tags/microsoft/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hacking</title>
       <link>https://imagelessthought.github.io/mainroad/tags/hacking/</link>
@@ -31,15 +49,6 @@
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/tags/penetration-testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>https://imagelessthought.github.io/mainroad/tags/ai/</link>
-      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/tags/ai/</guid>
       <description></description>
     </item>
     
@@ -125,15 +134,6 @@
     </item>
     
     <item>
-      <title>Applications</title>
-      <link>https://imagelessthought.github.io/mainroad/tags/applications/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/tags/applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Digital Signage</title>
       <link>https://imagelessthought.github.io/mainroad/tags/digital-signage/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
@@ -148,6 +148,15 @@
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/tags/file-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Innovation Projects</title>
+      <link>https://imagelessthought.github.io/mainroad/tags/innovation-projects/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/tags/innovation-projects/</guid>
       <description></description>
     </item>
     
