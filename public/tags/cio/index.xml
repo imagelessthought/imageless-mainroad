@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIO on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mainroad/tags/cio/</link>
+    <description>Recent content in CIO on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/cio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVAD Tour: CIO Visit</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/cio-tour/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/projects/cio-tour/</guid>
+      <description>&lt;p&gt;This is the combined materials for the IT Reorganization Assessment our institution is conducting.  It includes the information that the Deloitte consulting group requested and has been updated to include the information to be provided during our tour with the campus CIO and system CTO.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
