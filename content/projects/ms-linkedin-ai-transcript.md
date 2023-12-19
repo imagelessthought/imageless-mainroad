@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Generative AI and Microsoft Copilot"
-subtitle: This article was created with assistance from Microsoft Copilot.
+title: "Career Essentials in Generative AI by Microsoft and LinkedIn: Transcript"
+subtitle:
 date: 2023-12-15
 layout: single-post
 categories:
@@ -9,15 +9,13 @@ tags:
   - "AI"
   - "Microsoft"
 nosearch: "True"
-postauthor: Michael Baggett
-postauthorinfo: Director and Assistant Dean of Information Technology
-postauthorarea: College of Visual Arts and Design
-postemail: baggett.michael@gmail.com
-posturl: https://itservices.cvad.unt.edu
+postauthor: Transcript
+postauthorinfo: Career Essentials in Generative AI by Microsoft and LinkedIn
+postauthorarea: LinkedInLearning
+postemail: 
+posturl: 
 thumbnail: "img/ai.svg"
 ---
-The content in this article was created from my notes from the certification course, [**Career Essentials in Generative AI by Microsoft and LinkedIn**](https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin 'Career Essentials in Generative AI by Microsoft and LinkedIn') with summarization and revisions performed using [Microsoft Copilot](https://copilot.microsoft.com/ 'Microsoft Copilot').
-
 ## Introduction
 
 ### What is Generative AI?
