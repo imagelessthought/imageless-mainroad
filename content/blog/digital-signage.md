@@ -26,4 +26,6 @@ This time around we will be adding some new features:
 * Users wil be able to schedule playlist changes by individual signs or as groups.
 * Each digital signage device will not be required to host the slideshow: they will receive their assigned content from a server. Each time a device reaches the end of the assigned playlist, it will check for content changes.
 * Screensavers for the <b>Mac</b>, <b>Windows</b>, and <b>Linux</b> will be availale and will be managed the same as digital signs.
-* In addition to playlists for digital signs, users will be able to created hosted Kiosks and Presentations. 
+* In addition to playlists for digital signs, users will be able to created hosted Kiosks and Presentations.
+
+For more information, take a look at the <a href="/mainroad/projects/digital-signage" alt="Universal Digital Signage" title="Universal Digital Signage">project page</a>.

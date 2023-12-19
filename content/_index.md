@@ -71,7 +71,7 @@ The main goal of the website is to provide a resource for colleagues and project
 
 <div class="service-desk">
 <div class="img-container">
-<a href="projects/digital-signage" alt="Universal Digital Signage" title="Universal Digital Signage">
+<a href="/mainroad/blog/digital-signage/" alt="Universal Digital Signage" title="Universal Digital Signage">
 <img src="/mainroad/img/digital-sign.svg" alt="Universal Digital Signage">
 </a>
 </div>

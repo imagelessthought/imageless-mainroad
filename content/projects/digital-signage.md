@@ -2,14 +2,17 @@
 title: Universal Digital Signage
 subtitle: Centrally Managed Content Delivery for Digital Signs, Screensavers, Kiosks, Presentations and More.
 date: 2023-10-05
-layout: single-owner
-owner:
-  - name: College of Visual Arts and Design
-    url: https://itservices.cvad.unt.edu
-thumbnail: "img/digitial-sign.svg"
+layout: single-post
+postauthor: Innovation Technology Project
+postauthorinfo: College of Visual Arts and Design
+postauthorarea: 
+postemail:
+posturl: 
+thumbnail: "img/digital-sign.svg"
 exclude_from_recent: true
 authorbox: True
 ---
+This project is in progress, the content below was created before the project began and changes have occured during the development.  Think of this as the *pseudo-code* of the project.
 
 ## Description: ##
 

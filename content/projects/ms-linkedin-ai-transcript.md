@@ -3,11 +3,6 @@ title: "Career Essentials in Generative AI by Microsoft and LinkedIn: Transcript
 subtitle:
 date: 2023-12-15
 layout: single-post
-categories:
-  - "Training"
-tags: 
-  - "AI"
-  - "Microsoft"
 nosearch: "True"
 postauthor: Transcript
 postauthorinfo: Career Essentials in Generative AI by Microsoft and LinkedIn

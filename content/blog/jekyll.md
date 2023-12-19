@@ -3,7 +3,7 @@ title: "Jekyll: Static Webpages"
 date: 2023-12-02
 layout: single-post
 categories:
-  - "Application"
+  - "Web Applications"
 tags: 
   - "Jekyll"
   - "Static Websites"
