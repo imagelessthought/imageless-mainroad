@@ -6,11 +6,11 @@
     <description>Recent content in YAML on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/yaml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/yaml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to YAML for Non-Computer Science Students</title>
       <link>https://imagelessthought.github.io/mainroad/blog/yaml/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/blog/yaml/</guid>
       <description>&lt;p&gt;YAML, short for &amp;ldquo;YAML Ain&amp;rsquo;t Markup Language&amp;rdquo; or sometimes &amp;ldquo;Yet Another Markup Language,&amp;rdquo; is a human-readable data serialization format. It is often used for configuration files and data exchange between languages with different data structures. YAML files use indentation and colons to denote structure, making them easy to read and write.&lt;/p&gt;</description>

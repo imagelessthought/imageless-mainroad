@@ -35,11 +35,11 @@
     </item>
     
     <item>
-      <title>Tutorials</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/tutorials/</link>
+      <title>Web Applications</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/web-applications/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/categories/tutorials/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/web-applications/</guid>
       <description></description>
     </item>
     
@@ -53,15 +53,6 @@
     </item>
     
     <item>
-      <title>YAML</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/yaml/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/yaml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Python</title>
       <link>https://imagelessthought.github.io/mainroad/categories/python/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
@@ -71,11 +62,20 @@
     </item>
     
     <item>
-      <title>Web Applications</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/web-applications/</link>
-      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <title>Tutorials</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/tutorials/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/categories/web-applications/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>YAML</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/yaml/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/yaml/</guid>
       <description></description>
     </item>
     

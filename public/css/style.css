@@ -1267,7 +1267,7 @@ width: 4rem; height: 4rem;
 }
 
 .post__content {
-	margin-bottom: 1rem;
+/*	margin-bottom: 1rem; */
 }
 
 /* Post tags */
@@ -1443,7 +1443,7 @@ width: 4rem; height: 4rem;
 }
 
 .list__meta {
-	margin: 1rem 0 1rem 0;
+/*	margin: 1rem 0 1rem 0; */
 /*	border-bottom: 1px solid #ebebeb; */
 }
 

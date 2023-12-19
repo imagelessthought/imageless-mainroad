@@ -38,7 +38,7 @@ An enterprise agreement with GitHub grants additional features and options:
 
 Encourage students to take advantage of this offer and also apply for the free Student Developer Pack. The [Student Developer Pack](https://education.github.com/pack 'GitHub Student Pack') contains tools are services that would otherwise be quite costly. 
 
-## Basic Terminology:
+## Basic Terminology
 
 - **Repository**: A repository, or repo, is a storage space where your project's history and files are kept.
 - **Branch**: A branch is an independent line of development, allowing you to work on features without affecting the main codebase.
@@ -74,7 +74,7 @@ Encourage students to take advantage of this offer and also apply for the free S
 - **Clone**: Clone creates a copy of a remote repository on your local machine.
 - **Init**: Init initializes a new Git repository.
 
-## Role of the Repository Maintainer:
+## Role of the Repository Maintainer
 
 ### Handling Merges:
 1. Regularly merge the main branch into feature branches to stay updated.
@@ -93,7 +93,7 @@ Encourage students to take advantage of this offer and also apply for the free S
 1. Use "git stash" to save changes without committing.
 2. Apply stashed changes later with "git stash apply."
 
-## Best Practices:
+## Best Practices
 
 - **Commit Often**: Make small, frequent commits to capture logical changes.
 - **Branch Strategy**: Use feature branches for development and keep the main branch stable.
@@ -102,7 +102,7 @@ Encourage students to take advantage of this offer and also apply for the free S
 - **Code Reviews**: Regularly review and comment on others' code.
 - **Documentation**: Keep documentation up-to-date with code changes.
 
-## Git Cheat Sheet: 
+## Git Cheat Sheet 
 
 - **Clone a Repository:**
   ```bash
