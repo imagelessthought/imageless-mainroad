@@ -1,6 +1,7 @@
 ---
-title: "AI: A Primer"
-date: 2023-12-06
+title: "Artificial Intelligence: Demystifying AI, Machine Learning, and Generative Models"
+subtitle: The content in this article was created with assistance from ChatGPT (AI).
+date: 2023-12-16
 layout: single-post
 categories:
   - "Getting Started"
@@ -13,24 +14,87 @@ postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
 thumbnail: "img/ai.svg"
 ---
-The AI field is heavy with jargon and terminology.  To help you navigate and understand the the technologies and solutions that are out there, you will need a some help. 
+Artificial Intelligence (AI) is a multidisciplinary field focused on creating machines capable of performing tasks that traditionally require human intelligence. Its diverse applications range from natural language processing to image recognition, offering profound implications for various industries. Within the vast landscape of AI, Machine Learning (ML) stands out as a subset that emphasizes the development of algorithms enabling machines to learn from data and improve their performance.
 <!--more-->
-I suggest starting by reading this article: [Artificial Intelligence Glossary: Neural Networks and Other Terms Explained](https://www.nytimes.com/article/ai-artificial-intelligence-glossary.html 'NYTimes') - New York Times; March 23, 2023.
+## Understanding AI vs. Machine Learning:
 
-Below are links to some glossaries and articles to further assist you with the terminology.    
+### Artificial Intelligence (AI):
+AI encompasses a wide array of approaches, including rule-based systems and expert systems, aiming to replicate human intelligence. It is an umbrella term that includes Machine Learning but is not limited to it.
 
-## Glossaries of AI Terminology:
-* [AI Blog](https://www.artificial-intelligence.blog/terminology 'AI Blog Terminology, Searchable') provides a searchable database of terms. Clicking on the term in search base will bnring up a more verbose description of the term.
-* [Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence 'Wikipedia AI Terms') maintains a glossary of AI terms that is pretty thorough and provides links to full articles on each term.
-* [Expert AI](https://www.expert.ai/glossary-of-ai-terms/ 'AI') provides an extensive list of terms to build and expand your knowledge of natural language and artificial intelligence technologies.
-* [EU-U.S. Terminology and Taxonomy for Artificial Intelligence](https://digital-strategy.ec.europa.eu/en/library/eu-us-terminology-and-taxonomy-artificial-intelligence 'EU-US AI Terms'): A group of experts engaged to prepare an initial draft of AI terminologies and taxonomies. 
+### Machine Learning (ML):
+ML is a subset of AI that focuses on algorithms and statistical models, allowing machines to learn patterns from data and improve their performance over time. It can be categorized into supervised learning, unsupervised learning, and reinforcement learning.
 
-## Relevant Links
-* [ChatGPT](https://lablab.ai/t/chatgpt-guide 'OpenAI: ChatGPT')
-An AI-powered language model developed by OpenAI, capable of generating human-like text based on context and past conversations.
-* [Google Bard](https://bard.google.com 'Google-Bard')
-A conversational generative artificial intelligence chatbot developed by Google, based initially on the LaMDA family of large language models and later the PaLM LLM.
-* [Microsoft AI](https://www.microsoft.com/en-us/ai 'Microsoft AI')
-This page provides you with useful background on Microsoft AI, their approach, newest tools and features, the latest news and more.
-* [Meta AI](https://ai.meta.com/ 'Meta AI')
-Meta AI is an academic research laboratory focused on generating knowledge for the AI community.  Meta AI intends to develop various forms of artificial intelligence, improving augmented and artificial reality technologies.
+## Generative AI and GPT:
+
+### Generative AI:
+Generative AI refers to models capable of generating new content autonomously. These models are often based on neural networks and have found applications in image and text generation.
+
+### Generative Pre-trained Transformer (GPT):
+GPT, developed by OpenAI, is a leading example of Generative AI. It employs a transformer architecture and unsupervised learning, enabling it to understand and generate coherent human-like text based on the input it receives. GPT has achieved remarkable success in various language-related tasks.
+
+## Artificial Neural Networks:
+
+### Building a Neural Network:
+Artificial Neural Networks (ANNs) are composed of layers of interconnected nodes or neurons. These layers include an input layer, hidden layers, and an output layer. Connections between neurons have associated weights.
+
+### Weighing the Connections:
+During training, the weights of connections in a neural network are adjusted to minimize the difference between predicted and actual outputs. This process, known as backpropagation, allows the network to learn and improve its performance.
+
+### The Activation Bias:
+Each neuron has an activation function that determines whether it "fires" based on the weighted sum of its inputs. The activation bias influences the network's output.
+
+### Learning from Mistakes:
+Neural networks learn from mistakes by adjusting weights through backpropagation. This iterative process helps the network adapt and improve its accuracy over time.
+
+### Stepping through the Network:
+The forward pass involves stepping through the network to calculate the output based on the input and current weights.
+
+## Main AI Models:
+
+### Natural Language Models:
+- **Examples:** BERT, GPT-3
+- **Application:** Understanding and generating human-like text, answering questions, and language translation.
+
+### Generative Adversarial Networks (GANs):
+- **Examples:** StyleGAN, DALL-E
+- **Application:** Generating realistic images through a competition between a generator (creating content) and a discriminator (evaluating content).
+
+### Variational Autoencoders (VAEs):
+- **Examples:** Beta-VAE
+- **Application:** Encoding and decoding data, often used in image generation and data compression.
+
+### Recurrent Neural Networks (RNNs):
+- **Examples:** LSTM, GRU
+- **Application:** Processing sequential data, such as time series or natural language, due to their ability to retain memory.
+
+### Transformers and Text to Image Applications:
+- **Examples:** BERT, GPT, DALL-E
+- **Application:** Handling sequential data and generating images from textual descriptions through attention mechanisms.
+
+## Search Engines vs. Reasoning Engines:
+
+### Search Engines:
+Retrieve information based on keywords and predefined criteria, suitable for finding existing data.
+
+### Reasoning Engines:
+Deduce new information from existing knowledge, ideal for complex problem-solving and decision-making.
+
+### Choosing Between Them:
+The choice depends on the desired outcome – search engines for retrieving existing information and reasoning engines for deriving new insights.
+
+## Prompt Engineering:
+
+Prompt engineering involves crafting effective instructions or queries to get the desired output from AI models.
+
+### Strategies and Approaches:
+- Be Specific: Clearly define the task or question.
+- Experiment with Phrasing: Try different ways to ask the same question.
+- Understand Model Limitations: Be aware of what the model can and cannot do.
+
+## Defining General Intelligence:
+
+General intelligence refers to an AI system's ability to understand, learn, and apply knowledge across diverse tasks. It contrasts with specialized, task-specific intelligence.
+
+## Conclusion:
+
+In this comprehensive exploration of AI, we've covered the foundations of machine learning, delved into cutting-edge models like GPT, and explored applications across various domains. As AI continues to evolve, understanding its core concepts and diverse applications becomes increasingly crucial, paving the way for exciting possibilities in the future.

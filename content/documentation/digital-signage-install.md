@@ -1,6 +1,6 @@
 ---
-title: "Universal Digital Signage: Installation Instructons"
-date: 2023-08-12
+title: "Universal Digital Signage: Installation Instructions"
+date: 2023-12-12
 layout: single-post
 nosearch: "True"
 postauthor: Innovation Technology Project

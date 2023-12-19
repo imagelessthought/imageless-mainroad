@@ -11,9 +11,9 @@ postemail:
 posturl: 
 thumbnail: "img/ai.svg"
 ---
-## Introduction
+## What is Generative AI?
 
-### What is Generative AI?
+### Introduction
 
 Generative AI is changing how we create. (light music) For the first time, humans are supervising and machines are generating. It's helping us lift the dirty, dull, dangerous and difficult tasks from humanity's shoulders so then we can simply focus on the very essence of our work, the vision, the idea, and the purpose. It's a complete paradigm shift for the future of jobs. I am Pinar Seyhan Demirdag and I'm the co-founder and the AI director of Seyhan Lee. During this LinkedIn Learning course, we will talk about how to use that tool to drive the creation of your intention. Join me as we dive deep into this new creative revolution that I'm so excited about and let's discover together how each of us can have a place in this age of advanced technologies.
 

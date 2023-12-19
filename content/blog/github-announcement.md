@@ -1,8 +1,8 @@
 ---
-title: "Github for Development and Version Control"
-subtitle: "Learn about using GitHub Pages for Web Development."
+title: "Get Started with Github and Github Pages"
+subtitle: "Learn how to use GitHub and create a website using Github Pages."
 layout: single-post
-date: 2023-10-12
+date: 2023-12-15
 categories:
   - "Web Frameworks"
   - "Git"
@@ -38,7 +38,126 @@ An enterprise agreement with GitHub grants additional features and options:
 
 Encourage students to take advantage of this offer and also apply for the free Student Developer Pack. The [Student Developer Pack](https://education.github.com/pack 'GitHub Student Pack') contains tools are services that would otherwise be quite costly. 
 
-## Using GitHub ##
+## Basic Terminology:
+
+- **Repository**: A repository, or repo, is a storage space where your project's history and files are kept.
+- **Branch**: A branch is an independent line of development, allowing you to work on features without affecting the main codebase.
+- **Commit**: A commit is a snapshot of your changes, documenting the state of your project at a specific point in time.
+- **Merge**: Merging combines changes from different branches into a single branch.
+- **Origin**: Origin is the default name for the remote repository on GitHub.
+- **Push**: Pushing sends your committed changes to a remote repository.
+- **Tag**: A tag is a reference to a specific commit, often used to mark release points.
+- **Pull**: Pulling fetches changes from a remote repository to a local one.
+- **Fetch**: Fetching downloads changes from a remote repository but does not automatically merge them.
+- **Stash**: Stashing allows you to save changes temporarily and switch to another branch.
+- **Archive**: Archiving creates a zip or tar archive of a repository.
+- **Rebase**: Rebasing combines a sequence of commits into a new base commit.
+- **Bisect**: Bisect helps find the commit that introduced a bug.
+- **Cherry-pick**: Cherry-picking allows you to apply specific commits from one branch to another.
+- **Fsck**: Fsck is a utility to perform integrity checks on the Git file system.
+- **Gc (Garbage Collection)**: GC is used to clean unnecessary files and optimize the local repository.
+- **Remote**: Remote refers to a version of the repository hosted on a server.
+- **Diff**: Diff shows the differences between commits, branches, or files.
+- **Log**: Log displays a chronological list of commits.
+- **Gitk**: Gitk is a graphical Git repository viewer.
+- **Am (Apply Mailbox)**: Am applies a mailbox file as a series of patches.
+- **Apply**: Apply applies changes from a patch, file, or a set of files.
+- **Checkout**: Checkout switches between branches or restores files from commits.
+- **Revert**: Revert undoes a commit by creating a new commit.
+- **Reset**: Reset resets the current branch to a specified commit.
+- **Add**: Add stages changes, preparing them for a commit.
+- **Mv (Move)**: Mv renames or moves a file or a set of files.
+- **Rm (Remove)**: Rm deletes files from the working directory and stages the deletion.
+- **Status**: Status shows the status of changes as untracked, modified, or staged.
+- **Blame**: Blame shows who last modified each line of a file.
+- **Show**: Show displays information about commits, tags, or branches.
+- **Clone**: Clone creates a copy of a remote repository on your local machine.
+- **Init**: Init initializes a new Git repository.
+
+## Role of the Repository Maintainer:
+
+### Handling Merges:
+1. Regularly merge the main branch into feature branches to stay updated.
+2. Resolve conflicts promptly during merges.
+
+### Merging from Multiple Sources:
+1. Pull changes from multiple branches using "git pull origin branch-name."
+2. Resolve conflicts if they arise during multiple merges.
+
+### Resolving Conflicts:
+1. Manually resolve conflicts in files marked by Git.
+2. Use "git add" to stage the resolved files.
+3. Complete the merge with "git merge --continue."
+
+### Stashing:
+1. Use "git stash" to save changes without committing.
+2. Apply stashed changes later with "git stash apply."
+
+## Best Practices:
+
+- **Commit Often**: Make small, frequent commits to capture logical changes.
+- **Branch Strategy**: Use feature branches for development and keep the main branch stable.
+- **Descriptive Commits**: Write clear and concise commit messages.
+- **Pull Requests**: Open pull requests for code review before merging.
+- **Code Reviews**: Regularly review and comment on others' code.
+- **Documentation**: Keep documentation up-to-date with code changes.
+
+## Git Cheat Sheet: 
+
+- **Clone a Repository:**
+  ```bash
+  git clone <repository-url>
+  ```
+- **Create a Branch:**
+  ```bash
+  git branch <branch-name>
+  ```
+- **Switch to a Branch:**
+  ```bash
+  git checkout <branch-name>
+  ```
+- **Commit Changes:**
+  ```bash
+  git commit -m "Your commit message"
+  ```
+- **Merge Branches:**
+  ```bash
+  git merge <branch-name>
+  ```
+- **Push Changes:**
+  ```bash
+  git push origin <branch-name>
+  ```
+- **Pull Changes:**
+  ```bash
+  git pull origin <branch-name>
+  ```
+- **Stash Changes:**
+  ```bash
+  git stash
+  ```
+- **View Commit History:**
+  ```bash
+  git log
+  ```
+- **Check Conflicts:**
+  ```bash
+  git diff
+  ```
+- **Resolve Conflicts:**
+  Manually edit conflicted files and then:
+  ```bash
+  git add <conflicted-file>
+  git merge --continue
+  ```
+- **Abort Merge:**
+  ```bash
+  git merge --abort
+  ```
+
+With these commands and best practices, you're well-equipped to navigate Git and GitHub, ensuring efficient collaboration and version control in your development projects.
+
+## Using GitHub Pages ##
 There are many things you can do with Github, but one of the most popular is website development using [GitHub Pages](https://pages.github.com 'Link to Github Pages: host your own website for free on GitHub'). For more information on using GitHub Pages and its limitations, checkout [this page in the documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages 'GitHub Docs: GitHub Pages').  
 
 When working with GitHub Pages you will need to use a [static page generator](https://en.wikipedia.org/wiki/Static_web_page 'Static Page article on Wikipedia').

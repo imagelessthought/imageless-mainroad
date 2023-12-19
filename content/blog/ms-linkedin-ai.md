@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Generative AI and Microsoft Copilot"
 subtitle: This article was created with assistance from Microsoft Copilot, Bing Chat AI.
-date: 2023-12-15
+date: 2023-12-14
 layout: single-post
 categories:
   - "Training"
@@ -14,7 +14,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
-thumbnail: "img/ai.svg"
+thumbnail: "img/ms_copilot.png"
 ---
 ## Introduction to Generative AI and Microsoft Copilot
 

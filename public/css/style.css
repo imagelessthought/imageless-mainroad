@@ -539,10 +539,11 @@ code {
 
 pre {
 	display: block;
-	padding: 0;
+	/*
 	padding: 1.25rem;
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
+	*/
 	overflow: auto;
 	color: var(--prec);
 }
@@ -572,6 +573,11 @@ blockquote {
 blockquote p:last-child {
 	margin: 0;
 }
+
+blockquote ul li:last-child, blockquote ol li:last-child {
+	margin-bottom: 0!important;
+}
+
 
 blockquote footer {
 	text-align: right;
@@ -842,6 +848,10 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 		transform: none;
 	}
 
+}
+
+.highlight {
+	margin: .25rem 0;
 }
 
 /* Posts/Pages */
@@ -1244,7 +1254,9 @@ width: 4rem; height: 4rem;
 
 }
 
-.content ul li:last-child {
+
+
+.content ul li:last-child, .content ol li:last-child {
 	margin-bottom: 1.5rem;
 }
 
@@ -1252,6 +1264,10 @@ width: 4rem; height: 4rem;
 .post__footer {
 	margin-top: 20px;
 	margin-top: 1.25rem;
+}
+
+.post__content {
+	margin-bottom: 1rem;
 }
 
 /* Post tags */
@@ -1614,6 +1630,7 @@ textarea {
 
 .widget__title {
 	position: relative;
+	color: var(--h1c)!important;
 	padding-bottom: 5px;
 	font-size: 16px;
 	font-size: 1rem;

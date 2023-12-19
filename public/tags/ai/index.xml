@@ -6,34 +6,24 @@
     <description>Recent content in AI on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Career Essentials in Generative AI by Microsoft and LinkedIn: Transcript</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/ms-linkedin-ai-transcript/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <title>Artificial Intelligence: Demystifying AI, Machine Learning, and Generative Models</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/ms-linkedin-ai-transcript/</guid>
-      <description>The content in this article was created from my notes from the certification course, Career Essentials in Generative AI by Microsoft and LinkedIn with summarization and revisions performed using Microsoft Copilot.
-Introduction What is Generative AI? Generative AI is changing how we create. (light music) For the first time, humans are supervising and machines are generating. It&amp;rsquo;s helping us lift the dirty, dull, dangerous and difficult tasks from humanity&amp;rsquo;s shoulders so then we can simply focus on the very essence of our work, the vision, the idea, and the purpose.</description>
+      <guid>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</guid>
+      <description>&lt;p&gt;Artificial Intelligence (AI) is a multidisciplinary field focused on creating machines capable of performing tasks that traditionally require human intelligence. Its diverse applications range from natural language processing to image recognition, offering profound implications for various industries. Within the vast landscape of AI, Machine Learning (ML) stands out as a subset that emphasizes the development of algorithms enabling machines to learn from data and improve their performance.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Introduction to Generative AI and Microsoft Copilot</title>
-      <link>https://imagelessthought.github.io/mainroad/documentation/ms-linkedin-ai/</link>
+      <link>https://imagelessthought.github.io/mainroad/blog/ms-linkedin-ai/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/documentation/ms-linkedin-ai/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/blog/ms-linkedin-ai/</guid>
       <description>Introduction to Generative AI and Microsoft Copilot This document is an article that explains the concept, history, and applications of generative AI, a type of AI that can create new content. It also introduces Microsoft Copilot, a tool that uses generative AI to assist users with various tasks in Microsoft 365 applications.
 What is Generative AI? Generative AI is a paradigm shift for the future of work, where humans supervise and machines generate.</description>
-    </item>
-    
-    <item>
-      <title>AI: A Primer</title>
-      <link>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</link>
-      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/blog/artificial-intelligence/</guid>
-      <description>&lt;p&gt;The AI field is heavy with jargon and terminology.  To help you navigate and understand the the technologies and solutions that are out there, you will need a some help.&lt;/p&gt;</description>
     </item>
     
   </channel>

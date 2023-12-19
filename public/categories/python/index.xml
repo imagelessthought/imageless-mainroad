@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mainroad/categories/python/</link>
+    <description>Recent content in Python on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Python for Non-Computer Science Students</title>
+      <link>https://imagelessthought.github.io/mainroad/blog/python/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/blog/python/</guid>
+      <description>&lt;p&gt;Welcome to the world of Python programming! This tutorial is designed for undergraduate students who may not have a background in computer science but want to learn the basics of Python. Python is a versatile and powerful programming language that has gained widespread popularity for its simplicity, readability, and flexibility. Python is beginner-friendly and widely used in various fields, including data science, web development, and automation. It was created by Guido van Rossum and first released in 1991, with the goal of making programming accessible and enjoyable. Named after the British comedy group Monty Python, the language has evolved into a dynamic and user-friendly tool used across various domains of information technology.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

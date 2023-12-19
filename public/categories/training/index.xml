@@ -6,23 +6,22 @@
     <description>Recent content in Training on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/training/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Career Essentials in Generative AI by Microsoft and LinkedIn: Transcript</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/ms-linkedin-ai-transcript/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <title>Github Professional Essentials</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/lil-ms-github-transcript/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/ms-linkedin-ai-transcript/</guid>
-      <description>The content in this article was created from my notes from the certification course, Career Essentials in Generative AI by Microsoft and LinkedIn with summarization and revisions performed using Microsoft Copilot.
-Introduction What is Generative AI? Generative AI is changing how we create. (light music) For the first time, humans are supervising and machines are generating. It&amp;rsquo;s helping us lift the dirty, dull, dangerous and difficult tasks from humanity&amp;rsquo;s shoulders so then we can simply focus on the very essence of our work, the vision, the idea, and the purpose.</description>
+      <guid>https://imagelessthought.github.io/mainroad/projects/lil-ms-github-transcript/</guid>
+      <description>Practical Github Actions Introduction Creating a MarketPlace GitHub action When you&amp;rsquo;re applying for a job, employers want to see samples of work that gives them a good idea of your abilities. In this course, I&amp;rsquo;m going to show you how to build the type of project that employers would love to see, a GitHub Action that&amp;rsquo;s featured in the GitHub Marketplace. We&amp;rsquo;ll be working in a variety of languages and formats like Python, shell scripts, YAML, XML and Docker containers.</description>
     </item>
     
     <item>
       <title>Introduction to Generative AI and Microsoft Copilot</title>
-      <link>https://imagelessthought.github.io/mainroad/documentation/ms-linkedin-ai/</link>
+      <link>https://imagelessthought.github.io/mainroad/blog/ms-linkedin-ai/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/documentation/ms-linkedin-ai/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/blog/ms-linkedin-ai/</guid>
       <description>Introduction to Generative AI and Microsoft Copilot This document is an article that explains the concept, history, and applications of generative AI, a type of AI that can create new content. It also introduces Microsoft Copilot, a tool that uses generative AI to assist users with various tasks in Microsoft 365 applications.
 What is Generative AI? Generative AI is a paradigm shift for the future of work, where humans supervise and machines generate.</description>
     </item>

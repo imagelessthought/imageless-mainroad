@@ -6,76 +6,76 @@
     <description>Recent content in Categories on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>IT</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/it/</link>
-      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/it/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Operations</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/operations/</link>
-      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/operations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tour</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/tour/</link>
-      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/tour/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Training</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/training/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/training/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flipper Zero</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/flipper-zero/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/flipper-zero/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Penetration Testing</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/penetration-testing/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/penetration-testing/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started</title>
       <link>https://imagelessthought.github.io/mainroad/categories/getting-started/</link>
-      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/categories/getting-started/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Application</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/application/</link>
-      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      <title>Training</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/training/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/categories/application/</guid>
+      <guid>https://imagelessthought.github.io/mainroad/categories/training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/git/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/tutorials/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Frameworks</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>YAML</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/yaml/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/yaml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/python/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Applications</title>
+      <link>https://imagelessthought.github.io/mainroad/categories/web-applications/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://imagelessthought.github.io/mainroad/categories/web-applications/</guid>
       <description></description>
     </item>
     
@@ -85,87 +85,6 @@
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/categories/innovation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Applications</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/web-applications/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/web-applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/git/</link>
-      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Frameworks</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</link>
-      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Applications</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/applications/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>File Storage</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/file-storage/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/file-storage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Isilion</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/isilion/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/isilion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modern Campus</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/modern-campus/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/modern-campus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Omni CMS</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/omni-cms/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/omni-cms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pure Data</title>
-      <link>https://imagelessthought.github.io/mainroad/categories/pure-data/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/categories/pure-data/</guid>
       <description></description>
     </item>
     

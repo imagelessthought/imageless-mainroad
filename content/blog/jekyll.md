@@ -1,6 +1,6 @@
 ---
 title: "Jekyll: Static Webpages"
-date: 2023-12-02
+date: 2023-12-15
 layout: single-post
 categories:
   - "Web Applications"

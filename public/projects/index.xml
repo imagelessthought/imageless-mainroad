@@ -6,14 +6,14 @@
     <description>Recent content in Projects on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CVAD Tour: CIO Visit</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/cio-tour/</link>
-      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <title>Github Professional Essentials</title>
+      <link>https://imagelessthought.github.io/mainroad/projects/lil-ms-github-transcript/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://imagelessthought.github.io/mainroad/projects/cio-tour/</guid>
-      <description>&lt;p&gt;This is the combined materials for the IT Reorganization Assessment our institution is conducting.  It includes the information that the Deloitte consulting group requested and has been updated to include the information to be provided during our tour with the campus CIO and system CTO.&lt;/p&gt;</description>
+      <guid>https://imagelessthought.github.io/mainroad/projects/lil-ms-github-transcript/</guid>
+      <description>Practical Github Actions Introduction Creating a MarketPlace GitHub action When you&amp;rsquo;re applying for a job, employers want to see samples of work that gives them a good idea of your abilities. In this course, I&amp;rsquo;m going to show you how to build the type of project that employers would love to see, a GitHub Action that&amp;rsquo;s featured in the GitHub Marketplace. We&amp;rsquo;ll be working in a variety of languages and formats like Python, shell scripts, YAML, XML and Docker containers.</description>
     </item>
     
     <item>
@@ -22,8 +22,7 @@
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/projects/ms-linkedin-ai-transcript/</guid>
-      <description>The content in this article was created from my notes from the certification course, Career Essentials in Generative AI by Microsoft and LinkedIn with summarization and revisions performed using Microsoft Copilot.
-Introduction What is Generative AI? Generative AI is changing how we create. (light music) For the first time, humans are supervising and machines are generating. It&amp;rsquo;s helping us lift the dirty, dull, dangerous and difficult tasks from humanity&amp;rsquo;s shoulders so then we can simply focus on the very essence of our work, the vision, the idea, and the purpose.</description>
+      <description>What is Generative AI? Introduction Generative AI is changing how we create. (light music) For the first time, humans are supervising and machines are generating. It&amp;rsquo;s helping us lift the dirty, dull, dangerous and difficult tasks from humanity&amp;rsquo;s shoulders so then we can simply focus on the very essence of our work, the vision, the idea, and the purpose. It&amp;rsquo;s a complete paradigm shift for the future of jobs. I am Pinar Seyhan Demirdag and I&amp;rsquo;m the co-founder and the AI director of Seyhan Lee.</description>
     </item>
     
     <item>
@@ -32,25 +31,8 @@ Introduction What is Generative AI? Generative AI is changing how we create. (li
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://imagelessthought.github.io/mainroad/projects/digital-signage/</guid>
-      <description>Description: This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.. The server will host the content in playlists using one of the available templates. The digital signage device will simply need to launch a browser in full-screen mode and open the URL at startup: the URL will be the server. and the hostname of the device example: https://signage.</description>
-    </item>
-    
-    <item>
-      <title>Classroom | Instructional Support</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/instructional/</link>
-      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/projects/instructional/</guid>
-      <description>&lt;p&gt;Issues that hinder an instructor&amp;rsquo;s ability to teach are given the highest priority at the College of Visual Arts and Design. If you are experiencing issues with the equipment in one of our classrooms during a scheduled class period, please &lt;strong&gt;Submit a Ticket&lt;/strong&gt; by using the link on the instructor lectern computer and a technician will be dispatched to your location.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Training</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/training/</link>
-      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/projects/training/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor imperdiet nulla ac tempor. Fusce nibh nulla, egestas aliquet scelerisque sed, condimentum non neque. Nullam lacinia laoreet lorem, a condimentum justo eleifend nec. Ut molestie venenatis aliquet. Donec vulputate nisi quis enim tincidunt, eu commodo leo convallis. Aenean non nunc id diam efficitur posuere quis eget arcu. Curabitur vitae congue elit, eu molestie purus. Ut tristique felis libero, ut tempus diam euismod a.</description>
+      <description>This project is in progress, the content below was created before the project began and changes have occured during the development. Think of this as the pseudo-code of the project.
+Description: This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.. The server will host the content in playlists using one of the available templates. The digital signage device will simply need to launch a browser in full-screen mode and open the URL at startup: the URL will be the server.</description>
     </item>
     
     <item>
@@ -61,24 +43,6 @@ Introduction What is Generative AI? Generative AI is changing how we create. (li
       <guid>https://imagelessthought.github.io/mainroad/projects/web-design/</guid>
       <description>Understanding Open-Source Licensing Terms You will find many resources online that you may want to include in your website: images, fonts, themes, templates, plug-ins etc&amp;hellip; Before you use them in your website it is important to check the licensing terms to confirm that your use is in compliance with the agreement. You must follow any stipulations included in the agreement.
 When it comes to open-source resources, many of the licensing terms you will encounter grant you permission to use the resource pretty freely.</description>
-    </item>
-    
-    <item>
-      <title>Migrating from Isilon to Pure Storage</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/hammerspace/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/projects/hammerspace/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.purestorage.com/&#34; title=&#34;Pure Storage Website&#34;&gt;Pure Storage&lt;/a&gt; is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Modern Campus and Omni CMS</title>
-      <link>https://imagelessthought.github.io/mainroad/projects/omni-campus/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://imagelessthought.github.io/mainroad/projects/omni-campus/</guid>
-      <description>&lt;p&gt;The UNT campus is migrating from Drupal 7 to &lt;a href=&#34;https://moderncampus.com/resources/index.html&#34; title=&#34;Modern Campus and Omni CMS website&#34;&gt;Modern Campus, Omni CMS&lt;/a&gt;. This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.&lt;/p&gt;</description>
     </item>
     
   </channel>
