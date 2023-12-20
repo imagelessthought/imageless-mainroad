@@ -11,6 +11,7 @@ layout: list-posts
 /*	padding-top: 1rem; */
 	padding: 1rem!important;
     border-radius: 4px;
+    background-color: var(--author-back);
 }
 
 blockquote {

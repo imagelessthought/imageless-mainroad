@@ -11,17 +11,17 @@ sectionPagesMenu = 'main posts departments'
     name = 'Home'
     pageRef = '/'
     weight = 5
-    [[menu.main]]
-    name = 'About'
-    pageRef = '/about/'
-    weight = 10
-[[menu.main]]
-    name = 'Skills'
-    pageRef = '/skills/'
-    weight = 15
 [[menu.main]]
     name = 'Blog'
     pageRef = '/blog/'
+    weight = 10
+[[menu.main]]
+    name = 'About'
+    pageRef = '/about/'
+    weight = 15
+[[menu.main]]
+    name = 'Skills'
+    pageRef = '/skills/'
     weight = 20
 [[menu.main]]
     name = 'Documentation'
