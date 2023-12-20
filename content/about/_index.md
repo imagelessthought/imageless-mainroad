@@ -9,6 +9,10 @@ authorbox: "True"
         
     }
 
+    .main__content {
+        margin-bottom: 0;
+    }
+    
     blockquote {
         display: none;
     }

@@ -272,3 +272,5 @@ The official Jekyll Static Webpage Builder website.
 The official Hugo Static Webpage Builder website. **This website is built using Hugo**.
 * [BuhoCMS](https://buhocms.org/ 'BuhoCMS')
 An open-source *local-content management system* for static website builders.  This gives you a UI for editing and creating content on your website *offline*. 
+
+The course transcript from **Career Essentials in GitHub Professional Certificate** can be found [here](/mainroad/projects/github-linkedin-cert-transcript 'Career Essentials in GitHub Professional Certificate'). 

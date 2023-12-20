@@ -23,6 +23,8 @@ thumbnail: "img/training/github-logo.png"
 #### Creating a MarketPlace GitHub action
 When you're applying for a job, employers want to see samples of work that gives them a good idea of your abilities. In this course, I'm going to show you how to build the type of project that employers would love to see, a GitHub Action that's featured in the GitHub Marketplace. We'll be working in a variety of languages and formats like Python, shell scripts, YAML, XML and Docker containers. But honestly, that's not what's important. As a professional developer, what's really important is to show how you approach solving problems. The problem I wanted to solve with this action was to create a simple way to write and generate podcast feats that I could host using GitHub Pages. As you're going through this course, try to think about a problem you're having and how something like GitHub Actions could help you solve it. That will teach you a lot about actions, but it can also be something great for your developer portfolio. Let's get started.
 
+https://raybo.org/slides_practicalactions
+
 ### Action Basics
 
 #### How actions work
@@ -226,6 +228,8 @@ Hey, it's Ray again. I hope you enjoyed the course and realize what a game-chang
 #### Search like a pro
 
 With over 100 million developers and more than 330 million repositories, GitHub is the largest developer platform in the world, and all that code can be a big help to developers who are learning new skills. At 275 repositories in my personal library of code and my organization's 850 repos, it can be a challenge when I need to find that one piece of code or that one project I did a while back. Thankfully, GitHub has a new code search engine completely rewritten in Rust for performance and unbelievable speed with features like regular expressions, Boolean operations, out-of-completions, and a new code view that makes it easier to sort through results. In this course, I'll show you how you can search, understand, and get the code faster and more efficiently than ever before. Let's get started.
+
+https://raybo.org/slides_githubsearch
 
 ### Regular Search Features
 

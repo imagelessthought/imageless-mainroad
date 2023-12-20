@@ -113,6 +113,7 @@ html {
 	--flex-image-back: white;
 	--button-up-text: white;
 	--label1-back: #336699;
+	--disclaimer-bg: rgba(51, 102, 153, .4);;
 	
 }
 
@@ -485,6 +486,19 @@ b,
 strong {
 	font: inherit;
 	font-weight: 700;
+}
+
+
+.content b, .content strong {
+	color: #FDFEFE;
+}
+
+.content h1, .content h2 {
+    font-weight: 700!important;
+}
+
+.content h3, .content h4, .content h5 {
+    font-weight: 600!important;
 }
 
 i,
@@ -890,13 +904,10 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .post__title {
-	font-size: 1.5rem;
-
-
 	padding-bottom: 0;
 	margin-left: .1rem;
 	color: var(--h1c);
-
+	font-weight: 800;
 }
 
 .post-highlight {
