@@ -7,8 +7,8 @@ exclude_from_recent: true
 layout: single-faq
 ---
 <div class="boxed">
-<p class="glow">Below is the information on the various training and certifications I have completed.  I complete training using a variety of vendors, my preferred training vendors are: <a href="https://www.coursera.org/" alt="Coursera">Coursera</a> (used for my Google and IBM certifications), <a href="https://www.stormwindstudios.com/" ALT="Stormwind Studios">Stormwind Studios</a> (used for Microsoft and other proprietary software training), <a href="https://www.acilearning.com/" alt="ACI Learning">ACI Learning</a> (used for open source and new technology training), <a href="https://campus.w3schools.com/" alt="W3Schools">W3 Schools</a> (provides training certifications that are primarily focused on web technologies and not tied to a specific product), and finally <a href="https://www.linkedin.com/learning/" a;t="LinkedIn Learning">LinkedIn Learning</a> (provides a wide range of technical and business-related certifications).</p>
-<p class="glow"><b>LinkedIN-Learning</b> has begun to offer official certifications from a wide-range of organizations: Career Essentials. These are different from the LinkedIN-Learning <i>courses</i>, and there is a post-course assessment exam that must be passed before a certification is issued, as with other certifications.  This is relatively new, you can learn more about this program on the <a href="https://opportunity.linkedin.com/skills-for-in-demand-jobs" alt="LinkedIn">offical LinkedIN website</a>.  Below you will see the LinkedIN-Learning courses in this category prefaced with the word "Essentials" and ending with "Professional Certificate" to distinguish them from the other LinkedIN-Learning Courses.</p>  
+<p class="glow">Below is the information on the various training and certifications I have completed.  I complete training using a variety of vendors, my preferred training vendors are: <a href="https://www.coursera.org/" alt="Coursera">Coursera</a> (used for my Google and IBM certifications), <a href="https://www.stormwindstudios.com/" ALT="Stormwind Studios">Stormwind Studios</a> (used for Microsoft and other proprietary software training), <a href="https://www.acilearning.com/" alt="ACI Learning">ACI Learning</a> (used for open source and new technology training), <a href="https://campus.w3schools.com/" alt="W3Schools">W3 Schools</a> (provides training certifications that are primarily focused on web technologies and not tied to a specific product), and finally <a href="https://www.linkedin.com/learning/" a;t="LinkedIN-Learning">LinkedIN-Learning</a> (provides a wide range of technical and business-related certifications).</p>
+<p class="glow"><b>LinkedIN-Learning</b> has partnered with many organizations to provide official certifcations for those organization: Microsoft and Github, for example. These are different from the standard LinkedIN-Learning <i>courses</i>: there is a post-course assessment exam that must be passed before a certification is issued, as is standard with other certifications.  These are referred to as <b>Career Essentials</b> to distinguish them from the standard LinkedIN-Learning courses. This is a relatively new development, you can learn more about this program on the <a href="https://opportunity.linkedin.com/skills-for-in-demand-jobs" alt="LinkedIN">offical LinkedIN website</a>.  Below you will see the LinkedIN-Learning courses in this category prefaced with <b>Essentials</b> and ending with <b>Professional Certificate</b> to distinguish them from the other type of LinkedIN-Learning courses.</p>  
 </div>
 <h3 class="label1">Project Management</h3>
 <div class="flex-container-certs">
@@ -84,7 +84,7 @@ layout: single-faq
 <h3 class="label1">Information Technology Administration</h3>
 <div class="flex-container-certs">
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="../library/certificates/CertificateOfCompletion_Windows Server 2019 Implementing Group Policy.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png" alt="LinkedIn"></a>
+          <a href="../library/certificates/CertificateOfCompletion_Windows Server 2019 Implementing Group Policy.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png" alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
 <p><a href="https://www.linkedin.com/learning/windows-server-2019-implementing-group-policy" alt="LinkedIN">Windows Server 2019: Implementing Group Policy</a></p>
@@ -188,56 +188,56 @@ layout: single-faq
 </div>
 
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="../library/certificates/CertificateOfCompletion_Securing the IoT Introduction.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIn"></a>
+          <a href="../library/certificates/CertificateOfCompletion_Securing the IoT Introduction.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/securing-the-iot-introduction" alt="LinkedIn">Securing the Internet of Things (IoT)</a></p>
-<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Securing the IoT Introduction.pdf" alt="LinkedIn Page">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/securing-the-iot-introduction" alt="LinkedIN">Securing the Internet of Things (IoT)</a></p>
+<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Securing the IoT Introduction.pdf" alt="LinkedIN Page">Certificate</a></p>
 </div>
 </div>
 
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="../library/certificates/CertificateOfCompletion_IT Security Foundations Operating System Security 2019.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIn"></a>
+          <a href="../library/certificates/CertificateOfCompletion_IT Security Foundations Operating System Security 2019.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/it-security-foundations-operating-system-security-2019" alt="LinkedIn">IT Security Foundations: Operating System Security (2019)</a></p>
-<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_IT Security Foundations Operating System Security 2019.pdf" alt="LinkedIn Page">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/it-security-foundations-operating-system-security-2019" alt="LinkedIN">IT Security Foundations: Operating System Security (2019)</a></p>
+<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_IT Security Foundations Operating System Security 2019.pdf" alt="LinkedIN Page">Certificate</a></p>
 </div>
 </div>
 
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="../library/certificates/CertificateOfCompletion_Securing Windows Server 2019.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIn"></a>
+          <a href="../library/certificates/CertificateOfCompletion_Securing Windows Server 2019.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/securing-windows-server-2019" alt="LinkedIn">Securing Windows Server 2019</a></p>
-<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Securing Windows Server 2019.pdf" alt="LinkedIn Page">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/securing-windows-server-2019" alt="LinkedIN">Securing Windows Server 2019</a></p>
+<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Securing Windows Server 2019.pdf" alt="LinkedIN Page">Certificate</a></p>
 </div>
 </div>
 
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="../library/certificates/CertificateOfCompletion_Risk Management for IT and Cybersecurity Managers.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIn"></a>
+          <a href="../library/certificates/CertificateOfCompletion_Risk Management for IT and Cybersecurity Managers.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/risk-management-for-it-and-cybersecurity-managers" alt="LinkedIn">Risk Management for IT and Cybersecurity Managers</a></p>
-<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Risk Management for IT and Cybersecurity Managers.pdf" alt="LinkedIn Page">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/risk-management-for-it-and-cybersecurity-managers" alt="LinkedIN">Risk Management for IT and Cybersecurity Managers</a></p>
+<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Risk Management for IT and Cybersecurity Managers.pdf" alt="LinkedIN Page">Certificate</a></p>
 </div>
 </div>
 
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="../library/certificates/CertificateOfCompletion_Security Testing Essential Training 2019.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIn"></a>
+          <a href="../library/certificates/CertificateOfCompletion_Security Testing Essential Training 2019.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/security-testing-essential-training-2019" alt="LinkedIn">Security Testing Essential Training (2019)</a></p>
-<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Security Testing Essential Training 2019.pdf" alt="LinkedIn Page">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/security-testing-essential-training-2019" alt="LinkedIN">Security Testing Essential Training (2019)</a></p>
+<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Security Testing Essential Training 2019.pdf" alt="LinkedIN Page">Certificate</a></p>
 </div>
 </div>
 
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="../library/certificates/CertificateOfCompletion_Programming Foundations Web Security 2019.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIn"></a>
+          <a href="../library/certificates/CertificateOfCompletion_Programming Foundations Web Security 2019.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/programming-foundations-web-security-2019" alt="LinkedIn">Programming Foundations: Web Security (2019)</a></p>
-<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Programming Foundations Web Security 2019.pdf" alt="LinkedIn Page">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/programming-foundations-web-security-2019" alt="LinkedIN">Programming Foundations: Web Security (2019)</a></p>
+<p><a class="button-up" href="../library/certificates/CertificateOfCompletion_Programming Foundations Web Security 2019.pdf" alt="LinkedIN Page">Certificate</a></p>
 </div>
 </div>
 </div>
@@ -245,11 +245,11 @@ layout: single-faq
 <h3 class="label1">Compliance</h3>
 <div class="flex-container-certs">
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="/mainroad/library/certificates/CertificateOfCompletion_Safeguarding Customer Credit Card Data PCI Compliance.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png" alt="LinkedIn"></a>
+          <a href="/mainroad/library/certificates/CertificateOfCompletion_Safeguarding Customer Credit Card Data PCI Compliance.pdf" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png" alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/safeguarding-customer-credit-card-data-pci-compliance/" alt="LinkedIn">Safeguarding Customer Credit Card Data: PCI Compliance</a></p>
-<p><a class="button-up" href="/mainroad/library/certificates/CertificateOfCompletion_Safeguarding Customer Credit Card Data PCI Compliance.pdf" alt="LinkedIn">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/safeguarding-customer-credit-card-data-pci-compliance/" alt="LinkedIN">Safeguarding Customer Credit Card Data: PCI Compliance</a></p>
+<p><a class="button-up" href="/mainroad/library/certificates/CertificateOfCompletion_Safeguarding Customer Credit Card Data PCI Compliance.pdf" alt="LinkedIN">Certificate</a></p>
 </div>
 </div>
 
@@ -258,11 +258,11 @@ layout: single-faq
 <h3 class="label1">Artifical Intelligence</h3>
 <div class="flex-container-certs">
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="/mainroad/img/lil-ms-ai.jfif" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png"  alt="LinkedIn"></a>
+          <a href="/mainroad/img/lil-ms-ai.jfif" alt="View Certification"><img style="background-color: white" src="/mainroad/img/cert/ms-cert.png"  alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin" alt="LinkedIn">Microsoft: Essentials Generative AI Professional Certificate</a></p>
-<p><a class="button-up" href="/mainroad/img/lil-ms-ai.jfif" alt="LinkedIn Page">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin" alt="LinkedIN">Microsoft: Essentials Generative AI Professional Certificate</a></p>
+<p><a class="button-up" href="/mainroad/img/lil-ms-ai.jfif" alt="LinkedIN Page">Certificate</a></p>
 </div>
 </div>
 </div>
@@ -270,11 +270,11 @@ layout: single-faq
 <h3 class="label1">Git|Github</h3>
 <div class="flex-container-certs">
 <div class="cert-width"><div class="list__thumbnail-cert">
-          <a href="/mainroad/img/lil-github.jfif" alt="View Certification"><img style="background-color: white" src="/mainroad/img/lil.png" alt="LinkedIn"></a>
+          <a href="/mainroad/img/lil-github.jfif" alt="View Certification"><img style="background-color: white" src="/mainroad/img/cert/github-cert.png" alt="LinkedIN"></a>
 </div>
 <div style="padding-top:.75rem">
-<p><a href="https://www.linkedin.com/learning/paths/career-essentials-in-github-professional-certificate" alt="LinkedIn">Github: Essentials Professional Certificate</a></p>
-<p><a class="button-up" href="/mainroad/img/lil-github.jfif" alt="LinkedIn">Certificate</a></p>
+<p><a href="https://www.linkedin.com/learning/paths/career-essentials-in-github-professional-certificate" alt="LinkedIN">Github: Essentials Professional Certificate</a></p>
+<p><a class="button-up" href="/mainroad/img/lil-github.jfif" alt="LinkedIN">Certificate</a></p>
 </div>
 </div>
 
