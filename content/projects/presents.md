@@ -1,8 +1,7 @@
 ---
-title: Presentations
-subtitle: Presentations
+title: Presentation Library
 date: 2023-10-05
-layout: single-post
+layout: single-owner
 nosearch: "True"
 postauthor: Michael Baggett
 postauthorinfo: Director and Assistant Dean of Information Technology
@@ -13,6 +12,6 @@ thumbnail: "img/digital-sign.svg"
 exclude_from_recent: true
 authorbox: True
 ---
-This is a collection of personal presentations, some of which may or may not be aligned with or related to the content on this website:
+This is a collection of my personal presentations, which may or may not be aligned with or related to the content on this website.  These are primarily used when I am presenting to a research or project team I am collaborating with, a class I have been asked to speak to, or another type of speaking engagement.  
 
-[Example Presentation 1](/presents/sub 'Example presentation 1')
+[Example Presentation 1](/presents/sub 'Example Presentation 1') : Example Description text.

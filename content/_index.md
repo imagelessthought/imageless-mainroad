@@ -93,6 +93,18 @@ The main goal of the website is to provide a resource for colleagues and project
 </div>
 </div>
 
+<div class="service-desk">
+<div class="img-container">
+<a href="projects/presents" alt="Personal Presentations" title="Personal Presentations">
+<img src="/mainroad/img/presents.svg" alt="Personal Presentations">
+</a>
+</div>
+<div style="margin: 0 3rem;">
+<h3 class="nomobile">Presentations</h3>
+<p class="nomobile" style="text-align: justify">This is a collection of my personal presentations, some of which may or may not be aligned with or related to the content on this website.</p>
+</div>
+</div>
+
 </div> 
 <style>
 .list__item {
