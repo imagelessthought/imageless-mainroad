@@ -23,8 +23,7 @@
 <meta itemprop="dateModified" content="2023-12-12T00:00:00+00:00" />
 <meta itemprop="wordCount" content="635">
 <meta itemprop="keywords" content="" />
-		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Universal Digital Signage: Installation Instructions"/>
+		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Universal Digital Signage: Installation Instructions"/>
 <meta name="twitter:description" content="The Universal Digital Signage web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (hosts) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an interrupt schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to channels to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), interactive kiosks, and hosted online presentations."/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +34,7 @@
 	<link rel="stylesheet" href="/mainroad/css/style.css">
 	<link rel="stylesheet" href="/mainroad/css/custom.css">
 
-	<link rel="shortcut icon" href="/mainroad/img/connection.svg">
+	<link rel="shortcut icon" href="/mainroad/img/bulb-fav.svg">
 		
 </head>
 <body class="body">
@@ -194,29 +193,29 @@
 <h2 id="prerequisites">Prerequisites</h2>
 <p>Uninstall any existing versions of Node.js and npm to avoid conflicts.</p>
 <h3 id="nodejs-npm-and-npm-run-all-installation-guide">Node.js, npm and npm-run-all Installation Guide</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
-source ~/.bashrc
-nvm ls-remote
-nvm install v18.18.2
-nvm use v18.18.2
-npm install -g npm@9.8.1
-npm install -g npm-run-all
-</code></pre></div><p>Confirm the correct versions of each are installed: (node.js - v18.18.2; npm - 9.8.1 )</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">node -v 
-npm -v
-</code></pre></div><h3 id="mongodb-installation-guide">MongoDB Installation Guide</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
+</span></span><span style="display:flex;"><span>source ~/.bashrc
+</span></span><span style="display:flex;"><span>nvm ls-remote
+</span></span><span style="display:flex;"><span>nvm install v18.18.2
+</span></span><span style="display:flex;"><span>nvm use v18.18.2
+</span></span><span style="display:flex;"><span>npm install -g npm@9.8.1
+</span></span><span style="display:flex;"><span>npm install -g npm-run-all
+</span></span></code></pre></div><p>Confirm the correct versions of each are installed: (node.js - v18.18.2; npm - 9.8.1 )</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>node -v 
+</span></span><span style="display:flex;"><span>npm -v
+</span></span></code></pre></div><h3 id="mongodb-installation-guide">MongoDB Installation Guide</h3>
 <p>To be added.</p>
 <h3 id="clone-the-repository">Clone the repository:</h3>
 <p>Use https, ssh or the Github CLI:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git clone https://github.com/imagelessthought/universal-signage.git
-git clone git@github.com:imagelessthought/universal-signage.git
-gh repo clone imagelessthought/universal-signage
-</code></pre></div><h2 id="setup-the-backend-nodejs-server">SETUP the Backend: Node.js Server</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git clone https://github.com/imagelessthought/universal-signage.git
+</span></span><span style="display:flex;"><span>git clone git@github.com:imagelessthought/universal-signage.git
+</span></span><span style="display:flex;"><span>gh repo clone imagelessthought/universal-signage
+</span></span></code></pre></div><h2 id="setup-the-backend-nodejs-server">SETUP the Backend: Node.js Server</h2>
 <p><strong>Navigate to the backend directory</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd universal-signage/backend
-</code></pre></div><p><strong>Install project dependencies</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm install
-</code></pre></div><h3 id="directory-structure-for-backend">Directory Structure for Backend</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cd universal-signage/backend
+</span></span></code></pre></div><p><strong>Install project dependencies</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>npm install
+</span></span></code></pre></div><h3 id="directory-structure-for-backend">Directory Structure for Backend</h3>
 <p>The backend project structure may vary based on your specific setup, but here&rsquo;s a typical structure:</p>
 <pre tabindex="0"><code>backend/
   ├── src/
@@ -231,16 +230,16 @@ gh repo clone imagelessthought/universal-signage
 </code></pre><h3 id="environment-variables-for-backend">Environment Variables for Backend</h3>
 <p>This project requires certain environment variables to be set. Create a <code>.env</code> file in the root of your project and define the required variables. <em>Make sure to keep this file private and never commit it to version control</em>.</p>
 <p>Example .env file: /universal-signage/backend/.env -&gt; ** The version below will run it on the localhost ONLY **</p>
-<pre tabindex="0"><code>NODE_ENV='production'  
+<pre tabindex="0"><code>NODE_ENV=&#39;production&#39;  
 #For Instance QA  
-NODE_ENV = 'local'  
-HOST='localhost'  
-LOCAL_DB=''  
-PROD_DB=''  
-LOCALHOST='http://localhost:8080/'  
-PRODHOST=''  
+NODE_ENV = &#39;local&#39;  
+HOST=&#39;localhost&#39;  
+LOCAL_DB=&#39;&#39;  
+PROD_DB=&#39;&#39;  
+LOCALHOST=&#39;http://localhost:8080/&#39;  
+PRODHOST=&#39;&#39;  
 PORT = 8080  
-JWT_SECRET=&quot;&quot;   
+JWT_SECRET=&#34;&#34;   
 </code></pre><p>The server will start and listen on the port specified in your <code>.env</code> file (default is 3000).</p>
 <h3 id="api-endpoints-for-backend">API Endpoints for Backend</h3>
 <p>Describe the endpoints of your API, how to use them, and any parameters they accept.</p>
@@ -251,10 +250,10 @@ JWT_SECRET=&quot;&quot;
 </ul>
 <h2 id="setup-the-frontend-react-app">SETUP the Frontend: React App</h2>
 <p><strong>Navigate to the frontend directory</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd universal-signage/frontend/
-</code></pre></div><p><strong>Install project dependencies</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm install
-</code></pre></div><h3 id="environment-variables-for-frontend">Environment Variables for Frontend</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cd universal-signage/frontend/
+</span></span></code></pre></div><p><strong>Install project dependencies</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>npm install
+</span></span></code></pre></div><h3 id="environment-variables-for-frontend">Environment Variables for Frontend</h3>
 <p>This project requires certain environment variables to be set. Create a <code>.env</code> file in the root of your project and define the required variables. <em>Make sure to keep this file private and never commit it to version control</em>.</p>
 <p>Example .env file: /universal-signage/frontend/.env -&gt; ** The version below will run it on the localhost ONLY **</p>
 <p><strong>Example: .env</strong></p>
@@ -268,19 +267,19 @@ REACT_APP_PROD_HOST=
 <p>You will need to update the package.json located in the root of the project and provide the path to the backend and frontend directories on your system:</p>
 <p><strong>Example: package.json</strong></p>
 <pre tabindex="0"><code>{
-  &quot;dependencies&quot;: {
-    &quot;react-bootstrap&quot;: &quot;^2.9.1&quot;
+  &#34;dependencies&#34;: {
+    &#34;react-bootstrap&#34;: &#34;^2.9.1&#34;
   },
-    &quot;scripts&quot;: {
-    &quot;start&quot;: &quot;npm-run-all --parallel start-frontend start-backend&quot;,
-    &quot;start-frontend&quot;: &quot;cd ~/server/universal-signage/frontend &amp;&amp; npm start&quot;,
-    &quot;start-backend&quot;: &quot;cd ~/server/universal-signage/backend &amp;&amp; npm start&quot;
+    &#34;scripts&#34;: {
+    &#34;start&#34;: &#34;npm-run-all --parallel start-frontend start-backend&#34;,
+    &#34;start-frontend&#34;: &#34;cd ~/server/universal-signage/frontend &amp;&amp; npm start&#34;,
+    &#34;start-backend&#34;: &#34;cd ~/server/universal-signage/backend &amp;&amp; npm start&#34;
   }
 }
 </code></pre><h2 id="starting-the-server">Starting the Server</h2>
 <p>If you have configured the package.jason located in the root of thje project correctly, as shown above, you can launch the server by running this command from the root folder of the project:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm start
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>npm start
+</span></span></code></pre></div>
 		</div>
 	</article>
 </main>

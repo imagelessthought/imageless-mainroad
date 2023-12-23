@@ -6,33 +6,21 @@
     <description>Recent content in Service Status Checker on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/status/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://imagelessthought.github.io/mainroad/status/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guacamole: Remote Access Service</title>
       <link>https://imagelessthought.github.io/mainroad/status/status-guacamole/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/status/status-guacamole/</guid>
-      <description>guacamole.unt.edu
-main.guacamole.unt.edu
-cloud.guacamole.unt.edu</description>
+      <description>guacamole.unt.edu&#xA;main.guacamole.unt.edu&#xA;cloud.guacamole.unt.edu</description>
     </item>
-    
     <item>
       <title>Websites</title>
       <link>https://imagelessthought.github.io/mainroad/status/status-websites/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/status/status-websites/</guid>
-      <description>public.cvad.unt.edu
-Online Service Desk
-Booked Scheduler
-Webcheckout
-Papercut/Webprint
-Zoom
-Canvas
-Microsoft Sharepoint</description>
+      <description>public.cvad.unt.edu&#xA;Online Service Desk&#xA;Booked Scheduler&#xA;Webcheckout&#xA;Papercut/Webprint&#xA;Zoom&#xA;Canvas&#xA;Microsoft Sharepoint</description>
     </item>
-    
   </channel>
 </rss>

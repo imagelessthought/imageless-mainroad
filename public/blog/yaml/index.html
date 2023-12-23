@@ -23,8 +23,7 @@
 <meta itemprop="dateModified" content="2023-12-14T00:00:00+00:00" />
 <meta itemprop="wordCount" content="472">
 <meta itemprop="keywords" content="Markup Languages," />
-		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Introduction to YAML for Non-Computer Science Students"/>
+		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Introduction to YAML for Non-Computer Science Students"/>
 <meta name="twitter:description" content="YAML, short for &ldquo;YAML Ain&rsquo;t Markup Language&rdquo; or sometimes &ldquo;Yet Another Markup Language,&rdquo; is a human-readable data serialization format. It is often used for configuration files and data exchange between languages with different data structures. YAML files use indentation and colons to denote structure, making them easy to read and write."/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +34,7 @@
 	<link rel="stylesheet" href="/mainroad/css/style.css">
 	<link rel="stylesheet" href="/mainroad/css/custom.css">
 
-	<link rel="shortcut icon" href="/mainroad/img/connection.svg">
+	<link rel="shortcut icon" href="/mainroad/img/bulb-fav.svg">
 		
 </head>
 <body class="body">
@@ -206,16 +205,16 @@
 </ol>
 <p><strong>Introduction to Coding with YAML:</strong></p>
 <p>Let&rsquo;s create a basic YAML file and explore some commonly used structures:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e"># Basic YAML Example</span>
-<span style="color:#f92672">name</span>: <span style="color:#ae81ff">John Doe</span>
-<span style="color:#f92672">age</span>: <span style="color:#ae81ff">30</span>
-<span style="color:#f92672">is_student</span>: <span style="color:#66d9ef">false</span>
-<span style="color:#f92672">grades</span>:
-  - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">Math</span>
-    <span style="color:#f92672">score</span>: <span style="color:#ae81ff">90</span>
-  - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">English</span>
-    <span style="color:#f92672">score</span>: <span style="color:#ae81ff">85</span>
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># Basic YAML Example</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">John Doe</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">age</span>: <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">is_student</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">grades</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">Math</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">score</span>: <span style="color:#ae81ff">90</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">English</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">score</span>: <span style="color:#ae81ff">85</span>
+</span></span></code></pre></div><ul>
 <li>
 <p><strong>Key-Value Pairs:</strong> <code>key: value</code> pairs define properties. In the example, <code>name</code>, <code>age</code>, and <code>is_student</code> are key-value pairs.</p>
 </li>
@@ -238,39 +237,39 @@
 </li>
 <li>
 <p><strong>Lists:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">grades</span>:
-  - <span style="color:#ae81ff">Math</span>
-  - <span style="color:#ae81ff">English</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">grades</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">Math</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">English</span>
+</span></span></code></pre></div></li>
 <li>
 <p><strong>Nested Structures:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">student</span>:
-  <span style="color:#f92672">info</span>:
-    <span style="color:#f92672">name</span>: <span style="color:#ae81ff">John Doe</span>
-    <span style="color:#f92672">age</span>: <span style="color:#ae81ff">30</span>
-  <span style="color:#f92672">grades</span>:
-    - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">Math</span>
-      <span style="color:#f92672">score</span>: <span style="color:#ae81ff">90</span>
-    - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">English</span>
-      <span style="color:#f92672">score</span>: <span style="color:#ae81ff">85</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">student</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">info</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">name</span>: <span style="color:#ae81ff">John Doe</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">age</span>: <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">grades</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">Math</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">score</span>: <span style="color:#ae81ff">90</span>
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">English</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">score</span>: <span style="color:#ae81ff">85</span>
+</span></span></code></pre></div></li>
 <li>
 <p><strong>Comments:</strong> Use <code>#</code> for comments.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e"># This is a comment</span>
-<span style="color:#f92672">name</span>: <span style="color:#ae81ff">John Doe</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># This is a comment</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">John Doe</span>
+</span></span></code></pre></div></li>
 </ol>
 <p><strong>YAML Cheat Sheet:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e"># YAML Cheat Sheet</span>
-<span style="color:#f92672">name</span>: <span style="color:#ae81ff">John Doe</span>
-<span style="color:#f92672">age</span>: <span style="color:#ae81ff">30</span>
-<span style="color:#f92672">is_student</span>: <span style="color:#66d9ef">false</span>
-<span style="color:#f92672">grades</span>:
-  - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">Math</span>
-    <span style="color:#f92672">score</span>: <span style="color:#ae81ff">90</span>
-  - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">English</span>
-    <span style="color:#f92672">score</span>: <span style="color:#ae81ff">85</span>
-</code></pre></div><p><strong>Top 5 Resources for Learning YAML:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># YAML Cheat Sheet</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">John Doe</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">age</span>: <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">is_student</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">grades</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">Math</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">score</span>: <span style="color:#ae81ff">90</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">subject</span>: <span style="color:#ae81ff">English</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">score</span>: <span style="color:#ae81ff">85</span>
+</span></span></code></pre></div><p><strong>Top 5 Resources for Learning YAML:</strong></p>
 <ol>
 <li>
 <p><a href="https://yaml.org/">YAML Official Specification</a>: The official YAML website provides the complete YAML specification.</p>

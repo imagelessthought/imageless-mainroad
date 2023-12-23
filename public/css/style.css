@@ -180,13 +180,17 @@ padding: 0;
 
 .glow {
 	margin-top: 1rem!important;
-	font-size: 1rem;
+	font-size: .85rem;
 
 	/*
 	padding: 1rem!important;
 	border-radius: 4px;
 	box-shadow: var(--shadow2) 0 0 3px 3px;
 	*/
+}
+
+.boxed {
+	margin-bottom:2rem;
 }
 
 .container {
@@ -476,6 +480,9 @@ hr {
 p {
 	margin: 0 0 20px;
 	margin: 0 0 1.25rem;
+	font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 b,
@@ -1807,7 +1814,7 @@ a.widget__link:active {
 	.label1 {
 	margin: 1.5rem auto 0 auto!important;
 	width: 100%;
-	text-align: center;
+	text-align: left!important;
 }
 .ctr {
    height: 2em; /* You can adjust the value as needed */
@@ -2666,12 +2673,19 @@ a.button-up:active {
 .flex-container-certs {
     width: 100%;
     display: flex;
-    flex-direction: column; /* Change to column */
+    flex-direction: row; /* Change to column for mobile */
     flex-wrap: wrap;
-    justify-content: center;
-    align-items:initial;
-    gap: 0.5rem 1.5rem;
+    justify-content: flex-start; /* Left-align items */
+    align-items: initial;
+    gap: 0.15rem 1.5rem;
 }
+
+/* Adjust the width of flex items */
+.flex-container-certs > div {
+    width: calc(33.33% - 4.5rem); /* 33.33% width for 3 items per row with 1.5rem gap */
+    margin: 0.75rem; /* Half of the vertical gap to center the items vertically */
+}
+
 
 .flex-container-certs p {
 	margin: .25rem 0;

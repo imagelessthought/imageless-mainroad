@@ -6,87 +6,70 @@
     <description>Recent content in Categories on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mainroad/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://imagelessthought.github.io/mainroad/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started</title>
       <link>https://imagelessthought.github.io/mainroad/categories/getting-started/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/getting-started/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Training</title>
       <link>https://imagelessthought.github.io/mainroad/categories/training/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/training/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Git</title>
       <link>https://imagelessthought.github.io/mainroad/categories/git/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/git/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Web Applications</title>
       <link>https://imagelessthought.github.io/mainroad/categories/web-applications/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/web-applications/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Web Frameworks</title>
       <link>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/web-frameworks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Python</title>
       <link>https://imagelessthought.github.io/mainroad/categories/python/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/python/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tutorials</title>
       <link>https://imagelessthought.github.io/mainroad/categories/tutorials/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/tutorials/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>YAML</title>
       <link>https://imagelessthought.github.io/mainroad/categories/yaml/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/yaml/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Innovation</title>
       <link>https://imagelessthought.github.io/mainroad/categories/innovation/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mainroad/categories/innovation/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
