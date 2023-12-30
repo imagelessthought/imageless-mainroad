@@ -219,6 +219,20 @@
       <description>&lt;p&gt;Over the past two years years Microsoft has made some significant improvements to the &lt;b&gt;Windows Subsystem for Linux&lt;/b&gt;. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps. &lt;b&gt;WSL 2&lt;/b&gt; is a new version of the Windows Subsystem for Linux architecture, available beginning with Windows 10-Version 1903-Build 18362, that powers the Windows Subsystem for Linux to run ELF64 (Executable and Linkable Format) Linux binaries on Windows. WSL2 provides a truly great resource for developers and application testing.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Online Services</title>
+      <link>https://imagelessthought.github.io/mainroad/status/status-services/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mainroad/status/status-services/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guacamole: Remote Access Service</title>
+      <link>https://imagelessthought.github.io/mainroad/status/status-guacamole/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mainroad/status/status-guacamole/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cybersecurity</title>
       <link>https://imagelessthought.github.io/mainroad/skills/cybersecurity/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
@@ -233,13 +247,6 @@
       <description> </description>
     </item>
     <item>
-      <title>Guacamole: Remote Access Service</title>
-      <link>https://imagelessthought.github.io/mainroad/status/status-guacamole/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mainroad/status/status-guacamole/</guid>
-      <description>itservices.cvad.unt.edu&#xA;public.cvad.unt.edu&#xA;guacamole.unt.edu&#xA;cloud.guacamole.unt.edu</description>
-    </item>
-    <item>
       <title>Presentation Library</title>
       <link>https://imagelessthought.github.io/mainroad/projects/presents/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
@@ -252,6 +259,13 @@
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://imagelessthought.github.io/mainroad/projects/digital-signage/</guid>
       <description>This project is in progress, the content below was created before the project began and changes have occured during the development. Think of this as the pseudo-code of the project.&#xA;Description: This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.. The server will host the content in playlists using one of the available templates. The digital signage device will simply need to launch a browser in full-screen mode and open the URL at startup: the URL will be the server.</description>
+    </item>
+    <item>
+      <title>Websites</title>
+      <link>https://imagelessthought.github.io/mainroad/status/status-websites/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mainroad/status/status-websites/</guid>
+      <description></description>
     </item>
     <item>
       <title>What training and certificatons have you completed?</title>
