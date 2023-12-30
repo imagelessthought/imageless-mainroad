@@ -237,7 +237,7 @@
       <link>https://imagelessthought.github.io/mainroad/status/status-guacamole/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://imagelessthought.github.io/mainroad/status/status-guacamole/</guid>
-      <description></description>
+      <description>itservices.cvad.unt.edu&#xA;public.cvad.unt.edu&#xA;guacamole.unt.edu&#xA;cloud.guacamole.unt.edu</description>
     </item>
     <item>
       <title>Presentation Library</title>
@@ -252,13 +252,6 @@
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://imagelessthought.github.io/mainroad/projects/digital-signage/</guid>
       <description>This project is in progress, the content below was created before the project began and changes have occured during the development. Think of this as the pseudo-code of the project.&#xA;Description: This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.. The server will host the content in playlists using one of the available templates. The digital signage device will simply need to launch a browser in full-screen mode and open the URL at startup: the URL will be the server.</description>
-    </item>
-    <item>
-      <title>Websites</title>
-      <link>https://imagelessthought.github.io/mainroad/status/status-websites/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mainroad/status/status-websites/</guid>
-      <description>public.cvad.unt.edu&#xA;Online Service Desk&#xA;Booked Scheduler&#xA;Webcheckout&#xA;Papercut/Webprint&#xA;Zoom&#xA;Canvas&#xA;Microsoft Sharepoint</description>
     </item>
     <item>
       <title>What training and certificatons have you completed?</title>
