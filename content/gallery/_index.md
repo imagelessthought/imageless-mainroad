@@ -53,10 +53,10 @@ authorbox: "True"
     }
 
     #gallery .image-container img {
-      width: 130px;
-      box-shadow: black 0 0 3px 1px;
-      outline: 1px solid black;
-      padding: 4px;
+      width: 150px;
+      box-shadow: #53565A 0 0 3px 1px;
+      outline: 1px solid transparent;
+      padding: .5rem!important;
     }
 
     img:hover {
@@ -104,7 +104,6 @@ authorbox: "True"
       justify-content: center; /* Left align items horizontally */
     }
   }
-
     .page-link {
       margin: 0 5px;
       padding: 5px;
@@ -128,28 +127,56 @@ authorbox: "True"
       background-color: #336699;
       text-decoration-color: transparent!important;
     }
+
+        .spacer {
+      /* Adjust spacer styles as needed */
+      width:30px; /* Example width */
+      height: 30px; /* Example height */
+      display: inline-block;
+    }
+
+    #prevPage, #nextPage {
+    background-color: var(--galnav);
+    color: white;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 4px;
+    }
+
+   #prevPage:active, #nextPage:active {
+    background-color: #C0392B!important;
+    color: #ffa500!important;
+  }
+
+   #prevPage:hover, #nextPage:hover {
+    background-color: #B9DCD2;
+    color: black;
+  }
+
   </style>
 </head>
 <body>
   <div class="body-container">
-  <div class="pagination" id="pagination"></div>
+  <div class="pagination" id="pagination">
+   <button id="prevPage">&lt;</button>
+  </div>
   <div id="gallery"></div>
-  
- <script>
+
+  <script>
     document.addEventListener("DOMContentLoaded", function() {
       const gallery = document.getElementById("gallery");
       const paginationContainer = document.getElementById("pagination");
-      const imagesPerRow = 4;
       const imagesPerPage = 24;
       let currentPage = 1;
+      let totalPages = 1;
 
       function displayImages() {
-        const indexFile = "index.dat"; // Look for index.dat in the working directory
+        const indexFile = "index.dat";
         fetch(indexFile)
           .then(response => response.text())
           .then(data => {
             const imageFiles = data.trim().split('\n');
-            const filteredFiles = imageFiles.filter(filename => /\.[a-zA-Z0-9]{3,4}$/i.test(filename.trim())); // Check for valid 3 or 4 character extensions
+            const filteredFiles = imageFiles.filter(filename => /\.[a-zA-Z0-9]{3,4}$/i.test(filename.trim()));
             const startIdx = (currentPage - 1) * imagesPerPage;
             const endIdx = startIdx + imagesPerPage;
 
@@ -163,7 +190,7 @@ authorbox: "True"
               imageLink.classList.add("image-link");
 
               const image = document.createElement("img");
-              const imagePath = `images/${filename.trim()}`; // Load images from the "images" folder
+              const imagePath = `images/${filename.trim()}`;
               image.src = imagePath;
               image.alt = filename.trim();
 
@@ -180,29 +207,59 @@ authorbox: "True"
               gallery.appendChild(container);
             }
 
-            const totalPages = Math.ceil(filteredFiles.length / imagesPerPage);
+            totalPages = Math.ceil(filteredFiles.length / imagesPerPage);
+
+            // Add navigation buttons and spacer
+            const prevButton = document.createElement("button");
+            prevButton.textContent = "<";
+            prevButton.id = "prevPage";
+            prevButton.style.display = currentPage === 1 ? "none" : "inline-block";
+            prevButton.addEventListener("click", handlePrevClick);
+            paginationContainer.innerHTML = "";
+            paginationContainer.appendChild(prevButton);
+
+            if (currentPage === 1) {
+              const spacer = document.createElement("div");
+              spacer.classList.add("spacer");
+              spacer.style.display = "inline-block";
+              paginationContainer.appendChild(spacer);
+            }
 
             for (let i = 1; i <= totalPages; i++) {
-              const pageLink = document.createElement("a");
-              pageLink.classList.add("page-link");
-              pageLink.href = `?page=${i}`;
-              pageLink.textContent = i < 10 ? `0${i}` : i;
-
-              pageLink.addEventListener("click", (event) => {
-                event.preventDefault();
-                const page = parseInt(event.target.textContent, 10);
-                changePage(page);
-                history.pushState({ page }, `Page ${page}`, `?page=${page}`);
-              });
-
+              const pageButton = document.createElement("button");
+              pageButton.classList.add("page-link");
+              pageButton.textContent = i < 10 ? `0${i}` : i;
               if (i === currentPage) {
-                pageLink.classList.add("active");
+                pageButton.classList.add("active");
               }
-
-              paginationContainer.appendChild(pageLink);
+              pageButton.addEventListener("click", () => changePage(i));
+              paginationContainer.appendChild(pageButton);
             }
+
+            // Add next button
+            const nextButton = document.createElement("button");
+            nextButton.textContent = ">";
+            nextButton.id = "nextPage";
+            nextButton.style.display = currentPage < totalPages ? "inline-block" : "none";
+            nextButton.addEventListener("click", handleNextClick);
+            paginationContainer.appendChild(nextButton);
           })
           .catch(error => console.error("Error fetching images:", error));
+      }
+
+      function handlePrevClick() {
+        changePage(currentPage - 1);
+      }
+
+      function handleNextClick() {
+        changePage(currentPage + 1);
+      }
+
+      function changePage(page) {
+        currentPage = Math.min(Math.max(1, page), totalPages);
+        gallery.innerHTML = "";
+        displayImages();
+        history.pushState({ page: currentPage }, `Page ${currentPage}`, `?page=${currentPage}`);
       }
 
       window.onpopstate = function(event) {
@@ -210,19 +267,11 @@ authorbox: "True"
         changePage(page);
       };
 
-      function changePage(page) {
-        currentPage = page;
-        gallery.innerHTML = "";
-        paginationContainer.innerHTML = "";
-        displayImages();
-      }
-
-      // Initial setup to handle the initial page
       const initialPage = parseInt(new URLSearchParams(window.location.search).get('page'), 10) || 1;
       currentPage = initialPage;
       displayImages();
     });
-</script>
+  </script>
 
 </div>
 </body>
