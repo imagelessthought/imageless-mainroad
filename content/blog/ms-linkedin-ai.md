@@ -14,7 +14,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
-thumbnail: "img/ms_copilot.png"
+thumbnail: "/mainroad/gallery/images/ms_copilot.png"
 ---
 ## Introduction to Generative AI and Microsoft Copilot
 

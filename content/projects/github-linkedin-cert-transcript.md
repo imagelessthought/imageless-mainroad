@@ -13,7 +13,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://www.linkedin.com/learning/paths/career-essentials-in-github-professional-certificate
-thumbnail: "img/training/github-logo.png"
+thumbnail: "/mainroad/gallery/images/training/github-logo.png"
 ---
 
 ## Practical Github Actions

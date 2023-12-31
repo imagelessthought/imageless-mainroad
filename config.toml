@@ -101,7 +101,7 @@ sectionPagesMenu = 'main posts departments'
 [Author] # Used in authorbox
   name = "Imageless Thought"
   bio = 'On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.'
-  avatar = "img/blue/cluster-data-icon-blue.svg"
+  avatar = "gallery/images/cluster-data-blue.svg"
 [Params]
   description = "Imageless Thought" # Site description. Used in meta description
   copyright = "Imageless Thought |" # Footer copyright holder, otherwise will use site title
@@ -132,7 +132,7 @@ sectionPagesMenu = 'main posts departments'
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/connection.svg" # Logo image. Path relative to "static"
+  image = "gallery/images/connection.svg" # Logo image. Path relative to "static"
 # title = "Mainroad" # Logo title, otherwise will use site title 
   subtitle = "Michael Baggett" # Logo subtitle innovate ⚬ build ⚬ repeat INNOVATE ⚬ BUILD ⚬ REPEAT
   tagline = "Innovation Technology"

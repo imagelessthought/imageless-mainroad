@@ -2,7 +2,7 @@
 title: "Postman: API Platform"
 date: 2023-12-06
 layout: single-portal
-thumbnail: "/mainroad/img/postman.svg"
+thumbnail: "/mainroad/gallery/images/postman.svg"
 portalurl: "https://www.postman.com/"
 exclude_from_recent: true
 ---

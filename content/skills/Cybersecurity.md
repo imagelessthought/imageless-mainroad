@@ -2,7 +2,7 @@
 title: Cybersecurity
 date: 2023-10-05
 layout: single-owner
-thumbnail: "img/crime-hacker-icon.svg"
+thumbnail: "/mainroad/gallery/images/crime-hacker-icon.svg"
 exclude_from_recent: true
 authorbox: True
 ---

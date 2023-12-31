@@ -12,7 +12,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
-thumbnail: "img/ai.svg"
+thumbnail: "/mainroad/gallery/images/ai.svg"
 ---
 Artificial Intelligence (AI) is a multidisciplinary field focused on creating machines capable of performing tasks that traditionally require human intelligence. Its diverse applications range from natural language processing to image recognition, offering profound implications for various industries. Within the vast landscape of AI, Machine Learning (ML) stands out as a subset that emphasizes the development of algorithms enabling machines to learn from data and improve their performance.
 <!--more-->

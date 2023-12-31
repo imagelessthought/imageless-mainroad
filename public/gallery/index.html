@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="/mainroad/css/custom.css">
 	<link rel="alternate" type="application/rss+xml" href="/mainroad/gallery/index.xml" title="Imageless Thought">
 
-	<link rel="shortcut icon" href="/mainroad/img/bulb-fav.svg">
+	<link rel="shortcut icon" href="/mainroad/gallery/images/bulb-fav.svg">
 		
 </head>
 <body class="body">
@@ -41,7 +41,7 @@
 	<div class="logo logo--mixed">
 		<a class="logo__link" href="/mainroad/" title="Imageless Thought" rel="home">
 			<div class="logo__item logo__imagebox">
-					<img class="logo__img" src="/mainroad/img/connection.svg">
+					<img class="logo__img" src="/mainroad/gallery/images/connection.svg">
 				</div><div class="logo__item logo__text">
 					<div class="logo__title">Imageless Thought</div>
 					<div class="logo__tagline">Michael Baggett</div>
@@ -58,7 +58,7 @@
   <span style="width: 100%; display: flex; align-items: center;">
     <span class="menu__btn-text">Imageless Thought</span>
     <span class="menu__btn-logo">
-      <a href="/" alt="UNT"><img class="menu__btn-logo-img" src="/mainroad/img/connection.svg"></a>
+      <a href="/" alt="UNT"><img class="menu__btn-logo-img" src="/mainroad/gallery/images/connection.svg"></a>
     </span>
   </span></div>
 
@@ -166,7 +166,7 @@
           </li>
         
           <li class="menu__item">
-          <a class="menu__link" href="">
+          <a class="menu__link" href="/mainroad/projects/presents/">
             
             <span class="menu__text">Presentations</span>
             
@@ -321,15 +321,16 @@
   <div class="body-container">
   <div class="pagination" id="pagination"></div>
   <div id="gallery"></div>
-  <script>
+ <script>
     document.addEventListener("DOMContentLoaded", function() {
       const gallery = document.getElementById("gallery");
       const paginationContainer = document.getElementById("pagination");
       const imagesPerRow = 4;
       const imagesPerPage = 24;
       let currentPage = 1;
+
       function displayImages() {
-        const indexFile = "images/index.dat";
+        const indexFile = "index.dat"; // Look for index.dat in the working directory
         fetch(indexFile)
           .then(response => response.text())
           .then(data => {
@@ -337,63 +338,77 @@
             const filteredFiles = imageFiles.filter(filename => /\.[a-zA-Z0-9]{3,4}$/i.test(filename.trim())); // Check for valid 3 or 4 character extensions
             const startIdx = (currentPage - 1) * imagesPerPage;
             const endIdx = startIdx + imagesPerPage;
+
             for (let i = startIdx; i < endIdx && i < filteredFiles.length; i++) {
               const filename = filteredFiles[i];
               const container = document.createElement("div");
               container.classList.add("image-container");
               container.id = `image-${i}`;
+
               const imageLink = document.createElement("a");
               imageLink.classList.add("image-link");
+
               const image = document.createElement("img");
-              const imagePath = `images/${filename.trim()}`;
+              const imagePath = `images/${filename.trim()}`; // Load images from the "images" folder
               image.src = imagePath;
               image.alt = filename.trim();
+
               imageLink.href = imagePath;
               imageLink.target = "_self";
               imageLink.appendChild(image);
               container.appendChild(imageLink);
+
               const caption = document.createElement("div");
               caption.classList.add("caption");
               caption.textContent = filename.trim();
               container.appendChild(caption);
+
               gallery.appendChild(container);
             }
+
             const totalPages = Math.ceil(filteredFiles.length / imagesPerPage);
+
             for (let i = 1; i <= totalPages; i++) {
               const pageLink = document.createElement("a");
               pageLink.classList.add("page-link");
               pageLink.href = `?page=${i}`;
               pageLink.textContent = i < 10 ? `0${i}` : i;
+
               pageLink.addEventListener("click", (event) => {
                 event.preventDefault();
                 const page = parseInt(event.target.textContent, 10);
                 changePage(page);
                 history.pushState({ page }, `Page ${page}`, `?page=${page}`);
               });
+
               if (i === currentPage) {
                 pageLink.classList.add("active");
               }
+
               paginationContainer.appendChild(pageLink);
             }
           })
           .catch(error => console.error("Error fetching images:", error));
       }
+
       window.onpopstate = function(event) {
         const page = event.state ? event.state.page : 1;
         changePage(page);
       };
+
       function changePage(page) {
         currentPage = page;
         gallery.innerHTML = "";
         paginationContainer.innerHTML = "";
         displayImages();
       }
+
       // Initial setup to handle the initial page
       const initialPage = parseInt(new URLSearchParams(window.location.search).get('page'), 10) || 1;
       currentPage = initialPage;
       displayImages();
     });
-  </script>
+</script>
 </div>
 </body>
 </html>
@@ -403,7 +418,7 @@
 
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
-		<img alt="Imageless Thought avatar" src="/mainroad/img/blue/cluster-data-icon-blue.svg" class="avatar" height="90" width="90">
+		<img alt="Imageless Thought avatar" src="/mainroad/gallery/images/cluster-data-blue.svg" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
 		<span class="authorbox__name">Imageless Thought</span>

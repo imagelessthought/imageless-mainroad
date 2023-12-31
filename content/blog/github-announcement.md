@@ -14,7 +14,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
-thumbnail: "img/branching-icon.svg"
+thumbnail: "/mainroad/gallery/images/github-mark.svg"
 ---
 [Git](https://git-scm.com 'Git Website') is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is widely used for collaborative software development and **Github** is a very popular Git platform. Git is used to track changes, keep a complete history of the changes, and allows you to roll back to any point. Owners can grant access to a project and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.
 <!--more-->
@@ -206,15 +206,15 @@ If you are looking for images for your website, I would start with these:
 The majority of the UXwing images are monochromatic (black on a transparent white background). The easiest way I have found to change the colors of an SVG file is to use this free tool: [DeEditor](https://deeditor.com/ 'Deeditor').
 
 <p style="margin-bottom: 1.5rem">
-<img src="/mainroad/img/helpdesk-branded.svg" class="smpic">
-<img src="/mainroad/img/helpdesk-branded3.svg" class="smpic">
-<img src="/mainroad/img/helpdesk-branded4.svg" class="smpic">
-<img src="/mainroad/img/helpdesk-branded2.svg" class="smpic">
-<img src="/mainroad/img/helpdesk-branded5.svg" class="smpic">
-<img src="/mainroad/img/helpdesk_00853E.svg" class="smpic">
-<img src="/mainroad/img/helpdesk_509E2F.svg" class="smpic">
-<img src="/mainroad/img/helpdesk_B9DCD2.svg" class="smpic">
-<img src="/mainroad/img/helpdesk_C4D600.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk-branded.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk-branded3.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk-branded4.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk-branded2.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk-branded5.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk_00853E.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk_509E2F.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk_B9DCD2.svg" class="smpic">
+<img src="/mainroad/gallery/images/helpdesk_C4D600.svg" class="smpic">
 </p>
 
 ### Other Resources ###

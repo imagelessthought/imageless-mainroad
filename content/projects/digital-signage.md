@@ -8,7 +8,7 @@ postauthorinfo: College of Visual Arts and Design
 postauthorarea: 
 postemail:
 posturl: 
-thumbnail: "img/digital-sign.svg"
+thumbnail: "/mainroad/gallery/images/digital-sign.svg"
 exclude_from_recent: true
 authorbox: True
 ---

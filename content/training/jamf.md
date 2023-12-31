@@ -2,7 +2,7 @@
 title: "JAMF: Apple Endpoint Management"
 date: 2023-11-27
 layout: single-portal
-thumbnail: "/mainroad/img/training/jamf.jpg"
+thumbnail: "/mainroad/gallery/images/jamf.svg"
 portalurl: "https://www.jamf.com"
 exclude_from_recent: true
 ---

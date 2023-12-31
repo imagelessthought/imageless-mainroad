@@ -2,7 +2,7 @@
 title: "Stormwind Studios"
 date: 2023-12-04
 layout: single-portal
-thumbnail: "/mainroad/img/training/stormwind.png"
+thumbnail: "/mainroad/gallery/images/stormwind.png"
 portalurl: "https://www.stormwindstudios.com"
 exclude_from_recent: true
 ---

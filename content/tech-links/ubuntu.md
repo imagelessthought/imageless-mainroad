@@ -2,7 +2,7 @@
 title: "Ubuntu"
 date: 2023-12-08
 layout: single-portal
-thumbnail: "/mainroad/img/training/ubuntu.svg"
+thumbnail: "/mainroad/gallery/images/ubuntu.svg"
 portalurl: "https://login.ubuntu.com"
 exclude_from_recent: true
 ---

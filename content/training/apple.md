@@ -2,7 +2,7 @@
 title: "Apple: IT Training"
 date: 2023-11-28
 layout: single-portal
-thumbnail: "/mainroad/img/training/apple.svg"
+thumbnail: "/mainroad/gallery/images/apple.svg"
 portalurl: "https://training.apple.com/it"
 exclude_from_recent: true
 ---

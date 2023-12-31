@@ -2,7 +2,7 @@
 title: "Linux Kernel Organization"
 date: 2023-11-27
 layout: single-portal
-thumbnail: "/mainroad/img/training/linuxtux.gif"
+thumbnail: "/mainroad/gallery/images/linux-penguin.svg"
 portalurl: "https://kernel.org/"
 exclude_from_recent: true
 ---
