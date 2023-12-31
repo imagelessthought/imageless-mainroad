@@ -7,24 +7,19 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Changa+One&display=swap" rel="stylesheet">
-	<title>Stormwind Studios - Imageless Thought</title>
+	<title>Image Gallery - Imageless Thought</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="Stormwind Studios" />
-<meta property="og:description" content="Stormwind Studios is a training resource I use to maintain my skill set and knowledge base. They provide live and on-demand bootcamp courses from wide-range of vendors." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://imagelessthought.github.io/mainroad/training/stormwind/" /><meta property="article:section" content="training" />
-<meta property="article:published_time" content="2023-12-04T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-12-04T00:00:00+00:00" />
+		<meta property="og:title" content="Image Gallery" />
+<meta property="og:description" content="Imageless Thought" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://imagelessthought.github.io/mainroad/gallery/" />
 
 
-		<meta itemprop="name" content="Stormwind Studios">
-<meta itemprop="description" content="Stormwind Studios is a training resource I use to maintain my skill set and knowledge base. They provide live and on-demand bootcamp courses from wide-range of vendors."><meta itemprop="datePublished" content="2023-12-04T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-12-04T00:00:00+00:00" />
-<meta itemprop="wordCount" content="27">
-<meta itemprop="keywords" content="" />
-		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Stormwind Studios"/>
-<meta name="twitter:description" content="Stormwind Studios is a training resource I use to maintain my skill set and knowledge base. They provide live and on-demand bootcamp courses from wide-range of vendors."/>
+		<meta itemprop="name" content="Image Gallery">
+<meta itemprop="description" content="Imageless Thought">
+		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Image Gallery"/>
+<meta name="twitter:description" content="Imageless Thought"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -33,6 +28,7 @@
 
 	<link rel="stylesheet" href="/mainroad/css/style.css">
 	<link rel="stylesheet" href="/mainroad/css/custom.css">
+	<link rel="alternate" type="application/rss+xml" href="/mainroad/gallery/index.xml" title="Imageless Thought">
 
 	<link rel="shortcut icon" href="/mainroad/img/bulb-fav.svg">
 		
@@ -117,7 +113,7 @@
         
       </a>
     </li>
-    <li class="menu__item menu__dropdown">
+    <li class="menu__item menu__dropdown menu__item--active">
       <a class="menu__link" href="">
         
         <span class="menu__text fw">
@@ -145,7 +141,7 @@
           </a>
           </li>
         
-          <li class="menu__item">
+          <li class="menu__item menu__item--active">
           <a class="menu__link" href="/mainroad/gallery/">
             
             <span class="menu__text">Image Gallery</span>
@@ -189,19 +185,220 @@
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main" role="main">
-	<article class="post">
-		<header class="post__header">
-			<h1 class="post__title">Stormwind Studios</h1>
+<main class="main list" role="main">
+	<header class="main__header">
+		<h1 class="main__title">Image Gallery</h1>  
+	</header>
+	<div class="content main__content clearfix">
+		  <style>
+    html {
+      background-color: #2d2c2c;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+    }
 
-		</header>
-		
+    body-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 2rem;
+      margin-top: 0;
+      padding: 0 1rem 1rem 1rem;
+    }
 
-		<div class="content post__content clearfix">
-			<p>Stormwind Studios is a training resource I use to maintain my skill set and knowledge base. They provide live and on-demand bootcamp courses from wide-range of vendors.</p>
+    .main__title {
+        margin-bottom: 1rem!important;   
+    }
 
-		</div>
-	</article>
+    #gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start; /* Left align items horizontally */
+      width: 100%;
+    }
+
+    #gallery .image-container {
+      width: 150px;
+  /*  height: 340px;  */
+      margin: 5px;
+      padding: 5px;
+      overflow: hidden;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color:  #2d2c2c; /* #707B7C; */
+   /* box-shadow: white 0 0 1px 1px;  */
+    }
+
+    .image-link {
+      display: block;
+      text-decoration: none;
+    }
+
+    #gallery .image-container img {
+      width: 130px;
+      box-shadow: black 0 0 3px 1px;
+      outline: 1px solid black;
+      padding: 4px;
+    }
+
+    img:hover {
+      box-shadow: #B9DCD2 0 0 3px 3px;
+      outline: 1px solid #336699;
+      background-color: white;
+    }
+
+    .caption {
+      text-align: center;
+      padding: 5px;
+      font-size: 0.65rem;
+      background-color: #2d2c2c;
+      color: white;
+      margin-top: 1rem;
+      border-radius: 4px;
+      box-shadow: #2d2c2c 0 0 1px 1px;
+    }
+
+    body::after {
+      content: '';
+      flex: auto;
+    }
+
+    .pagination {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      align-items: center;
+      width: 100%;
+      margin: 2rem 0 2rem 0;
+      gap: .5rem 0;
+    }
+
+    @media screen and (max-width: 900px) {
+    .pagination {
+      justify-content: center;
+    }
+    .image-container {
+      width: calc(50% - 40px);
+      height: auto;
+    }
+
+    #gallery {
+      justify-content: center; /* Left align items horizontally */
+    }
+  }
+
+    .page-link {
+      margin: 0 5px;
+      padding: 5px;
+      color: white;
+      background-color: #2d2c2c;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-decoration-color: transparent!important;
+    }
+
+    a.page-link:link, a.page-link:visited, a.page-link:hover, a.page-link:active {
+    text-decoration-color: transparent!important;
+    }
+
+    a.page-link:hover {
+        background-color: #B9DCD2;
+        color: black;
+    }
+
+    .page-link.active {
+      background-color: #336699;
+      text-decoration-color: transparent!important;
+    }
+  </style>
+</head>
+<body>
+  <div class="body-container">
+  <div class="pagination" id="pagination"></div>
+  <div id="gallery"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const gallery = document.getElementById("gallery");
+      const paginationContainer = document.getElementById("pagination");
+      const imagesPerRow = 4;
+      const imagesPerPage = 24;
+      let currentPage = 1;
+      function displayImages() {
+        const indexFile = "images/index.dat";
+        fetch(indexFile)
+          .then(response => response.text())
+          .then(data => {
+            const imageFiles = data.trim().split('\n');
+            const filteredFiles = imageFiles.filter(filename => /\.[a-zA-Z0-9]{3,4}$/i.test(filename.trim())); // Check for valid 3 or 4 character extensions
+            const startIdx = (currentPage - 1) * imagesPerPage;
+            const endIdx = startIdx + imagesPerPage;
+            for (let i = startIdx; i < endIdx && i < filteredFiles.length; i++) {
+              const filename = filteredFiles[i];
+              const container = document.createElement("div");
+              container.classList.add("image-container");
+              container.id = `image-${i}`;
+              const imageLink = document.createElement("a");
+              imageLink.classList.add("image-link");
+              const image = document.createElement("img");
+              const imagePath = `images/${filename.trim()}`;
+              image.src = imagePath;
+              image.alt = filename.trim();
+              imageLink.href = imagePath;
+              imageLink.target = "_self";
+              imageLink.appendChild(image);
+              container.appendChild(imageLink);
+              const caption = document.createElement("div");
+              caption.classList.add("caption");
+              caption.textContent = filename.trim();
+              container.appendChild(caption);
+              gallery.appendChild(container);
+            }
+            const totalPages = Math.ceil(filteredFiles.length / imagesPerPage);
+            for (let i = 1; i <= totalPages; i++) {
+              const pageLink = document.createElement("a");
+              pageLink.classList.add("page-link");
+              pageLink.href = `?page=${i}`;
+              pageLink.textContent = i < 10 ? `0${i}` : i;
+              pageLink.addEventListener("click", (event) => {
+                event.preventDefault();
+                const page = parseInt(event.target.textContent, 10);
+                changePage(page);
+                history.pushState({ page }, `Page ${page}`, `?page=${page}`);
+              });
+              if (i === currentPage) {
+                pageLink.classList.add("active");
+              }
+              paginationContainer.appendChild(pageLink);
+            }
+          })
+          .catch(error => console.error("Error fetching images:", error));
+      }
+      window.onpopstate = function(event) {
+        const page = event.state ? event.state.page : 1;
+        changePage(page);
+      };
+      function changePage(page) {
+        currentPage = page;
+        gallery.innerHTML = "";
+        paginationContainer.innerHTML = "";
+        displayImages();
+      }
+      // Initial setup to handle the initial page
+      const initialPage = parseInt(new URLSearchParams(window.location.search).get('page'), 10) || 1;
+      currentPage = initialPage;
+      displayImages();
+    });
+  </script>
+</div>
+</body>
+</html>
+
+	</div>
 </main>
 
 <div class="authorbox clearfix">
@@ -218,7 +415,8 @@
 
 
 			</div>
-			<aside class="sidebar">
+			
+<aside class="sidebar">
 <div class="widget-categories widget">
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
@@ -275,7 +473,5 @@
 </footer>
 	</div>
 <script async defer src="/mainroad/js/menu.js"></script>
-<script src="/mainroad/js/custom.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
-</body>
+<script src="/mainroad/js/custom.js"></script></body>
 </html>

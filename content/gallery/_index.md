@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Image Gallery
 layout: list-status
 authorbox: "True"
 ---
@@ -134,63 +134,55 @@ authorbox: "True"
   <div class="body-container">
   <div class="pagination" id="pagination"></div>
   <div id="gallery"></div>
-
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       const gallery = document.getElementById("gallery");
       const paginationContainer = document.getElementById("pagination");
       const imagesPerRow = 4;
-      const imagesPerPage = 16; // Change the number of images per page
+      const imagesPerPage = 24;
       let currentPage = 1;
-
       function displayImages() {
-        const imageFolder = "images/index.dat";
-
-        fetch(imageFolder)
+        const indexFile = "images/index.dat";
+        fetch(indexFile)
           .then(response => response.text())
           .then(data => {
             const imageFiles = data.trim().split('\n');
-            const filteredFiles = imageFiles.filter(filename => filename.trim() !== "index.dat");
-
+            const filteredFiles = imageFiles.filter(filename => /\.[a-zA-Z0-9]{3,4}$/i.test(filename.trim())); // Check for valid 3 or 4 character extensions
             const startIdx = (currentPage - 1) * imagesPerPage;
             const endIdx = startIdx + imagesPerPage;
-
             for (let i = startIdx; i < endIdx && i < filteredFiles.length; i++) {
               const filename = filteredFiles[i];
               const container = document.createElement("div");
               container.classList.add("image-container");
-
+              container.id = `image-${i}`;
               const imageLink = document.createElement("a");
               imageLink.classList.add("image-link");
-
               const image = document.createElement("img");
               const imagePath = `images/${filename.trim()}`;
-
               image.src = imagePath;
               image.alt = filename.trim();
-
               imageLink.href = imagePath;
-              imageLink.target = "_blank";
-
+              imageLink.target = "_self";
               imageLink.appendChild(image);
               container.appendChild(imageLink);
-
               const caption = document.createElement("div");
               caption.classList.add("caption");
               caption.textContent = filename.trim();
               container.appendChild(caption);
-
               gallery.appendChild(container);
             }
-
             const totalPages = Math.ceil(filteredFiles.length / imagesPerPage);
-
             for (let i = 1; i <= totalPages; i++) {
               const pageLink = document.createElement("a");
               pageLink.classList.add("page-link");
-              pageLink.href = "#";
+              pageLink.href = `?page=${i}`;
               pageLink.textContent = i < 10 ? `0${i}` : i;
-              pageLink.addEventListener("click", () => changePage(i));
+              pageLink.addEventListener("click", (event) => {
+                event.preventDefault();
+                const page = parseInt(event.target.textContent, 10);
+                changePage(page);
+                history.pushState({ page }, `Page ${page}`, `?page=${page}`);
+              });
               if (i === currentPage) {
                 pageLink.classList.add("active");
               }
@@ -199,14 +191,19 @@ authorbox: "True"
           })
           .catch(error => console.error("Error fetching images:", error));
       }
-
+      window.onpopstate = function(event) {
+        const page = event.state ? event.state.page : 1;
+        changePage(page);
+      };
       function changePage(page) {
         currentPage = page;
         gallery.innerHTML = "";
         paginationContainer.innerHTML = "";
         displayImages();
       }
-
+      // Initial setup to handle the initial page
+      const initialPage = parseInt(new URLSearchParams(window.location.search).get('page'), 10) || 1;
+      currentPage = initialPage;
       displayImages();
     });
   </script>

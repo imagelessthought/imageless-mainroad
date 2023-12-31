@@ -35,6 +35,30 @@ The main goal of the website is to provide a resource for colleagues and project
 
 <div class="service-desk">
 <div class="img-container">
+<a href="documentation" alt="Help Documentation" title="Help Documentation">
+<img src="/mainroad/img/blue/documentation-blue.svg" alt="Help Documentation">
+</a>
+</div>
+<div style="margin: 0 3rem;">
+<h3 class="nomobile">Help Documentation</h3>
+<p class="nomobile" style="text-align: justify">Need help with a particular system, application or service? Not sure how to do something? Checkout out the help documentation. I provide help on a variety of topics, particularly those that relate to my role in Information Technology.</p>
+</div>
+</div>
+
+<div class="service-desk">
+<div class="img-container">
+<a href="status" alt="Check Status of Service for an Outage" title="Service Status Check">
+<img src="/mainroad/img/blue/status-check-blue.svg" alt="Check Status of Service for an Outage">
+</a>
+</div>
+<div style="margin: 0 3rem;">
+<h3 class="nomobile">System Status Checks</h3>
+<p class="nomobile" style="text-align: justify">Having trouble accessing an online service or website?  Check here to see if the servuce is down.  The page runs a script that checks to see if the server(s) respond. This won't report the outage, if you confirm the server is down you will need to report it.</p>
+</div>
+</div>
+
+<div class="service-desk">
+<div class="img-container">
 <a href="repositories" alt="Git Repositories" title="Git Repositories">
 <img src="/mainroad/img/repos.svg" alt="Git Repositories">
 </a>
@@ -47,13 +71,13 @@ The main goal of the website is to provide a resource for colleagues and project
 
 <div class="service-desk">
 <div class="img-container">
-<a href="documentation" alt="Help Documentation" title="Help Documentation">
-<img src="/mainroad/img/blue/documentation-blue.svg" alt="Help Documentation">
+<a href="gallery" alt="Gallery" title="Gallery">
+<img src="/mainroad/img/gallery1.svg" alt="Gallery">
 </a>
 </div>
 <div style="margin: 0 3rem;">
-<h3 class="nomobile">Help Documentation</h3>
-<p class="nomobile" style="text-align: justify">Need help with a particular system, application or service? Not sure how to do something? Checkout out the help documentation. I provide help on a variety of topics, particularly those that relate to my role in Information Technology.</p>
+<h3 class="nomobile">Image Gallery</h3>
+<p class="nomobile" style="text-align: justify">This is a collection of images that are used on this website and on other projects.  If you are trying to find an image: it is likely here.</p>
 </div>
 </div>
 
@@ -78,18 +102,6 @@ The main goal of the website is to provide a resource for colleagues and project
 <div style="margin: 0 3rem;">
 <h3 class="nomobile">Digital Signage</h3>
 <p class="nomobile" style="text-align: justify">My team created an open-source digital signage solution that is device independent.  While we use Raspebrry Pi to display the content, you can use anything that is capable of displaying a website in fill-screen mode. Screen savers for the major operating systems are included as well.</p>
-</div>
-</div>
-
-<div class="service-desk">
-<div class="img-container">
-<a href="status" alt="Check Status of Service for an Outage" title="Service Status Check">
-<img src="/mainroad/img/blue/status-check-blue.svg" alt="Check Status of Service for an Outage">
-</a>
-</div>
-<div style="margin: 0 3rem;">
-<h3 class="nomobile">System Status Checks</h3>
-<p class="nomobile" style="text-align: justify">Having trouble accessing an online service or website?  Check here to see if the servuce is down.  The page runs a script that checks to see if the server(s) respond. This won't report the outage, if you confirm the server is down you will need to report it.</p>
 </div>
 </div>
 

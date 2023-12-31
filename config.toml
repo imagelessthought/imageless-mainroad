@@ -74,6 +74,30 @@ sectionPagesMenu = 'main posts departments'
     weight = 6
     identifier = 'Repositories'
     parent = 'More'
+[[menu.main]]
+    name = 'Image Gallery'
+    pageRef = '/gallery/'
+    weight = 7
+    identifier = 'Gallery'
+    parent = 'More'
+[[menu.main]]
+    name = 'Web and UI Design'
+    pageRef = '/projects/web-design'
+    weight = 8
+    identifier = 'Web-UI'
+    parent = 'More'
+[[menu.main]]
+    name = 'Digital Signage'
+    pageRef = '/blog/digital-signage'
+    weight = 9
+    identifier = 'Digital Signage'
+    parent = 'More'
+[[menu.main]]
+    name = 'Presentations'
+    pageRef = '/projects/presents'
+    weight = 10
+    identifier = 'Presentations'
+    parent = 'More'
 [Author] # Used in authorbox
   name = "Imageless Thought"
   bio = 'On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.'
