@@ -38,7 +38,7 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 
-	<link rel="shortcut icon" href="{{ "/mainroad/gallery/images/bulb-fav.svg" | relURL }}">
+	<link rel="shortcut icon" href="{{ "/mainroad/gallery/images/bulb02.svg" | relURL }}">
 	{{- if not .Site.IsServer }}
 		{{ template "_internal/google_analytics.html" . }}
 	{{- end }}

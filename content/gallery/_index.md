@@ -118,14 +118,15 @@ authorbox: "True"
     text-decoration-color: transparent!important;
     }
 
-    a.page-link:hover {
-        background-color: #B9DCD2;
-        color: black;
+    button.page-link:hover {
+        background-color: #B9DCD2!important;
+        color: black!important;
     }
 
-    .page-link.active {
+    button.page-link.active {
       background-color: #336699;
       text-decoration-color: transparent!important;
+      color: white;
     }
 
         .spacer {
