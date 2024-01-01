@@ -6,7 +6,7 @@ below. If you're a newcomer to open source and you haven't contributed to other 
 
 ## Issues
 
-The [issue tracker](https://github.com/vimux/mainroad/issues) is the preferred channel for bug reports and features
+The [issue tracker](https://github.com/vimux/mbaggett/issues) is the preferred channel for bug reports and features
 requests, but please respect the following restrictions:
 
 ### General requirements

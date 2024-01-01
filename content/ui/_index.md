@@ -2,7 +2,7 @@
 title: Web and UI Design
 date: 2023-10-01
 layout: single-owner
-thumbnail: "/mainroad/gallery/images/webdesign.svg"
+thumbnail: "/mbaggett/gallery/images/webdesign.svg"
 exclude_from_recent: true
 authorbox: True
 ---

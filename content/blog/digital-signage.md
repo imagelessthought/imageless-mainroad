@@ -12,7 +12,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
-thumbnail: "/mainroad/gallery/images/digital-sign.svg"
+thumbnail: "/mbaggett/gallery/images/digital-sign.svg"
 ---
 The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well. We will be developing the new solution as open source and will use already available code whenever possible: don't reinvent the wheel.  Unless you have to, that is. 
 <!--more-->
@@ -28,4 +28,4 @@ This time around we will be adding some new features:
 * Screensavers for the <b>Mac</b>, <b>Windows</b>, and <b>Linux</b> will be availale and will be managed the same as digital signs.
 * In addition to playlists for digital signs, users will be able to created hosted Kiosks and Presentations.
 
-For more information, take a look at the <a href="/mainroad/projects/digital-signage" alt="Universal Digital Signage" title="Universal Digital Signage">project page</a>.
+For more information, take a look at the <a href="/mbaggett/digitalsignage" alt="Universal Digital Signage" title="Universal Digital Signage">project page</a>.

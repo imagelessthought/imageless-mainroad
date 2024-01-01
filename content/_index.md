@@ -11,8 +11,8 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk-container">
 <div class="service-desk">
 <div class="img-container">
-<a href="/mainroad/training" alt="Suggested Training" title="Suggested Training">
-<img src="/mainroad/gallery/images/training.svg" alt="Suggested Training">
+<a href="/mbaggett/training" alt="Suggested Training" title="Suggested Training">
+<img src="/mbaggett/gallery/images/training.svg" alt="Suggested Training">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -24,7 +24,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="portals" alt="Online Service Portals" title="Online Service Portals">
-<img src="/mainroad/gallery/images/cloud-computing-blue.svg" alt="Online Service Portals">
+<img src="/mbaggett/gallery/images/cloud-computing-blue.svg" alt="Online Service Portals">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -36,7 +36,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="documentation" alt="Help Documentation" title="Help Documentation">
-<img src="/mainroad/gallery/images/documentation-blue.svg" alt="Help Documentation">
+<img src="/mbaggett/gallery/images/documentation-blue.svg" alt="Help Documentation">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -48,7 +48,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="status" alt="Check Status of Service for an Outage" title="Service Status Check">
-<img src="/mainroad/gallery/images/status-check-blue.svg" alt="Check Status of Service for an Outage">
+<img src="/mbaggett/gallery/images/status-check-blue.svg" alt="Check Status of Service for an Outage">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -60,7 +60,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="repositories" alt="Git Repositories" title="Git Repositories">
-<img src="/mainroad/gallery/images/repos-dark.svg" alt="Git Repositories">
+<img src="/mbaggett/gallery/images/repos-dark.svg" alt="Git Repositories">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -72,7 +72,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="gallery" alt="Gallery" title="Gallery">
-<img src="/mainroad/gallery/images/gallery1.svg" alt="Gallery">
+<img src="/mbaggett/gallery/images/gallery1.svg" alt="Gallery">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -83,8 +83,8 @@ The main goal of the website is to provide a resource for colleagues and project
 
 <div class="service-desk">
 <div class="img-container">
-<a href="projects/web-design" alt="Web and UI Design" title="Web and UI Design">
-<img src="/mainroad/gallery/images/webdesign.svg" alt="Web and UI Design">
+<a href="ui" alt="Web and UI Design" title="Web and UI Design">
+<img src="/mbaggett/gallery/images/webdesign.svg" alt="Web and UI Design">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -95,8 +95,8 @@ The main goal of the website is to provide a resource for colleagues and project
 
 <div class="service-desk">
 <div class="img-container">
-<a href="/mainroad/blog/digital-signage/" alt="Universal Digital Signage" title="Universal Digital Signage">
-<img src="/mainroad/gallery/images/digital-sign.svg" alt="Universal Digital Signage">
+<a href="/mbaggett/blog/digital-signage/" alt="Universal Digital Signage" title="Universal Digital Signage">
+<img src="/mbaggett/gallery/images/digital-sign.svg" alt="Universal Digital Signage">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -107,8 +107,8 @@ The main goal of the website is to provide a resource for colleagues and project
 
 <div class="service-desk">
 <div class="img-container">
-<a href="projects/presents" alt="Personal Presentations" title="Personal Presentations">
-<img src="/mainroad/gallery/images/presents.svg" alt="Personal Presentations">
+<a href="presents" alt="Personal Presentations" title="Personal Presentations">
+<img src="/mbaggett/gallery/images/presents.svg" alt="Personal Presentations">
 </a>
 </div>
 <div style="margin: 0 3rem;">

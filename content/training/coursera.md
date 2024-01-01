@@ -2,7 +2,7 @@
 title: "Coursera"
 date: 2023-12-02
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/coursera.svg"
+thumbnail: "/mbaggett/gallery/images/coursera.svg"
 portalurl: "https://www.coursera.org"
 exclude_from_recent: true
 ---

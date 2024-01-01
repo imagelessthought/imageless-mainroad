@@ -5,7 +5,7 @@
 
 **[Demo](https://mainroad-demo.netlify.app/)** • **[Docs](https://mainroad-demo.netlify.app/docs/)**
 
-![screenshot](https://raw.githubusercontent.com/Vimux/Mainroad/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/Vimux/mbaggett/master/images/screenshot.png)
 
 **Features:**
 
@@ -62,7 +62,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Author] # Used in authorbox
   name = "John Doe"
   bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "/mainroad/gallery/images/avatar.png"
+  avatar = "/mbaggett/gallery/images/avatar.png"
 
 [Params]
   description = "John Doe's Personal blog about everything" # Site description. Used in meta description
@@ -98,7 +98,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "/mainroad/gallery/images/placeholder.png" # Logo image. Path relative to "static"
+  image = "/mbaggett/gallery/images/placeholder.png" # Logo image. Path relative to "static"
   title = "Mainroad" # Logo title, otherwise will use site title
   subtitle = "Just another site" # Logo subtitle
 
@@ -171,7 +171,7 @@ tags:
 menu: main # Optional, add page to a menu. Options: main, side, footer
 
 # Theme-Defined params
-thumbnail: "/mainroad/gallery/images/placeholder.png" # Thumbnail image
+thumbnail: "/mbaggett/gallery/images/placeholder.png" # Thumbnail image
 lead: "Example lead - highlighted near the title" # Lead text
 comments: false # Enable Disqus comments for specific page
 authorbox: true # Enable authorbox for specific page
@@ -192,10 +192,10 @@ For more information about all available standard front matter variables, please
 ## Contributing
 
 Have you found a bug or got an idea for a new feature? Feel free to use the
-[issue tracker](https://github.com/Vimux/mainroad/issues) to let me know. Or make directly a
-[pull request](https://github.com/Vimux/mainroad/pulls), but please respect the following
-[contributing guide](https://github.com/Vimux/mainroad/blob/master/CONTRIBUTING.md).
+[issue tracker](https://github.com/Vimux/mbaggett/issues) to let me know. Or make directly a
+[pull request](https://github.com/Vimux/mbaggett/pulls), but please respect the following
+[contributing guide](https://github.com/Vimux/mbaggett/blob/master/CONTRIBUTING.md).
 
 ## License
 
-This theme is released under the [GPLv2 license](https://github.com/Vimux/mainroad/blob/master/LICENSE.md).
+This theme is released under the [GPLv2 license](https://github.com/Vimux/mbaggett/blob/master/LICENSE.md).

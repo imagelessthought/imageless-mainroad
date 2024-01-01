@@ -2,7 +2,7 @@
 title: "Linux Professional Institute"
 date: 2023-11-26
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/lpi-logo.png"
+thumbnail: "/mbaggett/gallery/images/lpi-logo.png"
 portalurl: "https://www.lpi.org"
 exclude_from_recent: true
 ---

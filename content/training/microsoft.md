@@ -2,7 +2,7 @@
 title: "Microsoft: Learning Paths"
 date: 2023-11-29
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/microsoft.svg"
+thumbnail: "/mbaggett/gallery/images/microsoft.svg"
 portalurl: "https://learn.microsoft.com/en-us/training"
 exclude_from_recent: true
 ---

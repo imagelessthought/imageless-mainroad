@@ -9,7 +9,7 @@ postauthorinfo: Career Essentials in Generative AI by Microsoft and LinkedIn
 postauthorarea: LinkedInLearning
 postemail: 
 posturl: 
-thumbnail: "/mainroad/gallery/images/ai.svg"
+thumbnail: "/mbaggett/gallery/images/ai.svg"
 ---
 ## What is Generative AI?
 

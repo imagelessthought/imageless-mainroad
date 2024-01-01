@@ -1,4 +1,4 @@
-baseurl = "https://imagelessthought.github.io/mainroad/"
+baseurl = "https://imagelessthought.github.io/mbaggett/"
 title = "Imageless Thought"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
@@ -25,7 +25,7 @@ sectionPagesMenu = 'main posts departments'
     weight = 20
 [[menu.main]]
     name = 'Documentation'
-    pageRef = '/documentation'
+    pageRef = '/documentation/'
     weight = 30
 # [[menu.main]]
 #    name = 'Departments'
@@ -82,19 +82,19 @@ sectionPagesMenu = 'main posts departments'
     parent = 'More'
 [[menu.main]]
     name = 'Web and UI Design'
-    pageRef = '/projects/web-design'
+    pageRef = '/ui/'
     weight = 8
     identifier = 'Web-UI'
     parent = 'More'
 [[menu.main]]
     name = 'Digital Signage'
-    pageRef = '/blog/digital-signage'
+    pageRef = '/digitalsignage/'
     weight = 9
     identifier = 'Digital Signage'
     parent = 'More'
 [[menu.main]]
     name = 'Presentations'
-    pageRef = '/projects/presents'
+    pageRef = '/presents/'
     weight = 10
     identifier = 'Presentations'
     parent = 'More'

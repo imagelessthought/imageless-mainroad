@@ -13,7 +13,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
-thumbnail: "/mainroad/gallery/images/modern-campus.png"
+thumbnail: "/mbaggett/gallery/images/modern-campus.png"
 ---
 The UNT campus is migrating from Drupal 7 to [Modern Campus, Omni CMS](https://moderncampus.com/resources/index.html 'Modern Campus and Omni CMS website'). This page is intended to provide the CVAD web migration team with the information they need to create the IT Services pages on the new website.
 <!--more-->
@@ -24,15 +24,15 @@ In the past we have maintained a separate support-focused website for our users:
 A link will need to be on the CVAD website that directs our users to the UNT Helpdesk to report IT issues or make a request, each area will have a custom landing pages, however. I have setup a redirect that can be used for our link. Their is not an official logo at present, but the logos below are candiates I proposed that use the [current brand colors](https://identityguide.unt.edu/create-our-look/color 'UNT Branding Colors').  They are in **SVG** format.  You can edit the colors of an svg file using this [free website](https://deeditor.com/ "DeEditor: CVG Editor").   
 
 <p style="margin-bottom: 1.5rem">
-<img src="/mainroad/gallery/images/helpdesk-branded.svg" class="smpic">
-<img src="/mainroad/gallery/images/helpdesk-branded3.svg" class="smpic">
-<img src="/mainroad/gallery/images/helpdesk-branded4.svg" class="smpic">
-<img src="/mainroad/gallery/images/helpdesk-branded2.svg" class="smpic">
-<img src="/mainroad/gallery/images/helpdesk-branded5.svg" class="smpic">
-<img src="/mainroad/gallery/images/helpdesk_00853E.svg" class="smpic">
-<img src="/mainroad/gallery/images/helpdesk_509E2F.svg" class="smpic">
-<img src="/mainroad/gallery/images/helpdesk_B9DCD2.svg" class="smpic">
-<img src="/mainroad/gallery/images/helpdesk_C4D600.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk-branded.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk-branded3.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk-branded4.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk-branded2.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk-branded5.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk_00853E.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk_509E2F.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk_B9DCD2.svg" class="smpic">
+<img src="/mbaggett/gallery/images/helpdesk_C4D600.svg" class="smpic">
 </p>
 
 ## CVAD Website ##

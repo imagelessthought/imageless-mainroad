@@ -8,7 +8,7 @@ postauthorinfo: College of Visual Arts and Design
 postauthorarea: 
 postemail: 
 posturl:
-thumbnail: "/mainroad/gallery/images/digital-sign.svg"
+thumbnail: "/mbaggett/gallery/images/digital-sign.svg"
 ---
 The **Universal Digital Signage** web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (**hosts**) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an *interrupt* schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to **channels** to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), **interactive kiosks**, and hosted online **presentations**.   
 <!--more-->

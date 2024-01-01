@@ -2,7 +2,7 @@
 title: "ACI Learning"
 date: 2023-12-05
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/aci.png"
+thumbnail: "/mbaggett/gallery/images/aci.png"
 portalurl: "https://www.itpro.tv"
 exclude_from_recent: true
 ---

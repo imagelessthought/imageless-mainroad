@@ -8,7 +8,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: http://imagelessthought.github.io/presents 
-thumbnail: "/mainroad/gallery/images/digital-sign.svg"
+thumbnail: "/mbaggett/gallery/images/digital-sign.svg"
 exclude_from_recent: true
 authorbox: True
 ---

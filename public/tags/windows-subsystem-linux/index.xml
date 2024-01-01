@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows Subsystem Linux on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/tags/windows-subsystem-linux/</link>
+    <link>https://imagelessthought.github.io/mbaggett/tags/windows-subsystem-linux/</link>
     <description>Recent content in Windows Subsystem Linux on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://imagelessthought.github.io/mainroad/tags/windows-subsystem-linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imagelessthought.github.io/mbaggett/tags/windows-subsystem-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows Subsystem For Linux</title>
-      <link>https://imagelessthought.github.io/mainroad/blog/windows-subsystem-linux/</link>
+      <link>https://imagelessthought.github.io/mbaggett/blog/windows-subsystem-linux/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mainroad/blog/windows-subsystem-linux/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/blog/windows-subsystem-linux/</guid>
       <description>&lt;p&gt;Over the past two years years Microsoft has made some significant improvements to the &lt;b&gt;Windows Subsystem for Linux&lt;/b&gt;. The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps. &lt;b&gt;WSL 2&lt;/b&gt; is a new version of the Windows Subsystem for Linux architecture, available beginning with Windows 10-Version 1903-Build 18362, that powers the Windows Subsystem for Linux to run ELF64 (Executable and Linkable Format) Linux binaries on Windows. WSL2 provides a truly great resource for developers and application testing.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,7 +2,7 @@
 title: "Microsoft: Azure Cloud Computing"
 date: 2023-12-02
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/azure.svg"
+thumbnail: "/mbaggett/gallery/images/azure.svg"
 portalurl: "https://portal.azure.com/"
 exclude_from_recent: true
 ---

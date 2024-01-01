@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git Repositories on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/repositories/</link>
+    <link>https://imagelessthought.github.io/mbaggett/repositories/</link>
     <description>Recent content in Git Repositories on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://imagelessthought.github.io/mainroad/repositories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imagelessthought.github.io/mbaggett/repositories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub</title>
-      <link>https://imagelessthought.github.io/mainroad/repositories/github/</link>
+      <link>https://imagelessthought.github.io/mbaggett/repositories/github/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mainroad/repositories/github/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/repositories/github/</guid>
       <description> </description>
     </item>
   </channel>

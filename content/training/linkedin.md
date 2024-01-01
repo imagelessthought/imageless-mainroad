@@ -2,7 +2,7 @@
 title: "LinkedIn Learning"
 date: 2023-12-02
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/linkedin.svg"
+thumbnail: "/mbaggett/gallery/images/linkedin.svg"
 portalurl: "https://www.linkedin.com/learning"
 exclude_from_recent: true
 ---

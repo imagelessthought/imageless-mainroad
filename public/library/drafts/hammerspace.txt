@@ -14,7 +14,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
-thumbnail: "/mainroad/gallery/images/server-icon.svg"
+thumbnail: "/mbaggett/gallery/images/server-icon.svg"
 ---
 [Pure Storage](https://www.purestorage.com/ 'Pure Storage Website') is the new file storage solution the UNT System is migrating to. Below are our notes on setting the proper file permissions on the new shares and migrating the files to the new server.
 <!--more-->

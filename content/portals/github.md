@@ -2,7 +2,7 @@
 title: "GitHub: Version Control"
 date: 2023-12-05
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/github-purple.svg"
+thumbnail: "/mbaggett/gallery/images/github-purple.svg"
 portalurl: "https://github.com/"
 exclude_from_recent: true
 ---

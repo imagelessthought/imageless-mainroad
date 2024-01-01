@@ -6,7 +6,7 @@ date: 2023-10-03
 owner:
   - name: College of Visual Arts and Design
     url: https://itservices.cvad.unt.edu
-thumbnail: "/mainroad/gallery/images/training.svg"
+thumbnail: "/mbaggett/gallery/images/training.svg"
 exclude_from_recent: true
 authorbox: True
 area: dept

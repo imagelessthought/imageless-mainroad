@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microsoft on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/tags/microsoft/</link>
+    <link>https://imagelessthought.github.io/mbaggett/tags/microsoft/</link>
     <description>Recent content in Microsoft on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://imagelessthought.github.io/mainroad/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imagelessthought.github.io/mbaggett/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Generative AI and Microsoft Copilot</title>
-      <link>https://imagelessthought.github.io/mainroad/blog/ms-linkedin-ai/</link>
+      <link>https://imagelessthought.github.io/mbaggett/blog/ms-linkedin-ai/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mainroad/blog/ms-linkedin-ai/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/blog/ms-linkedin-ai/</guid>
       <description>Introduction to Generative AI and Microsoft Copilot This document is an article that explains the concept, history, and applications of generative AI, a type of AI that can create new content. It also introduces Microsoft Copilot, a tool that uses generative AI to assist users with various tasks in Microsoft 365 applications.&#xA;What is Generative AI? Generative AI is a paradigm shift for the future of work, where humans supervise and machines generate.</description>
     </item>
   </channel>

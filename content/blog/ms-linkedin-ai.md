@@ -14,7 +14,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://itservices.cvad.unt.edu
-thumbnail: "/mainroad/gallery/images/ms_copilot.png"
+thumbnail: "/mbaggett/gallery/images/ms_copilot.png"
 ---
 ## Introduction to Generative AI and Microsoft Copilot
 
@@ -78,4 +78,4 @@ This section discusses the ethical challenges and responsibilities that arise fr
 - Generative AI users and creators need to develop the skill of ethical analysis and decision making in AI, which involves identifying the stakeholders, values, impacts, and alternatives involved in any AI project or task.
 - Generative AI users and creators can use some frameworks and tools to help them with ethical analysis and decision making in AI, such as the Ethical Matrix, the AI Ethics Canvas, the Microsoft Responsible AI Principles, and the AI Ethics Guidelines.
 
-The course transcript that was used to generate the data can be found [here](/mainroad/projects/ms-linkedin-ai-transcript 'Course Transcript - Input for AI'). 
+The course transcript that was used to generate the data can be found [here](/mbaggett/projects/ms-linkedin-ai-transcript 'Course Transcript - Input for AI'). 

@@ -2,7 +2,7 @@
 title: IT Support Management
 layout: single-owner
 date: 2023-10-01
-thumbnail: "/mainroad/gallery/images/exhibit.svg"
+thumbnail: "/mbaggett/gallery/images/exhibit.svg"
 exclude_from_recent: true
 authorbox: True
 ---

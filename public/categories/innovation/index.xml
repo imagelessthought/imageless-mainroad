@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Innovation on Imageless Thought</title>
-    <link>https://imagelessthought.github.io/mainroad/categories/innovation/</link>
+    <link>https://imagelessthought.github.io/mbaggett/categories/innovation/</link>
     <description>Recent content in Innovation on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://imagelessthought.github.io/mainroad/categories/innovation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imagelessthought.github.io/mbaggett/categories/innovation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Universal Digital Signage</title>
-      <link>https://imagelessthought.github.io/mainroad/blog/digital-signage/</link>
+      <link>https://imagelessthought.github.io/mbaggett/blog/digital-signage/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mainroad/blog/digital-signage/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/blog/digital-signage/</guid>
       <description>&lt;p&gt;The signage solution we have in place has served us well but it is time for an update. The original open source developer of the solution has taken their project proprietary as well. We will be developing the new solution as open source and will use already available code whenever possible: don&amp;rsquo;t reinvent the wheel.  Unless you have to, that is.&lt;/p&gt;</description>
     </item>
   </channel>

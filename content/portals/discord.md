@@ -2,7 +2,7 @@
 title: "Discord"
 date: 2023-12-04
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/discord.svg"
+thumbnail: "/mbaggett/gallery/images/discord.svg"
 portalurl: "https://discord.com"
 exclude_from_recent: true
 ---

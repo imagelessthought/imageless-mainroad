@@ -2,7 +2,7 @@
 title: "Raspberry Pi"
 date: 2023-12-09
 layout: single-portal
-thumbnail: "/mainroad/gallery/images/rpi.svg"
+thumbnail: "/mbaggett/gallery/images/rpi.svg"
 portalurl: "https://www.raspberrypi.com"
 exclude_from_recent: true
 ---
