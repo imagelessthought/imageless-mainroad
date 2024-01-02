@@ -6,21 +6,25 @@
     <description>Recent content in Training on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://imagelessthought.github.io/mbaggett/categories/training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mbaggett/categories/training/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Professional Essentials</title>
       <link>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</guid>
       <description>Practical Github Actions Introduction Creating a MarketPlace GitHub action When you&amp;rsquo;re applying for a job, employers want to see samples of work that gives them a good idea of your abilities. In this course, I&amp;rsquo;m going to show you how to build the type of project that employers would love to see, a GitHub Action that&amp;rsquo;s featured in the GitHub Marketplace. We&amp;rsquo;ll be working in a variety of languages and formats like Python, shell scripts, YAML, XML and Docker containers.</description>
     </item>
+    
     <item>
       <title>Introduction to Generative AI and Microsoft Copilot</title>
       <link>https://imagelessthought.github.io/mbaggett/blog/ms-linkedin-ai/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://imagelessthought.github.io/mbaggett/blog/ms-linkedin-ai/</guid>
-      <description>Introduction to Generative AI and Microsoft Copilot This document is an article that explains the concept, history, and applications of generative AI, a type of AI that can create new content. It also introduces Microsoft Copilot, a tool that uses generative AI to assist users with various tasks in Microsoft 365 applications.&#xA;What is Generative AI? Generative AI is a paradigm shift for the future of work, where humans supervise and machines generate.</description>
+      <description>Introduction to Generative AI and Microsoft Copilot This document is an article that explains the concept, history, and applications of generative AI, a type of AI that can create new content. It also introduces Microsoft Copilot, a tool that uses generative AI to assist users with various tasks in Microsoft 365 applications.
+What is Generative AI? Generative AI is a paradigm shift for the future of work, where humans supervise and machines generate.</description>
     </item>
+    
   </channel>
 </rss>

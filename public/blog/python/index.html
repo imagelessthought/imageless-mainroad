@@ -23,7 +23,8 @@
 <meta itemprop="dateModified" content="2023-12-14T00:00:00+00:00" />
 <meta itemprop="wordCount" content="1262">
 <meta itemprop="keywords" content="Computer Languages," />
-		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Introduction to Python for Non-Computer Science Students"/>
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Introduction to Python for Non-Computer Science Students"/>
 <meta name="twitter:description" content="Welcome to the world of Python programming! This tutorial is designed for undergraduate students who may not have a background in computer science but want to learn the basics of Python. Python is a versatile and powerful programming language that has gained widespread popularity for its simplicity, readability, and flexibility. Python is beginner-friendly and widely used in various fields, including data science, web development, and automation. It was created by Guido van Rossum and first released in 1991, with the goal of making programming accessible and enjoyable. Named after the British comedy group Monty Python, the language has evolved into a dynamic and user-friendly tool used across various domains of information technology."/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +35,7 @@
 	<link rel="stylesheet" href="/mbaggett/css/style.css">
 	<link rel="stylesheet" href="/mbaggett/css/custom.css">
 
-	<link rel="shortcut icon" href="/mbaggett/gallery/images/bulb02.svg">
+	<link rel="shortcut icon" href="/mbaggett/mbaggett/gallery/images/bulb02.svg">
 		
 </head>
 <body class="body">
@@ -300,113 +301,113 @@
 <p>Choose an Integrated Development Environment (IDE) to make coding easier. Examples include <a href="https://www.jetbrains.com/pycharm/">PyCharm</a>, <a href="https://code.visualstudio.com/">VSCode</a>, and <a href="https://jupyter.org/">Jupyter Notebooks</a>.</p>
 <h2 id="2-basic-python-commands-and-concepts">2. Basic Python Commands and Concepts</h2>
 <h3 id="variables-and-data-types">Variables and Data Types</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Variables</span>
-</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, Python!&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Data Types</span>
-</span></span><span style="display:flex;"><span>integer <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span>floating_point <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14</span>
-</span></span><span style="display:flex;"><span>string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Python&#34;</span>
-</span></span><span style="display:flex;"><span>boolean <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
-</span></span></code></pre></div><h3 id="arithmetic-operations">Arithmetic Operations</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Arithmetic</span>
-</span></span><span style="display:flex;"><span>sum_result <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span>
-</span></span><span style="display:flex;"><span>difference <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span>product <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">6</span>
-</span></span><span style="display:flex;"><span>quotient <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>
-</span></span></code></pre></div><h3 id="strings-and-string-manipulation">Strings and String Manipulation</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Strings</span>
-</span></span><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, World!&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># String Manipulation</span>
-</span></span><span style="display:flex;"><span>concatenation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;World&#34;</span>
-</span></span><span style="display:flex;"><span>length <span style="color:#f92672">=</span> len(message)
-</span></span><span style="display:flex;"><span>substring <span style="color:#f92672">=</span> message[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">5</span>]
-</span></span></code></pre></div><h3 id="lists-and-tuples">Lists and Tuples</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Lists</span>
-</span></span><span style="display:flex;"><span>fruits <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;apple&#34;</span>, <span style="color:#e6db74">&#34;banana&#34;</span>, <span style="color:#e6db74">&#34;orange&#34;</span>]
-</span></span><span style="display:flex;"><span>fruits<span style="color:#f92672">.</span>append(<span style="color:#e6db74">&#34;grape&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Tuples</span>
-</span></span><span style="display:flex;"><span>coordinates <span style="color:#f92672">=</span> (<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>)
-</span></span></code></pre></div><h3 id="conditional-statements">Conditional Statements</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># If statement</span>
-</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;x is greater than 5&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">elif</span> x <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;x is equal to 5&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;x is less than 5&#34;</span>)
-</span></span></code></pre></div><h3 id="loops">Loops</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># For loop</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">5</span>):
-</span></span><span style="display:flex;"><span>    print(i)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># While loop</span>
-</span></span><span style="display:flex;"><span>counter <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> counter <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>:
-</span></span><span style="display:flex;"><span>    print(counter)
-</span></span><span style="display:flex;"><span>    counter <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
-</span></span></code></pre></div><h2 id="3-user-defined-functions">3. User-Defined Functions</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Variables</span>
+x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+y <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, Python!&#34;</span>
+
+<span style="color:#75715e"># Data Types</span>
+integer <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+floating_point <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14</span>
+string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Python&#34;</span>
+boolean <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</code></pre></div><h3 id="arithmetic-operations">Arithmetic Operations</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Arithmetic</span>
+sum_result <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span>
+difference <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>
+product <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">6</span>
+quotient <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>
+</code></pre></div><h3 id="strings-and-string-manipulation">Strings and String Manipulation</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Strings</span>
+message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, World!&#34;</span>
+
+<span style="color:#75715e"># String Manipulation</span>
+concatenation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;World&#34;</span>
+length <span style="color:#f92672">=</span> len(message)
+substring <span style="color:#f92672">=</span> message[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">5</span>]
+</code></pre></div><h3 id="lists-and-tuples">Lists and Tuples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Lists</span>
+fruits <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;apple&#34;</span>, <span style="color:#e6db74">&#34;banana&#34;</span>, <span style="color:#e6db74">&#34;orange&#34;</span>]
+fruits<span style="color:#f92672">.</span>append(<span style="color:#e6db74">&#34;grape&#34;</span>)
+
+<span style="color:#75715e"># Tuples</span>
+coordinates <span style="color:#f92672">=</span> (<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>)
+</code></pre></div><h3 id="conditional-statements">Conditional Statements</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># If statement</span>
+x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+<span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>:
+    print(<span style="color:#e6db74">&#34;x is greater than 5&#34;</span>)
+<span style="color:#66d9ef">elif</span> x <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span>:
+    print(<span style="color:#e6db74">&#34;x is equal to 5&#34;</span>)
+<span style="color:#66d9ef">else</span>:
+    print(<span style="color:#e6db74">&#34;x is less than 5&#34;</span>)
+</code></pre></div><h3 id="loops">Loops</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># For loop</span>
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">5</span>):
+    print(i)
+
+<span style="color:#75715e"># While loop</span>
+counter <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">while</span> counter <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>:
+    print(counter)
+    counter <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</code></pre></div><h2 id="3-user-defined-functions">3. User-Defined Functions</h2>
 <h3 id="defining-functions">Defining Functions</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello, &#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;!&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> greet(<span style="color:#e6db74">&#34;Alice&#34;</span>)
-</span></span><span style="display:flex;"><span>print(result)
-</span></span></code></pre></div><h3 id="function-arguments-and-return-values">Function Arguments and Return Values</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_numbers</span>(x, y):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>sum_result <span style="color:#f92672">=</span> add_numbers(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">7</span>)
-</span></span><span style="display:flex;"><span>print(sum_result)
-</span></span></code></pre></div><h3 id="scope-of-variables">Scope of Variables</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>global_variable <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">print_variable</span>():
-</span></span><span style="display:flex;"><span>    local_variable <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-</span></span><span style="display:flex;"><span>    print(global_variable)  <span style="color:#75715e"># Access global variable</span>
-</span></span><span style="display:flex;"><span>    print(local_variable)   <span style="color:#75715e"># Access local variable</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print_variable()
-</span></span></code></pre></div><h3 id="examples-of-user-defined-functions">Examples of User-Defined Functions</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Function to check if a number is even</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">is_even</span>(number):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> number <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Function to calculate the square of a number</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">square</span>(number):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> number <span style="color:#f92672">**</span> <span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage</span>
-</span></span><span style="display:flex;"><span>print(is_even(<span style="color:#ae81ff">4</span>))
-</span></span><span style="display:flex;"><span>print(square(<span style="color:#ae81ff">3</span>))
-</span></span></code></pre></div><h2 id="4-regular-expressions">4. Regular Expressions</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name):
+    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello, &#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;!&#34;</span>
+
+result <span style="color:#f92672">=</span> greet(<span style="color:#e6db74">&#34;Alice&#34;</span>)
+print(result)
+</code></pre></div><h3 id="function-arguments-and-return-values">Function Arguments and Return Values</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_numbers</span>(x, y):
+    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y
+
+sum_result <span style="color:#f92672">=</span> add_numbers(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">7</span>)
+print(sum_result)
+</code></pre></div><h3 id="scope-of-variables">Scope of Variables</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">global_variable <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">print_variable</span>():
+    local_variable <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+    print(global_variable)  <span style="color:#75715e"># Access global variable</span>
+    print(local_variable)   <span style="color:#75715e"># Access local variable</span>
+
+print_variable()
+</code></pre></div><h3 id="examples-of-user-defined-functions">Examples of User-Defined Functions</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Function to check if a number is even</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">is_even</span>(number):
+    <span style="color:#66d9ef">return</span> number <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>
+
+<span style="color:#75715e"># Function to calculate the square of a number</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">square</span>(number):
+    <span style="color:#66d9ef">return</span> number <span style="color:#f92672">**</span> <span style="color:#ae81ff">2</span>
+
+<span style="color:#75715e"># Example usage</span>
+print(is_even(<span style="color:#ae81ff">4</span>))
+print(square(<span style="color:#ae81ff">3</span>))
+</code></pre></div><h2 id="4-regular-expressions">4. Regular Expressions</h2>
 <h3 id="introduction-to-regular-expressions">Introduction to Regular Expressions</h3>
 <p>Regular expressions (regex) are patterns used for string matching and manipulation.</p>
 <h3 id="using-the-re-module">Using the <code>re</code> Module</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> re
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Matching a pattern</span>
-</span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\d+&#34;</span>  <span style="color:#75715e"># Matches one or more digits</span>
-</span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;There are 123 apples.&#34;</span>
-</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>search(pattern, text)
-</span></span><span style="display:flex;"><span>print(result<span style="color:#f92672">.</span>group())
-</span></span></code></pre></div><h3 id="basic-regular-expression-patterns">Basic Regular Expression Patterns</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> re
+
+<span style="color:#75715e"># Matching a pattern</span>
+pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\d+&#34;</span>  <span style="color:#75715e"># Matches one or more digits</span>
+text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;There are 123 apples.&#34;</span>
+result <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>search(pattern, text)
+print(result<span style="color:#f92672">.</span>group())
+</code></pre></div><h3 id="basic-regular-expression-patterns">Basic Regular Expression Patterns</h3>
 <ul>
 <li><code>\d</code>: Matches any digit</li>
 <li><code>\w</code>: Matches any alphanumeric character</li>
 <li><code>.</code>: Matches any character except a newline</li>
 </ul>
 <h3 id="extracting-information-from-text">Extracting Information from Text</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Extracting email addresses from text</span>
-</span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Contact us at john@example.com or alice@gmail.com&#34;</span>
-</span></span><span style="display:flex;"><span>email_pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b&#34;</span>
-</span></span><span style="display:flex;"><span>emails <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(email_pattern, text)
-</span></span><span style="display:flex;"><span>print(emails)
-</span></span></code></pre></div><h2 id="5-debugging-in-python">5. Debugging in Python</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Extracting email addresses from text</span>
+text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Contact us at john@example.com or alice@gmail.com&#34;</span>
+email_pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b&#34;</span>
+emails <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(email_pattern, text)
+print(emails)
+</code></pre></div><h2 id="5-debugging-in-python">5. Debugging in Python</h2>
 <h3 id="common-types-of-errors">Common Types of Errors</h3>
 <ol>
 <li>SyntaxError: Mistakes in syntax.</li>
@@ -414,22 +415,22 @@
 <li>TypeError: Performing an operation on incompatible data types.</li>
 </ol>
 <h3 id="using-print-statements-for-debugging">Using <code>print</code> Statements for Debugging</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Debugging with print statements</span>
-</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Value of x:&#34;</span>, x)
-</span></span></code></pre></div><h3 id="debugging-tools-and-techniques">Debugging Tools and Techniques</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Debugging with print statements</span>
+x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+print(<span style="color:#e6db74">&#34;Value of x:&#34;</span>, x)
+</code></pre></div><h3 id="debugging-tools-and-techniques">Debugging Tools and Techniques</h3>
 <ul>
 <li><strong>Debugger:</strong> Use a debugger to step through code and inspect variables.</li>
 <li><strong>Logging:</strong> Use the <code>logging</code> module to log messages during execution.</li>
 <li><strong>Try-Except Blocks:</strong> Use <code>try</code> and <code>except</code> to handle exceptions gracefully.</li>
 </ul>
 <h3 id="handling-exceptions">Handling Exceptions</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Handling exceptions</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
-</span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">0</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ZeroDivisionError</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Cannot divide by zero.&#34;</span>)
-</span></span></code></pre></div><h2 id="resources-for-learning-python">Resources for Learning Python:</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Handling exceptions</span>
+<span style="color:#66d9ef">try</span>:
+    result <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ZeroDivisionError</span>:
+    print(<span style="color:#e6db74">&#34;Cannot divide by zero.&#34;</span>)
+</code></pre></div><h2 id="resources-for-learning-python">Resources for Learning Python:</h2>
 <ul>
 <li>Python.org: The official Python website provides documentation, tutorials, and resources for beginners to advanced users.</li>
 <li>Codecademy - Learn Python: Codecademy offers an interactive and hands-on approach to learning Python, making it suitable for beginners.</li>
@@ -497,7 +498,7 @@
 </tr>
 </tbody>
 </table>
-<p>try: result = 10 / 0 except ZeroDivisionError: print(&ldquo;Cannot divide by zero.&rdquo;)` |</p>
+<p>try: result = 10 / 0 except ZeroDivisionError: print(&ldquo;Cannot divide by zero.&quot;)` |</p>
 <p>Feel free to experiment with these examples and use the cheat sheet as a quick reference while exploring the world of Python programming. Happy coding!</p>
 		</div>
 		<footer class="post__footer">

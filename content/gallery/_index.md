@@ -47,16 +47,17 @@ authorbox: "True"
    /* box-shadow: white 0 0 1px 1px;  */
     }
 
-    .image-link {
-      display: block;
-      text-decoration: none;
-    }
 
     #gallery .image-container img {
       width: 150px;
       box-shadow: #53565A 0 0 3px 1px;
       outline: 1px solid transparent;
       padding: .5rem!important;
+    }
+
+    .image-link {
+      display: block;
+      text-decoration: none;
     }
 
     img:hover {
@@ -74,6 +75,7 @@ authorbox: "True"
       margin-top: 1rem;
       border-radius: 4px;
       box-shadow: #2d2c2c 0 0 1px 1px;
+      height: 3rem;
     }
 
     body::after {
