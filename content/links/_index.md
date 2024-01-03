@@ -18,9 +18,7 @@ authorbox: "True"
       flex-wrap: wrap;
       justify-content: flex-start;
       align-items: center;
-      margin-bottom: 2rem;
-      margin-top: 0;
-      padding: 0 1rem 1rem 1rem;
+
     }
 
     #gallery {
@@ -28,22 +26,24 @@ authorbox: "True"
       flex-wrap: wrap;
       justify-content: flex-start;
       width: 100%;
+      margin-top: 2rem;
     }
 
     .image-wrapper {
       display: flex;
       flex-direction: column;
       align-items: center; /* Center images horizontally */
-      margin: 5px;
+      margin: 0;
     }
 
 .image-container {
   position: relative;
-  width: 150px;
-  height: 200px; /* Maintain a fixed height */
+  width: 75px;
+  height: 75px; /* Maintain a fixed height */
   box-sizing: content-box;
   overflow: hidden;
-  box-shadow: #53565A 0 0 3px 1px;
+  box-shadow: #B9DCD2 0 0 10px 3px;
+  border: 3px solid #336699;
   outline: 1px solid transparent;
   border-radius: 4px;
   background-color: white;
@@ -69,12 +69,12 @@ authorbox: "True"
   background-color: transparent;
   color: white;
   font-size: .85em;
-  padding: 1rem .5rem!important;
+  padding: .5rem .5rem 1rem .5rem!important;
   box-sizing: border-box;
   height: 4rem; /* Set the height for multi-line captions */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   margin-top: 1em;
 }
 
@@ -166,6 +166,7 @@ authorbox: "True"
 </head>
 
 <body>
+<p>This is a new module I created and am currently testing.  It can be used with any static page solution or content management system (CMS).  It is intended to create a database of links that a user may search using a query or tags.  In development.  <b>This is a Github CoPilot</b> software development test project.  
   <div class="body-container">
     <div class="pagination" id="pagination">
       <button id="prevPage">&lt;</button>

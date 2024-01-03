@@ -98,6 +98,12 @@ sectionPagesMenu = 'main posts departments'
     weight = 10
     identifier = 'Presentations'
     parent = 'More'
+    [[menu.main]]
+    name = 'Links (NEW)'
+    pageRef = '/links/'
+    weight = 11
+    identifier = 'Presentations'
+    parent = 'More'
 [Author] # Used in authorbox
   name = "Imageless Thought"
   bio = 'On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.'
