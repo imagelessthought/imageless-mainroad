@@ -5,6 +5,7 @@
     <link>https://imagelessthought.github.io/mbaggett/gallery/</link>
     <description>Recent content in Image Gallery on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://imagelessthought.github.io/mbaggett/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://imagelessthought.github.io/mbaggett/gallery/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

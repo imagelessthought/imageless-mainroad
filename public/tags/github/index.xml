@@ -6,24 +6,21 @@
     <description>Recent content in GitHub on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imagelessthought.github.io/mbaggett/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://imagelessthought.github.io/mbaggett/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Professional Essentials</title>
       <link>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</guid>
       <description>Practical Github Actions Introduction Creating a MarketPlace GitHub action When you&amp;rsquo;re applying for a job, employers want to see samples of work that gives them a good idea of your abilities. In this course, I&amp;rsquo;m going to show you how to build the type of project that employers would love to see, a GitHub Action that&amp;rsquo;s featured in the GitHub Marketplace. We&amp;rsquo;ll be working in a variety of languages and formats like Python, shell scripts, YAML, XML and Docker containers.</description>
     </item>
-    
     <item>
       <title>Get Started with Github and Github Pages</title>
       <link>https://imagelessthought.github.io/mbaggett/blog/github-announcement/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://imagelessthought.github.io/mbaggett/blog/github-announcement/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://git-scm.com&#34; title=&#34;Git Website&#34;&gt;Git&lt;/a&gt; is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is widely used for collaborative software development and &lt;strong&gt;Github&lt;/strong&gt; is a very popular Git platform. Git is used to track changes, keep a complete history of the changes, and allows you to roll back to any point. Owners can grant access to a project and allow others to submit changes: those changes can be reviewed by the owner and merged, rejected, or a separate branch created.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

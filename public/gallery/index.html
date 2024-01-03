@@ -18,8 +18,7 @@
 
 		<meta itemprop="name" content="Image Gallery">
 <meta itemprop="description" content="Imageless Thought">
-		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Image Gallery"/>
+		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Image Gallery"/>
 <meta name="twitter:description" content="Imageless Thought"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +30,7 @@
 	<link rel="stylesheet" href="/mbaggett/css/custom.css">
 	<link rel="alternate" type="application/rss+xml" href="/mbaggett/gallery/index.xml" title="Imageless Thought">
 
-	<link rel="shortcut icon" href="/mbaggett/mbaggett/gallery/images/bulb02.svg">
+	<link rel="shortcut icon" href="/mbaggett/gallery/images/bulb02.svg">
 		
 </head>
 <body class="body">
@@ -191,169 +190,164 @@
 		<h1 class="main__title">Image Gallery</h1>  
 	</header>
 	<div class="content main__content clearfix">
-		  <style>
-    html {
-      background-color: #2d2c2c;
-      font-family: 'Open Sans', sans-serif;
-      color: white;
-    }
+		<style>
+  /* Your existing CSS styles here */
 
-    body-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      align-items: center;
-      margin-bottom: 2rem;
-      margin-top: 0;
-      padding: 0 1rem 1rem 1rem;
-    }
+  .body-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    padding: 0 1rem 1rem 1rem;
+  }
 
-    .main__title {
-        margin-bottom: 1rem!important;   
-    }
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
 
-    #gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start; /* Left align items horizontally */
-      width: 100%;
-    }
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images horizontally */
+    margin: 5px;
+  }
 
-    #gallery .image-container {
-      width: 150px;
-  /*  height: 340px;  */
-      margin: 5px;
-      padding: 5px;
-      overflow: hidden;
-      border: 1px solid transparent;
-      border-radius: 4px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color:  #2d2c2c; /* #707B7C; */
-   /* box-shadow: white 0 0 1px 1px;  */
-    }
+  .image-container {
+    position: relative;
+    width: 150px;
+    height: 200px; /* Maintain a fixed height */
+    box-sizing: content-box;
+    overflow: hidden;
+    box-shadow: #53565A 0 0 3px 1px;
+    outline: 1px solid transparent;
+    border-radius: 4px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center images vertically */
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
 
+  .image-container:hover {
+    background-color: white;
+  }
 
-    #gallery .image-container img {
-      width: 150px;
-      box-shadow: #53565A 0 0 3px 1px;
-      outline: 1px solid transparent;
-      padding: .5rem!important;
-    }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem !important;
+  }
 
-    .image-link {
-      display: block;
-      text-decoration: none;
-    }
+  .caption-container {
+    width: 150px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-size: .85em;
+    padding: 1rem .5rem!important;
+    box-sizing: border-box;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+  }
 
-    img:hover {
-      box-shadow: #B9DCD2 0 0 3px 3px;
-      outline: 1px solid #336699;
-      background-color: white;
-    }
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+    gap: .5rem 0;
+  }
 
-    .caption {
-      text-align: center;
-      padding: 5px;
-      font-size: 0.65rem;
-      background-color: #2d2c2c;
-      color: white;
-      margin-top: 1rem;
-      border-radius: 4px;
-      box-shadow: #2d2c2c 0 0 1px 1px;
-      height: 3rem;
-    }
-
-    body::after {
-      content: '';
-      flex: auto;
-    }
-
-    .pagination {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: left;
-      align-items: center;
-      width: 100%;
-      margin: 2rem 0 2rem 0;
-      gap: .5rem 0;
-    }
-
-    @media screen and (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     .pagination {
       justify-content: center;
     }
-    .image-container {
-      width: calc(50% - 40px);
+
+    .image-wrapper {
+      width: calc(50% - 10px);
       height: auto;
     }
 
     #gallery {
-      justify-content: center; /* Left align items horizontally */
+      justify-content: center;
     }
   }
-    .page-link {
-      margin: 0 5px;
-      padding: 5px;
-      color: white;
-      background-color: #2d2c2c;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      text-decoration-color: transparent!important;
-    }
 
-    a.page-link:link, a.page-link:visited, a.page-link:hover, a.page-link:active {
-    text-decoration-color: transparent!important;
-    }
+  .page-link {
+    margin: 0 5px;
+    padding: 5px;
+    color: white;
+    background-color: #2d2c2c;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration-color: transparent !important;
+  }
 
-    button.page-link:hover {
-        background-color: #B9DCD2!important;
-        color: black!important;
-    }
+  a.page-link:link,
+  a.page-link:visited,
+  a.page-link:hover,
+  a.page-link:active {
+    text-decoration-color: transparent !important;
+  }
 
-    button.page-link.active {
-      background-color: #336699;
-      text-decoration-color: transparent!important;
-      color: white;
-    }
+  button.page-link:hover {
+    background-color: #B9DCD2 !important;
+    color: black !important;
+  }
 
-        .spacer {
-      /* Adjust spacer styles as needed */
-      width:30px; /* Example width */
-      height: 30px; /* Example height */
-      display: inline-block;
-    }
+  button.page-link.active {
+    background-color: #336699;
+    text-decoration-color: transparent !important;
+    color: white;
+  }
 
-    #prevPage, #nextPage {
+  .spacer {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+  }
+
+  #prevPage,
+  #nextPage {
     background-color: var(--galnav);
     color: white;
     font-size: 2rem;
     border: 0;
     border-radius: 4px;
-    }
-
-   #prevPage:active, #nextPage:active {
-    background-color: #C0392B!important;
-    color: #ffa500!important;
   }
 
-   #prevPage:hover, #nextPage:hover {
+  #prevPage:active,
+  #nextPage:active {
+    background-color: #C0392B !important;
+    color: #ffa500 !important;
+  }
+
+  #prevPage:hover,
+  #nextPage:hover {
     background-color: #B9DCD2;
     color: black;
   }
-
-  </style>
+</style>
 </head>
 <body>
   <div class="body-container">
-  <div class="pagination" id="pagination">
-   <button id="prevPage">&lt;</button>
+    <div class="pagination" id="pagination">
+      <button id="prevPage">&lt;</button>
+    </div>
+    <div id="gallery"></div>
   </div>
-  <div id="gallery"></div>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       const gallery = document.getElementById("gallery");
       const paginationContainer = document.getElementById("pagination");
       const imagesPerPage = 24;
@@ -363,58 +357,65 @@
       function displayImages() {
         const indexFile = "index.dat";
         fetch(indexFile)
-          .then(response => response.text())
-          .then(data => {
-            const imageFiles = data.trim().split('\n');
-            const filteredFiles = imageFiles.filter(filename => /\.[a-zA-Z0-9]{3,4}$/i.test(filename.trim()));
+          .then((response) => response.text())
+          .then((data) => {
+            const imageEntries = data.trim().split("\n");
+
+            if (imageEntries.length === 0) {
+              console.error("No image entries found in index.dat");
+              return;
+            }
+
+            gallery.innerHTML = ""; // Clear existing content
+
             const startIdx = (currentPage - 1) * imagesPerPage;
             const endIdx = startIdx + imagesPerPage;
+            const displayedEntries = imageEntries.slice(startIdx, endIdx);
 
-            for (let i = startIdx; i < endIdx && i < filteredFiles.length; i++) {
-              const filename = filteredFiles[i];
-              const container = document.createElement("div");
-              container.classList.add("image-container");
-              container.id = `image-${i}`;
+            displayedEntries.forEach((filename, i) => {
+              const imageWrapper = document.createElement("div");
+              imageWrapper.classList.add("image-wrapper");
+
+              const imageContainer = document.createElement("div");
+              imageContainer.classList.add("image-container");
+              imageContainer.id = `image-${i}`;
 
               const imageLink = document.createElement("a");
               imageLink.classList.add("image-link");
+              imageLink.href = `images/${filename.trim()}`;
 
               const image = document.createElement("img");
               const imagePath = `images/${filename.trim()}`;
               image.src = imagePath;
               image.alt = filename.trim();
 
-              imageLink.href = imagePath;
-              imageLink.target = "_self";
               imageLink.appendChild(image);
-              container.appendChild(imageLink);
+              imageContainer.appendChild(imageLink);
+              imageWrapper.appendChild(imageContainer);
 
-              const caption = document.createElement("div");
-              caption.classList.add("caption");
-              caption.textContent = filename.trim();
-              container.appendChild(caption);
+              // Add caption container
+              const captionContainer = document.createElement("div");
+              captionContainer.classList.add("caption-container");
+              captionContainer.textContent = filename.trim();
+              imageWrapper.appendChild(captionContainer);
 
-              gallery.appendChild(container);
-            }
+              gallery.appendChild(imageWrapper);
+            });
 
-            totalPages = Math.ceil(filteredFiles.length / imagesPerPage);
+            totalPages = Math.ceil(imageEntries.length / imagesPerPage);
 
             // Add navigation buttons and spacer
+            paginationContainer.innerHTML = "";
+
+            // Add previous button
             const prevButton = document.createElement("button");
             prevButton.textContent = "<";
             prevButton.id = "prevPage";
             prevButton.style.display = currentPage === 1 ? "none" : "inline-block";
             prevButton.addEventListener("click", handlePrevClick);
-            paginationContainer.innerHTML = "";
             paginationContainer.appendChild(prevButton);
 
-            if (currentPage === 1) {
-              const spacer = document.createElement("div");
-              spacer.classList.add("spacer");
-              spacer.style.display = "inline-block";
-              paginationContainer.appendChild(spacer);
-            }
-
+            // Add pages
             for (let i = 1; i <= totalPages; i++) {
               const pageButton = document.createElement("button");
               pageButton.classList.add("page-link");
@@ -434,7 +435,7 @@
             nextButton.addEventListener("click", handleNextClick);
             paginationContainer.appendChild(nextButton);
           })
-          .catch(error => console.error("Error fetching images:", error));
+          .catch((error) => console.error("Error fetching or processing images:", error));
       }
 
       function handlePrevClick() {
@@ -449,23 +450,23 @@
         currentPage = Math.min(Math.max(1, page), totalPages);
         gallery.innerHTML = "";
         displayImages();
-        history.pushState({ page: currentPage }, `Page ${currentPage}`, `?page=${currentPage}`);
+        history.pushState({
+          page: currentPage
+        }, `Page ${currentPage}`, `?page=${currentPage}`);
       }
 
-      window.onpopstate = function(event) {
+      window.onpopstate = function (event) {
         const page = event.state ? event.state.page : 1;
         changePage(page);
       };
 
+      // Initial page load
       const initialPage = parseInt(new URLSearchParams(window.location.search).get('page'), 10) || 1;
       currentPage = initialPage;
       displayImages();
     });
   </script>
-</div>
 </body>
-</html>
-
 	</div>
 </main>
 
