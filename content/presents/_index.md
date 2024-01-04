@@ -14,4 +14,4 @@ authorbox: True
 ---
 This is a collection of my personal presentations, which may or may not be aligned with or related to the content on this website.  These are primarily used when I am presenting to a research or project team I am collaborating with, a class I have been asked to speak to, or as part of a training session.  
 
-[Example Presentation](/presents/quotes 'Example Presentation : Programming Quotes') : Programming Quotes
+[Github Enterprise Presentation](/presents/github 'Github Enterprise Presentation: User and Admin Guide'): User and Admin Guide
