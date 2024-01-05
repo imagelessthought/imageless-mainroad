@@ -1,5 +1,4 @@
 /* gallery.js */
-/* gallery.js */
 document.addEventListener("DOMContentLoaded", function () {
   const gallery = document.getElementById("gallery");
   const paginationContainer = document.getElementById("pagination");
