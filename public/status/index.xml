@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Status Checker on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mbaggett/status/</link>
+    <description>Recent content in Service Status Checker on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://imagelessthought.github.io/mbaggett/status/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Online Services</title>
+      <link>https://imagelessthought.github.io/mbaggett/status/status-services/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/status/status-services/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guacamole: Remote Access Service</title>
+      <link>https://imagelessthought.github.io/mbaggett/status/status-guacamole/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/status/status-guacamole/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Websites</title>
+      <link>https://imagelessthought.github.io/mbaggett/status/status-websites/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/status/status-websites/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

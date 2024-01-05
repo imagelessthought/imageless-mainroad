@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Imageless Thought</title>
+    <link>https://imagelessthought.github.io/mbaggett/categories/</link>
+    <description>Recent content in Categories on Imageless Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://imagelessthought.github.io/mbaggett/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/getting-started/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/getting-started/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Training</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/training/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/training/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/git/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Applications</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/web-applications/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/web-applications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Frameworks</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/web-frameworks/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/web-frameworks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/python/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/tutorials/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YAML</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/yaml/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/yaml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>https://imagelessthought.github.io/mbaggett/categories/innovation/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/categories/innovation/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

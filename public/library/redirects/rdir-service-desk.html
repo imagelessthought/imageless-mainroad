@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script>
+        // Function to open Microsoft Teams
+        function openMicrosoftTeams() {
+            // Replace 'msteams://...' with the actual Teams deep link
+            var teamsLink = 'msteams://teams.microsoft.com/l/chat/0/0?users=cvad.itservices@unt.edu';
+    
+            // Try to open Microsoft Teams using the deep link
+            window.location.href = teamsLink;
+    
+            // Check if Microsoft Teams was successfully opened
+            setTimeout(function() {
+                if (document.hidden) {
+                    // Microsoft Teams was not successfully opened, open web version
+                    var webTeamsLink = 'https://teams.microsoft.com/';
+                    window.location.href = webTeamsLink;
+                }
+            }, 1000); // Wait for 1 second to check if Teams was successfully opened
+    
+            // Redirect to the website after Teams is launched
+            setTimeout(function() {
+                var websiteLink = '/';
+                window.location.href = websiteLink;
+            }, 10); // Adjust the delay as needed (3 seconds in this example)
+        }
+    
+        // Call the function to open Microsoft Teams when the page loads
+        openMicrosoftTeams();
+    </script>
+    
+ <!--   
+    <script>
+        // Function to open Microsoft Teams in a new window or tab
+        function openMicrosoftTeams() {
+            // Replace 'msteams://...' with the actual Teams deep link
+            var teamsLink = 'msteams://teams.microsoft.com/l/chat/0/0?users=cvad.itservices@unt.edu';
+            window.open(teamsLink, '_blank');
+
+            // After a delay, navigate to another webpage
+            setTimeout(function() {
+                // Replace 'https://example.com' with the URL of the webpage you want to load
+                window.location.href = '/';
+            }, 500); // Change the delay (in milliseconds) as needed
+        }
+
+        // Call the function to open Teams when the page loads
+        openMicrosoftTeams();
+    </script>
+-->
+
+</body>
+</html>
+
+<!--
+    <meta http-equiv="refresh" content="0; URL=msteams://teams.microsoft.com/l/chat/0/0?users=cvad.itservices@unt.edu" />
+-->

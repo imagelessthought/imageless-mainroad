@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Changa+One&display=swap" rel="stylesheet">
+	<title>Introduction to Python for Non-Computer Science Students - Imageless Thought</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Introduction to Python for Non-Computer Science Students" />
+<meta property="og:description" content="Welcome to the world of Python programming! This tutorial is designed for undergraduate students who may not have a background in computer science but want to learn the basics of Python. Python is a versatile and powerful programming language that has gained widespread popularity for its simplicity, readability, and flexibility. Python is beginner-friendly and widely used in various fields, including data science, web development, and automation. It was created by Guido van Rossum and first released in 1991, with the goal of making programming accessible and enjoyable. Named after the British comedy group Monty Python, the language has evolved into a dynamic and user-friendly tool used across various domains of information technology." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imagelessthought.github.io/mbaggett/blog/python/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-12-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-12-14T00:00:00+00:00" />
+
+
+		<meta itemprop="name" content="Introduction to Python for Non-Computer Science Students">
+<meta itemprop="description" content="Welcome to the world of Python programming! This tutorial is designed for undergraduate students who may not have a background in computer science but want to learn the basics of Python. Python is a versatile and powerful programming language that has gained widespread popularity for its simplicity, readability, and flexibility. Python is beginner-friendly and widely used in various fields, including data science, web development, and automation. It was created by Guido van Rossum and first released in 1991, with the goal of making programming accessible and enjoyable. Named after the British comedy group Monty Python, the language has evolved into a dynamic and user-friendly tool used across various domains of information technology."><meta itemprop="datePublished" content="2023-12-14T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-12-14T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1262">
+<meta itemprop="keywords" content="Computer Languages," />
+		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Introduction to Python for Non-Computer Science Students"/>
+<meta name="twitter:description" content="Welcome to the world of Python programming! This tutorial is designed for undergraduate students who may not have a background in computer science but want to learn the basics of Python. Python is a versatile and powerful programming language that has gained widespread popularity for its simplicity, readability, and flexibility. Python is beginner-friendly and widely used in various fields, including data science, web development, and automation. It was created by Guido van Rossum and first released in 1991, with the goal of making programming accessible and enjoyable. Named after the British comedy group Monty Python, the language has evolved into a dynamic and user-friendly tool used across various domains of information technology."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/mbaggett/css/style.css">
+	<link rel="stylesheet" href="/mbaggett/css/custom.css">
+
+	<link rel="shortcut icon" href="/mbaggett/gallery/images/bulb02.svg">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/mbaggett/" title="Imageless Thought" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/mbaggett/gallery/images/connection.svg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">Imageless Thought</div>
+					<div class="logo__tagline">Michael Baggett</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+
+  <div class="menu__btn-container">
+    <button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+      <span class="menu__btn-title" tabindex="-1">≡</span>
+    </button>
+  <span style="width: 100%; display: flex; align-items: center;">
+    <span class="menu__btn-text">Imageless Thought</span>
+    <span class="menu__btn-logo">
+      <a href="/" alt="UNT"><img class="menu__btn-logo-img" src="/mbaggett/gallery/images/connection.svg"></a>
+    </span>
+  </span></div>
+
+
+  <ul class="menu__list">
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/">
+        
+          <span class="menu__text">Home</span>
+        
+      </a>
+    </li>
+    <li class="menu__item menu__item--active">
+      <a class="menu__link" href="/mbaggett/blog/">
+        
+          <span class="menu__text">Blog</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/about/">
+        
+          <span class="menu__text">About</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/skills/">
+        
+          <span class="menu__text">Skills</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/documentation/">
+        
+          <span class="menu__text">Documentation</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/portals/">
+        
+          <span class="menu__text">Portals</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/tech-links/">
+        
+          <span class="menu__text">Links</span>
+        
+      </a>
+    </li>
+    <li class="menu__item menu__dropdown">
+      <a class="menu__link" href="">
+        
+        <span class="menu__text fw">
+        <label class="drop-icon" for="More">More ▾</label>
+        </span>
+        
+      </a>
+      <input type="checkbox" id="More">
+
+      <ul class="submenu__list">
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/status/">
+            
+            <span class="menu__text">Status Check</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/repositories/">
+            
+            <span class="menu__text">Repositories</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/gallery/">
+            
+            <span class="menu__text">Image Gallery</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/ui/">
+            
+            <span class="menu__text">Web and UI Design</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/digitalsignage/">
+            
+            <span class="menu__text">Digital Signage</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/links/">
+            
+            <span class="menu__text">Links (NEW)</span>
+            
+          </a>
+          </li>
+        
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 style="margin: 0 0 0 .1rem;" class="post__title">Introduction to Python for Non-Computer Science Students</h1>
+			<p class="post__lead" style="border-radius: 4px; width: fit-content; padding: .25rem .5rem; background-color: var(--disclaimer-bg); color: white; font-weight: 600;">The content in this article was created with assistance from ChatGPT (AI).</p>
+			<div class="post__meta meta-post-author"><div class="meta__item-author meta__item">
+
+
+    <div class="post__author-wrap">
+        
+            <span class="post__author-date-wrap post__author-date"></span><span class="post__author-date">Dec 14, 2023 :</span>
+        
+        
+            <span class="post__author"><a href="mailto:baggett.michael@gmail.com">Michael Baggett</a></span><span style="color: var(--light_gray);"> - </span>
+        
+        
+        <span class="postauthorarea"><b>College of Visual Arts and Design</b></span> -
+        
+        
+        <span class="post__author-info">Director and Assistant Dean of Information Technology</span>
+        
+    
+    </div>
+
+</div><hr style="border-color: var(--theme-blue);"></div>
+		</header>
+		
+
+		<div class="content post__content clearfix">
+			<p>Welcome to the world of Python programming! This tutorial is designed for undergraduate students who may not have a background in computer science but want to learn the basics of Python. Python is a versatile and powerful programming language that has gained widespread popularity for its simplicity, readability, and flexibility. Python is beginner-friendly and widely used in various fields, including data science, web development, and automation. It was created by Guido van Rossum and first released in 1991, with the goal of making programming accessible and enjoyable. Named after the British comedy group Monty Python, the language has evolved into a dynamic and user-friendly tool used across various domains of information technology.</p>
+<h2 id="history-of-python">History of Python</h2>
+<p>Python&rsquo;s development has gone through several versions, with Python 2 and Python 3 being the major branches. Python 3, introduced in 2008, brought significant improvements and is the version actively maintained today. Python has a vibrant community of developers who contribute to its open-source nature, ensuring continuous enhancements and updates.</p>
+<p>Python&rsquo;s versatility has led to its adoption in a wide range of applications.</p>
+<h3 id="usage-in-information-technology">Usage in Information Technology:</h3>
+<ul>
+<li>Web Development: Popular web frameworks like Django and Flask empower developers to create robust and scalable web applications.</li>
+<li>Data Science and Machine Learning: Libraries such as NumPy, Pandas, and TensorFlow make Python a go-to language for data analysis, machine learning, and artificial intelligence.</li>
+<li>Automation and Scripting: Python&rsquo;s simplicity makes it ideal for automating repetitive tasks and scripting, contributing to system administration and network programming.</li>
+<li>Game Development: With libraries like Pygame, Python is utilized for developing 2D games, making it accessible for aspiring game developers.</li>
+<li>Cybersecurity: Python&rsquo;s ease of use and extensive libraries are valuable in developing security tools, penetration testing, and ethical hacking.</li>
+</ul>
+<h3 id="advantages-of-python">Advantages of Python:</h3>
+<ul>
+<li>Readability: Python&rsquo;s syntax emphasizes readability and reduces the cost of program maintenance, making it easier for beginners to learn and understand.</li>
+<li>Extensive Libraries: Python&rsquo;s vast standard library and third-party modules provide solutions for a wide array of tasks, saving development time and effort.</li>
+<li>Community Support: The Python community is robust and supportive, offering a wealth of resources, forums, and documentation.</li>
+<li>Cross-Platform Compatibility: Python is compatible with major operating systems, allowing developers to write code that runs on different platforms with minimal modifications.</li>
+<li>Versatility: Python&rsquo;s versatility allows it to be used in various domains, from web development and scientific computing to artificial intelligence and automation.</li>
+</ul>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li>
+<p><strong>Getting Started</strong></p>
+<ul>
+<li>Installing Python</li>
+<li>Running Python scripts</li>
+<li>Python IDEs (Integrated Development Environments)</li>
+</ul>
+</li>
+<li>
+<p><strong>Basic Python Commands and Concepts</strong></p>
+<ul>
+<li>Variables and data types</li>
+<li>Arithmetic operations</li>
+<li>Strings and string manipulation</li>
+<li>Lists and tuples</li>
+<li>Conditional statements (if, elif, else)</li>
+<li>Loops (for and while)</li>
+</ul>
+</li>
+<li>
+<p><strong>User-Defined Functions</strong></p>
+<ul>
+<li>Defining functions</li>
+<li>Function arguments and return values</li>
+<li>Scope of variables</li>
+<li>Examples of user-defined functions</li>
+</ul>
+</li>
+<li>
+<p><strong>Regular Expressions</strong></p>
+<ul>
+<li>Introduction to regular expressions</li>
+<li>Using the <code>re</code> module</li>
+<li>Basic regular expression patterns</li>
+<li>Extracting information from text</li>
+</ul>
+</li>
+<li>
+<p><strong>Debugging in Python</strong></p>
+<ul>
+<li>Common types of errors</li>
+<li>Using <code>print</code> statements for debugging</li>
+<li>Debugging tools and techniques</li>
+<li>Handling exceptions</li>
+</ul>
+</li>
+</ol>
+<h2 id="1-getting-started">1. Getting Started</h2>
+<h3 id="installing-python">Installing Python</h3>
+<p>Visit <a href="https://www.python.org/downloads/">Python&rsquo;s official website</a> and download the latest version of Python for your operating system. Follow the installation instructions provided.</p>
+<h3 id="running-python-scripts">Running Python Scripts</h3>
+<p>You can run Python scripts in several ways:</p>
+<ul>
+<li><strong>Command Line:</strong> Open a terminal or command prompt, navigate to the script&rsquo;s directory, and run <code>python script.py</code>.</li>
+<li><strong>Interactive Mode:</strong> Type <code>python</code> in the terminal to enter interactive mode.</li>
+</ul>
+<h3 id="python-ides">Python IDEs</h3>
+<p>Choose an Integrated Development Environment (IDE) to make coding easier. Examples include <a href="https://www.jetbrains.com/pycharm/">PyCharm</a>, <a href="https://code.visualstudio.com/">VSCode</a>, and <a href="https://jupyter.org/">Jupyter Notebooks</a>.</p>
+<h2 id="2-basic-python-commands-and-concepts">2. Basic Python Commands and Concepts</h2>
+<h3 id="variables-and-data-types">Variables and Data Types</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Variables</span>
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, Python!&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Data Types</span>
+</span></span><span style="display:flex;"><span>integer <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>floating_point <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14</span>
+</span></span><span style="display:flex;"><span>string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Python&#34;</span>
+</span></span><span style="display:flex;"><span>boolean <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span></code></pre></div><h3 id="arithmetic-operations">Arithmetic Operations</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Arithmetic</span>
+</span></span><span style="display:flex;"><span>sum_result <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>difference <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>product <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">6</span>
+</span></span><span style="display:flex;"><span>quotient <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>
+</span></span></code></pre></div><h3 id="strings-and-string-manipulation">Strings and String Manipulation</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Strings</span>
+</span></span><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, World!&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># String Manipulation</span>
+</span></span><span style="display:flex;"><span>concatenation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;World&#34;</span>
+</span></span><span style="display:flex;"><span>length <span style="color:#f92672">=</span> len(message)
+</span></span><span style="display:flex;"><span>substring <span style="color:#f92672">=</span> message[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">5</span>]
+</span></span></code></pre></div><h3 id="lists-and-tuples">Lists and Tuples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Lists</span>
+</span></span><span style="display:flex;"><span>fruits <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;apple&#34;</span>, <span style="color:#e6db74">&#34;banana&#34;</span>, <span style="color:#e6db74">&#34;orange&#34;</span>]
+</span></span><span style="display:flex;"><span>fruits<span style="color:#f92672">.</span>append(<span style="color:#e6db74">&#34;grape&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Tuples</span>
+</span></span><span style="display:flex;"><span>coordinates <span style="color:#f92672">=</span> (<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>)
+</span></span></code></pre></div><h3 id="conditional-statements">Conditional Statements</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># If statement</span>
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;x is greater than 5&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">elif</span> x <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;x is equal to 5&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;x is less than 5&#34;</span>)
+</span></span></code></pre></div><h3 id="loops">Loops</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># For loop</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">5</span>):
+</span></span><span style="display:flex;"><span>    print(i)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># While loop</span>
+</span></span><span style="display:flex;"><span>counter <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> counter <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>    print(counter)
+</span></span><span style="display:flex;"><span>    counter <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><h2 id="3-user-defined-functions">3. User-Defined Functions</h2>
+<h3 id="defining-functions">Defining Functions</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello, &#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;!&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> greet(<span style="color:#e6db74">&#34;Alice&#34;</span>)
+</span></span><span style="display:flex;"><span>print(result)
+</span></span></code></pre></div><h3 id="function-arguments-and-return-values">Function Arguments and Return Values</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_numbers</span>(x, y):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sum_result <span style="color:#f92672">=</span> add_numbers(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">7</span>)
+</span></span><span style="display:flex;"><span>print(sum_result)
+</span></span></code></pre></div><h3 id="scope-of-variables">Scope of Variables</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>global_variable <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">print_variable</span>():
+</span></span><span style="display:flex;"><span>    local_variable <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>    print(global_variable)  <span style="color:#75715e"># Access global variable</span>
+</span></span><span style="display:flex;"><span>    print(local_variable)   <span style="color:#75715e"># Access local variable</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print_variable()
+</span></span></code></pre></div><h3 id="examples-of-user-defined-functions">Examples of User-Defined Functions</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Function to check if a number is even</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">is_even</span>(number):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> number <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Function to calculate the square of a number</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">square</span>(number):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> number <span style="color:#f92672">**</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage</span>
+</span></span><span style="display:flex;"><span>print(is_even(<span style="color:#ae81ff">4</span>))
+</span></span><span style="display:flex;"><span>print(square(<span style="color:#ae81ff">3</span>))
+</span></span></code></pre></div><h2 id="4-regular-expressions">4. Regular Expressions</h2>
+<h3 id="introduction-to-regular-expressions">Introduction to Regular Expressions</h3>
+<p>Regular expressions (regex) are patterns used for string matching and manipulation.</p>
+<h3 id="using-the-re-module">Using the <code>re</code> Module</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> re
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Matching a pattern</span>
+</span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\d+&#34;</span>  <span style="color:#75715e"># Matches one or more digits</span>
+</span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;There are 123 apples.&#34;</span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>search(pattern, text)
+</span></span><span style="display:flex;"><span>print(result<span style="color:#f92672">.</span>group())
+</span></span></code></pre></div><h3 id="basic-regular-expression-patterns">Basic Regular Expression Patterns</h3>
+<ul>
+<li><code>\d</code>: Matches any digit</li>
+<li><code>\w</code>: Matches any alphanumeric character</li>
+<li><code>.</code>: Matches any character except a newline</li>
+</ul>
+<h3 id="extracting-information-from-text">Extracting Information from Text</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Extracting email addresses from text</span>
+</span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Contact us at john@example.com or alice@gmail.com&#34;</span>
+</span></span><span style="display:flex;"><span>email_pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b&#34;</span>
+</span></span><span style="display:flex;"><span>emails <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(email_pattern, text)
+</span></span><span style="display:flex;"><span>print(emails)
+</span></span></code></pre></div><h2 id="5-debugging-in-python">5. Debugging in Python</h2>
+<h3 id="common-types-of-errors">Common Types of Errors</h3>
+<ol>
+<li>SyntaxError: Mistakes in syntax.</li>
+<li>NameError: Trying to use an undefined variable.</li>
+<li>TypeError: Performing an operation on incompatible data types.</li>
+</ol>
+<h3 id="using-print-statements-for-debugging">Using <code>print</code> Statements for Debugging</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Debugging with print statements</span>
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Value of x:&#34;</span>, x)
+</span></span></code></pre></div><h3 id="debugging-tools-and-techniques">Debugging Tools and Techniques</h3>
+<ul>
+<li><strong>Debugger:</strong> Use a debugger to step through code and inspect variables.</li>
+<li><strong>Logging:</strong> Use the <code>logging</code> module to log messages during execution.</li>
+<li><strong>Try-Except Blocks:</strong> Use <code>try</code> and <code>except</code> to handle exceptions gracefully.</li>
+</ul>
+<h3 id="handling-exceptions">Handling Exceptions</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Handling exceptions</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ZeroDivisionError</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Cannot divide by zero.&#34;</span>)
+</span></span></code></pre></div><h2 id="resources-for-learning-python">Resources for Learning Python:</h2>
+<ul>
+<li>Python.org: The official Python website provides documentation, tutorials, and resources for beginners to advanced users.</li>
+<li>Codecademy - Learn Python: Codecademy offers an interactive and hands-on approach to learning Python, making it suitable for beginners.</li>
+<li>Coursera - Python for Everybody Specialization: Created by the University of Michigan, this specialization covers Python basics to advanced topics, with a focus on practical applications.</li>
+<li>Real Python: Real Python offers a variety of tutorials, articles, and resources for developers at different skill levels.</li>
+<li>Automate the Boring Stuff with Python: This online book and course by Al Sweigart is geared toward beginners and focuses on using Python for practical tasks and automation.</li>
+</ul>
+<p>Whether you&rsquo;re a beginner or an experienced programmer, Python&rsquo;s simplicity and versatility make it a valuable language for a wide range of applications in the ever-evolving field of information technology.</p>
+<h2 id="cheat-sheet">Cheat Sheet</h2>
+<table>
+<thead>
+<tr>
+<th>Command/Concept</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variables</td>
+<td><code>x = 5</code></td>
+</tr>
+<tr>
+<td>Data Types</td>
+<td><code>string = &quot;Python&quot;</code></td>
+</tr>
+<tr>
+<td>Arithmetic Operations</td>
+<td><code>sum_result = 5 + 3</code></td>
+</tr>
+<tr>
+<td>Strings</td>
+<td><code>message = &quot;Hello, World!&quot;</code></td>
+</tr>
+<tr>
+<td>Lists</td>
+<td><code>fruits = [&quot;apple&quot;, &quot;banana&quot;]</code></td>
+</tr>
+<tr>
+<td>Tuples</td>
+<td><code>coordinates = (3, 4)</code></td>
+</tr>
+<tr>
+<td>Conditional Statements</td>
+<td><code>if x &gt; 5:</code></td>
+</tr>
+<tr>
+<td>Loops</td>
+<td><code>for i in range(5):</code></td>
+</tr>
+<tr>
+<td>Functions</td>
+<td><code>def greet(name): return &quot;Hello, &quot; + name + &quot;!&quot;</code></td>
+</tr>
+<tr>
+<td>Regular Expressions</td>
+<td><code>import re</code></td>
+</tr>
+<tr>
+<td>Debugging with <code>print</code></td>
+<td><code>print(&quot;Value of x:&quot;, x)</code></td>
+</tr>
+<tr>
+<td>Exception Handling</td>
+<td>`</td>
+</tr>
+</tbody>
+</table>
+<p>try: result = 10 / 0 except ZeroDivisionError: print(&ldquo;Cannot divide by zero.&rdquo;)` |</p>
+<p>Feel free to experiment with these examples and use the cheat sheet as a quick reference while exploring the world of Python programming. Happy coding!</p>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/mbaggett/tags/computer-languages/" rel="tag">Computer Languages</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Imageless Thought avatar" src="/mbaggett/gallery/images/big-data-connection-network.svg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">Imageless Thought</span>
+	</div>
+	<div class="authorbox__description">
+		On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.
+	</div>
+</div>
+
+
+			</div>
+			<aside class="sidebar">
+<div class="post__toc toc">
+	<div class="toc__title">Contents</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#history-of-python">History of Python</a>
+      <ul>
+        <li><a href="#usage-in-information-technology">Usage in Information Technology:</a></li>
+        <li><a href="#advantages-of-python">Advantages of Python:</a></li>
+      </ul>
+    </li>
+    <li><a href="#table-of-contents">Table of Contents</a></li>
+    <li><a href="#1-getting-started">1. Getting Started</a>
+      <ul>
+        <li><a href="#installing-python">Installing Python</a></li>
+        <li><a href="#running-python-scripts">Running Python Scripts</a></li>
+        <li><a href="#python-ides">Python IDEs</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-basic-python-commands-and-concepts">2. Basic Python Commands and Concepts</a>
+      <ul>
+        <li><a href="#variables-and-data-types">Variables and Data Types</a></li>
+        <li><a href="#arithmetic-operations">Arithmetic Operations</a></li>
+        <li><a href="#strings-and-string-manipulation">Strings and String Manipulation</a></li>
+        <li><a href="#lists-and-tuples">Lists and Tuples</a></li>
+        <li><a href="#conditional-statements">Conditional Statements</a></li>
+        <li><a href="#loops">Loops</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-user-defined-functions">3. User-Defined Functions</a>
+      <ul>
+        <li><a href="#defining-functions">Defining Functions</a></li>
+        <li><a href="#function-arguments-and-return-values">Function Arguments and Return Values</a></li>
+        <li><a href="#scope-of-variables">Scope of Variables</a></li>
+        <li><a href="#examples-of-user-defined-functions">Examples of User-Defined Functions</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-regular-expressions">4. Regular Expressions</a>
+      <ul>
+        <li><a href="#introduction-to-regular-expressions">Introduction to Regular Expressions</a></li>
+        <li><a href="#using-the-re-module">Using the <code>re</code> Module</a></li>
+        <li><a href="#basic-regular-expression-patterns">Basic Regular Expression Patterns</a></li>
+        <li><a href="#extracting-information-from-text">Extracting Information from Text</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-debugging-in-python">5. Debugging in Python</a>
+      <ul>
+        <li><a href="#common-types-of-errors">Common Types of Errors</a></li>
+        <li><a href="#using-print-statements-for-debugging">Using <code>print</code> Statements for Debugging</a></li>
+        <li><a href="#debugging-tools-and-techniques">Debugging Tools and Techniques</a></li>
+        <li><a href="#handling-exceptions">Handling Exceptions</a></li>
+      </ul>
+    </li>
+    <li><a href="#resources-for-learning-python">Resources for Learning Python:</a></li>
+    <li><a href="#cheat-sheet">Cheat Sheet</a></li>
+  </ul>
+</nav>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/getting-started/">Getting Started</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/git/">Git</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/innovation/">Innovation</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/python/">Python</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/training/">Training</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/tutorials/">Tutorials</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/web-applications/">Web Applications</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/web-frameworks/">Web Frameworks</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/yaml/">YAML</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/ai/" title="AI">AI</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/computer-languages/" title="Computer Languages">Computer Languages</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/git/" title="Git">Git</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/github/" title="GitHub">GitHub</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/jekyll/" title="Jekyll">Jekyll</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/linux/" title="Linux">Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/markup-languages/" title="Markup Languages">Markup Languages</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/microsoft/" title="Microsoft">Microsoft</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/projects/" title="Projects">Projects</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/static-websites/" title="Static Websites">Static Websites</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/web-design/" title="Web Design">Web Design</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/windows/" title="Windows">Windows</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/windows-subsystem-linux/" title="Windows Subsystem Linux">Windows Subsystem Linux</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 Imageless Thought |
+			<span class="footer__copyright-credits">Some rights reserved.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/mbaggett/js/menu.js"></script>
+<script src="/mbaggett/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

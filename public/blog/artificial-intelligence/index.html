@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Changa+One&display=swap" rel="stylesheet">
+	<title>Artificial Intelligence: Demystifying AI, Machine Learning, and Generative Models - Imageless Thought</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Artificial Intelligence: Demystifying AI, Machine Learning, and Generative Models" />
+<meta property="og:description" content="Artificial Intelligence (AI) is a multidisciplinary field focused on creating machines capable of performing tasks that traditionally require human intelligence. Its diverse applications range from natural language processing to image recognition, offering profound implications for various industries. Within the vast landscape of AI, Machine Learning (ML) stands out as a subset that emphasizes the development of algorithms enabling machines to learn from data and improve their performance." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imagelessthought.github.io/mbaggett/blog/artificial-intelligence/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-12-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-12-16T00:00:00+00:00" />
+
+
+		<meta itemprop="name" content="Artificial Intelligence: Demystifying AI, Machine Learning, and Generative Models">
+<meta itemprop="description" content="Artificial Intelligence (AI) is a multidisciplinary field focused on creating machines capable of performing tasks that traditionally require human intelligence. Its diverse applications range from natural language processing to image recognition, offering profound implications for various industries. Within the vast landscape of AI, Machine Learning (ML) stands out as a subset that emphasizes the development of algorithms enabling machines to learn from data and improve their performance."><meta itemprop="datePublished" content="2023-12-16T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-12-16T00:00:00+00:00" />
+<meta itemprop="wordCount" content="681">
+<meta itemprop="keywords" content="AI," />
+		<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Artificial Intelligence: Demystifying AI, Machine Learning, and Generative Models"/>
+<meta name="twitter:description" content="Artificial Intelligence (AI) is a multidisciplinary field focused on creating machines capable of performing tasks that traditionally require human intelligence. Its diverse applications range from natural language processing to image recognition, offering profound implications for various industries. Within the vast landscape of AI, Machine Learning (ML) stands out as a subset that emphasizes the development of algorithms enabling machines to learn from data and improve their performance."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/mbaggett/css/style.css">
+	<link rel="stylesheet" href="/mbaggett/css/custom.css">
+
+	<link rel="shortcut icon" href="/mbaggett/gallery/images/bulb02.svg">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/mbaggett/" title="Imageless Thought" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/mbaggett/gallery/images/connection.svg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">Imageless Thought</div>
+					<div class="logo__tagline">Michael Baggett</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+
+  <div class="menu__btn-container">
+    <button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+      <span class="menu__btn-title" tabindex="-1">≡</span>
+    </button>
+  <span style="width: 100%; display: flex; align-items: center;">
+    <span class="menu__btn-text">Imageless Thought</span>
+    <span class="menu__btn-logo">
+      <a href="/" alt="UNT"><img class="menu__btn-logo-img" src="/mbaggett/gallery/images/connection.svg"></a>
+    </span>
+  </span></div>
+
+
+  <ul class="menu__list">
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/">
+        
+          <span class="menu__text">Home</span>
+        
+      </a>
+    </li>
+    <li class="menu__item menu__item--active">
+      <a class="menu__link" href="/mbaggett/blog/">
+        
+          <span class="menu__text">Blog</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/about/">
+        
+          <span class="menu__text">About</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/skills/">
+        
+          <span class="menu__text">Skills</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/documentation/">
+        
+          <span class="menu__text">Documentation</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/portals/">
+        
+          <span class="menu__text">Portals</span>
+        
+      </a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/mbaggett/tech-links/">
+        
+          <span class="menu__text">Links</span>
+        
+      </a>
+    </li>
+    <li class="menu__item menu__dropdown">
+      <a class="menu__link" href="">
+        
+        <span class="menu__text fw">
+        <label class="drop-icon" for="More">More ▾</label>
+        </span>
+        
+      </a>
+      <input type="checkbox" id="More">
+
+      <ul class="submenu__list">
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/status/">
+            
+            <span class="menu__text">Status Check</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/repositories/">
+            
+            <span class="menu__text">Repositories</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/gallery/">
+            
+            <span class="menu__text">Image Gallery</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/ui/">
+            
+            <span class="menu__text">Web and UI Design</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/digitalsignage/">
+            
+            <span class="menu__text">Digital Signage</span>
+            
+          </a>
+          </li>
+        
+          <li class="menu__item">
+          <a class="menu__link" href="/mbaggett/links/">
+            
+            <span class="menu__text">Links (NEW)</span>
+            
+          </a>
+          </li>
+        
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 style="margin: 0 0 0 .1rem;" class="post__title">Artificial Intelligence: Demystifying AI, Machine Learning, and Generative Models</h1>
+			<p class="post__lead" style="border-radius: 4px; width: fit-content; padding: .25rem .5rem; background-color: var(--disclaimer-bg); color: white; font-weight: 600;">The content in this article was created with assistance from ChatGPT (AI).</p>
+			<div class="post__meta meta-post-author"><div class="meta__item-author meta__item">
+
+
+    <div class="post__author-wrap">
+        
+            <span class="post__author-date-wrap post__author-date"></span><span class="post__author-date">Dec 16, 2023 :</span>
+        
+        
+            <span class="post__author"><a href="mailto:baggett.michael@gmail.com">Michael Baggett</a></span><span style="color: var(--light_gray);"> - </span>
+        
+        
+        <span class="postauthorarea"><b>College of Visual Arts and Design</b></span> -
+        
+        
+        <span class="post__author-info">Director and Assistant Dean of Information Technology</span>
+        
+    
+    </div>
+
+</div><hr style="border-color: var(--theme-blue);"></div>
+		</header>
+		
+
+		<div class="content post__content clearfix">
+			<p>Artificial Intelligence (AI) is a multidisciplinary field focused on creating machines capable of performing tasks that traditionally require human intelligence. Its diverse applications range from natural language processing to image recognition, offering profound implications for various industries. Within the vast landscape of AI, Machine Learning (ML) stands out as a subset that emphasizes the development of algorithms enabling machines to learn from data and improve their performance.</p>
+<h2 id="understanding-ai-vs-machine-learning">Understanding AI vs. Machine Learning</h2>
+<ul>
+<li>
+<p><strong>Artificial Intelligence (AI)</strong>: AI encompasses a wide array of approaches, including rule-based systems and expert systems, aiming to replicate human intelligence. It is an umbrella term that includes Machine Learning but is not limited to it.</p>
+</li>
+<li>
+<p><strong>Machine Learning (ML)</strong>:
+ML is a subset of AI that focuses on algorithms and statistical models, allowing machines to learn patterns from data and improve their performance over time. It can be categorized into supervised learning, unsupervised learning, and reinforcement learning.</p>
+</li>
+</ul>
+<h2 id="generative-ai-and-gpt">Generative AI and GPT</h2>
+<ul>
+<li><strong>Generative AI</strong>: Generative AI refers to models capable of generating new content autonomously. These models are often based on neural networks and have found applications in image and text generation.</li>
+<li><strong>Generative Pre-trained Transformer (GPT)</strong>: GPT, developed by OpenAI, is a leading example of Generative AI. It employs a transformer architecture and unsupervised learning, enabling it to understand and generate coherent human-like text based on the input it receives. GPT has achieved remarkable success in various language-related tasks.</li>
+</ul>
+<h2 id="artificial-neural-networks-building-a-neural-network">Artificial Neural Networks: Building a Neural Network</h2>
+<p>Artificial Neural Networks (ANNs) are composed of layers of interconnected nodes or neurons. These layers include an input layer, hidden layers, and an output layer. Connections between neurons have associated weights.</p>
+<ul>
+<li><strong>Weighing the Connections</strong>: During training, the weights of connections in a neural network are adjusted to minimize the difference between predicted and actual outputs. This process, known as backpropagation, allows the network to learn and improve its performance.</li>
+<li><strong>The Activation Bias</strong>: Each neuron has an activation function that determines whether it &ldquo;fires&rdquo; based on the weighted sum of its inputs. The activation bias influences the network&rsquo;s output.</li>
+<li><strong>Learning from Mistakes</strong>: Neural networks learn from mistakes by adjusting weights through backpropagation. This iterative process helps the network adapt and improve its accuracy over time.</li>
+<li><strong>Stepping through the Network</strong>: The forward pass involves stepping through the network to calculate the output based on the input and current weights.</li>
+</ul>
+<h2 id="main-ai-models">Main AI Models</h2>
+<h3 id="natural-language-models">Natural Language Models:</h3>
+<ul>
+<li><strong>Examples:</strong> BERT, GPT-3</li>
+<li><strong>Application:</strong> Understanding and generating human-like text, answering questions, and language translation.</li>
+</ul>
+<h3 id="generative-adversarial-networks-gans">Generative Adversarial Networks (GANs):</h3>
+<ul>
+<li><strong>Examples:</strong> StyleGAN, DALL-E</li>
+<li><strong>Application:</strong> Generating realistic images through a competition between a generator (creating content) and a discriminator (evaluating content).</li>
+</ul>
+<h3 id="variational-autoencoders-vaes">Variational Autoencoders (VAEs):</h3>
+<ul>
+<li><strong>Examples:</strong> Beta-VAE</li>
+<li><strong>Application:</strong> Encoding and decoding data, often used in image generation and data compression.</li>
+</ul>
+<h3 id="recurrent-neural-networks-rnns">Recurrent Neural Networks (RNNs):</h3>
+<ul>
+<li><strong>Examples:</strong> LSTM, GRU</li>
+<li><strong>Application:</strong> Processing sequential data, such as time series or natural language, due to their ability to retain memory.</li>
+</ul>
+<h3 id="transformers-and-text-to-image-applications">Transformers and Text to Image Applications:</h3>
+<ul>
+<li><strong>Examples:</strong> BERT, GPT, DALL-E</li>
+<li><strong>Application:</strong> Handling sequential data and generating images from textual descriptions through attention mechanisms.</li>
+</ul>
+<h2 id="search-engines-vs-reasoning-engines">Search Engines vs. Reasoning Engines</h2>
+<ul>
+<li><strong>Search Engines</strong>: Retrieve information based on keywords and predefined criteria, suitable for finding existing data.</li>
+<li><strong>Reasoning Engines</strong>: Deduce new information from existing knowledge, ideal for complex problem-solving and decision-making.</li>
+</ul>
+<p>Choosing Between Them: The choice depends on the desired outcome – search engines for retrieving existing information and reasoning engines for deriving new insights.</p>
+<h2 id="prompt-engineering">Prompt Engineering</h2>
+<p>Prompt engineering involves crafting effective instructions or queries to get the desired output from AI models.</p>
+<h3 id="strategies-and-approaches">Strategies and Approaches:</h3>
+<ul>
+<li>Be Specific: Clearly define the task or question.</li>
+<li>Experiment with Phrasing: Try different ways to ask the same question.</li>
+<li>Understand Model Limitations: Be aware of what the model can and cannot do.</li>
+</ul>
+<h2 id="defining-general-intelligence">Defining General Intelligence</h2>
+<p>General intelligence refers to an AI system&rsquo;s ability to understand, learn, and apply knowledge across diverse tasks. It contrasts with specialized, task-specific intelligence.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In this comprehensive exploration of AI, we&rsquo;ve covered the foundations of machine learning, delved into cutting-edge models like GPT, and explored applications across various domains. As AI continues to evolve, understanding its core concepts and diverse applications becomes increasingly crucial, paving the way for exciting possibilities in the future.</p>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/mbaggett/tags/ai/" rel="tag">AI</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Imageless Thought avatar" src="/mbaggett/gallery/images/big-data-connection-network.svg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">Imageless Thought</span>
+	</div>
+	<div class="authorbox__description">
+		On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.
+	</div>
+</div>
+
+
+			</div>
+			<aside class="sidebar">
+<div class="post__toc toc">
+	<div class="toc__title">Contents</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#understanding-ai-vs-machine-learning">Understanding AI vs. Machine Learning</a></li>
+    <li><a href="#generative-ai-and-gpt">Generative AI and GPT</a></li>
+    <li><a href="#artificial-neural-networks-building-a-neural-network">Artificial Neural Networks: Building a Neural Network</a></li>
+    <li><a href="#main-ai-models">Main AI Models</a>
+      <ul>
+        <li><a href="#natural-language-models">Natural Language Models:</a></li>
+        <li><a href="#generative-adversarial-networks-gans">Generative Adversarial Networks (GANs):</a></li>
+        <li><a href="#variational-autoencoders-vaes">Variational Autoencoders (VAEs):</a></li>
+        <li><a href="#recurrent-neural-networks-rnns">Recurrent Neural Networks (RNNs):</a></li>
+        <li><a href="#transformers-and-text-to-image-applications">Transformers and Text to Image Applications:</a></li>
+      </ul>
+    </li>
+    <li><a href="#search-engines-vs-reasoning-engines">Search Engines vs. Reasoning Engines</a></li>
+    <li><a href="#prompt-engineering">Prompt Engineering</a>
+      <ul>
+        <li><a href="#strategies-and-approaches">Strategies and Approaches:</a></li>
+      </ul>
+    </li>
+    <li><a href="#defining-general-intelligence">Defining General Intelligence</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/getting-started/">Getting Started</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/git/">Git</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/innovation/">Innovation</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/python/">Python</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/training/">Training</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/tutorials/">Tutorials</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/web-applications/">Web Applications</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/web-frameworks/">Web Frameworks</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/mbaggett/categories/yaml/">YAML</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/ai/" title="AI">AI</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/computer-languages/" title="Computer Languages">Computer Languages</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/git/" title="Git">Git</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/github/" title="GitHub">GitHub</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/jekyll/" title="Jekyll">Jekyll</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/linux/" title="Linux">Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/markup-languages/" title="Markup Languages">Markup Languages</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/microsoft/" title="Microsoft">Microsoft</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/projects/" title="Projects">Projects</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/static-websites/" title="Static Websites">Static Websites</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/web-design/" title="Web Design">Web Design</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/windows/" title="Windows">Windows</a>
+		<a class="widget-taglist__link widget__link btn" href="/mbaggett/tags/windows-subsystem-linux/" title="Windows Subsystem Linux">Windows Subsystem Linux</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 Imageless Thought |
+			<span class="footer__copyright-credits">Some rights reserved.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/mbaggett/js/menu.js"></script>
+<script src="/mbaggett/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

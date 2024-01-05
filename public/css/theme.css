@@ -1,0 +1,39 @@
+html {
+--green: #00853e;
+--green2: #00A950;
+--green3: #509E2F; 
+--green4: #006747;
+--light_green: #B9DCD2;  /*#C5E1A5;#C4D600*/
+--gray: #53565A;
+--ug_green: #C4D600;
+--light_gray: #CCD1D1;
+--light_blue: #00A9E0;
+--magenta: #AD1AAC;
+--pink: #EF4B81;
+--pink2:#FFB1BB;
+--cyan: #B9DCD2;
+--prime_white: white!important;
+--prime_black: black!important;
+--back: #2d2c2c;
+--logo_brd: white;
+--menu-item-brd: transparent; /* rgba(255, 255, 255, .1) */
+--title: white;   
+--subtitle: var(--light_green);
+--tagline: var(--ug_green);
+--post-bg: rgba(185, 220, 210,.2);
+--alt_lgreen: #C5E1A5;         --shadow-sf: rgba(197, 225, 165, 1);
+--theme-0: black;               --shadow-t0: rgba(0, 0, 0, 0, 1);
+--theme-green: #44611F;             --shadow-t1: rgba(68, 97, 31, 1);
+--theme-blue: #336699;             --shadow-t2: rgba(51, 102, 153, 1);
+--theme-red: #C0392B;             --shadow-t3: rgba(192, 57, 43, 1);
+--theme-yellow: yellow;              --shadow-t4: rgba(241, 231, 64 , 1);
+--theme-orange: #ffa500;             --shadow-t5: rgba(255, 165, 0, 1);
+--excelgrey: #d7d7d7;           --shadow-eg: rgba(215, 215, 215, 1);
+--ebebeb: transparent;
+--post-bg: rgba(185, 220, 210, .3);
+   
+--background: #2d2c2c;
+--foreground: white;
+--hclass: #C5E1A5;
+
+}
