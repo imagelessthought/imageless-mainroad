@@ -75,30 +75,30 @@ sectionPagesMenu = 'main posts departments'
     identifier = 'Repositories'
     parent = 'More'
 [[menu.main]]
-    name = 'Image Gallery'
-    pageRef = '/gallery/'
-    weight = 7
-    identifier = 'Gallery'
-    parent = 'More'
-[[menu.main]]
     name = 'Web and UI Design'
     pageRef = '/ui/'
-    weight = 8
+    weight = 7
     identifier = 'Web-UI'
     parent = 'More'
 [[menu.main]]
     name = 'Digital Signage'
     pageRef = '/digitalsignage/'
-    weight = 9
+    weight = 8
     identifier = 'Digital Signage'
     parent = 'More'
 [[menu.main]]
     name = 'Presentations'
     pageRef = '/presents/'
-    weight = 10
+    weight = 9
     identifier = 'Presentations'
     parent = 'More'
-    [[menu.main]]
+[[menu.main]]
+    name = 'Image Gallery (NEW)'
+    pageRef = '/gallery/'
+    weight = 10
+    identifier = 'Gallery'
+    parent = 'More'
+[[menu.main]]
     name = 'Links (NEW)'
     pageRef = '/links/'
     weight = 11

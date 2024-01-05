@@ -1,4 +1,3 @@
-/* portals.js */
 document.addEventListener("DOMContentLoaded", function () {
   const gallery = document.getElementById("gallery");
   const paginationContainer = document.getElementById("pagination");
@@ -24,86 +23,111 @@ document.addEventListener("DOMContentLoaded", function () {
         const endIdx = startIdx + imagesPerPage;
         const displayedEntries = imageEntries.slice(startIdx, endIdx);
 
-        displayedEntries.forEach((entry, i) => {
-          const parts = entry.split(",").map(part => part.trim());
+// ...
 
-          if (parts.length === 3) {
-            const [filename, description, url] = parts;
+// ...
 
-            const imageWrapper = document.createElement("div");
-            imageWrapper.classList.add("image-wrapper");
+// ...
 
-            const imageContainer = document.createElement("div");
-            imageContainer.classList.add("image-container");
-            imageContainer.id = `image-${i}`;
+// ...
+// ...
 
-            const imageLink = document.createElement("a");
-            imageLink.classList.add("image-link");
-            imageLink.href = url;
-            imageLink.target = "_blank";
+displayedEntries.forEach((entry, i) => {
+  const parts = entry.split('!;');
+  if (parts.length === 4) {
+    const [filename, description, url, flipInfo] = parts.map(part => part.trim());
+    
+    const imageWrapper = document.createElement("div");
+    imageWrapper.classList.add("image-wrapper");
 
-            const image = document.createElement("img");
-            const imagePath = `images/${filename}`;
-            image.src = imagePath;
-            image.alt = description;
+    const imageLink = document.createElement("a");
+    imageLink.href = url; // Use the third value as the URL
+    imageLink.target = "_blank";
+    imageWrapper.appendChild(imageLink);
 
-            imageLink.appendChild(image);
-            imageContainer.appendChild(imageLink);
-            imageWrapper.appendChild(imageContainer);
+    const flipCard = document.createElement("div");
+    flipCard.classList.add("flip-card");
 
-            // Add caption container
-            const captionContainer = document.createElement("div");
-            captionContainer.classList.add("caption-container");
-            captionContainer.textContent = description;
-            imageWrapper.appendChild(captionContainer);
+    const flipCardInner = document.createElement("div");
+    flipCardInner.classList.add("flip-card-inner");
 
-            gallery.appendChild(imageWrapper);
-          } else {
-            console.error(`Invalid entry format for entry ${i + 1}: ${entry}`);
-          }
-        });
+    // Constructing the front of the card
+    const flipCardFront = document.createElement("div");
+    flipCardFront.classList.add("flip-card-front");
 
-        totalPages = Math.ceil(imageEntries.length / imagesPerPage);
+    const image = document.createElement("img");
+    image.src = `images/${filename}`;
+    image.alt = description; // Use the description as alt text
 
-        // Add navigation buttons and spacer
-        paginationContainer.innerHTML = "";
+    flipCardFront.appendChild(image);
 
-        // Add spacer for page 1
-        if (currentPage === 1) {
-          const spacer = document.createElement("div");
-          spacer.classList.add("spacer");
-          paginationContainer.appendChild(spacer);
-        }
+    // Constructing the back of the card
+    const flipCardBack = document.createElement("div");
+    flipCardBack.classList.add("flip-card-back");
+    flipCardBack.textContent = flipInfo.slice(1, -1); // Remove the first and last characters (quotation marks)
+    flipCardInner.appendChild(flipCardFront);
+    flipCardInner.appendChild(flipCardBack);
+    flipCard.appendChild(flipCardInner);
 
-        // Add previous button
-        const prevButton = document.createElement("button");
-        prevButton.textContent = "<";
-        prevButton.id = "prevPage";
-        prevButton.style.display = currentPage === 1 ? "none" : "inline-block";
-        prevButton.addEventListener("click", handlePrevClick);
-        paginationContainer.appendChild(prevButton);
+    imageLink.appendChild(flipCard);
 
-        // Add pages
-        for (let i = 1; i <= totalPages; i++) {
-          const pageButton = document.createElement("button");
-          pageButton.classList.add("page-link");
-          pageButton.textContent = i < 10 ? `0${i}` : i;
-          if (i === currentPage) {
-            pageButton.classList.add("active");
-          }
-          pageButton.addEventListener("click", () => changePage(i));
-          paginationContainer.appendChild(pageButton);
-        }
+    // Add caption container
+    const captionContainer = document.createElement("div");
+    captionContainer.classList.add("caption-container");
+    captionContainer.textContent = description;
+    imageWrapper.appendChild(captionContainer);
 
-        // Add next button
-        const nextButton = document.createElement("button");
-        nextButton.textContent = ">";
-        nextButton.id = "nextPage";
-        nextButton.style.display = currentPage < totalPages ? "inline-block" : "none";
-        nextButton.addEventListener("click", handleNextClick);
-        paginationContainer.appendChild(nextButton);
+    gallery.appendChild(imageWrapper);
+  } else {
+    console.error(`Invalid entry format for entry ${i + 1}: ${entry}`);
+  }
+});
+
+// ...
+
+
+totalPages = Math.ceil(imageEntries.length / imagesPerPage);
+  updatePagination();
       })
       .catch((error) => console.error("Error fetching or processing images:", error));
+  }
+
+  function updatePagination() {
+    paginationContainer.innerHTML = "";
+    // Add spacer for page 1
+    if (currentPage === 1) {
+      const spacer = document.createElement("div");
+      spacer.classList.add("spacer");
+      paginationContainer.appendChild(spacer);
+    }
+    // Add previous button
+    createNavigationButton("prevPage", "<", currentPage > 1, handlePrevClick);
+    // Add pages
+    for (let i = 1; i <= totalPages; i++) {
+      createPageButton(i);
+    }
+    // Add next button
+    createNavigationButton("nextPage", ">", currentPage < totalPages, handleNextClick);
+  }
+
+  function createNavigationButton(id, text, shouldDisplay, eventHandler) {
+    const button = document.createElement("button");
+    button.textContent = text;
+    button.id = id;
+    button.style.display = shouldDisplay ? "inline-block" : "none";
+    button.addEventListener("click", eventHandler);
+    paginationContainer.appendChild(button);
+  }
+
+  function createPageButton(pageNumber) {
+    const pageButton = document.createElement("button");
+    pageButton.classList.add("page-link");
+    pageButton.textContent = pageNumber < 10 ? `0${pageNumber}` : pageNumber;
+    if (pageNumber === currentPage) {
+      pageButton.classList.add("active");
+    }
+    pageButton.addEventListener("click", () => changePage(pageNumber));
+    paginationContainer.appendChild(pageButton);
   }
 
   function handlePrevClick() {
@@ -116,11 +140,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function changePage(page) {
     currentPage = Math.min(Math.max(1, page), totalPages);
-    gallery.innerHTML = "";
     displayImages();
-    history.pushState({
-      page: currentPage
-    }, `Page ${currentPage}`, `?page=${currentPage}`);
+    history.pushState({ page: currentPage }, `Page ${currentPage}`, `?page=${currentPage}`);
   }
 
   window.onpopstate = function (event) {
