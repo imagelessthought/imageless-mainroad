@@ -163,10 +163,6 @@ button.page-link.active {
     outline: 1px solid #336699;
   }
   
-  .modal:hover {
-    background-color: rgba(255, 255, 255, 0.9); 
-  }
-
   .modal-content {
     width: 100%; /* Full width of the modal */
     height: 100%; /* Full height of the modal */
@@ -186,30 +182,20 @@ button.page-link.active {
   */
 
   .close {
-    color: #E74C3C;
-    background: #ffa500;
     position: absolute;
-    top: 50px;
-    right: 50px;
-    transform: translate(50%, -50%);
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-    height: 50px;
-    width: 50px;
-    line-height: 50px; /* Center the text vertically */
-    text-align: center;
-    border-radius: 10px;
   }
- 
   
   .close:hover,
   .close:focus {
-    color: #ffa500;
-    background:#E74C3C;
+    color: #bbb;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 10px;
   }
   
   /*
@@ -220,34 +206,3 @@ button.page-link.active {
     height: 150px;
   }
   */
-
-  #colorOptions {
-    position: absolute;
-    right: 35px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .colorBox {
-    width: 30px;  /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
-    border-radius: 5px; /* Optional for rounded corners */
-    background: #AAB7B8;
-    padding: .1rem;
-    }
-  
-  html {
-    --box-bg1: black;
-    --box-bg2: white;
-    --box-bg3: #336699;
-    
-  }
-
-  #Box_1 { background-color: var(--box-bg1); }
-  #Box_2 { background-color: var(--box-bg2); }
-  #Box_3 { background-color: var(--box-bg3); }
-  

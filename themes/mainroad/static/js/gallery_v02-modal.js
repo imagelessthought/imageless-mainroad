@@ -34,7 +34,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
           const imageLink = document.createElement("a");
           imageLink.classList.add("image-link");
-          imageLink.href = `images/${filename.trim()}`;
+
+          imageLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            openModal(imagePath, filename.trim());
+          });
+
+          /* imageLink.href = `images/${filename.trim()}`; */
 
           const image = document.createElement("img");
           const imagePath = `images/${filename.trim()}`;
@@ -121,3 +127,17 @@ document.addEventListener("DOMContentLoaded", function () {
   currentPage = initialPage;
   displayImages();
 });
+
+function openModal(imageSrc) {
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImage");
+    var span = document.getElementsByClassName("close")[0]; // Get the close button
+  
+    modal.style.display = "block";
+    modalImg.src = imageSrc;
+  
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+  }
