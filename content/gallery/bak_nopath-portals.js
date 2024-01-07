@@ -33,7 +33,7 @@ displayedEntries.forEach((entry, i) => {
 
     const imageLink = document.createElement("a");
     imageLink.href = url; // Use the third value as the URL
-    imageLink.target = ""; // imageLink.target = "_blank"; 
+    imageLink.target = ""; // imageLink.target = "_blank";
     imageWrapper.appendChild(imageLink);
 
     const flipCard = document.createElement("div");
@@ -47,7 +47,7 @@ displayedEntries.forEach((entry, i) => {
     flipCardFront.classList.add("flip-card-front");
 
     const image = document.createElement("img");
-    image.src = `${filename}`; // image.src = `images/${filename}`;
+    image.src = `${filename}`; //     image.src = `images/${filename}`;
     image.alt = description; // Use the description as alt text
 
     flipCardFront.appendChild(image);

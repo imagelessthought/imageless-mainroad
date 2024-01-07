@@ -976,9 +976,10 @@ margin-bottom: 2rem!important;
 .list__item:last-child {
 	/*
 	outline: 2px solid var(--list-out);
-	border: 1px solid var(--thickborder2); */
-	margin-bottom: 1rem;
+	border: 1px solid var(--thickborder2); 
 	padding-top: 1rem;
+	*/
+	margin-bottom: 1rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	border-radius: 4px;

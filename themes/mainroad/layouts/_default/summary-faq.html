@@ -1,13 +1,14 @@
 <article class="list__item post clearfix" style="display: flex; flex-direction: column;">
-    <header class="list__header" style="display: flex; align-items: center;">
-<!--        {{ partial "post_thumbnail-faq.html" (dict "class" "list" "page" .) }}  -->
+<!--    <header class="list__header" style="display: flex; align-items: center;">
+        {{ partial "post_thumbnail-faq.html" (dict "class" "list" "page" .) }}  
         <h2 class="list__title post__title">
             {{ .Title }}
         </h2>
     </header>
-    <div class="content list__excerpt post__content clearfix" style="flex: 1;">
+-->
+<div class="content list__excerpt post__content clearfix" style="flex: 1;">
 {{ .Content }}
-    </div>
+</div>
     {{- if .Site.Params.readmore }}
     {{- if .Truncated }}
     <div class="list__footer clearfix">

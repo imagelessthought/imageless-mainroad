@@ -1,3 +1,5 @@
+
+/* portals.js v.01 : shows the page number in page navigation even when only one page */
 document.addEventListener("DOMContentLoaded", function () {
   const gallery = document.getElementById("gallery");
   const paginationContainer = document.getElementById("pagination");
@@ -33,7 +35,7 @@ displayedEntries.forEach((entry, i) => {
 
     const imageLink = document.createElement("a");
     imageLink.href = url; // Use the third value as the URL
-    imageLink.target = ""; // imageLink.target = "_blank"; 
+    imageLink.target = "_blank";
     imageWrapper.appendChild(imageLink);
 
     const flipCard = document.createElement("div");

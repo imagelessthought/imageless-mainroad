@@ -6,7 +6,7 @@ authorbox: "True"
 <link rel="stylesheet" href="/mbaggett/css/portals.css">
 <body>
 
-<p>Here are some useful eLearning andf training resources.</p>
+<p>Here are some useful eLearning and training resources.</p>
 
   <div class="body-container">
     <div class="pagination" id="pagination">
