@@ -12,56 +12,42 @@ sectionPagesMenu = 'main posts departments'
     pageRef = '/'
     weight = 5
 [[menu.main]]
-    name = 'Blog'
-    pageRef = '/blog/'
-    weight = 10
-[[menu.main]]
     name = 'About'
     pageRef = '/about/'
+    weight = 10
+[[menu.main]]
+    name = 'Blog'
+    pageRef = '/blog/'
     weight = 15
 [[menu.main]]
-    name = 'Skills'
-    pageRef = '/skills/'
+    name = 'Projects'
+    pageRef = '/projects/'
     weight = 20
 [[menu.main]]
     name = 'Documentation'
     pageRef = '/documentation/'
+    weight = 23
+[[menu.main]]
+    name = 'Repositories'
+    pageRef = '/repositories/'
+    weight = 25
+[[menu.main]]
+    name = 'Gallery'
+    pageRef = '/gallery/'
     weight = 30
-# [[menu.main]]
-#    name = 'Departments'
-#    pageRef = '/departments/'
-#    weight = 40
 [[menu.main]]
     name = 'Portals'
     pageRef = '/portals/'
-    weight = 50
+    weight = 35
 [[menu.main]]
     name = 'Links'
-    pageRef = '/tech-links/'
-    weight = 60
+    pageRef = '/links/'
+    weight = 45
 [[menu.main]]
     name = 'More'
     url = ''
     weight = 70
     identifier ='More'
-#[[menu.main]]
-#    name = 'Campus-Links'
-#    pageRef = '/campus-links'
-#    weight = 2
-#    identifier ='Campus-Links'
-#    parent = 'More'
-#[[menu.main]]
-#    name = 'Tech-Links'
-#    pageRef = '/tech-links/'
-#    weight = 3
-#    identifier = 'Tech-Links'
-#    parent = 'More'
-#[[menu.main]]
-#    name = 'Student Websites'
-#    pageRef = '/student-web/'
-#    weight = 4
-#    identifier = 'Student Websites'
-#    parent = 'More'
 [[menu.main]]
     name = 'Status Check'
     pageRef = '/status/'
@@ -69,45 +55,15 @@ sectionPagesMenu = 'main posts departments'
     identifier = 'Status Checks'
     parent = 'More'
 [[menu.main]]
-    name = 'Repositories'
-    pageRef = '/repositories/'
-    weight = 6
-    identifier = 'Repositories'
-    parent = 'More'
-[[menu.main]]
-    name = 'Web and UI Design'
-    pageRef = '/ui/'
-    weight = 7
-    identifier = 'Web-UI'
-    parent = 'More'
-[[menu.main]]
-    name = 'Digital Signage'
-    pageRef = '/digitalsignage/'
-    weight = 8
-    identifier = 'Digital Signage'
-    parent = 'More'
-[[menu.main]]
     name = 'Presentations'
     pageRef = '/presents/'
     weight = 9
     identifier = 'Presentations'
     parent = 'More'
-[[menu.main]]
-    name = 'Image Gallery (NEW)'
-    pageRef = '/gallery/'
-    weight = 10
-    identifier = 'Gallery'
-    parent = 'More'
-[[menu.main]]
-    name = 'Links (NEW)'
-    pageRef = '/links/'
-    weight = 11
-    identifier = 'Presentations'
-    parent = 'More'
 [Author] # Used in authorbox
   name = "Imageless Thought"
   bio = 'On the site you will find information intended for a wide audience: faculty researchers, students, and IT professionals. Articles generally provide an introduction to a topic with everything needed to get started quickly. The main goal of the website is to provide a resource for colleagues.'
-  avatar = "gallery/images/big-data-connection-network.svg"
+  avatar = "int/img/images/big-data-connection-network.svg"
 [Params]
   description = "Imageless Thought" # Site description. Used in meta description
   copyright = "Imageless Thought |" # Footer copyright holder, otherwise will use site title
@@ -138,7 +94,7 @@ sectionPagesMenu = 'main posts departments'
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "gallery/images/connection.svg" # Logo image. Path relative to "static"
+  image = "int/img/images/connection.svg" # Logo image. Path relative to "static"
 # title = "Mainroad" # Logo title, otherwise will use site title 
   subtitle = "Michael Baggett" # Logo subtitle innovate ⚬ build ⚬ repeat INNOVATE ⚬ BUILD ⚬ REPEAT
   tagline = "Innovation Technology"

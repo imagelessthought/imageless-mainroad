@@ -1,12 +1,14 @@
 ---
-title: Online Portals
+title: Useful Links
 layout: list-status
 authorbox: "True"
 ---
 <link rel="stylesheet" href="/mbaggett/css/portals.css">
 <body>
-<p>This is a new module I created and am currently testing.  It can be used with any static page solution or content management system (CMS).  It is intended to create a database of links that a user may search using a query or tags.  In development.  <b>This is a Github CoPilot</b> software development test project.  
-  <div class="body-container">
+
+This is where I store links to websites that I have found useful and frequently visit.  Links to particular areas on these sites may be found in blog posts or documentation.  If I have referred you to my website for a link, it is most likely going to be found in this section.  
+
+<div class="body-container">
     <div class="pagination" id="pagination">
       <button id="prevPage">&lt;</button>
     </div>

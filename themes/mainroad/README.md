@@ -62,7 +62,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Author] # Used in authorbox
   name = "John Doe"
   bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "/mbaggett/gallery/images/avatar.png"
+  avatar = "/mbaggett/int/img/images/avatar.png"
 
 [Params]
   description = "John Doe's Personal blog about everything" # Site description. Used in meta description
@@ -98,7 +98,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "/mbaggett/gallery/images/placeholder.png" # Logo image. Path relative to "static"
+  image = "/mbaggett/int/img/images/placeholder.png" # Logo image. Path relative to "static"
   title = "Mainroad" # Logo title, otherwise will use site title
   subtitle = "Just another site" # Logo subtitle
 
@@ -171,7 +171,7 @@ tags:
 menu: main # Optional, add page to a menu. Options: main, side, footer
 
 # Theme-Defined params
-thumbnail: "/mbaggett/gallery/images/placeholder.png" # Thumbnail image
+thumbnail: "/mbaggett/int/img/images/placeholder.png" # Thumbnail image
 lead: "Example lead - highlighted near the title" # Lead text
 comments: false # Enable Disqus comments for specific page
 authorbox: true # Enable authorbox for specific page

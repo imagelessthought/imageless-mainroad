@@ -17,16 +17,16 @@
     </item>
     <item>
       <title>Github Professional Essentials</title>
-      <link>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/github-linkedin-cert-transcript/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/github-linkedin-cert-transcript/</guid>
       <description>Practical Github Actions Introduction Creating a MarketPlace GitHub action When you&amp;rsquo;re applying for a job, employers want to see samples of work that gives them a good idea of your abilities. In this course, I&amp;rsquo;m going to show you how to build the type of project that employers would love to see, a GitHub Action that&amp;rsquo;s featured in the GitHub Marketplace. We&amp;rsquo;ll be working in a variety of languages and formats like Python, shell scripts, YAML, XML and Docker containers.</description>
     </item>
     <item>
       <title>Career Essentials in Generative AI by Microsoft and LinkedIn: Transcript</title>
-      <link>https://imagelessthought.github.io/mbaggett/projects/ms-linkedin-ai-transcript/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/ms-linkedin-ai-transcript/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/projects/ms-linkedin-ai-transcript/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/ms-linkedin-ai-transcript/</guid>
       <description>What is Generative AI? Introduction Generative AI is changing how we create. (light music) For the first time, humans are supervising and machines are generating. It&amp;rsquo;s helping us lift the dirty, dull, dangerous and difficult tasks from humanity&amp;rsquo;s shoulders so then we can simply focus on the very essence of our work, the vision, the idea, and the purpose. It&amp;rsquo;s a complete paradigm shift for the future of jobs. I am Pinar Seyhan Demirdag and I&amp;rsquo;m the co-founder and the AI director of Seyhan Lee.</description>
     </item>
     <item>
@@ -65,102 +65,39 @@
       <description>&lt;p&gt;YAML, short for &amp;ldquo;YAML Ain&amp;rsquo;t Markup Language&amp;rdquo; or sometimes &amp;ldquo;Yet Another Markup Language,&amp;rdquo; is a human-readable data serialization format. It is often used for configuration files and data exchange between languages with different data structures. YAML files use indentation and colons to denote structure, making them easy to read and write.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>GitHub: Version Control</title>
-      <link>https://imagelessthought.github.io/mbaggett/tech-links/github/</link>
-      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/tech-links/github/</guid>
-      <description>GitHub is a platform and cloud-based service for software development and version control, allowing developers to store and manage their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</description>
-    </item>
-    <item>
-      <title>Universal Digital Signage: Installation Instructions</title>
+      <title>Universal Digital Signage: Install and Setup</title>
       <link>https://imagelessthought.github.io/mbaggett/documentation/digital-signage-install/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://imagelessthought.github.io/mbaggett/documentation/digital-signage-install/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;Universal Digital Signage&lt;/strong&gt; web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (&lt;strong&gt;hosts&lt;/strong&gt;) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an &lt;em&gt;interrupt&lt;/em&gt; schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to &lt;strong&gt;channels&lt;/strong&gt; to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), &lt;strong&gt;interactive kiosks&lt;/strong&gt;, and hosted online &lt;strong&gt;presentations&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Raspberry Pi</title>
-      <link>https://imagelessthought.github.io/mbaggett/tech-links/rpi/</link>
-      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/tech-links/rpi/</guid>
-      <description>Raspberry Pi have all the features required for computing: WIFI, Bluetooth, HDMI, USB, along with ample processing power and RAM.</description>
-    </item>
-    <item>
-      <title>Ubuntu</title>
-      <link>https://imagelessthought.github.io/mbaggett/tech-links/ubuntu/</link>
-      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/tech-links/ubuntu/</guid>
-      <description>Ubuntu is my preferred Linux distribution for a desktop OS. It is well maintained and the documentation and tutorials are plentiful. Pro subscriptions are available for free for personal use.</description>
-    </item>
-    <item>
-      <title>Red Hat</title>
-      <link>https://imagelessthought.github.io/mbaggett/tech-links/redhat/</link>
-      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/tech-links/redhat/</guid>
-      <description>Red Hat Enterprise Linux is my preferred choice as a server OS. They are the maintainers of Ansible, an open-source solution that I have used for endpoint configuration of Linux devices and servers.</description>
-    </item>
-    <item>
-      <title>Postman: API Platform</title>
-      <link>https://imagelessthought.github.io/mbaggett/portals/postman/</link>
-      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/portals/postman/</guid>
-      <description>Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.</description>
-    </item>
-    <item>
       <title>ACI Learning</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/aci/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/aci/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/aci/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/aci/</guid>
       <description>ACI Learning is another training resource I use. ACI Learning courses are broken down into half-hour, self-contained chunks. Much more engaging than other training options and the have apps for most devices, including Apple tvOS.</description>
     </item>
     <item>
-      <title>GitHub: Version Control</title>
-      <link>https://imagelessthought.github.io/mbaggett/portals/github/</link>
-      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/portals/github/</guid>
-      <description>GitHub is a platform and cloud-based service for software development and version control, allowing developers to store and manage their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</description>
-    </item>
-    <item>
-      <title>Discord</title>
-      <link>https://imagelessthought.github.io/mbaggett/portals/discord/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/portals/discord/</guid>
-      <description>Discord is a social-media collaboration platform with servers organized into channels by topic. Collaborate and communicate with instant messaging, VOIP, and video chats.</description>
-    </item>
-    <item>
-      <title>Microsoft 365: Online Access to Applications and Collaboration Tools</title>
-      <link>https://imagelessthought.github.io/mbaggett/portals/o365/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/portals/o365/</guid>
-      <description>Microsoft 365 is a product family of productivity software, collaboration and cloud-based services developed by by Microsoft. It encompasses online services and applications formerly part of the Microsoft Office Suite: Word, Excel, PowerPoint, Outlook, among others.&#xA;Use the link above to login to your Microsoft 365 account, this will launch the online version of Microsoft Outlook: The other available applications can be accessed by using the icon at the top left.</description>
-    </item>
-    <item>
       <title>Stormwind Studios</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/stormwind/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/stormwind/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/stormwind/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/stormwind/</guid>
       <description>Stormwind Studios is a training resource I use to maintain my skill set and knowledge base. They provide live and on-demand bootcamp courses from wide-range of vendors.</description>
     </item>
     <item>
       <title>Coursera</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/coursera/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/coursera/</link>
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/coursera/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/coursera/</guid>
       <description>Coursera is a leading online learning platform for higher education, where more than 49 million learners from around the world come to learn skills of the future. UNT is among the world’s top universities and industry educators to partner with Coursera to offer courses, Specializations, certificates, and degree programs.</description>
     </item>
     <item>
       <title>LinkedIn Learning</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/linkedin/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/linkedin/</link>
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/linkedin/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/linkedin/</guid>
       <description>LinkedIn Learning offers the widest range of offerings of any service, from technical to business. LinkedIn Learning is a great place to find training for your supported users when introducing or migrating to a new service.</description>
-    </item>
-    <item>
-      <title>Microsoft: Azure Cloud Computing</title>
-      <link>https://imagelessthought.github.io/mbaggett/portals/azure/</link>
-      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/portals/azure/</guid>
-      <description>Microsoft Azure is a cloud computing platform which offers access, management, and development of applications and services through global data centers.</description>
     </item>
     <item>
       <title>Universal Digital Signage</title>
@@ -171,45 +108,52 @@
     </item>
     <item>
       <title>W3 Schools</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/w3/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/w3/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/w3/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/w3/</guid>
       <description>W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering many aspects of web development.</description>
     </item>
     <item>
       <title>Microsoft: Learning Paths</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/microsoft/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/microsoft/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/microsoft/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/microsoft/</guid>
       <description>Microsoft offers their self-paced technical training, including learning labs, for free online to everyone. Certification tests and instructor-led training are available but are not free.</description>
     </item>
     <item>
       <title>Apple: IT Training</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/apple/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/apple/</link>
       <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/apple/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/apple/</guid>
       <description>Apple offers their technical training for free online to everyone. Certification tests are available but are not free. There are considerably fewer training offerings, when compared to Microsoft.</description>
     </item>
     <item>
       <title>JAMF: Apple Endpoint Management</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/jamf/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/jamf/</link>
       <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/jamf/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/jamf/</guid>
       <description>JAMF provides a complete enterprise management and security solution for Apple devices. Both on-premise and cloud solutions are available. Easy to manage and enterprise-secure.</description>
     </item>
     <item>
       <title>Linux Kernel Organization</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/linux/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/linux/</link>
       <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/linux/</guid>
-      <description>The Linux Kernel Organization is managed by The Linux Foundation, which provides full technical, financial and staffing support for running and maintaining the kernel.org infrastructure.t.</description>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/linux/</guid>
+      <description>The Linux Kernel Organization is managed by The Linux Foundation, which provides full technical, financial and staffing support for running and maintaining the kernel.org infrastructure.</description>
     </item>
     <item>
       <title>Linux Professional Institute</title>
-      <link>https://imagelessthought.github.io/mbaggett/training/linux2/</link>
+      <link>https://imagelessthought.github.io/mbaggett/stashed/linux2/</link>
       <pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/training/linux2/</guid>
+      <guid>https://imagelessthought.github.io/mbaggett/stashed/linux2/</guid>
       <description>The Linux Professional Institute is the largest vendor-neutral Linux and open source certification body. Some classes are free to everyone and others require a fee. Certification tests are available for a fee.</description>
+    </item>
+    <item>
+      <title>Web and UI Design Resources</title>
+      <link>https://imagelessthought.github.io/mbaggett/documentation/web-ui/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/documentation/web-ui/</guid>
+      <description>Understanding Open-Source Licensing Terms You will find many resources online that you may want to include in your website: images, fonts, themes, templates, plug-ins etc&amp;hellip; Before you use them in your website it is important to check the licensing terms to confirm that your use is in compliance with the agreement. You must follow any stipulations included in the agreement.&#xA;When it comes to open-source resources, many of the licensing terms you will encounter grant you permission to use the resource pretty freely.</description>
     </item>
     <item>
       <title>Windows Subsystem For Linux</title>
@@ -233,11 +177,18 @@
       <description></description>
     </item>
     <item>
-      <title>Cybersecurity</title>
-      <link>https://imagelessthought.github.io/mbaggett/skills/cybersecurity/</link>
+      <title></title>
+      <link>https://imagelessthought.github.io/mbaggett/about/skills/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/skills/cybersecurity/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Cybersecurity&lt;/strong&gt; is the art of protecting networks, devices, and data from unauthorized access or criminal use and the practice of ensuring confidentiality, integrity, and availability of information. It seems that everything relies on computers and the internet now—communication (e.g., email, smartphones, tablets), entertainment (e.g., interactive video games, social media, apps ), transportation (e.g., navigation systems), shopping (e.g., online shopping, credit cards), medicine (e.g., medical equipment, medical records), and the list goes on.&lt;/p&gt;</description>
+      <guid>https://imagelessthought.github.io/mbaggett/about/skills/</guid>
+      <description>Skills</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://imagelessthought.github.io/mbaggett/about/training-certifications/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/about/training-certifications/</guid>
+      <description>What training and certificatons have you completed?</description>
     </item>
     <item>
       <title>GitHub</title>
@@ -247,25 +198,18 @@
       <description> </description>
     </item>
     <item>
+      <title>Universal Digital Signage</title>
+      <link>https://imagelessthought.github.io/mbaggett/projects/digital-signage/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/projects/digital-signage/</guid>
+      <description>This project is in progress, the content below was created before the project began and changes have occured during the development. Think of this as the pseudo-code of the project.&#xA;The current installation instructions are available in the Documentation section on the website: Universal Digital Signage: Install and Setup.&#xA;Description: This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.</description>
+    </item>
+    <item>
       <title>Websites</title>
       <link>https://imagelessthought.github.io/mbaggett/status/status-websites/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://imagelessthought.github.io/mbaggett/status/status-websites/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>What training and certificatons have you completed?</title>
-      <link>https://imagelessthought.github.io/mbaggett/about/training-certifications/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/about/training-certifications/</guid>
-      <description>Below is the information on the various training and certifications I have completed. I complete training using a variety of vendors, my preferred training vendors are: Coursera (used for my Google and IBM certifications), Stormwind Studios (used for Microsoft and other proprietary software training), ACI Learning (used for open source and new technology training), W3 Schools (provides training certifications that are primarily focused on web technologies and not tied to a specific product), and finally LinkedIN-Learning (provides a wide range of technical and business-related certifications).</description>
-    </item>
-    <item>
-      <title>IT Support Management</title>
-      <link>https://imagelessthought.github.io/mbaggett/skills/it-management/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/skills/it-management/</guid>
-      <description>&lt;p&gt;IT support refers to the assistance provided to users of technology products or services. This can include end-point management, troubleshooting technical issues, providing training and education, and offering guidance on best practices. An IT support department plays a crucial role in ensuring that technology-related issues are addressed and resolved efficiently. The range of services provided by an IT support department may vary depending on the organization&amp;rsquo;s size, structure, and specific needs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

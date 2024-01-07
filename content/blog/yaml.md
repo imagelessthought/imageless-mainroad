@@ -13,7 +13,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://www.python.org
-thumbnail: "/mbaggett/gallery/images/yaml-icon.svg"
+thumbnail: "/mbaggett/int/img/images/yaml-icon.svg"
 ---
 YAML, short for "YAML Ain't Markup Language" or sometimes "Yet Another Markup Language," is a human-readable data serialization format. It is often used for configuration files and data exchange between languages with different data structures. YAML files use indentation and colons to denote structure, making them easy to read and write.
 <!--more-->

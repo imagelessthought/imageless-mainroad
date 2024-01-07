@@ -120,6 +120,27 @@ html {
 	box-sizing: border-box;
 }
 
+details > summary {
+    list-style: none; /* Remove default list marker */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+}
+
+details > summary::-webkit-details-marker {
+    display: none; /* Hide the default arrow marker in WebKit browsers */
+}
+
+details > summary::before {
+    content: '▶'; /* Custom symbol (e.g., a right-pointing triangle) */
+    color: var(--aurl); /* Color of the custom symbol */
+    font-size: 1.2em; /* Size of the custom symbol */
+    margin-right: 20px; /* Space between the symbol and summary text */
+}
+
+details[open] > summary::before {
+    content: '▼'; /* Change symbol when details are open (e.g., a down-pointing triangle) */
+    margin-right: 14px; /* Space between the symbol and summary text */
+}
+
 article,
 aside,
 dialog,

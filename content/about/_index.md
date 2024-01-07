@@ -1,5 +1,6 @@
 ---
 title: About Me
+subtitle: "Click on a topic below for more information:"
 layout: list-faq
 authorbox: "True"
 ---
@@ -17,3 +18,5 @@ authorbox: "True"
         display: none;
     }
 </style>
+
+

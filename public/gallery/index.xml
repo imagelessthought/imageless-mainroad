@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Image Gallery on Imageless Thought</title>
+    <title>Gallery: Collections on Imageless Thought</title>
     <link>https://imagelessthought.github.io/mbaggett/gallery/</link>
-    <description>Recent content in Image Gallery on Imageless Thought</description>
+    <description>Recent content in Gallery: Collections on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://imagelessthought.github.io/mbaggett/gallery/index.xml" rel="self" type="application/rss+xml" />

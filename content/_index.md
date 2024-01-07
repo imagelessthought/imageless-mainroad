@@ -12,7 +12,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="/mbaggett/training" alt="Suggested Training" title="Suggested Training">
-<img src="/mbaggett/gallery/images/training.svg" alt="Suggested Training">
+<img src="/mbaggett/int/img/images/training.svg" alt="Suggested Training">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -24,7 +24,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="portals" alt="Online Service Portals" title="Online Service Portals">
-<img src="/mbaggett/gallery/images/cloud-computing-blue.svg" alt="Online Service Portals">
+<img src="/mbaggett/int/img/images/cloud-computing-blue.svg" alt="Online Service Portals">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -36,7 +36,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="documentation" alt="Help Documentation" title="Help Documentation">
-<img src="/mbaggett/gallery/images/documentation-blue.svg" alt="Help Documentation">
+<img src="/mbaggett/int/img/images/documentation-blue.svg" alt="Help Documentation">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -48,7 +48,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="status" alt="Check Status of Service for an Outage" title="Service Status Check">
-<img src="/mbaggett/gallery/images/status-check-blue.svg" alt="Check Status of Service for an Outage">
+<img src="/mbaggett/int/img/images/status-check-blue.svg" alt="Check Status of Service for an Outage">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -60,7 +60,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="repositories" alt="Git Repositories" title="Git Repositories">
-<img src="/mbaggett/gallery/images/repos-dark.svg" alt="Git Repositories">
+<img src="/mbaggett/int/img/images/repos-dark.svg" alt="Git Repositories">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -72,19 +72,20 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="gallery" alt="Gallery" title="Gallery">
-<img src="/mbaggett/gallery/images/gallery1.svg" alt="Gallery">
+<img src="/mbaggett/int/img/images/gallery1.svg" alt="Gallery">
 </a>
 </div>
 <div style="margin: 0 3rem;">
-<h3 class="nomobile">Image Gallery</h3>
-<p class="nomobile" style="text-align: justify">This is a collection of images that are used on this website and on other projects.  If you are trying to find an image: it is likely here.</p>
+<h3 class="nomobile">Image Galleries</h3>
+<p class="nomobile" style="text-align: justify">This is where you will find images that are useed in presentations and as part of our projects. Images are separated into collections. If you are trying to find an image: it is likely here.</p>
 </div>
 </div>
 
+<!--
 <div class="service-desk">
 <div class="img-container">
 <a href="ui" alt="Web and UI Design" title="Web and UI Design">
-<img src="/mbaggett/gallery/images/webdesign.svg" alt="Web and UI Design">
+<img src="/mbaggett/int/img/images/webdesign.svg" alt="Web and UI Design">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -92,11 +93,12 @@ The main goal of the website is to provide a resource for colleagues and project
 <p class="nomobile" style="text-align: justify">Resources are available to assist you when creating a website or user interfaces for a software application.  Also included is a tutorial on open source software licenses: there are many out there, you need to understand the license restrictions and acceptable use alowances for anything used in your project.</p>
 </div>
 </div>
+-->
 
 <div class="service-desk">
 <div class="img-container">
 <a href="/mbaggett/blog/digital-signage/" alt="Universal Digital Signage" title="Universal Digital Signage">
-<img src="/mbaggett/gallery/images/digital-sign.svg" alt="Universal Digital Signage">
+<img src="/mbaggett/int/img/images/digital-sign.svg" alt="Universal Digital Signage">
 </a>
 </div>
 <div style="margin: 0 3rem;">
@@ -108,7 +110,7 @@ The main goal of the website is to provide a resource for colleagues and project
 <div class="service-desk">
 <div class="img-container">
 <a href="presents" alt="Personal Presentations" title="Personal Presentations">
-<img src="/mbaggett/gallery/images/presents.svg" alt="Personal Presentations">
+<img src="/mbaggett/int/img/images/presents.svg" alt="Personal Presentations">
 </a>
 </div>
 <div style="margin: 0 3rem;">

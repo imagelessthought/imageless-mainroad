@@ -23,15 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const endIdx = startIdx + imagesPerPage;
         const displayedEntries = imageEntries.slice(startIdx, endIdx);
 
-// ...
-
-// ...
-
-// ...
-
-// ...
-// ...
-
 displayedEntries.forEach((entry, i) => {
   const parts = entry.split('!;');
   if (parts.length === 4) {
@@ -56,7 +47,7 @@ displayedEntries.forEach((entry, i) => {
     flipCardFront.classList.add("flip-card-front");
 
     const image = document.createElement("img");
-    image.src = `images/${filename}`;
+    image.src = `${filename}`; // image.src = `images/${filename}`;
     image.alt = description; // Use the description as alt text
 
     flipCardFront.appendChild(image);

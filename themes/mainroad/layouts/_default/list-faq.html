@@ -1,19 +1,31 @@
 {{ define "main" }}
 <main class="main list" role="main">
-	{{- with .Title }}
-	<header class="main__header">
-		<h1 class="main__title">{{ . }}</h1>
-	</header>
-	{{- end }}
-	{{- with .Content }}
-	<div class="content main__content clearfix">
-		{{ . }}
-	</div>
-	{{- end }}
-	{{- range .Paginator.Pages }}
-		{{- .Render "summary-faq" }}
-	{{- end }}
+    {{- with .Title }}
+    <header class="main__header">
+        <h1 class="main__title">{{ . }}</h1>
+    </header>
+    {{- end }}
+ 
+    <p style="margin-top: 2rem">{{ .Params.subtitle }}</p>
+
+    {{- range .Paginator.Pages }}
+    <details style="margin: 1rem 0">
+        <summary style="font-size: 2rem;">
+            {{ .Params.summary }} <!-- Summary from front matter of each md file -->
+        </summary>
+        <div class="content main__content clearfix">
+            {{ .Render "summary-faq" }} <!-- Render the content of each md file -->
+        </div>
+    </details>
+    {{- end }}
+
+    {{- with .Content }}
+    <div class="content main__content clearfix">
+        {{ . }}
+    </div>
+    {{- end }}
 </main>
+
 {{ partial "authorbox.html" . }}
 {{ partial "pagination.html" . }}
 {{ end }}

@@ -9,11 +9,18 @@
     <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://imagelessthought.github.io/mbaggett/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Universal Digital Signage: Installation Instructions</title>
+      <title>Universal Digital Signage: Install and Setup</title>
       <link>https://imagelessthought.github.io/mbaggett/documentation/digital-signage-install/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://imagelessthought.github.io/mbaggett/documentation/digital-signage-install/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;Universal Digital Signage&lt;/strong&gt; web application provides a centralized digital signage solution. Images can be uploaded to the server and playlists created online.  Playlists can be assigned to individual digital signs (&lt;strong&gt;hosts&lt;/strong&gt;) or signs can be managed in groups. Playlist changes can be performed on a schedule (daily, weekly, or monthly schedules) with an option to add an &lt;em&gt;interrupt&lt;/em&gt; schedule change (a temporary change set for a given period of time after which the sign or group reverts back to its normal schedule).  There is also the option to assign playlists to &lt;strong&gt;channels&lt;/strong&gt; to provide slideshows for other use cases (such as screensavers, external groups, or anythng where a slideshow is needed), &lt;strong&gt;interactive kiosks&lt;/strong&gt;, and hosted online &lt;strong&gt;presentations&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web and UI Design Resources</title>
+      <link>https://imagelessthought.github.io/mbaggett/documentation/web-ui/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/documentation/web-ui/</guid>
+      <description>Understanding Open-Source Licensing Terms You will find many resources online that you may want to include in your website: images, fonts, themes, templates, plug-ins etc&amp;hellip; Before you use them in your website it is important to check the licensing terms to confirm that your use is in compliance with the agreement. You must follow any stipulations included in the agreement.&#xA;When it comes to open-source resources, many of the licensing terms you will encounter grant you permission to use the resource pretty freely.</description>
     </item>
   </channel>
 </rss>

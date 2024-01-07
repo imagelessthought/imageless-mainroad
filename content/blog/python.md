@@ -13,7 +13,7 @@ postauthorinfo: Director and Assistant Dean of Information Technology
 postauthorarea: College of Visual Arts and Design
 postemail: baggett.michael@gmail.com
 posturl: https://www.python.org
-thumbnail: "/mbaggett/gallery/images/python-programming-language-icon.svg"
+thumbnail: "/mbaggett/int/img/images/python-programming-language-icon.svg"
 ---
 
 Welcome to the world of Python programming! This tutorial is designed for undergraduate students who may not have a background in computer science but want to learn the basics of Python. Python is a versatile and powerful programming language that has gained widespread popularity for its simplicity, readability, and flexibility. Python is beginner-friendly and widely used in various fields, including data science, web development, and automation. It was created by Guido van Rossum and first released in 1991, with the goal of making programming accessible and enjoyable. Named after the British comedy group Monty Python, the language has evolved into a dynamic and user-friendly tool used across various domains of information technology.

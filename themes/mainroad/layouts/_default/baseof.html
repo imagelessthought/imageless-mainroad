@@ -7,6 +7,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Changa+One&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="/mbaggett/int/img/images/bulb02.svg">
 	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
@@ -38,7 +39,6 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 
-	<link rel="shortcut icon" href="{{ "/mbaggett/gallery/images/bulb02.svg" | relURL }}">
 	{{- if not .Site.IsServer }}
 		{{ template "_internal/google_analytics.html" . }}
 	{{- end }}

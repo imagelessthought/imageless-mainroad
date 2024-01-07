@@ -6,21 +6,14 @@
     <description>Recent content in Projects on Imageless Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://imagelessthought.github.io/mbaggett/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Github Professional Essentials</title>
-      <link>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</link>
-      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</guid>
-      <description>Practical Github Actions Introduction Creating a MarketPlace GitHub action When you&amp;rsquo;re applying for a job, employers want to see samples of work that gives them a good idea of your abilities. In this course, I&amp;rsquo;m going to show you how to build the type of project that employers would love to see, a GitHub Action that&amp;rsquo;s featured in the GitHub Marketplace. We&amp;rsquo;ll be working in a variety of languages and formats like Python, shell scripts, YAML, XML and Docker containers.</description>
-    </item>
-    <item>
-      <title>Career Essentials in Generative AI by Microsoft and LinkedIn: Transcript</title>
-      <link>https://imagelessthought.github.io/mbaggett/projects/ms-linkedin-ai-transcript/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://imagelessthought.github.io/mbaggett/projects/ms-linkedin-ai-transcript/</guid>
-      <description>What is Generative AI? Introduction Generative AI is changing how we create. (light music) For the first time, humans are supervising and machines are generating. It&amp;rsquo;s helping us lift the dirty, dull, dangerous and difficult tasks from humanity&amp;rsquo;s shoulders so then we can simply focus on the very essence of our work, the vision, the idea, and the purpose. It&amp;rsquo;s a complete paradigm shift for the future of jobs. I am Pinar Seyhan Demirdag and I&amp;rsquo;m the co-founder and the AI director of Seyhan Lee.</description>
+      <title>Universal Digital Signage</title>
+      <link>https://imagelessthought.github.io/mbaggett/projects/digital-signage/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://imagelessthought.github.io/mbaggett/projects/digital-signage/</guid>
+      <description>This project is in progress, the content below was created before the project began and changes have occured during the development. Think of this as the pseudo-code of the project.&#xA;The current installation instructions are available in the Documentation section on the website: Universal Digital Signage: Install and Setup.&#xA;Description: This will be a device independent solution: the only configuration of the devices and screensavers that should be required is a URL to the server.</description>
     </item>
   </channel>
 </rss>

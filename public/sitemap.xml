@@ -20,13 +20,10 @@
     <loc>https://imagelessthought.github.io/mbaggett/tags/github/</loc>
     <lastmod>2023-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/projects/github-linkedin-cert-transcript/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/github-linkedin-cert-transcript/</loc>
     <lastmod>2023-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/</loc>
-    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/projects/</loc>
     <lastmod>2023-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/tags/</loc>
@@ -35,7 +32,10 @@
     <loc>https://imagelessthought.github.io/mbaggett/categories/training/</loc>
     <lastmod>2023-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/projects/ms-linkedin-ai-transcript/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/ms-linkedin-ai-transcript/</loc>
     <lastmod>2023-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/blog/github-announcement/</loc>
@@ -95,55 +95,19 @@
     <loc>https://imagelessthought.github.io/mbaggett/documentation/</loc>
     <lastmod>2023-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/tech-links/github/</loc>
-    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/tech-links/</loc>
-    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/documentation/digital-signage-install/</loc>
     <lastmod>2023-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/tech-links/rpi/</loc>
-    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/tech-links/ubuntu/</loc>
-    <lastmod>2023-12-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/tech-links/redhat/</loc>
-    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/portals/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/portals/postman/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/aci/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/aci/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/portals/github/</loc>
-    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/</loc>
-    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/portals/discord/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/stormwind/</loc>
     <lastmod>2023-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/portals/o365/</loc>
-    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/stormwind/</loc>
-    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/coursera/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/coursera/</loc>
     <lastmod>2023-12-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/linkedin/</loc>
-    <lastmod>2023-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/portals/azure/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/linkedin/</loc>
     <lastmod>2023-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/categories/innovation/</loc>
@@ -155,23 +119,26 @@
     <loc>https://imagelessthought.github.io/mbaggett/blog/digital-signage/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/w3/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/w3/</loc>
     <lastmod>2023-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/microsoft/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/microsoft/</loc>
     <lastmod>2023-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/apple/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/apple/</loc>
     <lastmod>2023-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/jamf/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/jamf/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/linux/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/linux/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/training/linux2/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/stashed/linux2/</loc>
     <lastmod>2023-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/documentation/web-ui/</loc>
+    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/tags/linux/</loc>
     <lastmod>2023-11-04T00:00:00+00:00</lastmod>
@@ -194,10 +161,16 @@
     <loc>https://imagelessthought.github.io/mbaggett/status/status-guacamole/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/about/skills/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/about/training-certifications/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/about/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/skills/cybersecurity/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/about/cybersecurity/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/repositories/</loc>
@@ -206,29 +179,45 @@
     <loc>https://imagelessthought.github.io/mbaggett/repositories/github/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/int/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/presents/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/skills/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/projects/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/digitalsignage/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/int/doc/site-structure/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/projects/digital-signage/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/int/doc/</loc>
+    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/int/doc/site-scripts/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/status/status-websites/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/about/training-certifications/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/skills/it-management/</loc>
-    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://imagelessthought.github.io/mbaggett/ui/</loc>
+    <loc>https://imagelessthought.github.io/mbaggett/about/it-management/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/gallery/</loc>
   </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/gallery/ai/</loc>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/gallery/gen/</loc>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/portals/</loc>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/training/</loc>
+  </url><url>
     <loc>https://imagelessthought.github.io/mbaggett/links/</loc>
+  </url><url>
+    <loc>https://imagelessthought.github.io/mbaggett/int/img/</loc>
   </url>
 </urlset>
