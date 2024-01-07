@@ -14,5 +14,5 @@ This is the site image gallery.  The images are broken down into collections.  E
     </div>
     <div id="gallery"></div>
   </div>
-<script src="nopath-portals.js"></script>
+<script src="/mbaggett/js/portals_v02-notblank.js"></script>
 </body>

@@ -12,5 +12,5 @@ authorbox: "True"
     </div>
     <div id="gallery"></div>
   </div>
-<script src="portals.js"></script>
+<script src="/mbaggett/js/portals_v02-notblank.js"></script>
 </body>

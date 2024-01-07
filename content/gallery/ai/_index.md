@@ -11,5 +11,5 @@ authorbox: "True"
     </div>
     <div id="gallery"></div>
   </div>
-<script src="gallery.js"></script>
+<script src="/mbaggett/js/gallery_v01-alpha.js"></script>
 </body>

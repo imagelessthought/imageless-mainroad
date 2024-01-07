@@ -1,3 +1,7 @@
+
+/* portals.js v.02:noblank - does not show the page number in page navigation even when only one page */
+/* NOT INCLUDED - imageLink.target = "_blank"; */
+/* NO PATH INFILE NAME image.src = `${filename}`; */
 document.addEventListener("DOMContentLoaded", function () {
   const gallery = document.getElementById("gallery");
   const paginationContainer = document.getElementById("pagination");
@@ -33,7 +37,7 @@ displayedEntries.forEach((entry, i) => {
 
     const imageLink = document.createElement("a");
     imageLink.href = url; // Use the third value as the URL
-    imageLink.target = ""; // imageLink.target = "_blank";
+    /* imageLink.target = "_blank"; */
     imageWrapper.appendChild(imageLink);
 
     const flipCard = document.createElement("div");
@@ -47,7 +51,7 @@ displayedEntries.forEach((entry, i) => {
     flipCardFront.classList.add("flip-card-front");
 
     const image = document.createElement("img");
-    image.src = `${filename}`; //     image.src = `images/${filename}`;
+    image.src = `${filename}`; // image.src = `images/${filename}`;
     image.alt = description; // Use the description as alt text
 
     flipCardFront.appendChild(image);
@@ -74,14 +78,43 @@ displayedEntries.forEach((entry, i) => {
   }
 });
 
-// ...
-
-
 totalPages = Math.ceil(imageEntries.length / imagesPerPage);
   updatePagination();
       })
       .catch((error) => console.error("Error fetching or processing images:", error));
   }
+
+  function updatePagination() {
+    paginationContainer.innerHTML = "";
+
+    // If there is only one page, don't display any pagination controls
+    if (totalPages === 1) {
+        return;
+    }
+
+    // Add previous button with conditional display only if not on the first page
+    if (currentPage > 1) {
+        createNavigationButton("prevPage", "<", true, handlePrevClick);
+    } else {
+        // Add spacer for alignment when on the first page
+        const spacer = document.createElement("div");
+        spacer.classList.add("spacer");
+        paginationContainer.appendChild(spacer);
+    }
+
+    // Add page buttons for all pages
+    for (let i = 1; i <= totalPages; i++) {
+        createPageButton(i);
+    }
+
+    // Add next button with conditional display only if not on the last page
+    if (currentPage < totalPages) {
+        createNavigationButton("nextPage", ">", true, handleNextClick);
+    }
+}
+
+
+  /*
 
   function updatePagination() {
     paginationContainer.innerHTML = "";
@@ -100,6 +133,8 @@ totalPages = Math.ceil(imageEntries.length / imagesPerPage);
     // Add next button
     createNavigationButton("nextPage", ">", currentPage < totalPages, handleNextClick);
   }
+
+  */
 
   function createNavigationButton(id, text, shouldDisplay, eventHandler) {
     const button = document.createElement("button");

@@ -1,5 +1,7 @@
 
-/* portals.js v.02 : does not show the page number in page navigation even when only one page */
+/* portals.js v.02:noblank - does not show the page number in page navigation even when only one page */
+/* INCLUDED - imageLink.target = "_blank"; */
+/* NO PATH INFILE NAME image.src = `${filename}`; */
 document.addEventListener("DOMContentLoaded", function () {
   const gallery = document.getElementById("gallery");
   const paginationContainer = document.getElementById("pagination");
@@ -35,7 +37,7 @@ displayedEntries.forEach((entry, i) => {
 
     const imageLink = document.createElement("a");
     imageLink.href = url; // Use the third value as the URL
-    /* imageLink.target = "_blank"; */
+    imageLink.target = "_blank"; 
     imageWrapper.appendChild(imageLink);
 
     const flipCard = document.createElement("div");
